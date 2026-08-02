@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-08-02T18-03-33-369Z",
-  "startedAt": "2026-08-02T18:03:33.369Z",
-  "finishedAt": "2026-08-02T18:05:07.973Z",
+  "runId": "2026-08-02T18-24-38-272Z",
+  "startedAt": "2026-08-02T18:24:38.272Z",
+  "finishedAt": "2026-08-02T18:27:10.649Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -30,7 +30,7 @@
   "collected": 39,
   "deduplicated": 30,
   "aiRequests": 25,
-  "publishedNews": 12,
+  "publishedNews": 5,
   "warnings": ["5 articles remain untranslated or failed"],
   "errors": ["fetch failed"]
 }
