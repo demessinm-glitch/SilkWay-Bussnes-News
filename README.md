@@ -33,7 +33,7 @@ npx serve dist
 - `OPENAI_API_KEY` — API-ключ перевода;
 - `OPENAI_MODEL` — модель с поддержкой Structured Outputs.
 
-В Plesk откройте **Сайты и домены → Git → Добавить репозиторий**. Укажите удалённый репозиторий `https://github.com/yangmingqing0301-max/kazakhstan-official-info.git`, ветку `production` и путь развёртывания `/httpdocs`. Репозиторий публичный, поэтому FTP-пароль или GitHub-токен Plesk не нужны.
+В Plesk откройте **Сайты и домены → Git → Добавить репозиторий**. Укажите удалённый репозиторий `https://github.com/demessinm-glitch/SilkWay-Bussnes-News.git`, ветку `production` и путь развёртывания `/httpdocs`. Репозиторий публичный, поэтому FTP-пароль или GitHub-токен Plesk не нужны.
 
 Workflow `content-sync.yml` запускается в 06:15, 12:15 и 18:15 по времени Алматы и коммитит только проверенные данные. После изменения ветки `main` workflow `deploy-hoster.yml` повторно запускает тесты, собирает `dist` и публикует только готовые статические файлы в ветку `production`. Plesk получает эту ветку и развёртывает её в `/httpdocs`. GitHub Pages не используется.
 
