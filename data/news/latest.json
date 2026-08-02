@@ -1,113 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T18:05:07.972Z",
+  "generatedAt": "2026-08-02T18:11:11.296Z",
   "items": [
-    {
-      "sourceId": "kursiv-kz",
-      "sourceName": "Kursiv Media Kazakhstan",
-      "sourceNameZh": "Kursiv 哈萨克斯坦商业媒体",
-      "sourceType": "business_media",
-      "sourceUrl": "https://kz.kursiv.media/2026-08-02/ordabasy-pobediv-tobol-vernulsya-na-vershinu-tabliczy-kpl-2026/?utm_source=rss&utm_medium=rss&utm_campaign=ordabasy-pobediv-tobol-vernulsya-na-vershinu-tabliczy-kpl-2026",
-      "externalId": "https://kz.kursiv.media/2026-08-02/ordabasy-pobediv-tobol-vernulsya-na-vershinu-tabliczy-kpl-2026/?utm_source=rss&utm_medium=rss&utm_campaign=ordabasy-pobediv-tobol-vernulsya-na-vershinu-tabliczy-kpl-2026",
-      "titleOriginal": "«Ордабасы», победив «Тобол», вернулся на вершину таблицы КПЛ-2026",
-      "summaryOriginal": "Шымкентский «Ордабасы» со счетом 2:0 победил на своем поле «Тобол» и, обойдя «Кайрат», вновь возглавил чемпионскую гонку в элитном футбольном дивизионе. Алматинцы, на прошлой неделе победившие «Ордабасы», матч 20-го тура с «Кайсаром» выиграли еще 6 мая. Взяв три очка у «Тобола», «Ордабасы» сравнялся с чемпионом по количеству матчей. И обошел кайратовцев на один балл. На ...",
-      "publishedAt": "2026-08-02T16:57:56.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://kz.kursiv.media/2026-08-02/ordabasy-pobediv-tobol-vernulsya-na-vershinu-tabliczy-kpl-2026",
-      "contentHash": "5a9ac4d04ff0e91cd56fc5dc8c7d397a13d2704d8f4355e5021ac94f41e3a84d",
-      "collectedAt": "2026-08-02T18:03:36.116Z",
-      "relevant": true,
-      "relevanceScore": 80,
-      "category": "industry",
-      "titleZh": "«Ор达巴斯»战胜«托博尔», 重返2026年KPL积分榜首位",
-      "summaryZh": "位于什姆肯特的«Ордабасы»以2:0击败«托博尔», 再次超过«凯拉特», 在2026年KPL冠军争夺中名列前茅。",
-      "keyFactsZh": [
-        "«Ордабасы»在主场获胜",
-        "此次比赛比分为2:0",
-        "«Ордабасы»超越了«凯拉特»",
-        "比赛为2026年KPL的第20轮"
-      ],
-      "businessImpactZh": "体育赛事的成功不仅提升了地方经济，还增强了招商引资信心。",
-      "affectedIndustries": [
-        "体育",
-        "旅游",
-        "商业"
-      ],
-      "regionIds": [
-        "KZ-SH"
-      ],
-      "organizationNames": [
-        "Ордабасы",
-        "托博尔"
-      ],
-      "officialNames": [],
-      "riskFlags": [],
-      "confidence": 0.85,
-      "id": "18d029ea9d0359af765aea3b39dea046289b46cd0d74527d327486135610d045",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-08-02T18:03:40.884Z",
-      "lastCheckedAt": "2026-08-02T18:03:40.884Z",
-      "rank": 85
-    },
-    {
-      "sourceId": "kursiv-kz",
-      "sourceName": "Kursiv Media Kazakhstan",
-      "sourceNameZh": "Kursiv 哈萨克斯坦商业媒体",
-      "sourceType": "business_media",
-      "sourceUrl": "https://kz.kursiv.media/2026-08-02/lngr-storm-warnings-august-3/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-storm-warnings-august-3",
-      "externalId": "https://kz.kursiv.media/2026-08-02/lngr-storm-warnings-august-3/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-storm-warnings-august-3",
-      "titleOriginal": "Жара до +40°С и грозы ожидаются в Казахстане 3 августа",
-      "summaryOriginal": "«Казгидромет» объявил штормовое предупреждение на 3 августа во всех 17 областях Казахстана, а также в Астане и Шымкенте. Синоптики прогнозируют грозы, сильные дожди, град, шквал, пыльные бури и жару до +40°С. В Атырауской области днем на севере, востоке и юге ожидается пыльная буря, порывы ветра достигнут 15-18 м/с. Температура воздуха повысится до +35…+38°С, сохранится чрезвычайная ...",
-      "publishedAt": "2026-08-02T12:53:33.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://kz.kursiv.media/2026-08-02/lngr-storm-warnings-august-3",
-      "contentHash": "74e92d31118547e2d3f6fd0ef37075e357637f683bafade6bc092f0b040297dc",
-      "collectedAt": "2026-08-02T18:03:36.116Z",
-      "relevant": true,
-      "relevanceScore": 80,
-      "category": "government",
-      "titleZh": "8月3日哈萨克斯坦预计气温达到40°C并有雷暴",
-      "summaryZh": "哈萨克斯坦气象局发布了针对8月3日的天气警报，预计全国17个地区，包括阿斯塔纳和什姆肯特，将出现雷暴、大雨、冰雹和沙尘暴等极端天气，同时气温将升高至40°C。",
-      "keyFactsZh": [
-        "气象局发布警报",
-        "全国17个地区受影响",
-        "北部、东部和南部地区会有沙尘暴",
-        "气温预计上升到35至38°C",
-        "风速可达15-18米/秒"
-      ],
-      "businessImpactZh": "极端天气可能会影响企业运营，特别是农业和交通运输行业。",
-      "affectedIndustries": [
-        "农业",
-        "交通运输"
-      ],
-      "regionIds": [
-        "KAZ-01",
-        "KAZ-02",
-        "KAZ-03"
-      ],
-      "organizationNames": [
-        "哈萨克斯坦气象局"
-      ],
-      "officialNames": [
-        "阿斯塔纳",
-        "什姆肯特"
-      ],
-      "riskFlags": [
-        "极端天气",
-        "雷暴",
-        "沙尘暴"
-      ],
-      "confidence": 0.9,
-      "id": "a238b6107ca33a957fe0ff2788062ef2ffa7bfdfa5b31c0fcf79d56e2b4ae634",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-08-02T18:03:44.716Z",
-      "lastCheckedAt": "2026-08-02T18:03:44.716Z",
-      "rank": 89
-    },
     {
       "sourceId": "kursiv-kz",
       "sourceName": "Kursiv Media Kazakhstan",
@@ -134,16 +28,9 @@
         "此决定是在OPEC+成员国的虚拟会议上达成的。"
       ],
       "businessImpactZh": "这一增产可能会影响国际油价，提供更多的商业机会给在哈萨克斯坦的中国公司。",
-      "affectedIndustries": [
-        "石油和天然气",
-        "能源"
-      ],
-      "regionIds": [
-        "KZ"
-      ],
-      "organizationNames": [
-        "OPEC+"
-      ],
+      "affectedIndustries": ["石油和天然气", "能源"],
+      "regionIds": ["KZ"],
+      "organizationNames": ["OPEC+"],
       "officialNames": [],
       "riskFlags": [],
       "confidence": 0.9,
@@ -153,151 +40,6 @@
       "analyzedAt": "2026-08-02T18:03:51.154Z",
       "lastCheckedAt": "2026-08-02T18:03:51.154Z",
       "rank": 90
-    },
-    {
-      "sourceId": "kursiv-kz",
-      "sourceName": "Kursiv Media Kazakhstan",
-      "sourceNameZh": "Kursiv 哈萨克斯坦商业媒体",
-      "sourceType": "business_media",
-      "sourceUrl": "https://kz.kursiv.media/2026-08-02/lngr-almaty-alcohol-crimes/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-almaty-alcohol-crimes",
-      "externalId": "https://kz.kursiv.media/2026-08-02/lngr-almaty-alcohol-crimes/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-almaty-alcohol-crimes",
-      "titleOriginal": "В Алматы проводят рейды по профилактике преступлений из-за алкоголя",
-      "summaryOriginal": "В Алматы с начала 2026 года зарегистрировали 224 преступления, совершенных в состоянии алкогольного опьянения. В 97 случаях речь шла о причинении тяжкого вреда здоровью, сообщает Polisia.kz. Полиция усилила профилактическую работу с владельцами и продавцами торговых объектов, реализующих алкоголь. Сотрудникам магазинов напоминают о правилах продажи спиртного и ответственности за нарушение законодательства. Очередную встречу провели сотрудники управления ...",
-      "publishedAt": "2026-08-02T10:26:28.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://kz.kursiv.media/2026-08-02/lngr-almaty-alcohol-crimes",
-      "contentHash": "106b7f5871f709c181201ab49f7c609a7d2c0ac65bce0a8008ef6ff9f3f08db7",
-      "collectedAt": "2026-08-02T18:03:36.116Z",
-      "relevant": true,
-      "relevanceScore": 80,
-      "category": "law",
-      "titleZh": "阿拉木图加强酒后犯罪预防措施",
-      "summaryZh": "2026年初，阿拉木图登记了224起酒后犯罪案件，其中97起导致重大伤害。当地警方加大了对酒类销售商的监管力度，提醒他们遵守法律规定。",
-      "keyFactsZh": [
-        "2026年初阿拉木图登记224起酒后犯罪",
-        "97起案件涉及严重伤害",
-        "警方加强对酒类销售的监督",
-        "强化商家合规意识"
-      ],
-      "businessImpactZh": "中国企业在阿拉木图的酒类供应与销售需要关注当地的法律法规，以避免法律风险。",
-      "affectedIndustries": [
-        "零售",
-        "酒店餐饮",
-        "安全管理"
-      ],
-      "regionIds": [
-        "阿拉木图"
-      ],
-      "organizationNames": [
-        "阿拉木图警方"
-      ],
-      "officialNames": [],
-      "riskFlags": [
-        "法律风险"
-      ],
-      "confidence": 0.85,
-      "id": "42534fe2a2f48bde7b6a10c09c2984f2f9d7ee52d9848fae9d3b6bd6d11fe52c",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-08-02T18:03:58.952Z",
-      "lastCheckedAt": "2026-08-02T18:03:58.952Z",
-      "rank": 89
-    },
-    {
-      "sourceId": "kursiv-kz",
-      "sourceName": "Kursiv Media Kazakhstan",
-      "sourceNameZh": "Kursiv 哈萨克斯坦商业媒体",
-      "sourceType": "business_media",
-      "sourceUrl": "https://kz.kursiv.media/2026-08-02/cntr-toyota-bz3x-posle-20-tys-km-chto-slomalos/?utm_source=rss&utm_medium=rss&utm_campaign=cntr-toyota-bz3x-posle-20-tys-km-chto-slomalos",
-      "externalId": "https://kz.kursiv.media/2026-08-02/cntr-toyota-bz3x-posle-20-tys-km-chto-slomalos/?utm_source=rss&utm_medium=rss&utm_campaign=cntr-toyota-bz3x-posle-20-tys-km-chto-slomalos",
-      "titleOriginal": "Toyota bZ3X после 20 тыс. км: что сломалось первым",
-      "summaryOriginal": "Автоэксперт и блогер Илья Свиридов с YouTube-канала «Клубный сервис» изучил доступный электрокроссовер Toyota bZ3X с пробегом и рассказал о плюсах и минусах его эксплуатации. Японская техника, китайская сборка Toyota bZ3X разработана совместно с китайской GAC и построена на одной платформе с GAC Aion V. При этом электромотор, инвертор и редуктор японского производства, а кузов и интерьер создавались ...",
-      "publishedAt": "2026-08-02T10:00:00.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://kz.kursiv.media/2026-08-02/cntr-toyota-bz3x-posle-20-tys-km-chto-slomalos",
-      "contentHash": "f0e5c72f82f49f6bb4ee4cab8f3b5b99a06136f98a6729f911cc4da4228e9c68",
-      "collectedAt": "2026-08-02T18:03:36.116Z",
-      "relevant": true,
-      "relevanceScore": 90,
-      "category": "industry",
-      "titleZh": "丰田bZ3X车型在行驶2万公里后的故障分析",
-      "summaryZh": "汽车专家研究了丰田bZ3X电动跨界车的使用优缺点。该车型与中国GAC合作开发，搭载日本生产的电动机及其他核心组件。",
-      "keyFactsZh": [
-        "丰田bZ3X是与中国GAC合作研发的电动跨界车",
-        "电动机及重要部件由日本生产",
-        "整车设计与GAC Aion V共用平台"
-      ],
-      "businessImpactZh": "对于希望进入电动汽车市场的中国制造商而言，了解该车型的优缺点可能会提供参考。",
-      "affectedIndustries": [
-        "汽车",
-        "电动汽车",
-        "制造业"
-      ],
-      "regionIds": [
-        "CN",
-        "KZ"
-      ],
-      "organizationNames": [
-        "丰田",
-        "GAC"
-      ],
-      "officialNames": [],
-      "riskFlags": [],
-      "confidence": 0.85,
-      "id": "6c3bb46ca4cd1a1bd92898a71a8492ae9badc1943c0f8198ce9fb7b8e8392687",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-08-02T18:04:05.216Z",
-      "lastCheckedAt": "2026-08-02T18:04:05.216Z",
-      "rank": 95
-    },
-    {
-      "sourceId": "kursiv-kz",
-      "sourceName": "Kursiv Media Kazakhstan",
-      "sourceNameZh": "Kursiv 哈萨克斯坦商业媒体",
-      "sourceType": "business_media",
-      "sourceUrl": "https://kz.kursiv.media/2026-08-02/lngr-almaty-zoo-heat/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-almaty-zoo-heat",
-      "externalId": "https://kz.kursiv.media/2026-08-02/lngr-almaty-zoo-heat/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-almaty-zoo-heat",
-      "titleOriginal": "Как животных Алматинского зоопарка охлаждают в сильную жару",
-      "summaryOriginal": "Животных Алматинского зоопарка обеспечили дополнительными способами охлаждения из-за продолжающейся жары. Об этом сообщили в пресс-службе зоопарка. Белая медведица Пурга, бегемоты, тапиры и тигры охлаждаются в бассейнах. Для носорогов организовали грязевые ванны, которые помогают снизить температуру тела, защищают кожу от солнца и насекомых. Слоны принимают пылевые ванны. Для верблюдов, лам, лошадей, яков, бизонов, а также крупных ...",
-      "publishedAt": "2026-08-02T09:25:32.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://kz.kursiv.media/2026-08-02/lngr-almaty-zoo-heat",
-      "contentHash": "93e4e617d4ebdd05b168106ba17ae2d03d42c9dde7114195100d3f479f65b50d",
-      "collectedAt": "2026-08-02T18:03:36.116Z",
-      "relevant": true,
-      "relevanceScore": 75,
-      "category": "economy",
-      "titleZh": "阿拉木图动物园如何在高温中给动物降温",
-      "summaryZh": "阿拉木图动物园采取了多种方法来帮助动物应对持续的高温天气。动物园的发言人表示，白熊、河马、貘和老虎在泳池中降温，而犀牛则在泥浴中降温，以保护皮肤并抵御阳光和昆虫。大象则享受灰尘浴。",
-      "keyFactsZh": [
-        "动物园采取降温措施应对高温",
-        "为白熊、河马等提供泳池",
-        "犀牛使用泥浴降温",
-        "大象享受灰尘浴"
-      ],
-      "businessImpactZh": "关注动物福利可以提升品牌形象，吸引更多游客。",
-      "affectedIndustries": [
-        "旅游",
-        "动物保护",
-        "娱乐"
-      ],
-      "regionIds": [],
-      "organizationNames": [
-        "阿拉木图动物园"
-      ],
-      "officialNames": [],
-      "riskFlags": [],
-      "confidence": 0.85,
-      "id": "1c33a678a3afafb609b9a3e59219c76ae113ee295eee72169c4cc8fbc25d2761",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-08-02T18:04:12.207Z",
-      "lastCheckedAt": "2026-08-02T18:04:12.207Z",
-      "rank": 84
     },
     {
       "sourceId": "kursiv-kz",
@@ -325,16 +67,10 @@
         "此次翻新旨在提高交通基础设施的现代化水平。"
       ],
       "businessImpactZh": "此举表明哈萨克斯坦在交通基础设施上的投资，可能为中国企业提供合作和投资机会。",
-      "affectedIndustries": [
-        "transport"
-      ],
-      "regionIds": [
-        "Zhambyl"
-      ],
+      "affectedIndustries": ["transport"],
+      "regionIds": ["Zhambyl"],
       "organizationNames": [],
-      "officialNames": [
-        "卡西姆-若马尔特·托卡耶夫"
-      ],
+      "officialNames": ["卡西姆-若马尔特·托卡耶夫"],
       "riskFlags": [],
       "confidence": 0.85,
       "id": "7513e6b23ad1cdfdd8ff7d1c5954108beee1b98f5b73d3dd8679509a413fc5e2",
@@ -371,19 +107,10 @@
         "波音787是首选机型"
       ],
       "businessImpactZh": "这一发展可能改善乘客体验，从而吸引更多的旅客，提升航空公司的竞争力。",
-      "affectedIndustries": [
-        "航空运输",
-        "信息技术"
-      ],
-      "regionIds": [
-        "KZ"
-      ],
-      "organizationNames": [
-        "Freedom Cloud"
-      ],
-      "officialNames": [
-        "Темирлан Зиналабдин"
-      ],
+      "affectedIndustries": ["航空运输", "信息技术"],
+      "regionIds": ["KZ"],
+      "organizationNames": ["Freedom Cloud"],
+      "officialNames": ["Темирлан Зиналабдин"],
       "riskFlags": [],
       "confidence": 0.8,
       "id": "6bdab78a082d5f04615a7238835d13bf7cee42f0e04a8872346bda761a25f4c8",
@@ -392,154 +119,6 @@
       "analyzedAt": "2026-08-02T18:04:54.322Z",
       "lastCheckedAt": "2026-08-02T18:04:54.322Z",
       "rank": 90
-    },
-    {
-      "sourceId": "kursiv-kz",
-      "sourceName": "Kursiv Media Kazakhstan",
-      "sourceNameZh": "Kursiv 哈萨克斯坦商业媒体",
-      "sourceType": "business_media",
-      "sourceUrl": "https://kz.kursiv.media/2026-08-02/lngr-us-visa-deposit/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-us-visa-deposit",
-      "externalId": "https://kz.kursiv.media/2026-08-02/lngr-us-visa-deposit/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-us-visa-deposit",
-      "titleOriginal": "Гражданам 50 стран придется вносить до $20 тыс. залога при получении визы США",
-      "summaryOriginal": "США с 3 августа переводят программу визовых залогов для граждан отдельных стран из пилотного режима в постоянный. Она распространяется на заявителей на туристические и деловые визы категорий B-1, B-2 и B-1/B-2. В перечень вошли Алжир, Ангола, Антигуа и Барбуда, Бангладеш, Бенин, Бутан, Ботсвана, Бурунди, Кабо-Верде, Камбоджа, Центральноафриканская Республика, Кот-д’Ивуар, Куба, Джибути, Доминика, Эфиопия, Фиджи, Габон, ...",
-      "publishedAt": "2026-08-02T06:16:36.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://kz.kursiv.media/2026-08-02/lngr-us-visa-deposit",
-      "contentHash": "e1be09767efcfb842f9b8f9e073e0863e393abf0329cca80a4b47d05cb6c5a7d",
-      "collectedAt": "2026-08-02T18:03:36.116Z",
-      "relevant": true,
-      "relevanceScore": 85,
-      "category": "government",
-      "titleZh": "50个国家公民申请美国签证需缴纳高达2万美元的押金",
-      "summaryZh": "美国自8月3日起，将对包括哈萨克斯坦在内的50个国家公民实施签证押金制度，适用于B-1、B-2及B-1/B-2签证申请者。",
-      "keyFactsZh": [
-        "美国转换签证押金为常规制度",
-        "适用国家包括哈萨克斯坦在内的50个国家",
-        "押金金额最高为2万美元"
-      ],
-      "businessImpactZh": "这一政策可能影响哈萨克斯坦公民的出国旅游和商务活动，增加签证申请的经济负担。",
-      "affectedIndustries": [
-        "旅游",
-        "商务"
-      ],
-      "regionIds": [
-        "KAZ"
-      ],
-      "organizationNames": [],
-      "officialNames": [],
-      "riskFlags": [
-        "签证政策风险"
-      ],
-      "confidence": 0.9,
-      "id": "70cb4efa3d6761b53ec55ee1c50598fda336dbbe09155a683e22670b3d906d85",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-08-02T18:04:58.017Z",
-      "lastCheckedAt": "2026-08-02T18:04:58.017Z",
-      "rank": 94
-    },
-    {
-      "sourceId": "kursiv-kz",
-      "sourceName": "Kursiv Media Kazakhstan",
-      "sourceNameZh": "Kursiv 哈萨克斯坦商业媒体",
-      "sourceType": "business_media",
-      "sourceUrl": "https://kz.kursiv.media/2026-08-02/lngr-akmola-region-steppe-fires-2/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-akmola-region-steppe-fires-2",
-      "externalId": "https://kz.kursiv.media/2026-08-02/lngr-akmola-region-steppe-fires-2/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-akmola-region-steppe-fires-2",
-      "titleOriginal": "Девять степных пожаров потушили в Акмолинской области",
-      "summaryOriginal": "В Акмолинской области за сутки ликвидировали девять очагов возгорания сухой растительности. Общая площадь, пройденная огнем, превысила 230 га, сообщили в региональном департаменте по чрезвычайным ситуациям. Пожары произошли 1 августа вблизи села Сочинское Атбасарского района, в Енбекском и Бейтогайском сельских округах, на окраине Акколя Аккольского района, возле села Бозайгыр, на окраинах сел Кабанбай батыр и Тасты ...",
-      "publishedAt": "2026-08-02T05:55:48.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://kz.kursiv.media/2026-08-02/lngr-akmola-region-steppe-fires-2",
-      "contentHash": "1e71f0f029f6443acff2669de99ae9c57a40642c8b180c4756d9b6b9a1bac8bf",
-      "collectedAt": "2026-08-02T18:03:36.116Z",
-      "relevant": true,
-      "relevanceScore": 85,
-      "category": "law",
-      "titleZh": "阿克莫拉州扑灭九起草原火灾",
-      "summaryZh": "在阿克莫拉州，过去一天内扑灭了九处干燥植被火灾。这些火灾发生在8月1日，烧毁的总面积超过230公顷。",
-      "keyFactsZh": [
-        "火灾发生于阿克莫拉州的多个地区",
-        "总共扑灭九处火灾",
-        "火灾烧毁面积超过230公顷"
-      ],
-      "businessImpactZh": "火灾可能影响当地的农业和生态环境，因而对相关行业可能带来压力。",
-      "affectedIndustries": [
-        "农业",
-        "环保"
-      ],
-      "regionIds": [
-        "阿克莫拉州"
-      ],
-      "organizationNames": [
-        "阿克莫拉州应急部门"
-      ],
-      "officialNames": [],
-      "riskFlags": [
-        "自然灾害",
-        "环境风险"
-      ],
-      "confidence": 0.8,
-      "id": "63df17b9ddc007f33528e8c9f8cd58fbabe54a42a496df49ace622ed304f04f8",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-08-02T18:05:01.975Z",
-      "lastCheckedAt": "2026-08-02T18:05:01.975Z",
-      "rank": 89
-    },
-    {
-      "sourceId": "kursiv-kz",
-      "sourceName": "Kursiv Media Kazakhstan",
-      "sourceNameZh": "Kursiv 哈萨克斯坦商业媒体",
-      "sourceType": "business_media",
-      "sourceUrl": "https://kz.kursiv.media/2026-08-02/lngr-storm-warnings-august-2/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-storm-warnings-august-2",
-      "externalId": "https://kz.kursiv.media/2026-08-02/lngr-storm-warnings-august-2/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-storm-warnings-august-2",
-      "titleOriginal": "Жара до +42°С, град и шквал ожидаются в Казахстане 2 августа",
-      "summaryOriginal": "На 2 августа в большинстве регионов Казахстана объявили штормовые предупреждения. Синоптики прогнозируют сильную жару до +42°С, грозы, град, шквалистый ветер, пыльные бури и высокую пожарную опасность, сообщает «Казгидромет». В области Абай на западе и севере днем ожидаются дождь и гроза. Порывы юго-восточного ветра достигнут 15-20 м/с. По региону прогнозируется жара до +35…+38°С. На юге и ...",
-      "publishedAt": "2026-08-02T05:27:36.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://kz.kursiv.media/2026-08-02/lngr-storm-warnings-august-2",
-      "contentHash": "2cdd2e97ccfd1b200429ae896793c1609a0cb60e1dceacd74f3e67b3f087210b",
-      "collectedAt": "2026-08-02T18:03:36.116Z",
-      "relevant": true,
-      "relevanceScore": 85,
-      "category": "government",
-      "titleZh": "哈萨克斯坦预计出现高温和暴风警报",
-      "summaryZh": "哈萨克斯坦气象局发布警报，预计8月2日大部分地区将迎来高温、雷暴、冰雹和强风天气。",
-      "keyFactsZh": [
-        "预计气温将达到+42°C",
-        "雷暴和冰雹在部分地区出现",
-        "风速可达15-20米每秒",
-        "高火灾风险警告"
-      ],
-      "businessImpactZh": "极端天气可能影响农业和建筑行业的生产活动，需公司提前做好应对方案。",
-      "affectedIndustries": [
-        "农业",
-        "建筑",
-        "运输"
-      ],
-      "regionIds": [
-        "KZ-AB",
-        "KZ-AL",
-        "KZ-QZ"
-      ],
-      "organizationNames": [
-        "哈萨克气象局"
-      ],
-      "officialNames": [],
-      "riskFlags": [
-        "极端天气",
-        "高温警告"
-      ],
-      "confidence": 0.9,
-      "id": "a247af7531959c44a27ea8c8a3df0ab8956e984a4bb757a67fddb0c5091c54fa",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-08-02T18:05:04.943Z",
-      "lastCheckedAt": "2026-08-02T18:05:04.943Z",
-      "rank": 89
     },
     {
       "sourceId": "kursiv-kz",
@@ -567,16 +146,9 @@
         "存款增长率为7%"
       ],
       "businessImpactZh": "这一动态表明哈萨克斯坦的经济稳定性增强，吸引了更多个人储蓄，可能对中国公司在当地的投资和合作机会产生积极影响。",
-      "affectedIndustries": [
-        "银行业",
-        "金融服务"
-      ],
-      "regionIds": [
-        "KZ"
-      ],
-      "organizationNames": [
-        "哈萨克斯坦存款保证基金"
-      ],
+      "affectedIndustries": ["银行业", "金融服务"],
+      "regionIds": ["KZ"],
+      "organizationNames": ["哈萨克斯坦存款保证基金"],
       "officialNames": [],
       "riskFlags": [],
       "confidence": 0.9,

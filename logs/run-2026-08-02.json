@@ -10,9 +10,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": [
-        "fetch failed"
-      ]
+      "errors": ["fetch failed"]
     },
     {
       "sourceId": "kursiv-kz",
@@ -33,10 +31,6 @@
   "deduplicated": 30,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": [
-    "5 articles remain untranslated or failed"
-  ],
-  "errors": [
-    "fetch failed"
-  ]
+  "warnings": ["5 articles remain untranslated or failed"],
+  "errors": ["fetch failed"]
 }

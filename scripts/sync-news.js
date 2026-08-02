@@ -2,7 +2,7 @@ const path = require("node:path");
 const crypto = require("node:crypto");
 const { analyzeArticle } = require("./lib/ai");
 const { deduplicateArticles } = require("./lib/dedupe");
-const { selectDaily } = require("./lib/rank");
+const { isBusinessRelevant, selectDaily } = require("./lib/rank");
 const {
   atomicWriteJson,
   publishJsonSafely,
@@ -98,7 +98,11 @@ function recentEnough(article, now = Date.now()) {
 function mergeLatest(existing, daily, generatedAt) {
   const byId = new Map();
   for (const item of [...daily, ...(existing.items || [])]) {
-    if (item.status === "published" && !byId.has(item.id))
+    if (
+      item.status === "published" &&
+      isBusinessRelevant(item) &&
+      !byId.has(item.id)
+    )
       byId.set(item.id, item);
   }
   const items = [...byId.values()]

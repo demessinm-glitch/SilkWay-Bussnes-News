@@ -17,6 +17,8 @@ test("production deployment targets only oguz.kz on Hoster.kz", () => {
 
   const workflow = read(".github/workflows/deploy-hoster.yml");
   assert.match(workflow, /permissions:\s+contents: write/);
+  assert.match(workflow, /workflow_run:/);
+  assert.match(workflow, /Automatic content synchronization/);
   assert.match(workflow, /checkout -B production/);
   assert.match(workflow, /push --force origin production/);
   assert.doesNotMatch(workflow, /HOSTER_FTP_PASSWORD|lftp/);
