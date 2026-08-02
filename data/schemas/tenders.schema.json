@@ -8,22 +8,62 @@
     "generatedAt": { "type": ["string", "null"], "format": "date-time" },
     "items": {
       "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["id", "titleZh", "sourceUrl"],
-        "properties": {
-          "id": { "type": "string", "minLength": 3 },
-          "titleZh": { "type": "string", "minLength": 2 },
-          "sourceUrl": {
-            "type": "string",
-            "format": "uri",
-            "pattern": "^https://"
-          },
-          "deadline": { "type": ["string", "null"], "format": "date-time" }
-        },
-        "additionalProperties": true
-      }
+      "items": { "$ref": "#/$defs/tender" }
     }
   },
-  "additionalProperties": true
+  "additionalProperties": false,
+  "$defs": {
+    "tender": {
+      "type": "object",
+      "required": [
+        "id",
+        "noticeNumber",
+        "titleOriginal",
+        "titleZh",
+        "summaryZh",
+        "buyerOriginal",
+        "buyerZh",
+        "regionZh",
+        "methodOriginal",
+        "methodZh",
+        "budgetAmount",
+        "currency",
+        "budgetTextZh",
+        "publishedAt",
+        "applicationStart",
+        "deadline",
+        "status",
+        "sourceName",
+        "sourceUrl",
+        "verifiedAt"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^goszakup-\\d+-\\d+$" },
+        "noticeNumber": { "type": "string", "pattern": "^\\d+-\\d+$" },
+        "titleOriginal": { "type": "string", "minLength": 5 },
+        "titleZh": { "type": "string", "minLength": 4 },
+        "summaryZh": { "type": "string", "minLength": 12 },
+        "buyerOriginal": { "type": "string", "minLength": 8 },
+        "buyerZh": { "type": "string", "minLength": 5 },
+        "regionZh": { "type": "string", "minLength": 2 },
+        "methodOriginal": { "type": "string", "minLength": 3 },
+        "methodZh": { "type": "string", "minLength": 2 },
+        "budgetAmount": { "type": "number", "minimum": 0 },
+        "currency": { "const": "KZT" },
+        "budgetTextZh": { "type": "string", "minLength": 5 },
+        "publishedAt": { "type": "string", "format": "date-time" },
+        "applicationStart": { "type": "string", "format": "date-time" },
+        "deadline": { "type": "string", "format": "date-time" },
+        "status": { "enum": ["open", "closing", "closed"] },
+        "sourceName": { "type": "string", "minLength": 4 },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://goszakup\\.gov\\.kz/"
+        },
+        "verifiedAt": { "type": "string", "format": "date-time" }
+      },
+      "additionalProperties": false
+    }
+  }
 }

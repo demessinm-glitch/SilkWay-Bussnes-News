@@ -28,8 +28,19 @@ test("static build includes public pages and excludes source-only or secret file
   assert.ok(
     fs.existsSync(path.join(destination, "assets/js/legacy-profile.js")),
   );
+  assert.ok(fs.existsSync(path.join(destination, "assets/js/directory.js")));
   assert.ok(fs.existsSync(path.join(destination, "styles.css")));
   assert.ok(fs.existsSync(path.join(destination, "data/news/latest.json")));
+  assert.ok(
+    fs.existsSync(path.join(destination, "data/directory/regions.json")),
+  );
+  assert.ok(
+    fs.existsSync(path.join(destination, "data/directory/organizations.json")),
+  );
+  assert.equal(
+    fs.existsSync(path.join(destination, "data/schemas/regions.schema.json")),
+    false,
+  );
   assert.equal(fs.existsSync(path.join(destination, "tests")), false);
   assert.equal(fs.existsSync(path.join(destination, "scripts")), false);
   assert.equal(fs.existsSync(path.join(destination, "package.json")), false);

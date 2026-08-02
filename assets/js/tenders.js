@@ -14,12 +14,13 @@
     return node;
   };
   function statusOf(item) {
-    if (item.status) return item.status;
     const deadline = new Date(item.deadline).getTime();
-    if (!deadline) return "open";
-    if (deadline < Date.now()) return "closed";
-    if (deadline - Date.now() < 3 * 86400000) return "closing";
-    return "open";
+    if (deadline) {
+      if (deadline < Date.now()) return "closed";
+      if (deadline - Date.now() < 3 * 86400000) return "closing";
+      return "open";
+    }
+    return item.status || "open";
   }
   function empty(message) {
     root.replaceChildren();

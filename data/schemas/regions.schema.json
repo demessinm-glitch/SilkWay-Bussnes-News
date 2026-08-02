@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://silkroadbrief.local/schemas/regions.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "items"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "items": {
+      "type": "array",
+      "minItems": 17,
+      "maxItems": 17,
+      "items": { "$ref": "#/$defs/region" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "httpsUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "region": {
+      "type": "object",
+      "required": [
+        "id",
+        "regionSlug",
+        "nameOriginal",
+        "nameZh",
+        "capitalZh",
+        "akimId",
+        "akimName",
+        "akimNameZh",
+        "positionZh",
+        "addressOriginal",
+        "addressZh",
+        "phone",
+        "email",
+        "websiteUrl",
+        "sourceUrl",
+        "contactSourceUrl",
+        "verifiedAt"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^gov-kz-[a-z0-9-]+-\\d+$" },
+        "regionSlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "nameOriginal": { "type": "string", "minLength": 3 },
+        "nameZh": { "type": "string", "minLength": 2 },
+        "capitalZh": { "type": "string", "minLength": 2 },
+        "akimId": { "type": "integer", "minimum": 1 },
+        "akimName": { "type": "string", "minLength": 3 },
+        "akimNameZh": { "type": "string", "minLength": 2 },
+        "positionZh": { "type": "string", "minLength": 3 },
+        "addressOriginal": { "type": "string", "minLength": 8 },
+        "addressZh": { "type": "string", "minLength": 8 },
+        "phone": { "type": "string", "pattern": "^\\+7[0-9 ()-]+$" },
+        "email": { "type": "string" },
+        "websiteUrl": { "$ref": "#/$defs/httpsUrl" },
+        "sourceUrl": { "$ref": "#/$defs/httpsUrl" },
+        "contactSourceUrl": { "$ref": "#/$defs/httpsUrl" },
+        "verifiedAt": { "type": "string", "format": "date-time" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

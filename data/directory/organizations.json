@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-02T19:03:21.000Z",
+  "items": [
+    {
+      "id": "atameken-astana-chamber",
+      "nameOriginal": "Региональная палата предпринимателей города Астаны НПП «Атамекен»",
+      "nameZh": "哈萨克斯坦国家企业家协会“阿塔梅肯”阿斯塔纳市企业家商会",
+      "categoryZh": "企业家商会",
+      "scopeZh": "提供企业权益保护、认证、采购、进出口及非金融支持咨询，并协助联系国家企业家协会的服务体系。",
+      "addressOriginal": "г. Астана, пр. Б. Момышулы, 2/1, БЦ «BCC Centre», 4 этаж",
+      "addressZh": "阿斯塔纳市鲍尔詹·莫梅舒雷大街2/1号，BCC Centre商务中心4层",
+      "phone": "+7 (7172) 476-290",
+      "email": "astana@atameken.kz",
+      "websiteUrl": "https://atameken.kz/astana",
+      "sourceUrl": "https://atameken.kz/astana",
+      "verifiedAt": "2026-08-02T19:03:21.000Z"
+    },
+    {
+      "id": "kazakh-invest-head-office",
+      "nameOriginal": "АО «Национальная компания «KAZAKH INVEST»",
+      "nameZh": "哈萨克投资国家股份公司（KAZAKH INVEST）",
+      "categoryZh": "国家投资促进机构",
+      "scopeZh": "为外国投资者提供项目选址、政府协调、投资优惠和项目落地的一站式支持。",
+      "addressOriginal": "г. Астана, пр. Мәңгілік Ел, 55/20, здание C 4.1, 010000",
+      "addressZh": "阿斯塔纳市曼格利克·叶尔大街55/20号，C 4.1楼，010000",
+      "phone": "+7 (7172) 620-620",
+      "email": "info@invest.gov.kz",
+      "websiteUrl": "https://invest.gov.kz/",
+      "sourceUrl": "https://invest.gov.kz/contacts/",
+      "verifiedAt": "2026-08-02T19:03:21.000Z"
+    },
+    {
+      "id": "damu-head-office",
+      "nameOriginal": "АО «Фонд развития предпринимательства «Даму»",
+      "nameZh": "Damu创业发展基金股份公司",
+      "categoryZh": "中小企业融资支持",
+      "scopeZh": "提供中小企业贷款担保、利率补贴、优惠融资项目和创业咨询。",
+      "addressOriginal": "г. Алматы, ул. Гоголя, 111, уг. ул. Наурызбай батыра",
+      "addressZh": "阿拉木图市果戈里街111号，纳乌鲁兹拜·巴特尔街交叉口",
+      "phone": "+7 (800) 080-18-90",
+      "email": "info@fund.kz",
+      "websiteUrl": "https://damu.kz/ru/",
+      "sourceUrl": "https://damu.kz/ru/obratnaya-svyaz/",
+      "verifiedAt": "2026-08-02T19:03:21.000Z"
+    },
+    {
+      "id": "qaztrade-head-office",
+      "nameOriginal": "АО «Центр развития торговой политики «QazTrade»",
+      "nameZh": "QazTrade贸易政策发展中心股份公司",
+      "categoryZh": "贸易与出口促进",
+      "scopeZh": "提供出口促进、出口成本补偿、贸易政策、电子商务和国际市场拓展服务。",
+      "addressOriginal": "г. Астана, район Есиль, ул. Достык, 18, БЦ «Москва», 9 этаж",
+      "addressZh": "阿斯塔纳市叶西尔区多斯特克街18号，莫斯科商务中心9层",
+      "phone": "+7 (7172) 76-88-05",
+      "email": "kense@qaztrade.org.kz",
+      "websiteUrl": "https://qaztrade.org.kz/",
+      "sourceUrl": "https://qaztrade.org.kz/rus/kontakty-2/",
+      "verifiedAt": "2026-08-02T19:03:21.000Z"
+    },
+    {
+      "id": "kazakhstan-export-credit-agency",
+      "nameOriginal": "АО «Экспортно-кредитное агентство Казахстана»",
+      "nameZh": "哈萨克斯坦出口信贷机构股份公司",
+      "categoryZh": "出口信贷与保险",
+      "scopeZh": "为哈萨克斯坦出口商及其交易提供出口信贷保险、担保、融资和风险支持。",
+      "addressOriginal": "г. Астана, пр. Мәңгілік Ел, 55А, блок B, БЦ «Байтерек», 11 этаж",
+      "addressZh": "阿斯塔纳市曼格利克·叶尔大街55A号B座，拜杰列克商务中心11层",
+      "phone": "+7 (7172) 95-56-56",
+      "email": "info@kazakhexport.kz",
+      "websiteUrl": "https://kazakhexport.kz/",
+      "sourceUrl": "https://kazakhexport.kz/ru/page/golovnoy-ofis-kompanii",
+      "verifiedAt": "2026-08-02T19:03:21.000Z"
+    },
+    {
+      "id": "astana-hub",
+      "nameOriginal": "Международный технопарк IT-стартапов Astana Hub",
+      "nameZh": "Astana Hub国际IT初创企业科技园",
+      "categoryZh": "科技园与IT企业支持",
+      "scopeZh": "面向IT企业和初创公司提供入驻、税收优惠、加速计划、人才培训、投资者对接和外籍人员服务。",
+      "addressOriginal": "г. Астана, пр. Мәңгілік Ел, 55/8, блок C 4.6",
+      "addressZh": "阿斯塔纳市曼格利克·叶尔大街55/8号，C 4.6座",
+      "phone": "+7 (7172) 73-50-89",
+      "email": "info@astanahub.com",
+      "websiteUrl": "https://astanahub.com/",
+      "sourceUrl": "https://astanahub.com/ru/contacts/",
+      "verifiedAt": "2026-08-02T19:03:21.000Z"
+    }
+  ]
+}

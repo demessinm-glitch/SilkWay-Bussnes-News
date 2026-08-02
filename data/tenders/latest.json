@@ -1,5 +1,50 @@
 {
   "schemaVersion": 1,
-  "generatedAt": null,
-  "items": []
+  "generatedAt": "2026-08-02T19:03:21.000Z",
+  "items": [
+    {
+      "id": "goszakup-17414985-1",
+      "noticeNumber": "17414985-1",
+      "titleOriginal": "Государственные закупки услуг энергоаудита",
+      "titleZh": "卡恰尔城市医院能源审计服务采购",
+      "summaryZh": "采购方拟通过询价方式采购一项能源审计服务。预算金额不含增值税，投标人应在原始公告中核对资质、工作范围和提交要求。",
+      "buyerOriginal": "Коммунальное государственное предприятие «Качарская городская больница» Управления здравоохранения акимата Костанайской области",
+      "buyerZh": "科斯塔奈州政府卫生局卡恰尔城市医院市政国有企业",
+      "regionZh": "科斯塔奈州",
+      "methodOriginal": "Запрос ценовых предложений",
+      "methodZh": "询价采购",
+      "budgetAmount": 1857700,
+      "currency": "KZT",
+      "budgetTextZh": "1,857,700 哈萨克斯坦坚戈（不含增值税）",
+      "publishedAt": "2026-08-02T23:33:34+05:00",
+      "applicationStart": "2026-08-03T08:00:00+05:00",
+      "deadline": "2026-08-05T08:00:05+05:00",
+      "status": "open",
+      "sourceName": "哈萨克斯坦共和国国家采购门户",
+      "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17414985",
+      "verifiedAt": "2026-08-02T19:03:21.000Z"
+    },
+    {
+      "id": "goszakup-17414962-1",
+      "noticeNumber": "17414962-1",
+      "titleOriginal": "Двигатель на DONGFENG DFH1080B80 в сборе с установкой",
+      "titleZh": "采购东风 DFH1080B80 发动机总成及安装服务",
+      "summaryZh": "乌勒套州扎纳阿尔卡区市政企业 Tazasu 采购一套适用于东风 DFH1080B80 的发动机总成，并包含安装。预算金额不含增值税，具体技术规格以原始公告文件为准。",
+      "buyerOriginal": "Коммунальное государственное предприятие «Тазасу» акимата Жанааркинского района отдела жилищно-коммунального хозяйства, пассажирского транспорта и автомобильных дорог Жанааркинского района",
+      "buyerZh": "乌勒套州扎纳阿尔卡区政府住房公用事业、客运及公路部门下属 Tazasu 市政企业",
+      "regionZh": "乌勒套州",
+      "methodOriginal": "Запрос ценовых предложений",
+      "methodZh": "询价采购",
+      "budgetAmount": 6000000,
+      "currency": "KZT",
+      "budgetTextZh": "6,000,000 哈萨克斯坦坚戈（不含增值税）",
+      "publishedAt": "2026-08-02T23:15:49+05:00",
+      "applicationStart": "2026-08-03T09:15:20+05:00",
+      "deadline": "2026-08-05T09:15:25+05:00",
+      "status": "open",
+      "sourceName": "哈萨克斯坦共和国国家采购门户",
+      "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17414962",
+      "verifiedAt": "2026-08-02T19:03:21.000Z"
+    }
+  ]
 }

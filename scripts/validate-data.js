@@ -7,6 +7,11 @@ const FILES = [
   ["data/tenders/latest.json", "data/schemas/tenders.schema.json"],
   ["data/guides/index.json", "data/schemas/guides.schema.json"],
   ["data/meta/build.json", "data/schemas/build.schema.json"],
+  ["data/directory/regions.json", "data/schemas/regions.schema.json"],
+  [
+    "data/directory/organizations.json",
+    "data/schemas/organizations.schema.json",
+  ],
 ];
 
 function readJson(filePath) {
@@ -62,4 +67,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { validateAll, createAjv };
+module.exports = { FILES, validateAll, createAjv };

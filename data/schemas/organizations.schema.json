@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://silkroadbrief.local/schemas/organizations.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "items"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "items": {
+      "type": "array",
+      "minItems": 5,
+      "items": { "$ref": "#/$defs/organization" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "httpsUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "organization": {
+      "type": "object",
+      "required": [
+        "id",
+        "nameOriginal",
+        "nameZh",
+        "categoryZh",
+        "scopeZh",
+        "addressOriginal",
+        "addressZh",
+        "phone",
+        "websiteUrl",
+        "sourceUrl",
+        "verifiedAt"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "nameOriginal": { "type": "string", "minLength": 3 },
+        "nameZh": { "type": "string", "minLength": 2 },
+        "categoryZh": { "type": "string", "minLength": 2 },
+        "scopeZh": { "type": "string", "minLength": 8 },
+        "addressOriginal": { "type": "string", "minLength": 8 },
+        "addressZh": { "type": "string", "minLength": 8 },
+        "phone": { "type": "string", "pattern": "^\\+7[0-9 ()-]+$" },
+        "email": { "type": "string" },
+        "websiteUrl": { "$ref": "#/$defs/httpsUrl" },
+        "sourceUrl": { "$ref": "#/$defs/httpsUrl" },
+        "verifiedAt": { "type": "string", "format": "date-time" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

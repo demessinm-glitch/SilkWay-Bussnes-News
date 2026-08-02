@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta
       name="description"
-      content="阿拉木图、阿斯塔纳和奇姆肯特政府机构与官员目录。"
+      content="哈萨克斯坦各州政府、官员与企业服务机构公开联系目录。"
     />
     <title>政府机构与官员｜丝路译讯</title>
     <link
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/pages.css" />
     <script src="assets/js/app.js" defer></script>
     <script src="assets/js/officials.js" defer></script>
+    <script src="assets/js/directory.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">跳至主要内容</a>
@@ -58,7 +59,7 @@
             </p>
             <h1>政府机构与官员</h1>
             <p class="page-hero-copy">
-              从官方公开页面同步城市管理机构、负责人、职务和工作联系信息。中文姓名以人工修订为优先。
+              从官方公开页面整理城市与州级政府负责人、地址、电话，以及面向企业的公共服务机构。中文姓名以人工修订为优先。
             </p>
           </div>
           <aside class="page-hero-aside">
@@ -68,6 +69,13 @@
         </div>
       </section>
       <section class="page-section shell">
+        <div class="section-heading directory-heading">
+          <div>
+            <p class="section-index">01 / 重点城市</p>
+            <h2>直辖市官员资料</h2>
+          </div>
+          <p>查看三座重点城市的公开履历、职责与联系方式。</p>
+        </div>
         <div class="region-tabs" role="tablist" aria-label="选择城市">
           <button
             class="region-tab is-active"
@@ -90,6 +98,52 @@
         <div
           class="official-grid"
           id="official-grid"
+          aria-live="polite"
+          aria-busy="true"
+        ></div>
+      </section>
+      <section class="page-section directory-band">
+        <div class="shell">
+          <div class="section-heading directory-heading">
+            <div>
+              <p class="section-index">02 / 各州政府</p>
+              <h2>州长与州政府联系方式</h2>
+            </div>
+            <p>
+              覆盖三座直辖市以外的17个州。任职和电话以链接中的官方页面为准。
+            </p>
+          </div>
+          <div class="directory-toolbar">
+            <label for="regional-directory-search">搜索州名、首府或州长</label>
+            <input
+              id="regional-directory-search"
+              type="search"
+              placeholder="例如：卡拉干达 / 州长姓名"
+            />
+            <p id="regional-directory-meta">正在加载州政府目录…</p>
+          </div>
+          <div
+            class="contact-directory region-directory"
+            id="regional-directory"
+            aria-live="polite"
+            aria-busy="true"
+          ></div>
+        </div>
+      </section>
+      <section class="page-section shell">
+        <div class="section-heading directory-heading">
+          <div>
+            <p class="section-index">03 / 企业服务</p>
+            <h2>商业与投资支持机构</h2>
+          </div>
+          <p>投资落地、企业融资、出口和商会服务的官方联系入口。</p>
+        </div>
+        <p class="directory-status" id="business-directory-meta">
+          正在加载企业服务机构…
+        </p>
+        <div
+          class="contact-directory business-directory"
+          id="business-directory"
           aria-live="polite"
           aria-busy="true"
         ></div>
