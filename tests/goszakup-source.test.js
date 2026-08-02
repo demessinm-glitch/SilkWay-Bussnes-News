@@ -3,12 +3,34 @@ const assert = require("node:assert/strict");
 
 const {
   buildTenderRecord,
+  createRequestGate,
   isTenderRelevant,
   mergeTenderRecords,
   parseAnnouncementOverview,
   parseLots,
   parseSearchResults,
 } = require("../scripts/sources/goszakup");
+
+test("goszakup request gate respects the portal five-second crawl delay", async () => {
+  let now = 1_000;
+  const sleeps = [];
+  const gate = createRequestGate({
+    intervalMs: 5_000,
+    now: () => now,
+    sleep: async (delay) => {
+      sleeps.push(delay);
+      now += delay;
+    },
+  });
+
+  await gate();
+  now += 1_200;
+  await gate();
+  now += 5_500;
+  await gate();
+
+  assert.deepEqual(sleeps, [3_800]);
+});
 
 const SEARCH_HTML = `
 <table id="search-result"><tbody>

@@ -2,6 +2,7 @@ const cheerio = require("cheerio");
 
 const BASE_URL = "https://goszakup.gov.kz";
 const SOURCE_NAME = "Портал государственных закупок Республики Казахстан";
+const DEFAULT_REQUEST_DELAY_MS = 5_000;
 const BUSINESS_TENDER_SIGNALS =
   /энергоаудит|двигател|оборудован|станок|машин|техник|строител|реконструк|модерниз|инфраструктур|логист|транспорт|железнодорож|автомобил|инженер|проектирован|программ|сервер|компьютер|телеком|связ|электр|энерг|нефт|газ|промышлен|производ|монтаж|установк|консалт|аудит|лаборатор|металл|насос|генератор|трансформатор|вентиляц|водоснаб|канализац/iu;
 const ROUTINE_SUPPLIES =
@@ -36,6 +37,31 @@ function normalizeText(value = "") {
     .replace(/\u00a0/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function createRequestGate(options = {}) {
+  const intervalMs = Math.max(
+    0,
+    Number(options.intervalMs ?? DEFAULT_REQUEST_DELAY_MS),
+  );
+  const now = options.now || Date.now;
+  const sleep =
+    options.sleep ||
+    ((delay) => new Promise((resolve) => setTimeout(resolve, delay)));
+  let lastRequestAt = null;
+  let pending = Promise.resolve();
+
+  return function waitForRequestTurn() {
+    const next = pending.then(async () => {
+      if (lastRequestAt !== null) {
+        const delay = Math.max(0, lastRequestAt + intervalMs - now());
+        if (delay > 0) await sleep(delay);
+      }
+      lastRequestAt = now();
+    });
+    pending = next.catch(() => {});
+    return next;
+  };
 }
 
 function parseAmount(value) {
@@ -257,6 +283,7 @@ async function fetchTextWithRetry(url, options = {}) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
+      if (options.requestGate) await options.requestGate();
       const signals = [AbortSignal.timeout(options.timeoutMs || 25_000)];
       if (options.signal) signals.push(options.signal);
       const response = await fetchImpl(url, {
@@ -280,7 +307,18 @@ async function fetchTextWithRetry(url, options = {}) {
 
 async function collectVerifiedTenderFacts(options = {}) {
   const now = options.now || new Date();
-  const searchHtml = await fetchTextWithRetry(buildSearchUrl(options), options);
+  const requestGate =
+    options.requestGate ||
+    createRequestGate({
+      intervalMs: options.requestDelayMs ?? DEFAULT_REQUEST_DELAY_MS,
+      now: options.nowMs,
+      sleep: options.sleep,
+    });
+  const requestOptions = { ...options, requestGate };
+  const searchHtml = await fetchTextWithRetry(
+    buildSearchUrl(options),
+    requestOptions,
+  );
   const searchResults = parseSearchResults(searchHtml);
   const candidates = searchResults
     .filter(
@@ -296,10 +334,14 @@ async function collectVerifiedTenderFacts(options = {}) {
   for (const search of candidates) {
     try {
       const overviewUrl = search.sourceUrl.replace(/\?tab=lots$/, "");
-      const [overviewHtml, lotsHtml] = await Promise.all([
-        fetchTextWithRetry(overviewUrl, options),
-        fetchTextWithRetry(search.sourceUrl, options),
-      ]);
+      const overviewHtml = await fetchTextWithRetry(
+        overviewUrl,
+        requestOptions,
+      );
+      const lotsHtml = await fetchTextWithRetry(
+        search.sourceUrl,
+        requestOptions,
+      );
       const overview = parseAnnouncementOverview(overviewHtml);
       const lots = parseLots(lotsHtml);
       if (overview.noticeNumber !== search.noticeNumber)
@@ -323,10 +365,12 @@ async function collectVerifiedTenderFacts(options = {}) {
 
 module.exports = {
   BASE_URL,
+  DEFAULT_REQUEST_DELAY_MS,
   SOURCE_NAME,
   buildSearchUrl,
   buildTenderRecord,
   collectVerifiedTenderFacts,
+  createRequestGate,
   fetchTextWithRetry,
   inferRegionZh,
   isTenderRelevant,
