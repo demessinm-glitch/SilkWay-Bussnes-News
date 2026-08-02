@@ -25,7 +25,10 @@
     </header>
 
     <main>
-      <section class="section directory-section person-detail-section" aria-live="polite">
+      <section
+        class="section directory-section person-detail-section"
+        aria-live="polite"
+      >
         <div class="person-detail-header">
           <h1 id="person-title">人员履历</h1>
         </div>
@@ -50,6 +53,7 @@
       <p>丝路译讯</p>
     </footer>
 
+    <script src="assets/js/legacy-profile.js"></script>
     <script>
       function escapeHtml(value) {
         return String(value || "")
@@ -109,7 +113,10 @@
           };
         }
 
-        const parts = detail.split(/\n+/).map((line) => line.trim()).filter(Boolean);
+        const parts = detail
+          .split(/\n+/)
+          .map((line) => line.trim())
+          .filter(Boolean);
         return {
           general: parts[0] || detail,
           career: parts.slice(1).join("\n") || "等待官方页面同步",
@@ -151,7 +158,9 @@
       }
 
       async function loadData() {
-        const response = await fetch("data/astana-structure.json", { cache: "no-store" });
+        const response = await fetch("data/astana-structure.json", {
+          cache: "no-store",
+        });
         if (!response.ok) throw new Error(response.statusText);
         return response.json();
       }
@@ -160,8 +169,13 @@
         .then((data) => {
           const people = Array.isArray(data.people) ? data.people : [];
           const selectedId = new URLSearchParams(location.search).get("id");
-          const person = people.find((item) => slugify(item.name) === selectedId) || people[0];
-          document.getElementById("person-title").textContent = person?.name || "人员履历";
+          const person = window.LegacyProfile.resolveLegacyPerson(
+            people,
+            selectedId,
+            slugify,
+          );
+          document.getElementById("person-title").textContent =
+            person?.name || "人员履历";
           document.getElementById("person-detail").innerHTML = person
             ? renderPerson(person)
             : '<p class="empty-state">暂无人员数据，等待自动同步。</p>';

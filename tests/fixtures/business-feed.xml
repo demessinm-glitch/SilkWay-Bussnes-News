@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Test feed</title><item>
+<title>Казахстан обновил правила для инвесторов</title>
+<link>https://example.kz/article/42?utm_source=rss</link>
+<pubDate>Fri, 31 Jul 2026 08:30:00 +0500</pubDate>
+<description><![CDATA[<p>Краткое описание нормативного изменения.</p>]]></description>
+<guid>news-42</guid>
+</item></channel></rss>

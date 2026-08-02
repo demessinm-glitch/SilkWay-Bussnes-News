@@ -25,7 +25,10 @@
     </header>
 
     <main>
-      <section class="section directory-hero astana-data-hero" aria-labelledby="astana-title">
+      <section
+        class="section directory-hero astana-data-hero"
+        aria-labelledby="astana-title"
+      >
         <p class="eyebrow">Astana City</p>
         <h1 id="astana-title">阿斯塔纳市机构人员</h1>
         <div class="data-toolbar">
@@ -61,14 +64,16 @@
 
     <script>
       const ASTANA_FALLBACK = {
-        sourceUrl: "https://www.gov.kz/memleket/entities/astana/about/structure?lang=en",
+        sourceUrl:
+          "https://www.gov.kz/memleket/entities/astana/about/structure?lang=en",
         syncedAt: "2026-07-08T16:32:58.082Z",
         title: "Astana city administration structure",
         people: [
           {
             name: "Kassymbek Zhenis Mahmuduly",
             position: "Mayor",
-            photo: "https://www.gov.kz/uploads/2022/12/8/bdfcfff0425d31392bdad92922f3175a_1280x720.jpeg",
+            photo:
+              "https://www.gov.kz/uploads/2022/12/8/bdfcfff0425d31392bdad92922f3175a_1280x720.jpeg",
             phone: "+7 (7172) 55-64-61",
             email: "priemnaya.akima@astana.kz",
             biographyUrl: "",
@@ -81,33 +86,39 @@
           {
             name: "Nurkenov Nurlan Zhanbyrshyuly",
             position: "First Deputy Akim",
-            photo: "https://www.gov.kz/uploads/2019/11/6/0b8cd1ef3f35fff003842ef3a66b6664_original.11738.jpeg",
+            photo:
+              "https://www.gov.kz/uploads/2019/11/6/0b8cd1ef3f35fff003842ef3a66b6664_original.11738.jpeg",
             phone: "+7 (7172) 55-64-12",
             email: "n.nurkenov@astana.kz",
             biographyUrl: "",
-            career: "Biography data is refreshed automatically from the official source page.",
+            career:
+              "Biography data is refreshed automatically from the official source page.",
             detail: "",
             responsibilities: "",
           },
           {
             name: "Baiken Yesset Berikuly",
             position: "Deputy Akim of Astana",
-            photo: "https://www.gov.kz/uploads/2026/1/14/6ca1639a0221296d82c0dacc0491c5ae_1280x720.jpg",
+            photo:
+              "https://www.gov.kz/uploads/2026/1/14/6ca1639a0221296d82c0dacc0491c5ae_1280x720.jpg",
             phone: "+7 (7172) 55-64-06",
             email: "e.baiken@astana.kz",
             biographyUrl: "",
-            career: "Biography data is refreshed automatically from the official source page.",
+            career:
+              "Biography data is refreshed automatically from the official source page.",
             detail: "",
             responsibilities: "",
           },
           {
             name: "Yeshkeyev Daulat Zatovich",
             position: "Chief of Staff of the Astana Akim's Office",
-            photo: "https://www.gov.kz/uploads/2023/2/21/144986ad011042552d34728a9fd77ca6_1280x720.jpeg",
+            photo:
+              "https://www.gov.kz/uploads/2023/2/21/144986ad011042552d34728a9fd77ca6_1280x720.jpeg",
             phone: "+7 (7172) 55-64-14",
             email: "d.eshkeev@astana.kz",
             biographyUrl: "",
-            career: "Biography data is refreshed automatically from the official source page.",
+            career:
+              "Biography data is refreshed automatically from the official source page.",
             detail: "",
             responsibilities: "",
           },
@@ -185,7 +196,9 @@
 
       async function loadData() {
         try {
-          const response = await fetch("data/astana-structure.json", { cache: "no-store" });
+          const response = await fetch("data/astana-structure.json", {
+            cache: "no-store",
+          });
           if (!response.ok) throw new Error(response.statusText);
           return await response.json();
         } catch {
@@ -195,7 +208,9 @@
 
       loadData().then((data) => {
         const people = Array.isArray(data.people) ? data.people : [];
-        document.getElementById("sync-time").textContent = formatDate(data.syncedAt);
+        document.getElementById("sync-time").textContent = formatDate(
+          data.syncedAt,
+        );
         document.getElementById("people-grid").innerHTML =
           people.length > 0
             ? people.map(renderPerson).join("")

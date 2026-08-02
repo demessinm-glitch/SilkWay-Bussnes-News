@@ -1,0 +1,55 @@
+name: Automatic content synchronization
+
+on:
+  schedule:
+    - cron: "15 1,7,13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+      MAX_AI_REQUESTS_PER_RUN: "25"
+      DAILY_MIN_NEWS: "3"
+      DAILY_MAX_NEWS: "12"
+      TZ: Asia/Almaty
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: npm
+      - name: Require translation secrets
+        shell: bash
+        run: |
+          test -n "$OPENAI_API_KEY" || { echo "OPENAI_API_KEY secret is missing"; exit 1; }
+          test -n "$OPENAI_MODEL" || { echo "OPENAI_MODEL secret is missing"; exit 1; }
+      - run: npm ci
+      - run: npm test
+      - run: npm run sync:news
+      - run: npm run sync:officials
+      - run: npm run validate:data
+      - name: Commit verified data changes
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data logs
+          if git diff --cached --quiet; then
+            echo "No publishable changes"
+          else
+            git commit -m "chore(data): automatic content update"
+            git push
+          fi

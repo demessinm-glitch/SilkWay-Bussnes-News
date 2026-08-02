@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://silkroadbrief.local/schemas/news.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "items"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "generatedAt": { "type": ["string", "null"], "format": "date-time" },
+    "items": { "type": "array", "items": { "$ref": "#/$defs/article" } }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "article": {
+      "type": "object",
+      "required": [
+        "id",
+        "sourceId",
+        "sourceUrl",
+        "titleOriginal",
+        "titleZh",
+        "summaryZh",
+        "publishedAt",
+        "category",
+        "relevanceScore",
+        "status"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 8 },
+        "sourceId": { "type": "string", "minLength": 2 },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "titleOriginal": { "type": "string", "minLength": 3 },
+        "titleZh": { "type": "string", "minLength": 2 },
+        "summaryZh": { "type": "string", "minLength": 2 },
+        "publishedAt": { "type": "string", "format": "date-time" },
+        "category": { "type": "string" },
+        "relevanceScore": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "status": { "enum": ["published", "needs_review", "rejected"] }
+      },
+      "additionalProperties": true
+    }
+  }
+}

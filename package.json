@@ -1,0 +1,33 @@
+{
+  "name": "kazakhstan-official-info",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Chinese-language Kazakhstan business and official information portal",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "validate:data": "node scripts/validate-data.js",
+    "sync:news": "node --use-system-ca scripts/sync-news.js",
+    "sync:officials": "node --use-system-ca scripts/sync-officials.js",
+    "sync:guides": "node --use-system-ca scripts/sync-guides.js",
+    "sync:tenders": "node --use-system-ca scripts/sync-tenders.js",
+    "sync:all": "node --use-system-ca scripts/sync-all.js",
+    "build": "node scripts/build-site.js"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "cheerio": "1.2.0",
+    "openai": "7.3.0",
+    "rss-parser": "3.13.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "10.8.0",
+    "prettier": "3.9.6"
+  }
+}

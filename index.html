@@ -3,163 +3,358 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>丝路译讯 | 哈萨克斯坦官方信息转译平台</title>
+    <meta name="theme-color" content="#083f4f" />
     <meta
       name="description"
-      content="面向中文读者的哈萨克斯坦官方信息转译平台，聚合新闻资讯、标讯公告与各级政府机构设置。"
+      content="丝路译讯为中文读者整理哈萨克斯坦商业、政府、法规与采购信息，保留原始来源与核验日期。"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <title>丝路译讯｜哈萨克斯坦商业与官方信息中文平台</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="assets/js/app.js" defer></script>
+    <script src="assets/js/home.js" defer></script>
   </head>
   <body>
-    <header class="site-header" aria-label="主导航">
-      <a class="brand" href="#top" aria-label="丝路译讯首页">
-        <span class="brand-mark" aria-hidden="true">KZ</span>
-        <span>丝路译讯</span>
-      </a>
-      <nav class="nav-links" aria-label="页面导航">
-        <a href="#news">新闻资讯</a>
-        <a href="#tenders">标讯公告</a>
-        <a href="#institutions">政府机构</a>
-      </nav>
-      <a class="header-action" href="#contact">联系我们</a>
+    <a class="skip-link" href="#main-content">跳至主要内容</a>
+    <div class="utility-bar">
+      <div class="shell utility-inner">
+        <p>
+          <span class="status-dot" aria-hidden="true"></span
+          ><span id="news-status">正在加载最新信息…</span>
+        </p>
+        <p class="utility-note">Asia/Almaty · 信息均保留原始来源</p>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="index.html" aria-label="丝路译讯首页">
+          <span class="brand-emblem" aria-hidden="true"
+            ><i></i><i></i><i></i
+          ></span>
+          <span class="brand-copy"
+            ><strong>丝路译讯</strong><small>SILK ROAD BRIEF</small></span
+          >
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span></span><span></span><span></span><b class="sr-only">打开导航</b>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="主导航">
+          <a class="is-active" href="index.html">首页</a>
+          <a href="news.html">新闻资讯</a>
+          <a href="tenders.html">标讯公告</a>
+          <a href="officials.html">政府机构</a>
+          <a href="guides.html">办事指南</a>
+          <a href="sources.html">信息来源</a>
+        </nav>
+        <a class="header-cta" href="about.html"
+          >关于我们 <span aria-hidden="true">↗</span></a
+        >
+      </div>
     </header>
 
-    <main id="top">
-      <section class="section band-light" id="news" aria-labelledby="news-title">
-        <div class="section-heading">
-          <p class="eyebrow">News</p>
-          <h2 id="news-title">新闻资讯</h2>
-          <a href="#" class="text-link">全部资讯</a>
+    <main id="main-content">
+      <section class="masthead shell" aria-labelledby="page-title">
+        <div class="masthead-copy">
+          <p class="kicker"><span>哈萨克斯坦</span> 商业与官方信息中文平台</p>
+          <h1 id="page-title">重要信息，<em>先看懂，</em><br />再做决定。</h1>
+          <p class="masthead-intro">
+            把分散在哈萨克语、俄语官方渠道和商业媒体中的信息，整理为可追溯、可筛选的中文摘要。
+          </p>
+          <div class="masthead-actions">
+            <a class="button button-primary" href="#latest-news"
+              >阅读今日重点 <span aria-hidden="true">↓</span></a
+            >
+            <a class="button button-quiet" href="sources.html">查看翻译方法</a>
+          </div>
         </div>
-        <div class="featured-grid">
-          <article class="lead-story">
-            <span class="tag">总统府</span>
-            <h3>托卡耶夫主持经济现代化会议，强调区域基础设施协同</h3>
+
+        <aside class="update-board" aria-labelledby="update-board-title">
+          <div class="board-topline">
+            <span>DAILY BRIEF / KZ</span>
+            <span id="freshness-badge" class="freshness-badge is-loading"
+              >同步中</span
+            >
+          </div>
+          <div class="board-date">
+            <span id="board-day">—</span>
+            <div>
+              <strong id="board-month">正在读取</strong
+              ><small id="board-year">Asia/Almaty</small>
+            </div>
+          </div>
+          <div class="pipeline-list" aria-label="数据处理状态">
+            <div>
+              <span>01</span>
+              <p>
+                <strong>采集来源</strong><small>公开页面 · RSS · API</small>
+              </p>
+              <b aria-hidden="true"></b>
+            </div>
+            <div>
+              <span>02</span>
+              <p><strong>筛选与去重</strong><small>保留商业相关信息</small></p>
+              <b aria-hidden="true"></b>
+            </div>
+            <div>
+              <span>03</span>
+              <p><strong>中文转译</strong><small>AI 辅助 · 原文可查</small></p>
+              <b aria-hidden="true"></b>
+            </div>
+          </div>
+          <p class="last-update" id="last-update">最后更新：等待首次同步</p>
+        </aside>
+      </section>
+
+      <section class="signal-strip" aria-label="重点分类">
+        <div class="shell signal-inner">
+          <span class="signal-label">快速查看</span>
+          <div class="signal-links" role="list">
+            <a href="news.html?category=economy" role="listitem"
+              ><b>经济</b><span>金融 · 税务 · 统计</span></a
+            >
+            <a href="news.html?category=construction" role="listitem"
+              ><b>建设</b><span>工程 · 基础设施</span></a
+            >
+            <a href="news.html?category=law" role="listitem"
+              ><b>法规</b><span>政策 · 许可 · 海关</span></a
+            >
+            <a href="news.html?category=china_kz" role="listitem"
+              ><b>中哈合作</b><span>投资 · 物流 · 产能</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="news-workspace section shell"
+        id="latest-news"
+        aria-labelledby="latest-title"
+      >
+        <div class="workspace-main">
+          <header class="section-head">
+            <div>
+              <p class="section-index">01 / NEWSROOM</p>
+              <h2 id="latest-title">今日重点</h2>
+            </div>
+            <a class="arrow-link" href="news.html"
+              >全部资讯 <span aria-hidden="true">→</span></a
+            >
+          </header>
+          <div class="filter-row" aria-label="新闻快速筛选">
+            <button
+              class="filter-chip is-active"
+              type="button"
+              data-news-filter="all"
+            >
+              全部
+            </button>
+            <button
+              class="filter-chip"
+              type="button"
+              data-news-filter="economy"
+            >
+              经济与金融
+            </button>
+            <button
+              class="filter-chip"
+              type="button"
+              data-news-filter="construction"
+            >
+              建设与基础设施
+            </button>
+            <button class="filter-chip" type="button" data-news-filter="law">
+              法律与监管
+            </button>
+            <button
+              class="filter-chip"
+              type="button"
+              data-news-filter="china_kz"
+            >
+              中哈合作
+            </button>
+          </div>
+          <div
+            class="news-feed"
+            id="news-feed"
+            aria-live="polite"
+            aria-busy="true"
+          >
+            <article class="skeleton-card">
+              <span></span>
+              <h3></h3>
+              <p></p>
+              <p></p>
+            </article>
+            <article class="skeleton-card">
+              <span></span>
+              <h3></h3>
+              <p></p>
+              <p></p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="workspace-rail">
+          <div class="rail-heading">
+            <span>工作台</span><small>QUICK DESK</small>
+          </div>
+          <a class="rail-command" href="guides.html">
+            <span class="rail-number">A</span>
+            <span
+              ><strong>办事指南</strong
+              ><small>注册、签证、许可与采购</small></span
+            >
+            <b aria-hidden="true">↗</b>
+          </a>
+          <a class="rail-command" href="officials.html">
+            <span class="rail-number">B</span>
+            <span
+              ><strong>政府机构</strong><small>城市结构与负责人</small></span
+            >
+            <b aria-hidden="true">↗</b>
+          </a>
+          <a class="rail-command" href="tenders.html">
+            <span class="rail-number">C</span>
+            <span
+              ><strong>标讯公告</strong><small>截止日期与官方入口</small></span
+            >
+            <b aria-hidden="true">↗</b>
+          </a>
+          <div class="rail-note">
+            <span class="note-mark">译</span>
+            <p>本内容由人工智能辅助翻译，仅供参考，请以原文为准。</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="guides-band section" aria-labelledby="guides-title">
+        <div class="shell guides-layout">
+          <header class="guides-intro">
+            <p class="section-index">02 / PRACTICAL</p>
+            <h2 id="guides-title">在哈萨克斯坦<br />怎么办？</h2>
             <p>
-              转译摘要提炼政策重点、涉及部门、后续落地路径，并保留原文来源链接与发布时间。
+              从“知道发生了什么”，到“知道下一步去哪办”。每份指南均列出主管部门、材料与官方链接。
             </p>
-            <time datetime="2026-07-07">2026.07.07</time>
-          </article>
-          <div class="story-list" aria-label="更多新闻">
-            <article>
-              <span>政府会议</span>
-              <h3>内阁审议工业园区配套方案</h3>
-              <time datetime="2026-07-06">2026.07.06</time>
-            </article>
-            <article>
-              <span>能源政策</span>
-              <h3>能源部发布可再生能源项目进展</h3>
-              <time datetime="2026-07-05">2026.07.05</time>
-            </article>
-            <article>
-              <span>区域动态</span>
-              <h3>阿拉木图州公布跨境物流节点规划</h3>
-              <time datetime="2026-07-04">2026.07.04</time>
-            </article>
+            <a class="button button-light" href="guides.html"
+              >查看全部指南 <span aria-hidden="true">→</span></a
+            >
+          </header>
+          <ol class="guide-list">
+            <li>
+              <a href="guide-detail.html?id=register-llp"
+                ><span>01</span><strong>如何注册有限责任公司</strong
+                ><small>企业设立 · 基础流程</small><b>→</b></a
+              >
+            </li>
+            <li>
+              <a href="guide-detail.html?id=digital-signature"
+                ><span>02</span><strong>如何获得电子数字签名</strong
+                ><small>政府服务 · 身份认证</small><b>→</b></a
+              >
+            </li>
+            <li>
+              <a href="guide-detail.html?id=public-procurement"
+                ><span>03</span><strong>如何参加政府采购</strong
+                ><small>供应商 · 采购门户</small><b>→</b></a
+              >
+            </li>
+            <li>
+              <a href="guide-detail.html?id=work-visa"
+                ><span>04</span><strong>如何申请工作签证与许可</strong
+                ><small>外籍员工 · 合规</small><b>→</b></a
+              >
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section
+        class="tender-section section shell"
+        aria-labelledby="tender-title"
+      >
+        <header class="section-head">
+          <div>
+            <p class="section-index">03 / PROCUREMENT</p>
+            <h2 id="tender-title">近期标讯</h2>
+          </div>
+          <a class="arrow-link" href="tenders.html"
+            >进入标讯库 <span aria-hidden="true">→</span></a
+          >
+        </header>
+        <div class="tender-feed" id="tender-feed" aria-live="polite">
+          <div class="empty-inline">
+            <span>标</span>
+            <p>
+              <strong>等待已核验标讯</strong
+              ><small>系统不会发布演示或虚构采购信息。</small>
+            </p>
           </div>
         </div>
       </section>
 
-      <section class="section" id="tenders" aria-labelledby="tenders-title">
-        <div class="section-heading">
-          <p class="eyebrow">Procurement</p>
-          <h2 id="tenders-title">标讯公告</h2>
-          <a href="#" class="text-link">进入标讯库</a>
-        </div>
-        <div class="tender-board">
-          <article class="tender-card accent-blue">
-            <div>
-              <span class="tag">公共采购</span>
-              <h3>铁路货运枢纽设备采购与安装</h3>
-            </div>
-            <dl>
-              <div>
-                <dt>预算</dt>
-                <dd>12.8亿坚戈</dd>
-              </div>
-              <div>
-                <dt>截止</dt>
-                <dd>2026.07.22</dd>
-              </div>
-            </dl>
-          </article>
-          <article class="tender-card accent-gold">
-            <div>
-              <span class="tag">EPC</span>
-              <h3>市政供水管网改造工程设计施工</h3>
-            </div>
-            <dl>
-              <div>
-                <dt>地区</dt>
-                <dd>奇姆肯特</dd>
-              </div>
-              <div>
-                <dt>阶段</dt>
-                <dd>资格预审</dd>
-              </div>
-            </dl>
-          </article>
-          <article class="tender-card accent-green">
-            <div>
-              <span class="tag">咨询服务</span>
-              <h3>数字政府平台安全审计服务</h3>
-            </div>
-            <dl>
-              <div>
-                <dt>发布方</dt>
-                <dd>数字发展部</dd>
-              </div>
-              <div>
-                <dt>语言</dt>
-                <dd>俄中摘要</dd>
-              </div>
-            </dl>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="institutions" aria-labelledby="institutions-title">
-        <div class="section-heading">
-          <p class="eyebrow">Institutions</p>
-          <h2 id="institutions-title">各级政府机构设置</h2>
-          <a href="#" class="text-link">查看完整目录</a>
-        </div>
-        <div class="institution-layout">
-          <div class="institution-columns">
-            <article>
-              <h3>中央层级</h3>
-              <ul>
-                <li>总统府</li>
-                <li>总理府</li>
-                <li>外交部</li>
-                <li>财政部</li>
-              </ul>
-            </article>
-            <article>
-              <h3>行业主管</h3>
-              <ul>
-                <li>工业和建设部</li>
-                <li>能源部</li>
-                <li>交通部</li>
-                <li>数字发展部</li>
-              </ul>
-            </article>
-            <article>
-              <h3><a class="card-title-link" href="local-governments.html">地方政府</a></h3>
-              <ul>
-                <li><a href="astana-json.html">阿斯塔纳市</a></li>
-                <li><a href="almaty-json.html">阿拉木图市</a></li>
-                <li><a href="shymkent-json.html">奇姆肯特市</a></li>
-                <li><a href="local-governments.html">更多</a></li>
-              </ul>
-            </article>
+      <section class="trust-section">
+        <div class="shell trust-layout">
+          <div>
+            <p class="section-index">SOURCE FIRST</p>
+            <h2>每条结论，都能回到原文。</h2>
           </div>
+          <ul>
+            <li>
+              <span>01</span>
+              <p>
+                <strong>来源清楚</strong
+                ><small>显示发布机构、原始链接与发布时间</small>
+              </p>
+            </li>
+            <li>
+              <span>02</span>
+              <p>
+                <strong>翻译透明</strong
+                ><small>区分 AI 转译、人工修订与待核验状态</small>
+              </p>
+            </li>
+            <li>
+              <span>03</span>
+              <p>
+                <strong>失败不覆盖</strong
+                ><small>同步失败时保留最后一次有效数据</small>
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer" id="contact">
-      <p>丝路译讯</p>
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <a class="brand brand-footer" href="index.html"
+          ><span class="brand-emblem" aria-hidden="true"
+            ><i></i><i></i><i></i></span
+          ><span class="brand-copy"
+            ><strong>丝路译讯</strong><small>SILK ROAD BRIEF</small></span
+          ></a
+        >
+        <p>连接哈萨克斯坦公开信息与中文商业读者。</p>
+        <nav aria-label="页脚导航">
+          <a href="sources.html">来源与方法</a><a href="about.html">关于我们</a
+          ><a href="404.html">帮助</a>
+        </nav>
+      </div>
+      <div class="shell footer-legal">
+        <p>© 2026 丝路译讯</p>
+        <p>信息仅供一般参考，不构成法律、税务或投资建议。</p>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://silkroadbrief.local/schemas/build.schema.json",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "lastSuccessfulUpdate",
+    "newsUpdatedAt",
+    "officialsUpdatedAt",
+    "guidesUpdatedAt",
+    "tendersUpdatedAt"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "lastSuccessfulUpdate": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "newsUpdatedAt": { "type": ["string", "null"], "format": "date-time" },
+    "officialsUpdatedAt": { "type": ["string", "null"], "format": "date-time" },
+    "guidesUpdatedAt": { "type": ["string", "null"], "format": "date-time" },
+    "tendersUpdatedAt": { "type": ["string", "null"], "format": "date-time" }
+  },
+  "additionalProperties": true
+}

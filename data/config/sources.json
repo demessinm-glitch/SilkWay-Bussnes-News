@@ -1,0 +1,57 @@
+[
+  {
+    "id": "primeminister-kz",
+    "name": "Официальный информационный ресурс Премьер-Министра Республики Казахстан",
+    "nameZh": "哈萨克斯坦总理官方信息资源",
+    "type": "official",
+    "enabled": true,
+    "adapter": "html-list",
+    "url": "https://primeminister.kz/ru",
+    "baseUrl": "https://primeminister.kz",
+    "language": "ru",
+    "categories": ["government", "economy", "investment", "construction"],
+    "maxItemsPerRun": 20,
+    "requestDelayMs": 1200,
+    "copyrightMode": "metadata_summary_link",
+    "requiresManualApproval": false,
+    "selectors": {
+      "item": ".main__article",
+      "link": "closest:a",
+      "title": ".main__article-heading",
+      "summary": ".main__article-text",
+      "date": ".article__date"
+    }
+  },
+  {
+    "id": "kursiv-kz",
+    "name": "Kursiv Media Kazakhstan",
+    "nameZh": "Kursiv 哈萨克斯坦商业媒体",
+    "type": "business_media",
+    "enabled": true,
+    "adapter": "rss",
+    "url": "https://kz.kursiv.media/feed/",
+    "baseUrl": "https://kz.kursiv.media",
+    "language": "ru",
+    "categories": ["economy", "investment", "industry", "energy", "transport"],
+    "maxItemsPerRun": 30,
+    "requestDelayMs": 1200,
+    "copyrightMode": "metadata_summary_link",
+    "requiresManualApproval": false
+  },
+  {
+    "id": "adilet-legal",
+    "name": "Информационно-правовая система Әділет",
+    "nameZh": "Әділет 法律信息系统",
+    "type": "legal",
+    "enabled": true,
+    "adapter": "rss",
+    "url": "https://adilet.zan.kz/rus/docs/rss",
+    "baseUrl": "https://adilet.zan.kz",
+    "language": "ru",
+    "categories": ["law", "government"],
+    "maxItemsPerRun": 30,
+    "requestDelayMs": 1200,
+    "copyrightMode": "metadata_summary_link",
+    "requiresManualApproval": true
+  }
+]

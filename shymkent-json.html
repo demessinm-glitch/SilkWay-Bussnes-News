@@ -25,7 +25,10 @@
     </header>
 
     <main>
-      <section class="section directory-hero astana-data-hero" aria-labelledby="shymkent-title">
+      <section
+        class="section directory-hero astana-data-hero"
+        aria-labelledby="shymkent-title"
+      >
         <p class="eyebrow">Shymkent City</p>
         <h1 id="shymkent-title">奇姆肯特市机构人员</h1>
         <div class="data-toolbar">
@@ -61,7 +64,8 @@
 
     <script>
       const SHYMKENT_FALLBACK = {
-        sourceUrl: "https://www.gov.kz/memleket/entities/shymkent/about/structure?lang=en",
+        sourceUrl:
+          "https://www.gov.kz/memleket/entities/shymkent/about/structure?lang=en",
         syncedAt: "",
         title: "Shymkent city administration structure",
         people: [],
@@ -138,7 +142,9 @@
 
       async function loadData() {
         try {
-          const response = await fetch("data/shymkent-people.json", { cache: "no-store" });
+          const response = await fetch("data/shymkent-people.json", {
+            cache: "no-store",
+          });
           if (!response.ok) throw new Error(response.statusText);
           return await response.json();
         } catch {
@@ -148,7 +154,9 @@
 
       loadData().then((data) => {
         const people = Array.isArray(data.people) ? data.people : [];
-        document.getElementById("sync-time").textContent = formatDate(data.syncedAt);
+        document.getElementById("sync-time").textContent = formatDate(
+          data.syncedAt,
+        );
         document.getElementById("people-grid").innerHTML =
           people.length > 0
             ? people.map(renderPerson).join("")

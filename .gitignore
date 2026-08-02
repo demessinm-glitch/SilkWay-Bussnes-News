@@ -1,1 +1,13 @@
 .agents/
+node_modules/
+.env
+.env.*
+!.env.example
+logs/local-*.json
+data/drafts/*.json
+data/cache/*.json
+dist/
+ТЗ*.docx
+*.tmp
+.DS_Store
+Thumbs.db

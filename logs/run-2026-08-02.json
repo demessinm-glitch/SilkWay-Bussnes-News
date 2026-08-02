@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-08-02T16-29-04-322Z",
+  "startedAt": "2026-08-02T16:29:04.322Z",
+  "finishedAt": "2026-08-02T16:29:06.138Z",
+  "status": "success_with_warnings",
+  "sources": [
+    {
+      "sourceId": "adilet-legal",
+      "status": "success",
+      "fetched": 30,
+      "accepted": 30,
+      "errors": []
+    },
+    {
+      "sourceId": "kursiv-kz",
+      "status": "success",
+      "fetched": 30,
+      "accepted": 30,
+      "errors": []
+    },
+    {
+      "sourceId": "primeminister-kz",
+      "status": "success",
+      "fetched": 9,
+      "accepted": 9,
+      "errors": []
+    }
+  ],
+  "collected": 69,
+  "deduplicated": 30,
+  "aiRequests": 0,
+  "publishedNews": 0,
+  "warnings": [
+    "AI translation skipped: OPENAI_API_KEY or OPENAI_MODEL is not configured",
+    "30 articles remain untranslated or failed"
+  ],
+  "errors": []
+}

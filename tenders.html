@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="哈萨克斯坦公开采购与招标机会中文索引。" />
+    <title>标讯公告｜丝路译讯</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/pages.css" />
+    <script src="assets/js/app.js" defer></script>
+    <script src="assets/js/tenders.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳至主要内容</a>
+    <div class="utility-bar">
+      <div class="shell utility-inner">
+        <p><span class="status-dot"></span>公开采购信息索引</p>
+        <p class="utility-note">投标前请核对原始公告</p>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-emblem"><i></i><i></i><i></i></span
+          ><span class="brand-copy"
+            ><strong>丝路译讯</strong><small>SILK ROAD BRIEF</small></span
+          ></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span></span><span></span><span></span><b class="sr-only">打开导航</b>
+        </button>
+        <nav class="primary-nav" id="primary-nav">
+          <a href="index.html">首页</a><a href="news.html">新闻资讯</a
+          ><a class="is-active" href="tenders.html">标讯公告</a
+          ><a href="officials.html">政府机构</a
+          ><a href="guides.html">办事指南</a><a href="sources.html">信息来源</a>
+        </nav>
+        <a class="header-cta" href="about.html">关于我们 ↗</a>
+      </div>
+    </header>
+    <main id="main-content" class="page-main">
+      <section class="page-hero">
+        <div class="shell page-hero-inner">
+          <div>
+            <p class="breadcrumbs">
+              <a href="index.html">首页</a><span>/</span><span>标讯公告</span>
+            </p>
+            <h1>标讯公告</h1>
+            <p class="page-hero-copy">
+              集中查看采购方、预算、地区、截止日期和原始公告链接。只有可追溯到公开来源的真实项目才会展示。
+            </p>
+          </div>
+          <aside class="page-hero-aside">
+            <strong>数据完整性优先</strong
+            >无稳定合法来源时保持空状态，不用演示数据填充。
+          </aside>
+        </div>
+      </section>
+      <section class="page-section shell">
+        <form class="filter-panel" id="tender-filters">
+          <div class="field">
+            <label for="tender-search">搜索</label
+            ><input
+              id="tender-search"
+              type="search"
+              placeholder="采购主题或采购方"
+            />
+          </div>
+          <div class="field">
+            <label for="tender-status">状态</label
+            ><select id="tender-status">
+              <option value="">全部状态</option>
+              <option value="open">接受投标</option>
+              <option value="closing">即将截止</option>
+              <option value="closed">已截止</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="tender-region">地区</label
+            ><select id="tender-region">
+              <option value="">全部地区</option>
+            </select>
+          </div>
+          <button class="filter-reset" type="button" id="reset-tenders">
+            重置筛选
+          </button>
+        </form>
+        <div class="results-topline">
+          <p>找到 <strong id="tender-count">0</strong> 条公告</p>
+          <p id="tender-status-copy">正在加载…</p>
+        </div>
+        <div
+          class="tender-grid"
+          id="tender-results"
+          aria-live="polite"
+          aria-busy="true"
+        ></div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <a class="brand brand-footer" href="index.html"
+          ><span class="brand-emblem"><i></i><i></i><i></i></span
+          ><span class="brand-copy"
+            ><strong>丝路译讯</strong><small>SILK ROAD BRIEF</small></span
+          ></a
+        >
+        <p>以采购平台原始公告为最终依据。</p>
+        <nav>
+          <a href="sources.html">来源与方法</a><a href="about.html">关于我们</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

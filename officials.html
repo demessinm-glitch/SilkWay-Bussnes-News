@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="阿拉木图、阿斯塔纳和奇姆肯特政府机构与官员目录。"
+    />
+    <title>政府机构与官员｜丝路译讯</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/pages.css" />
+    <script src="assets/js/app.js" defer></script>
+    <script src="assets/js/officials.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳至主要内容</a>
+    <div class="utility-bar">
+      <div class="shell utility-inner">
+        <p><span class="status-dot"></span>数据来自 gov.kz 公开页面</p>
+        <p class="utility-note">仅显示官方公开联系信息</p>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-emblem"><i></i><i></i><i></i></span
+          ><span class="brand-copy"
+            ><strong>丝路译讯</strong><small>SILK ROAD BRIEF</small></span
+          ></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span></span><span></span><span></span><b class="sr-only">打开导航</b>
+        </button>
+        <nav class="primary-nav" id="primary-nav">
+          <a href="index.html">首页</a><a href="news.html">新闻资讯</a
+          ><a href="tenders.html">标讯公告</a
+          ><a class="is-active" href="officials.html">政府机构</a
+          ><a href="guides.html">办事指南</a><a href="sources.html">信息来源</a>
+        </nav>
+        <a class="header-cta" href="about.html">关于我们 ↗</a>
+      </div>
+    </header>
+    <main id="main-content" class="page-main">
+      <section class="page-hero">
+        <div class="shell page-hero-inner">
+          <div>
+            <p class="breadcrumbs">
+              <a href="index.html">首页</a><span>/</span><span>政府机构</span>
+            </p>
+            <h1>政府机构与官员</h1>
+            <p class="page-hero-copy">
+              从官方公开页面同步城市管理机构、负责人、职务和工作联系信息。中文姓名以人工修订为优先。
+            </p>
+          </div>
+          <aside class="page-hero-aside">
+            <strong>状态规则</strong
+            >人员从官方结构中消失时先标记待核验，不直接删除历史记录。
+          </aside>
+        </div>
+      </section>
+      <section class="page-section shell">
+        <div class="region-tabs" role="tablist" aria-label="选择城市">
+          <button
+            class="region-tab is-active"
+            type="button"
+            data-region="almaty"
+          >
+            阿拉木图</button
+          ><button class="region-tab" type="button" data-region="astana">
+            阿斯塔纳</button
+          ><button class="region-tab" type="button" data-region="shymkent">
+            奇姆肯特
+          </button>
+        </div>
+        <div class="directory-meta">
+          <p id="officials-meta">正在加载官方结构…</p>
+          <a class="arrow-link" id="legacy-link" href="almaty-json.html"
+            >查看原有城市页面 →</a
+          >
+        </div>
+        <div
+          class="official-grid"
+          id="official-grid"
+          aria-live="polite"
+          aria-busy="true"
+        ></div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <a class="brand brand-footer" href="index.html"
+          ><span class="brand-emblem"><i></i><i></i><i></i></span
+          ><span class="brand-copy"
+            ><strong>丝路译讯</strong><small>SILK ROAD BRIEF</small></span
+          ></a
+        >
+        <p>姓名、职务与联系方式以官方页面为准。</p>
+        <nav>
+          <a href="sources.html">来源与方法</a><a href="about.html">关于我们</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

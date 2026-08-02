@@ -1,8 +1,11 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const { publishJsonSafely } = require("./lib/storage");
 
-const SOURCE_URL = "https://www.gov.kz/memleket/entities/shymkent/about/structure?lang=en";
-const API_URL = "https://www.gov.kz/api/v1/public/content-manager/curators?projects=shymkent&lang=en";
+const SOURCE_URL =
+  "https://www.gov.kz/memleket/entities/shymkent/about/structure?lang=en";
+const API_URL =
+  "https://www.gov.kz/api/v1/public/content-manager/curators?projects=shymkent&lang=en";
 const OUT_PATH = path.join(__dirname, "..", "data", "shymkent-people.json");
 const DISCLAIMER = "本页面内容翻译自原网站，中文翻译仅供参考";
 
@@ -65,8 +68,7 @@ const CHINESE_FIELDS = {
     nameZh: "萨金迪科娃·绍列·图拉利耶夫娜",
     positionZh: "部门负责人",
     workScopeZh: "负责国家秘密保护和相关保密管理工作。",
-    generalInfoZh:
-      "2004年毕业于阿拉木图经济大学。专业为经济师-金融家。",
+    generalInfoZh: "2004年毕业于阿拉木图经济大学。专业为经济师-金融家。",
     careerHistoryZh:
       "1990年4月7日至1990年5月22日，任 Telman 城市消费合作社商贸人员，地点为奇姆肯特市。\n1990年9月26日至1993年8月8日，任 Prodtovary 协会、Babur 消费合作社商贸人员，地点为奇姆肯特市。\n1994年1月12日至1995年12月28日，任 Shok-Nur 私营公司会计、总会计师，地点为奇姆肯特市。\n1996年1月2日至1996年7月24日，任南哈萨克斯坦州土地关系和土地管理委员会会计兼出纳，地点为奇姆肯特市。\n1996年7月29日至1997年4月15日，任以 H.A. 亚萨维命名的国际哈萨克-土耳其大学会计，地点为奇姆肯特市。\n1999年7月15日至1999年12月1日，任南哈萨克斯坦州州长办公室经济局接待处秘书，地点为奇姆肯特市。\n1999年12月1日至2007年10月1日，任南哈萨克斯坦州州长办公室接待处秘书，地点为奇姆肯特市。\n2007年10月1日至2007年11月20日，任南哈萨克斯坦州州长办公室文书保障处代理专家。\n2007年11月20日至2008年1月23日，任南哈萨克斯坦州州长办公室文书保障处专家。\n2008年1月23日至2009年2月19日，任南哈萨克斯坦州州长办公室文书保障处主任专家。\n2009年2月19日至2016年2月16日，任南哈萨克斯坦州州长办公室文书保障处首席专家。\n2016年2月16日至2018年7月17日，任南哈萨克斯坦州州长办公室国家秘密保护组首席监察员兼组长。\n2018年7月24日至2018年8月16日，任突厥斯坦州州长办公室国家秘密保护组首席监察员兼组长。\n自2018年8月16日起，任奇姆肯特市长办公室国家秘密保护处负责人。",
   },
@@ -149,16 +151,26 @@ function readExistingPayload() {
 }
 
 function mergeChineseFields(person, existingPeople) {
-  const existing = existingPeople.find((item) => Number(item.id) === Number(person.id)) || {};
+  const existing =
+    existingPeople.find((item) => Number(item.id) === Number(person.id)) || {};
   const curated = CHINESE_FIELDS[person.id] || {};
-  const generalInfoZh = curated.generalInfoZh || existing.generalInfoZh || "暂无中文翻译，请参阅原文。";
-  const careerHistoryZh = curated.careerHistoryZh || existing.careerHistoryZh || "暂无中文翻译，请参阅原文。";
+  const generalInfoZh =
+    curated.generalInfoZh ||
+    existing.generalInfoZh ||
+    "暂无中文翻译，请参阅原文。";
+  const careerHistoryZh =
+    curated.careerHistoryZh ||
+    existing.careerHistoryZh ||
+    "暂无中文翻译，请参阅原文。";
 
   return {
     ...person,
     nameZh: curated.nameZh || existing.nameZh || person.name,
     positionZh: curated.positionZh || existing.positionZh || person.position,
-    workScopeZh: curated.workScopeZh || existing.workScopeZh || "官方页面未列出单独工作范围。",
+    workScopeZh:
+      curated.workScopeZh ||
+      existing.workScopeZh ||
+      "官方页面未列出单独工作范围。",
     generalInfoZh,
     careerHistoryZh,
     detailZh: [generalInfoZh, careerHistoryZh].filter(Boolean).join("\n"),
@@ -167,8 +179,12 @@ function mergeChineseFields(person, existingPeople) {
 }
 
 function mapPerson(item) {
-  const name = normalizeText([item.lastname, item.name, item.middlename].filter(Boolean).join(" "));
-  const position = normalizeText(repairMojibake(item.position || item.level?.items?.[0]?.position || ""));
+  const name = normalizeText(
+    [item.lastname, item.name, item.middlename].filter(Boolean).join(" "),
+  );
+  const position = normalizeText(
+    repairMojibake(item.position || item.level?.items?.[0]?.position || ""),
+  );
   const generalInfo = htmlToText(item.biography || "");
   const careerHistory = htmlToText(item.biography_details || "");
 
@@ -179,14 +195,20 @@ function mapPerson(item) {
     order: item.order || "",
     photo: absoluteGovUrl(item.photo),
     phone: normalizeText(item.phone || item.phone_number || ""),
-    receptionPhone: normalizeText(item.public_reception_phone || item.phone || item.phone_number || ""),
+    receptionPhone: normalizeText(
+      item.public_reception_phone || item.phone || item.phone_number || "",
+    ),
     email: normalizeText(item.email || ""),
     biographyUrl: `https://www.gov.kz/memleket/entities/shymkent/about/structure/people/${item.id}?lang=en`,
     generalInfo,
     careerHistory,
     career: [generalInfo, careerHistory].filter(Boolean).join("\n"),
     detail: [generalInfo, careerHistory].filter(Boolean).join("\n"),
-    responsibilities: htmlToText(item.cur_directions?.items?.map((entry) => entry.title || entry.name).join("\n") || ""),
+    responsibilities: htmlToText(
+      item.cur_directions?.items
+        ?.map((entry) => entry.title || entry.name)
+        .join("\n") || "",
+    ),
   };
 }
 
@@ -208,6 +230,7 @@ async function main() {
   const existing = readExistingPayload();
   const existingPeople = existing?.people || [];
   const response = await fetch(API_URL, {
+    signal: AbortSignal.timeout(45000),
     headers: {
       accept: "application/json",
       "accept-language": "en",
@@ -216,7 +239,9 @@ async function main() {
   });
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch ${API_URL}: ${response.status} ${response.statusText}`);
+    throw new Error(
+      `Failed to fetch ${API_URL}: ${response.status} ${response.statusText}`,
+    );
   }
 
   const data = await response.json();
@@ -233,8 +258,11 @@ async function main() {
     people,
   };
 
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  fs.writeFileSync(OUT_PATH, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+  publishJsonSafely(OUT_PATH, payload, {
+    collectionSucceeded: true,
+    itemsKey: "people",
+    rejectEmpty: true,
+  });
 }
 
 main().catch((error) => {

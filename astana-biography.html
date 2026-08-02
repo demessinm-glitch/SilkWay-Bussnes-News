@@ -40,6 +40,7 @@
       <p>丝路译讯</p>
     </footer>
 
+    <script src="assets/js/legacy-profile.js"></script>
     <script>
       function escapeHtml(value) {
         return String(value || "")
@@ -88,8 +89,11 @@
           ? `<img src="${escapeHtml(person.photo)}" alt="${escapeHtml(person.name)}" loading="lazy" />`
           : `<span>${escapeHtml(initials(person.name))}</span>`;
         const displayName = person.nameZh || person.name;
-        const displayPosition = person.positionZh || person.position || "职务待同步";
-        const sourceUrl = person.biographyUrl || "https://www.gov.kz/memleket/entities/astana/about/structure/people/307?lang=en";
+        const displayPosition =
+          person.positionZh || person.position || "职务待同步";
+        const sourceUrl =
+          person.biographyUrl ||
+          "https://www.gov.kz/memleket/entities/astana/about/structure/people/307?lang=en";
 
         document.getElementById("source-note").innerHTML = `
           本页面内容翻译自原网站，中文翻译仅供参考。来源：
@@ -133,7 +137,9 @@
       }
 
       async function loadData() {
-        const response = await fetch("data/astana-structure.json", { cache: "no-store" });
+        const response = await fetch("data/astana-structure.json", {
+          cache: "no-store",
+        });
         if (!response.ok) throw new Error(response.statusText);
         return response.json();
       }
@@ -142,7 +148,11 @@
         .then((data) => {
           const people = Array.isArray(data.people) ? data.people : [];
           const selectedId = new URLSearchParams(location.search).get("id");
-          const person = people.find((item) => slugify(item.name) === selectedId) || people[0];
+          const person = window.LegacyProfile.resolveLegacyPerson(
+            people,
+            selectedId,
+            slugify,
+          );
           document.title = `${person?.nameZh || person?.name || "人员履历"} | 丝路译讯`;
           document.getElementById("biography-shell").innerHTML = person
             ? renderPerson(person)

@@ -1,8 +1,11 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const { publishJsonSafely } = require("./lib/storage");
 
-const SOURCE_URL = "https://www.gov.kz/memleket/entities/almaty/about/structure?lang=en";
-const API_URL = "https://www.gov.kz/api/v1/public/content-manager/curators?projects=almaty&lang=en";
+const SOURCE_URL =
+  "https://www.gov.kz/memleket/entities/almaty/about/structure?lang=en";
+const API_URL =
+  "https://www.gov.kz/api/v1/public/content-manager/curators?projects=almaty&lang=en";
 const OUT_PATH = path.join(__dirname, "..", "data", "almaty-people.json");
 const DISCLAIMER = "本页面内容翻译自原网站，中文翻译仅供参考";
 
@@ -143,16 +146,26 @@ function readExistingPayload() {
 }
 
 function mergeChineseFields(person, existingPeople) {
-  const existing = existingPeople.find((item) => Number(item.id) === Number(person.id)) || {};
+  const existing =
+    existingPeople.find((item) => Number(item.id) === Number(person.id)) || {};
   const curated = CHINESE_FIELDS[person.id] || {};
-  const generalInfoZh = curated.generalInfoZh || existing.generalInfoZh || "暂无中文翻译，请参阅英文原文。";
-  const careerHistoryZh = curated.careerHistoryZh || existing.careerHistoryZh || "暂无中文翻译，请参阅英文原文。";
+  const generalInfoZh =
+    curated.generalInfoZh ||
+    existing.generalInfoZh ||
+    "暂无中文翻译，请参阅英文原文。";
+  const careerHistoryZh =
+    curated.careerHistoryZh ||
+    existing.careerHistoryZh ||
+    "暂无中文翻译，请参阅英文原文。";
 
   return {
     ...person,
     nameZh: curated.nameZh || existing.nameZh || person.name,
     positionZh: curated.positionZh || existing.positionZh || person.position,
-    workScopeZh: curated.workScopeZh || existing.workScopeZh || "官方页面未列出单独工作范围。",
+    workScopeZh:
+      curated.workScopeZh ||
+      existing.workScopeZh ||
+      "官方页面未列出单独工作范围。",
     generalInfoZh,
     careerHistoryZh,
     detailZh: [generalInfoZh, careerHistoryZh].filter(Boolean).join("\n"),
@@ -161,8 +174,12 @@ function mergeChineseFields(person, existingPeople) {
 }
 
 function mapPerson(item) {
-  const name = normalizeText([item.lastname, item.name, item.middlename].filter(Boolean).join(" "));
-  const position = normalizeText(item.position || item.level?.items?.[0]?.position || "");
+  const name = normalizeText(
+    [item.lastname, item.name, item.middlename].filter(Boolean).join(" "),
+  );
+  const position = normalizeText(
+    item.position || item.level?.items?.[0]?.position || "",
+  );
   const generalInfo = htmlToText(item.biography || "");
   const careerHistory = htmlToText(item.biography_details || "");
 
@@ -173,14 +190,20 @@ function mapPerson(item) {
     order: item.order || "",
     photo: absoluteGovUrl(item.photo),
     phone: normalizeText(item.phone || item.phone_number || ""),
-    receptionPhone: normalizeText(item.public_reception_phone || item.phone || item.phone_number || ""),
+    receptionPhone: normalizeText(
+      item.public_reception_phone || item.phone || item.phone_number || "",
+    ),
     email: normalizeText(item.email || ""),
     biographyUrl: `https://www.gov.kz/memleket/entities/almaty/about/structure/people/${item.id}?lang=en`,
     generalInfo,
     careerHistory,
     career: [generalInfo, careerHistory].filter(Boolean).join("\n"),
     detail: [generalInfo, careerHistory].filter(Boolean).join("\n"),
-    responsibilities: htmlToText(item.cur_directions?.items?.map((entry) => entry.title || entry.name).join("\n") || ""),
+    responsibilities: htmlToText(
+      item.cur_directions?.items
+        ?.map((entry) => entry.title || entry.name)
+        .join("\n") || "",
+    ),
   };
 }
 
@@ -200,6 +223,7 @@ async function main() {
   const existing = readExistingPayload();
   const existingPeople = existing?.people || [];
   const response = await fetch(API_URL, {
+    signal: AbortSignal.timeout(45000),
     headers: {
       accept: "application/json",
       "accept-language": "en",
@@ -208,7 +232,9 @@ async function main() {
   });
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch ${API_URL}: ${response.status} ${response.statusText}`);
+    throw new Error(
+      `Failed to fetch ${API_URL}: ${response.status} ${response.statusText}`,
+    );
   }
 
   const data = await response.json();
@@ -225,8 +251,11 @@ async function main() {
     people,
   };
 
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  fs.writeFileSync(OUT_PATH, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+  publishJsonSafely(OUT_PATH, payload, {
+    collectionSucceeded: true,
+    itemsKey: "people",
+    rejectEmpty: true,
+  });
 }
 
 main().catch((error) => {
