@@ -1,16 +1,18 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-08-02T16-29-04-322Z",
-  "startedAt": "2026-08-02T16:29:04.322Z",
-  "finishedAt": "2026-08-02T16:29:06.138Z",
+  "runId": "2026-08-02T18-03-33-369Z",
+  "startedAt": "2026-08-02T18:03:33.369Z",
+  "finishedAt": "2026-08-02T18:05:07.973Z",
   "status": "success_with_warnings",
   "sources": [
     {
       "sourceId": "adilet-legal",
-      "status": "success",
-      "fetched": 30,
-      "accepted": 30,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": [
+        "fetch failed"
+      ]
     },
     {
       "sourceId": "kursiv-kz",
@@ -27,13 +29,14 @@
       "errors": []
     }
   ],
-  "collected": 69,
+  "collected": 39,
   "deduplicated": 30,
-  "aiRequests": 0,
-  "publishedNews": 0,
+  "aiRequests": 25,
+  "publishedNews": 12,
   "warnings": [
-    "AI translation skipped: OPENAI_API_KEY or OPENAI_MODEL is not configured",
-    "30 articles remain untranslated or failed"
+    "5 articles remain untranslated or failed"
   ],
-  "errors": []
+  "errors": [
+    "fetch failed"
+  ]
 }
