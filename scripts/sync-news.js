@@ -95,6 +95,20 @@ function recentEnough(article, now = Date.now()) {
   );
 }
 
+function prepareCandidates(articles, now = Date.now()) {
+  const nowMs = now instanceof Date ? now.getTime() : Number(now);
+  const collectedAt = new Date(nowMs).toISOString();
+  return deduplicateArticles(articles)
+    .filter((article) => article.publishedAt && recentEnough(article, nowMs))
+    .filter(isBusinessRelevant)
+    .map((article) => ({
+      ...article,
+      contentHash: contentHash(article),
+      collectedAt,
+    }))
+    .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+}
+
 function mergeLatest(existing, daily, generatedAt) {
   const byId = new Map();
   for (const item of [...daily, ...(existing.items || [])]) {
@@ -126,16 +140,10 @@ async function syncNews(options = {}) {
   const collectionSucceeded = collection.sources.some(
     (source) => source.status === "success",
   );
-  const candidates = deduplicateArticles(collection.articles)
-    .filter(
-      (article) =>
-        article.publishedAt && recentEnough(article, options.now || Date.now()),
-    )
-    .map((article) => ({
-      ...article,
-      contentHash: contentHash(article),
-      collectedAt: new Date().toISOString(),
-    }));
+  const candidates = prepareCandidates(
+    collection.articles,
+    options.now || Date.now(),
+  );
 
   const translated = [];
   const untranslated = [];
@@ -261,6 +269,7 @@ module.exports = {
   collectSources,
   contentHash,
   mergeLatest,
+  prepareCandidates,
   recentEnough,
   safeError,
   syncNews,

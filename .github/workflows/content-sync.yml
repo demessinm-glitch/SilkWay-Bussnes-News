@@ -20,6 +20,7 @@ jobs:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
       MAX_AI_REQUESTS_PER_RUN: "25"
+      MAX_TENDER_AI_REQUESTS_PER_RUN: "6"
       DAILY_MIN_NEWS: "3"
       DAILY_MAX_NEWS: "12"
       TZ: Asia/Almaty
@@ -40,6 +41,7 @@ jobs:
       - run: npm test
       - run: npm run sync:news
       - run: npm run sync:officials
+      - run: npm run sync:tenders
       - run: npx prettier --write data logs
       - run: npm run validate:data
       - name: Commit verified data changes

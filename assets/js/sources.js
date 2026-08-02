@@ -5,6 +5,7 @@
   const typeNames = {
     official: "官方来源",
     business_media: "商业媒体",
+    legal: "法规数据库",
     legal_database: "法规数据库",
   };
   const text = (tag, value, className) => {
@@ -24,7 +25,7 @@
   ])
     .then(([sources, build]) => {
       root.replaceChildren();
-      for (const source of sources.filter((item) => item.enabled)) {
+      for (const source of sources) {
         const article = document.createElement("article");
         article.className = "source-card";
         article.append(
@@ -32,7 +33,9 @@
           text("h2", source.nameZh || source.name),
           text(
             "p",
-            `获取方式：${source.adapter === "rss" ? "RSS 订阅" : "公开 HTML 列表"}。只索引标题、日期、摘要和原始链接。`,
+            source.enabled
+              ? `获取方式：${source.adapter === "rss" ? "RSS 订阅" : "公开 HTML 列表"}。只索引标题、日期、摘要和原始链接。`
+              : `暂未自动采集：${source.disabledReasonZh || "来源当前未通过自动采集安全检查。"}`,
           ),
         );
         const link = text("a", "访问来源 ↗");

@@ -27,8 +27,8 @@ test("production deployment targets only oguz.kz on Hoster.kz", () => {
   const contentSync = read(".github/workflows/content-sync.yml");
   assert.match(contentSync, /npm run sync:news/);
   assert.match(contentSync, /npm run sync:officials/);
+  assert.match(contentSync, /npm run sync:tenders/);
   assert.match(contentSync, /prettier --write data logs/);
-  assert.doesNotMatch(contentSync, /sync:tenders/);
 
   const robots = read("robots.txt");
   const sitemap = read("sitemap.xml");

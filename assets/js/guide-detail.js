@@ -70,11 +70,25 @@
       dl.append(wrap);
     }
     info.append(dl);
-    const link = text("a", "打开官方来源 ↗", "source-button");
-    link.href = guide.sourceUrl;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    info.append(link);
+    const officialSources = guide.officialSources || [
+      {
+        nameZh: guide.sourceName || "官方来源",
+        url: guide.sourceUrl,
+        verifiedAt: guide.lastReviewedAt,
+      },
+    ];
+    const sourceList = document.createElement("div");
+    sourceList.className = "official-source-list";
+    for (const source of officialSources) {
+      const link = text("a", `${source.nameZh} ↗`, "source-button");
+      link.href = source.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      if (source.verifiedAt)
+        link.title = `核验时间：${new Date(source.verifiedAt).toLocaleString("zh-CN", { timeZone: "Asia/Almaty" })}`;
+      sourceList.append(link);
+    }
+    info.append(sourceList);
     const warning = document.createElement("div");
     warning.className = "info-box";
     warning.append(text("h2", "重要提示"), text("p", disclaimer));

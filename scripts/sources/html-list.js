@@ -9,10 +9,38 @@ function normalizeText(value = "") {
 
 function parseDate(value) {
   const text = normalizeText(value);
-  const match = text.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
-  if (!match) return null;
-  const [, day, month, year] = match;
-  return `${year}-${month}-${day}T00:00:00+05:00`;
+  if (!text) return null;
+  if (/^\d{4}-\d{2}-\d{2}T/.test(text)) {
+    return Number.isNaN(new Date(text).getTime()) ? null : text;
+  }
+
+  const numeric = text.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
+  if (numeric) {
+    const [, day, month, year] = numeric;
+    return `${year}-${month}-${day}T00:00:00+05:00`;
+  }
+
+  const months = {
+    января: "01",
+    февраля: "02",
+    марта: "03",
+    апреля: "04",
+    мая: "05",
+    июня: "06",
+    июля: "07",
+    августа: "08",
+    сентября: "09",
+    октября: "10",
+    ноября: "11",
+    декабря: "12",
+  };
+  const russian = text.match(
+    /^(?:(\d{1,2}):(\d{2}),?\s*)?(\d{1,2})\s+([а-яё]+)\s+(\d{4})(?:\s+года)?(?:,\s*(\d{1,2}):(\d{2}))?$/iu,
+  );
+  if (!russian || !months[russian[4].toLowerCase()]) return null;
+  const hour = russian[1] || russian[6] || "0";
+  const minute = russian[2] || russian[7] || "0";
+  return `${russian[5]}-${months[russian[4].toLowerCase()]}-${String(russian[3]).padStart(2, "0")}T${String(hour).padStart(2, "0")}:${String(minute).padStart(2, "0")}:00+05:00`;
 }
 
 function resolveLink($, element, selector) {
@@ -35,6 +63,10 @@ function parseHtmlList(html, source) {
     const href = resolveLink($, element, selectors.link);
     if (!titleOriginal || !href) return;
 
+    const dateElement = $(element).find(selectors.date).first();
+    const dateValue = selectors.dateAttr
+      ? dateElement.attr(selectors.dateAttr)
+      : dateElement.text();
     items.push({
       sourceId: source.id,
       sourceName: source.name,
@@ -44,7 +76,7 @@ function parseHtmlList(html, source) {
       summaryOriginal: normalizeText(
         $(element).find(selectors.summary).first().text(),
       ),
-      publishedAt: parseDate($(element).find(selectors.date).first().text()),
+      publishedAt: parseDate(dateValue),
       languageOriginal: source.language || "ru",
       sourceType: source.type,
       copyrightMode: source.copyrightMode,

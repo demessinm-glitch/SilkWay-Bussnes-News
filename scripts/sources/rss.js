@@ -22,8 +22,8 @@ async function parseRss(xml, source) {
       sourceName: source.name,
       sourceNameZh: source.nameZh,
       sourceType: source.type,
-      sourceUrl: item.link,
-      externalId: item.guid || item.id || item.link,
+      sourceUrl: String(item.link || "").trim(),
+      externalId: String(item.guid || item.id || item.link || "").trim(),
       titleOriginal: String(item.title || "").trim(),
       summaryOriginal: textFromHtml(
         item.contentSnippet ||

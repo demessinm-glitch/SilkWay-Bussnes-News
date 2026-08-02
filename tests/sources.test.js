@@ -24,3 +24,36 @@ test("source registry has enabled official, business and legal feeds", () => {
     assert.ok(source.copyrightMode);
   }
 });
+
+test("source registry contains every user-requested Kazakhstan outlet", () => {
+  const sources = JSON.parse(
+    fs.readFileSync(
+      path.join(__dirname, "..", "data", "config", "sources.json"),
+      "utf8",
+    ),
+  );
+  const byId = new Map(sources.map((source) => [source.id, source]));
+  const requestedIds = [
+    "forbes-kz",
+    "kapital-kz",
+    "inbusiness-kz",
+    "zakon-kz",
+    "nurfin-kz",
+    "orda-kz",
+    "vlast-kz",
+    "egov-news",
+    "akorda-kz",
+    "informburo-kz",
+    "qaj-kz",
+    "mfa-kz",
+  ];
+
+  for (const id of requestedIds) assert.ok(byId.has(id), `missing ${id}`);
+  assert.equal(byId.get("qaj-kz").enabled, false);
+  assert.match(byId.get("qaj-kz").disabledReason, /TLS/i);
+  assert.ok(
+    requestedIds
+      .filter((id) => id !== "qaj-kz")
+      .every((id) => byId.get(id).enabled),
+  );
+});

@@ -274,6 +274,17 @@
   font-size: 13px;
   font-weight: 700;
 }
+.official-source-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 18px;
+}
+.official-source-list .source-button {
+  min-height: 40px;
+  margin-top: 0;
+  font-size: 11px;
+  line-height: 1.45;
+}
 
 .region-tabs {
   display: flex;
