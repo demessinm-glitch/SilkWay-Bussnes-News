@@ -40,6 +40,7 @@ jobs:
       - run: npm test
       - run: npm run sync:news
       - run: npm run sync:officials
+      - run: npx prettier --write data logs
       - run: npm run validate:data
       - name: Commit verified data changes
         shell: bash
