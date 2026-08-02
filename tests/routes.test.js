@@ -15,6 +15,7 @@ test("required Chinese routes exist while legacy city URLs stay available", () =
     "guide-detail.html",
     "tenders.html",
     "sources.html",
+    "services.html",
     "about.html",
     "404.html",
   ];

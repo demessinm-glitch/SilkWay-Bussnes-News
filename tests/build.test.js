@@ -9,6 +9,7 @@ test("static build includes public pages and excludes source-only or secret file
   const destination = fs.mkdtempSync(path.join(os.tmpdir(), "silkroad-dist-"));
   buildSite(path.join(__dirname, ".."), destination);
   assert.ok(fs.existsSync(path.join(destination, "index.html")));
+  assert.ok(fs.existsSync(path.join(destination, "services.html")));
   for (const legacyPage of [
     "almaty-json.html",
     "astana-json.html",
