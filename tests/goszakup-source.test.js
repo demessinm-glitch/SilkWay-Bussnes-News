@@ -9,6 +9,7 @@ const {
   parseAnnouncementOverview,
   parseLots,
   parseSearchResults,
+  selectTenderCandidates,
 } = require("../scripts/sources/goszakup");
 
 test("goszakup request gate respects the portal five-second crawl delay", async () => {
@@ -103,6 +104,33 @@ test("tender relevance keeps industrial opportunities and rejects routine suppli
       budgetAmount: 2318548,
     }),
     false,
+  );
+});
+
+test("candidate selection excludes archived notices before applying the verification limit", () => {
+  const candidate = (noticeNumber, minute) => ({
+    noticeNumber,
+    titleOriginal: `Поставка промышленного оборудования ${noticeNumber}`,
+    budgetAmount: 10000000,
+    deadline: `2026-08-10T08:${minute}:00+05:00`,
+  });
+  const selected = selectTenderCandidates(
+    [
+      candidate("17414985-1", "00"),
+      candidate("18000001-1", "01"),
+      candidate("18000002-1", "02"),
+      candidate("18000003-1", "03"),
+    ],
+    {
+      now: new Date("2026-08-03T00:00:00Z"),
+      maxCandidates: 2,
+      excludeNoticeNumbers: ["17414985-1"],
+    },
+  );
+
+  assert.deepEqual(
+    selected.map((item) => item.noticeNumber),
+    ["18000001-1", "18000002-1"],
   );
 });
 

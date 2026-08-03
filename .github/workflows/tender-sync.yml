@@ -1,27 +1,30 @@
-name: Automatic content synchronization
+name: Daily tender synchronization
 
 on:
   schedule:
-    - cron: "15 1,7,13 * * *"
+    - cron: "30 2 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: content-sync
+  group: tender-sync
   cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
-      MAX_AI_REQUESTS_PER_RUN: "25"
-      DAILY_MIN_NEWS: "3"
-      DAILY_MAX_NEWS: "12"
+      MAX_TENDER_AI_REQUESTS_PER_RUN: "20"
+      TENDER_SEARCH_COUNT: "100"
+      TENDER_MAX_CANDIDATES_PER_RUN: "30"
+      TENDER_DAILY_MAX: "20"
+      TENDER_ARCHIVE_MAX_ITEMS: "200"
+      NODE_OPTIONS: --use-system-ca
       TZ: Asia/Almaty
     steps:
       - uses: actions/checkout@v7
@@ -38,19 +41,19 @@ jobs:
           test -n "$OPENAI_MODEL" || { echo "OPENAI_MODEL secret is missing"; exit 1; }
       - run: npm ci
       - run: npm test
-      - run: npm run sync:news
-      - run: npm run sync:officials
-      - run: npx prettier --write data logs
+      - run: npm run sync:tenders
+      - run: npx prettier --write data/tenders/latest.json data/meta/build.json
       - run: npm run validate:data
-      - name: Commit verified data changes
+      - name: Commit verified tender changes
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data logs
+          git add data/tenders/latest.json data/meta/build.json
           if git diff --cached --quiet; then
-            echo "No publishable changes"
+            echo "No publishable tender changes"
           else
-            git commit -m "chore(data): automatic content update"
+            git commit -m "chore(tenders): automatic daily update"
+            git pull --rebase origin main
             git push
           fi

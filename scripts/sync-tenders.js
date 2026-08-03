@@ -47,11 +47,38 @@ async function syncTenders(options = {}) {
     generatedAt: null,
     items: [],
   });
+  const maxCandidates = Math.max(
+    1,
+    Number(
+      options.maxCandidates ?? process.env.TENDER_MAX_CANDIDATES_PER_RUN ?? 30,
+    ),
+  );
+  const searchCount = Math.max(
+    maxCandidates,
+    Number(options.searchCount ?? process.env.TENDER_SEARCH_COUNT ?? 100),
+  );
+  const dailyMax = Math.max(
+    1,
+    Number(options.dailyMax ?? process.env.TENDER_DAILY_MAX ?? 20),
+  );
+  const archiveMaxItems = Math.max(
+    dailyMax,
+    Number(
+      options.archiveMaxItems ?? process.env.TENDER_ARCHIVE_MAX_ITEMS ?? 200,
+    ),
+  );
   const collect = options.collect || collectVerifiedTenderFacts;
   const translate = options.translate || translateTender;
   let collection;
   try {
-    collection = await collect(options.collection || {});
+    collection = await collect({
+      ...(options.collection || {}),
+      count: options.collection?.count ?? searchCount,
+      maxCandidates: options.collection?.maxCandidates ?? maxCandidates,
+      excludeNoticeNumbers:
+        options.collection?.excludeNoticeNumbers ??
+        existing.items.map((item) => item.noticeNumber),
+    });
   } catch (error) {
     return {
       status: "success_with_warnings",
@@ -71,13 +98,16 @@ async function syncTenders(options = {}) {
   );
   const maxAiRequests = Math.max(
     0,
-    Number(process.env.MAX_TENDER_AI_REQUESTS_PER_RUN || 6),
+    Number(
+      options.maxAiRequests ?? process.env.MAX_TENDER_AI_REQUESTS_PER_RUN ?? 6,
+    ),
   );
   const fresh = [];
   const errors = [...collection.errors];
   let aiRequests = 0;
 
   for (const facts of collection.facts) {
+    if (fresh.length >= dailyMax) break;
     try {
       const existingItem = existingById.get(facts.search.noticeNumber);
       let translation = reusableTranslation(existingItem, facts);
@@ -143,7 +173,7 @@ async function syncTenders(options = {}) {
   const next = mergeTenderRecords(existing, fresh, {
     generatedAt,
     now: options.now || new Date(),
-    maxItems: options.maxItems || 30,
+    maxItems: options.maxItems || archiveMaxItems,
   });
   publishJsonSafely(filePath, next, {
     collectionSucceeded: true,

@@ -5,7 +5,8 @@ on:
     branches: [main]
   workflow_dispatch:
   workflow_run:
-    workflows: ["Automatic content synchronization"]
+    workflows:
+      ["Automatic content synchronization", "Daily tender synchronization"]
     types: [completed]
 
 permissions:

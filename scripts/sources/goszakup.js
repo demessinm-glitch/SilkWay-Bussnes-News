@@ -176,6 +176,24 @@ function isTenderRelevant(item) {
   return !ROUTINE_SUPPLIES.test(text) && BUSINESS_TENDER_SIGNALS.test(text);
 }
 
+function selectTenderCandidates(searchResults, options = {}) {
+  const now = options.now || new Date();
+  const excluded = new Set(
+    (options.excludeNoticeNumbers || []).map((noticeNumber) =>
+      String(noticeNumber),
+    ),
+  );
+  return searchResults
+    .filter(
+      (item) =>
+        !excluded.has(item.noticeNumber) &&
+        item.deadline &&
+        new Date(item.deadline) > now &&
+        isTenderRelevant(item),
+    )
+    .slice(0, Math.max(1, Number(options.maxCandidates) || 8));
+}
+
 function inferRegionZh(text) {
   return (
     REGION_NAMES.find(([pattern]) => pattern.test(text || ""))?.[1] ||
@@ -320,14 +338,7 @@ async function collectVerifiedTenderFacts(options = {}) {
     requestOptions,
   );
   const searchResults = parseSearchResults(searchHtml);
-  const candidates = searchResults
-    .filter(
-      (item) =>
-        item.deadline &&
-        new Date(item.deadline) > now &&
-        isTenderRelevant(item),
-    )
-    .slice(0, Math.max(1, Number(options.maxCandidates) || 8));
+  const candidates = selectTenderCandidates(searchResults, { ...options, now });
   const facts = [];
   const errors = [];
 
@@ -380,6 +391,7 @@ module.exports = {
   parseAnnouncementOverview,
   parseLots,
   parseSearchResults,
+  selectTenderCandidates,
   statusFromDeadline,
   translateMethod,
 };
