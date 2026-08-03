@@ -50,3 +50,28 @@ test("tender AI input clearly delimits untrusted source content", () => {
   assert.match(input, /^SOURCE_CONTENT_START/);
   assert.match(input, /SOURCE_CONTENT_END$/);
 });
+
+test("tender translator rejects Cyrillic leakage in Chinese presentation fields", async () => {
+  const client = {
+    responses: {
+      create: async () => ({
+        output_text: JSON.stringify({
+          titleZh: "为 заказ方 配套工业设备",
+          summaryZh: "该公告采购工业设备，具体要求及申请条件请查看官方公告。",
+          buyerZh: "哈萨克斯坦采购方",
+        }),
+      }),
+    },
+  };
+
+  await assert.rejects(
+    translateTender(
+      {
+        titleOriginal: "Поставка промышленного оборудования",
+        buyerOriginal: "Заказчик",
+      },
+      { client, model: "test-model" },
+    ),
+    /Cyrillic/i,
+  );
+});

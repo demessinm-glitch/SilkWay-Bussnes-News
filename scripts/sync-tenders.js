@@ -5,6 +5,7 @@ const { publishJsonSafely, readJson } = require("./lib/storage");
 const {
   buildTenderRecord,
   collectVerifiedTenderFacts,
+  isTenderPublishable,
   mergeTenderRecords,
 } = require("./sources/goszakup");
 
@@ -47,6 +48,7 @@ async function syncTenders(options = {}) {
     generatedAt: null,
     items: [],
   });
+  const publishableExistingItems = existing.items.filter(isTenderPublishable);
   const maxCandidates = Math.max(
     1,
     Number(
@@ -77,7 +79,7 @@ async function syncTenders(options = {}) {
       maxCandidates: options.collection?.maxCandidates ?? maxCandidates,
       excludeNoticeNumbers:
         options.collection?.excludeNoticeNumbers ??
-        existing.items.map((item) => item.noticeNumber),
+        publishableExistingItems.map((item) => item.noticeNumber),
     });
   } catch (error) {
     return {
@@ -94,7 +96,7 @@ async function syncTenders(options = {}) {
   }
 
   const existingById = new Map(
-    existing.items.map((item) => [item.noticeNumber, item]),
+    publishableExistingItems.map((item) => [item.noticeNumber, item]),
   );
   const maxAiRequests = Math.max(
     0,

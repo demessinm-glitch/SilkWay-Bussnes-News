@@ -147,14 +147,36 @@ test("daily tender sync verifies 30 candidates but publishes at most 20 new noti
 test("daily tender sync excludes already published notice IDs from collection", async () => {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), "existing-tenders-"));
   const filePath = path.join(directory, "latest.json");
+  const storedTender = (
+    noticeNumber,
+    titleOriginal = "Приобретение трансформатора",
+    buyerZh = "哈萨克斯坦采购方",
+  ) => ({
+    id: `goszakup-${noticeNumber}`,
+    noticeNumber,
+    titleOriginal,
+    titleZh: "采购变压器设备",
+    summaryZh: "该公告采购工业设备，具体要求和申请条件以官方公告为准。",
+    buyerZh,
+    budgetAmount: 8000000,
+  });
   fs.writeFileSync(
     filePath,
     JSON.stringify({
       schemaVersion: 1,
       generatedAt: "2026-08-02T02:00:00.000Z",
       items: [
-        { id: "goszakup-17414985-1", noticeNumber: "17414985-1" },
-        { id: "goszakup-17414962-1", noticeNumber: "17414962-1" },
+        storedTender("17414985-1"),
+        storedTender("17414962-1"),
+        storedTender(
+          "17417352-1",
+          "Приобретение промышленного оборудования",
+          "哈萨克斯坦 РГУ 采购方",
+        ),
+        storedTender(
+          "17417408-1",
+          "Услуги по страхованию транспортных средств",
+        ),
       ],
     }),
   );

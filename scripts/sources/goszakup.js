@@ -7,6 +7,8 @@ const BUSINESS_TENDER_SIGNALS =
   /энергоаудит|двигател|оборудован|станок|машин|техник|строител|реконструк|модерниз|инфраструктур|логист|транспорт|железнодорож|автомобил|инженер|проектирован|программ|сервер|компьютер|телеком|связ|электр|энерг|нефт|газ|промышлен|производ|монтаж|установк|консалт|аудит|лаборатор|металл|насос|генератор|трансформатор|вентиляц|водоснаб|канализац/iu;
 const ROUTINE_SUPPLIES =
   /питани|овощ|продукт|хозяйствен|канцеляр|мыло|салфет|медикамент|лекарств|одежд|обув|уголок сантехника/iu;
+const ROUTINE_LOCAL_SERVICES =
+  /страхован|(?:очистк|чистк|дезинфекц).{0,40}(?:вентиляц|дымоход)|лабораторн.{0,20}исследован|топлив.{0,30}автомоб|консервирован.{0,40}(?:водоочист|гемодиализ)/iu;
 
 const REGION_NAMES = [
   [/Жанааркин/iu, "乌勒套州"],
@@ -173,7 +175,25 @@ function parseLots(html) {
 function isTenderRelevant(item) {
   if (Number(item.budgetAmount) < 1_000_000) return false;
   const text = `${item.titleOriginal || ""} ${item.itemOriginal || ""} ${item.detailOriginal || ""}`;
-  return !ROUTINE_SUPPLIES.test(text) && BUSINESS_TENDER_SIGNALS.test(text);
+  return (
+    !ROUTINE_SUPPLIES.test(text) &&
+    !ROUTINE_LOCAL_SERVICES.test(text) &&
+    BUSINESS_TENDER_SIGNALS.test(text)
+  );
+}
+
+function isChineseTenderPresentation(item) {
+  const fields = [item.titleZh, item.summaryZh, item.buyerZh];
+  return fields.every(
+    (field) =>
+      typeof field === "string" &&
+      /[\u3400-\u9fff]/u.test(field) &&
+      !/[А-Яа-яЁё]/u.test(field),
+  );
+}
+
+function isTenderPublishable(item) {
+  return isTenderRelevant(item) && isChineseTenderPresentation(item);
 }
 
 function selectTenderCandidates(searchResults, options = {}) {
@@ -278,6 +298,7 @@ function mergeTenderRecords(existing, fresh, options = {}) {
     schemaVersion: 1,
     generatedAt: options.generatedAt || new Date().toISOString(),
     items: [...byId.values()]
+      .filter(isTenderPublishable)
       .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
       .slice(0, maxItems),
   };
@@ -384,6 +405,8 @@ module.exports = {
   createRequestGate,
   fetchTextWithRetry,
   inferRegionZh,
+  isChineseTenderPresentation,
+  isTenderPublishable,
   isTenderRelevant,
   mergeTenderRecords,
   parseAlmatyDate,

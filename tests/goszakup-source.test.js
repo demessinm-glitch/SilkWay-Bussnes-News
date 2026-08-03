@@ -107,6 +107,23 @@ test("tender relevance keeps industrial opportunities and rejects routine suppli
   );
 });
 
+test("China-focused tender relevance rejects routine local services", () => {
+  for (const titleOriginal of [
+    "Услуги по обязательному страхованию владельцев транспортных средств",
+    "Услуги по очистке и дезинфекции вентиляционных систем",
+    "Лабораторные исследования в системе инфекционного контроля",
+    "Услуги по чистке дымоходов и вентиляционных каналов",
+    "Приобретение топлива для автомобилей Дизель",
+    "Консервирование системы водоочистки гемодиализного оборудования",
+  ]) {
+    assert.equal(
+      isTenderRelevant({ titleOriginal, budgetAmount: 8000000 }),
+      false,
+      titleOriginal,
+    );
+  }
+});
+
 test("candidate selection excludes archived notices before applying the verification limit", () => {
   const candidate = (noticeNumber, minute) => ({
     noticeNumber,
@@ -174,4 +191,55 @@ test("failed or empty collection does not erase previous tender records", () => 
 
   assert.equal(merged.items.length, 1);
   assert.equal(merged.generatedAt, existing.generatedAt);
+});
+
+test("tender merge removes routine services and Cyrillic-leaking Chinese records", () => {
+  const item = (id, titleOriginal, titleZh, buyerZh = "哈萨克斯坦采购方") => ({
+    id,
+    noticeNumber: id.replace("goszakup-", ""),
+    titleOriginal,
+    titleZh,
+    summaryZh: "该公告面向具备供货能力的企业，具体要求以官方公告为准。",
+    buyerZh,
+    budgetAmount: 8000000,
+    publishedAt: "2026-08-03T07:00:00+05:00",
+    deadline: "2026-08-10T08:00:00+05:00",
+    status: "open",
+  });
+  const existing = {
+    schemaVersion: 1,
+    generatedAt: "2026-08-03T08:00:00.000Z",
+    items: [
+      item(
+        "goszakup-18000001-1",
+        "Услуги по страхованию транспортных средств",
+        "车辆保险服务",
+      ),
+      item(
+        "goszakup-18000002-1",
+        "Приобретение трансформатора",
+        "采购变压器",
+        "哈萨克斯坦 РГУ 采购方",
+      ),
+      item("goszakup-18000003-1", "Приобретение компьютеров", "采购计算机设备"),
+    ],
+  };
+  const fresh = [
+    item(
+      "goszakup-18000004-1",
+      "Двигатель DONGFENG в сборе с установкой",
+      "采购东风发动机总成及安装服务",
+    ),
+  ];
+
+  const merged = mergeTenderRecords(existing, fresh, {
+    generatedAt: "2026-08-03T09:00:00.000Z",
+    now: new Date("2026-08-03T00:00:00Z"),
+    maxItems: 20,
+  });
+
+  assert.deepEqual(merged.items.map((record) => record.id).sort(), [
+    "goszakup-18000003-1",
+    "goszakup-18000004-1",
+  ]);
 });
