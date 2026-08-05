@@ -76,7 +76,7 @@ test("service page exposes direct contacts and a regulated-service boundary", ()
   assert.match(html, /href="tel:\+8617800510472"/);
   assert.match(html, /href="tel:\+77056124666"/);
   assert.match(html, /Megan17800510472/);
-  assert.match(html, /href="mailto:agent@oguz\.kz"/);
+  assert.match(html, /href="mailto:demessinm@gmail\.com"/);
   assert.match(html, /持牌专业人士和合作伙伴/);
 
   for (const officialUrl of [
@@ -87,4 +87,134 @@ test("service page exposes direct contacts and a regulated-service boundary", ()
   ]) {
     assert.ok(html.includes(officialUrl), `${officialUrl} is missing`);
   }
+});
+
+test("service inquiry form sends a short Chinese brief to the project mailbox", () => {
+  const html = fs.readFileSync(path.join(root, "services.html"), "utf8");
+  const form =
+    html.match(/<form[^>]*data-service-inquiry[\s\S]*?<\/form>/)?.[0] || "";
+
+  assert.match(form, /method="post"/);
+  assert.match(form, /action="https:\/\/formsubmit\.co\/demessinm@gmail\.com"/);
+  assert.match(form, /name="公司名称"[^>]*required/);
+  assert.match(form, /name="姓名"[^>]*required/);
+  assert.match(form, /name="微信或电话"[^>]*required/);
+  assert.match(form, /name="服务类型"/);
+  assert.match(form, /name="项目说明"[^>]*required/);
+  assert.match(form, /name="隐私同意"[^>]*required/);
+  assert.match(form, /name="_honey"/);
+  assert.match(form, /name="_honey"[^>]*aria-hidden="true"/);
+  assert.match(
+    form,
+    /<input[^>]*name="_next"[^>]*value="https:\/\/oguz\.kz\/thanks\.html"[^>]*>/,
+  );
+  assert.match(
+    form,
+    /<input[^>]*name="_subject"[^>]*value="来自 oguz\.kz 的新中文业务咨询"[^>]*>/,
+  );
+  assert.match(form, /由 FormSubmit\s+转发至公司邮箱/);
+  assert.match(form, /请勿在此发送护照、银行卡或其他敏感资料/);
+  assert.match(form, /https:\/\/formsubmit\.co\/privacy\.pdf/);
+});
+
+test("every visible service phone matches its click-to-call target", () => {
+  const html = fs.readFileSync(path.join(root, "services.html"), "utf8");
+  const phoneLinks = [
+    ...html.matchAll(/<a href="tel:([^"]+)"[^>]*>([\s\S]*?)<\/a>/g),
+  ];
+
+  assert.equal(phoneLinks.length, 5);
+  for (const [, target, content] of phoneLinks) {
+    const targetDigits = target.replace(/\D/g, "");
+    const visibleDigits = content.replace(/<[^>]+>/g, "").replace(/\D/g, "");
+    assert.doesNotMatch(target, /\*/);
+    assert.ok(targetDigits.endsWith(visibleDigits));
+  }
+});
+
+test("service page presents the supplied company, team, clients, and project experience", () => {
+  const html = fs.readFileSync(path.join(root, "services.html"), "utf8");
+
+  assert.match(html, /SilkWayBrief 有限责任合伙企业/);
+  assert.match(html, /2022\s+年/);
+  for (const office of ["阿斯塔纳总部", "上海办公室", "阿拉木图办公室"]) {
+    assert.match(html, new RegExp(office));
+  }
+
+  assert.equal((html.match(/data-team-member/g) || []).length, 3);
+  for (const contact of [
+    "Кочейев Михайл",
+    "ЯнМингЧин",
+    "Демесин Мухаммед",
+    "tel:+77056124666",
+    "mailto:rossur@gmail.com",
+    "tel:+8617800510472",
+    "mailto:1227353115@qq.com",
+    "tel:+77078969805",
+    "mailto:demessinm@gmail.com",
+  ]) {
+    assert.ok(html.includes(contact), `${contact} is missing`);
+  }
+
+  for (const client of [
+    "LongJiang",
+    "LeHu",
+    "BrothersWindows",
+    "ShangHaiConstraction",
+  ]) {
+    assert.match(html, new RegExp(client));
+  }
+
+  for (const experience of [
+    "克孜勒奥尔达—杰兹卡兹甘公路",
+    "科克萨赖大坝",
+    "铝合金窗生产项目",
+    "咨询、翻译与文件递交",
+  ]) {
+    assert.match(html, new RegExp(experience));
+  }
+});
+
+test("service page uses local licensed scene imagery without impersonating team members", () => {
+  const html = fs.readFileSync(path.join(root, "services.html"), "utf8");
+  const imagePaths = [
+    "assets/images/services/team-meeting-pexels-7652246.jpg",
+    "assets/images/services/modern-office-pexels-7534178.jpg",
+  ];
+
+  for (const imagePath of imagePaths) {
+    assert.ok(
+      fs.existsSync(path.join(root, imagePath)),
+      `${imagePath} is missing`,
+    );
+    assert.ok(html.includes(imagePath), `${imagePath} is not rendered`);
+  }
+  assert.equal((html.match(/data-stock-image/g) || []).length, 2);
+  assert.match(html, /示意图片，不代表公司实际办公室或员工/);
+  assert.match(
+    html,
+    /pexels\.com\/photo\/a-group-of-people-having-a-meeting-in-the-office-7652246/,
+  );
+  assert.match(
+    html,
+    /pexels\.com\/photo\/new-office-with-modern-interior-7534178/,
+  );
+
+  const memberCards =
+    html.match(
+      /<article class="service-team-card" data-team-member>[\s\S]*?<\/article>/g,
+    ) || [];
+  assert.equal(memberCards.length, 3);
+  assert.ok(memberCards.every((card) => !card.includes("<img")));
+});
+
+test("successful inquiries return to a private Chinese confirmation page", () => {
+  const confirmationPath = path.join(root, "thanks.html");
+  assert.ok(fs.existsSync(confirmationPath), "thanks.html is missing");
+
+  const html = fs.readFileSync(confirmationPath, "utf8");
+  assert.match(html, /name="robots" content="noindex,follow"/);
+  assert.match(html, /您的项目需求已发送/);
+  assert.match(html, /我们会通过您留下的联系方式回复/);
+  assert.match(html, /href="services\.html"/);
 });
