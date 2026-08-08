@@ -7,6 +7,7 @@ const FILES = [
   ["data/tenders/latest.json", "data/schemas/tenders.schema.json"],
   ["data/guides/index.json", "data/schemas/guides.schema.json"],
   ["data/meta/build.json", "data/schemas/build.schema.json"],
+  ["data/directory/cities.json", "data/schemas/cities.schema.json"],
   ["data/directory/regions.json", "data/schemas/regions.schema.json"],
   [
     "data/directory/organizations.json",

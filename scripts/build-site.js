@@ -31,6 +31,7 @@ function buildSite(
     if (!entry.isFile()) continue;
     if (
       entry.name.endsWith(".html") ||
+      entry.name.endsWith(".php") ||
       entry.name.endsWith(".css") ||
       PUBLIC_ROOT_FILES.has(entry.name)
     ) {

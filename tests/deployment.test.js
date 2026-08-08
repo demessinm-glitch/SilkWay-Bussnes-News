@@ -22,6 +22,7 @@ test("production deployment targets only oguz.kz on Hoster.kz", () => {
   assert.match(workflow, /Daily tender synchronization/);
   assert.match(workflow, /checkout -B production/);
   assert.match(workflow, /push --force origin production/);
+  assert.match(workflow, /php -l contact\.php/);
   assert.doesNotMatch(workflow, /HOSTER_FTP_PASSWORD|lftp/);
   assert.doesNotMatch(workflow, /actions\/deploy-pages/);
 

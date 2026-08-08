@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://silkroadbrief.local/schemas/organizations.schema.json",
+  "$id": "https://silkroadbrief.local/schemas/cities.schema.json",
   "type": "object",
   "required": ["schemaVersion", "generatedAt", "items"],
   "properties": {
@@ -8,8 +8,8 @@
     "generatedAt": { "type": "string", "format": "date-time" },
     "items": {
       "type": "array",
-      "minItems": 5,
-      "items": { "$ref": "#/$defs/organization" }
+      "minItems": 3,
+      "items": { "$ref": "#/$defs/city" }
     }
   },
   "additionalProperties": false,
@@ -19,43 +19,37 @@
       "format": "uri",
       "pattern": "^https://"
     },
-    "organization": {
+    "city": {
       "type": "object",
       "required": [
         "id",
-        "group",
-        "nameOriginal",
-        "nameZh",
-        "categoryZh",
-        "scopeZh",
+        "cityOriginal",
+        "cityZh",
+        "positionZh",
+        "akimName",
+        "akimNameZh",
         "addressOriginal",
         "addressZh",
         "phone",
         "websiteUrl",
-        "sourceUrl",
+        "profileSourceUrl",
+        "contactSourceUrl",
         "verifiedAt"
       ],
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
-        "group": {
-          "enum": [
-            "diplomacy",
-            "migration",
-            "investment",
-            "public-service",
-            "business-support"
-          ]
-        },
-        "nameOriginal": { "type": "string", "minLength": 3 },
-        "nameZh": { "type": "string", "minLength": 2 },
-        "categoryZh": { "type": "string", "minLength": 2 },
-        "scopeZh": { "type": "string", "minLength": 8 },
+        "cityOriginal": { "type": "string", "minLength": 3 },
+        "cityZh": { "type": "string", "minLength": 2 },
+        "positionZh": { "type": "string", "minLength": 3 },
+        "akimName": { "type": "string", "minLength": 3 },
+        "akimNameZh": { "type": "string", "minLength": 2 },
         "addressOriginal": { "type": "string", "minLength": 8 },
         "addressZh": { "type": "string", "minLength": 8 },
         "phone": { "type": "string", "pattern": "^\\+7[0-9 ()-]+$" },
         "email": { "type": "string" },
         "websiteUrl": { "$ref": "#/$defs/httpsUrl" },
-        "sourceUrl": { "$ref": "#/$defs/httpsUrl" },
+        "profileSourceUrl": { "$ref": "#/$defs/httpsUrl" },
+        "contactSourceUrl": { "$ref": "#/$defs/httpsUrl" },
         "verifiedAt": { "type": "string", "format": "date-time" }
       },
       "additionalProperties": false

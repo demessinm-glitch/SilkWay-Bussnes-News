@@ -36,6 +36,44 @@ test("remaining regional akimats expose source-backed leaders and public contact
   }
 });
 
+test("additional major city akimats expose current officials and source-backed contacts", () => {
+  const data = read("data/directory/cities.json");
+  assert.equal(data.schemaVersion, 1);
+  assert.equal(data.items.length, 8);
+  assert.equal(
+    new Set(data.items.map((item) => item.id)).size,
+    data.items.length,
+  );
+  for (const city of data.items) {
+    assert.ok(city.cityOriginal);
+    assert.ok(city.cityZh);
+    assert.ok(city.akimName);
+    assert.ok(city.akimNameZh);
+    assert.ok(city.positionZh);
+    assert.ok(city.addressOriginal);
+    assert.ok(city.addressZh);
+    assert.match(city.phone, /^\+7[\d ()-]{8,}$/);
+    officialHttps(city.websiteUrl, `${city.id} websiteUrl`);
+    officialHttps(city.profileSourceUrl, `${city.id} profileSourceUrl`);
+    officialHttps(city.contactSourceUrl, `${city.id} contactSourceUrl`);
+    assert.match(city.verifiedAt, /^\d{4}-\d{2}-\d{2}T/);
+  }
+
+  const ids = new Set(data.items.map((item) => item.id));
+  for (const required of [
+    "karaganda-city",
+    "aktobe-city",
+    "atyrau-city",
+    "aktau-city",
+    "pavlodar-city",
+    "semey-city",
+    "taraz-city",
+    "turkestan-city",
+  ]) {
+    assert.ok(ids.has(required), `${required} is missing`);
+  }
+});
+
 test("business support directory contains public official contact channels", () => {
   const data = read("data/directory/organizations.json");
   assert.equal(data.schemaVersion, 1);
@@ -49,13 +87,50 @@ test("business support directory contains public official contact channels", () 
     assert.match(organization.phone, /^\+7[\d ()-]{8,}$/);
     assert.match(organization.websiteUrl, /^https:\/\//);
     assert.match(organization.sourceUrl, /^https:\/\//);
+    assert.ok(organization.group);
+    assert.match(organization.verifiedAt, /^\d{4}-\d{2}-\d{2}T/);
+  }
+
+  const ids = new Set(data.items.map((item) => item.id));
+  for (const required of [
+    "prc-embassy-kazakhstan",
+    "prc-consulate-general-almaty",
+    "kazakhstan-mfa",
+    "investment-committee",
+    "migration-service-committee",
+    "egov-contact-center",
+    "astana-migration-psc",
+    "almaty-migration-psc",
+    "shymkent-migration-psc",
+    "atyrau-migration-psc",
+    "taraz-migration-psc",
+    "aktau-migration-psc",
+  ]) {
+    assert.ok(ids.has(required), `${required} is missing`);
+  }
+
+  const groups = new Set(data.items.map((item) => item.group));
+  for (const required of [
+    "diplomacy",
+    "migration",
+    "investment",
+    "public-service",
+    "business-support",
+  ]) {
+    assert.ok(groups.has(required), `${required} group is missing`);
   }
 });
 
 test("officials page loads regional and business contact directories", () => {
   const page = fs.readFileSync(path.join(root, "officials.html"), "utf8");
+  assert.match(page, /id="city-directory"/);
   assert.match(page, /id="regional-directory"/);
   assert.match(page, /id="business-directory"/);
+  assert.match(page, /data-institution-filter="all"/);
+  assert.match(page, /data-institution-filter="migration"/);
+  assert.match(page, /data-institution-filter="diplomacy"/);
+  assert.match(page, /data-institution-filter="investment"/);
+  assert.match(page, /data-institution-filter="business-support"/);
   assert.match(page, /assets\/js\/directory\.js/);
 });
 

@@ -5,6 +5,7 @@ const { FILES, validateAll } = require("../scripts/validate-data");
 
 test("validation registry covers every public directory feed", () => {
   const registered = new Set(FILES.map(([dataPath]) => dataPath));
+  assert.ok(registered.has("data/directory/cities.json"));
   assert.ok(registered.has("data/directory/regions.json"));
   assert.ok(registered.has("data/directory/organizations.json"));
 });

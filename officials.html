@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta
       name="description"
-      content="哈萨克斯坦各州政府、官员与企业服务机构公开联系目录。"
+      content="哈萨克斯坦重点城市、州政府、移民、外交与投资机构公开联系目录。"
     />
     <title>政府机构与官员｜丝路译讯</title>
     <link
@@ -60,7 +60,7 @@
             </p>
             <h1>政府机构与官员</h1>
             <p class="page-hero-copy">
-              从官方公开页面整理城市与州级政府负责人、地址、电话，以及面向企业的公共服务机构。中文姓名以人工修订为优先。
+              为在哈中国企业整理城市负责人、移民服务、外交领事、投资促进和公共服务联系入口。每张卡片均保留官方来源。
             </p>
           </div>
           <aside class="page-hero-aside">
@@ -69,7 +69,25 @@
           </aside>
         </div>
       </section>
-      <section class="page-section shell">
+      <nav class="directory-quick-nav shell" aria-label="政府机构目录快速入口">
+        <a href="#direct-cities"
+          ><span>01</span><strong>三座直辖市</strong
+          ><small>负责人详细资料</small></a
+        >
+        <a href="#major-cities"
+          ><span>02</span><strong>其他重点城市</strong
+          ><small>市长与市政府联系</small></a
+        >
+        <a href="#regions"
+          ><span>03</span><strong>17个州</strong
+          ><small>州长与州政府联系</small></a
+        >
+        <a href="#institutions"
+          ><span>04</span><strong>办事机构</strong
+          ><small>移民、外交与投资</small></a
+        >
+      </nav>
+      <section class="page-section shell" id="direct-cities">
         <div class="section-heading directory-heading">
           <div>
             <p class="section-index">01 / 重点城市</p>
@@ -103,11 +121,39 @@
           aria-busy="true"
         ></div>
       </section>
-      <section class="page-section directory-band">
+      <section class="page-section directory-city-band" id="major-cities">
         <div class="shell">
           <div class="section-heading directory-heading">
             <div>
-              <p class="section-index">02 / 各州政府</p>
+              <p class="section-index">02 / 其他重点城市</p>
+              <h2>市长与市政府联系方式</h2>
+            </div>
+            <p>
+              补充重要工业、物流和区域中心城市；任职信息以官员资料链接为准。
+            </p>
+          </div>
+          <div class="directory-toolbar">
+            <label for="city-directory-search">搜索城市或市长</label>
+            <input
+              id="city-directory-search"
+              type="search"
+              placeholder="例如：卡拉干达 / 阿克套"
+            />
+            <p id="city-directory-meta">正在加载重点城市目录…</p>
+          </div>
+          <div
+            class="contact-directory city-directory"
+            id="city-directory"
+            aria-live="polite"
+            aria-busy="true"
+          ></div>
+        </div>
+      </section>
+      <section class="page-section directory-band" id="regions">
+        <div class="shell">
+          <div class="section-heading directory-heading">
+            <div>
+              <p class="section-index">03 / 各州政府</p>
               <h2>州长与州政府联系方式</h2>
             </div>
             <p>
@@ -131,16 +177,40 @@
           ></div>
         </div>
       </section>
-      <section class="page-section shell">
+      <section class="page-section shell" id="institutions">
         <div class="section-heading directory-heading">
           <div>
-            <p class="section-index">03 / 企业服务</p>
-            <h2>商业与投资支持机构</h2>
+            <p class="section-index">04 / 办事机构</p>
+            <h2>外交、移民与投资服务机构</h2>
           </div>
-          <p>投资落地、企业融资、出口和商会服务的官方联系入口。</p>
+          <p>按实际任务筛选中国驻哈机构、哈萨克斯坦主管部门和企业支持平台。</p>
+        </div>
+        <div
+          class="institution-filter"
+          role="group"
+          aria-label="按机构类型筛选"
+        >
+          <button class="is-active" type="button" data-institution-filter="all">
+            全部
+          </button>
+          <button type="button" data-institution-filter="migration">
+            移民与证件
+          </button>
+          <button type="button" data-institution-filter="diplomacy">
+            外交与领事
+          </button>
+          <button type="button" data-institution-filter="investment">
+            投资落地
+          </button>
+          <button type="button" data-institution-filter="public-service">
+            公共服务
+          </button>
+          <button type="button" data-institution-filter="business-support">
+            企业支持
+          </button>
         </div>
         <p class="directory-status" id="business-directory-meta">
-          正在加载企业服务机构…
+          正在加载办事机构…
         </p>
         <div
           class="contact-directory business-directory"
@@ -148,6 +218,9 @@
           aria-live="polite"
           aria-busy="true"
         ></div>
+        <p class="directory-disclaimer">
+          电话、地址和负责人可能调整。出发前请点击“官方网站”再次确认；紧急情况请使用机构公布的紧急渠道。
+        </p>
       </section>
     </main>
     <footer class="site-footer">

@@ -89,32 +89,52 @@ test("service page exposes direct contacts and a regulated-service boundary", ()
   }
 });
 
-test("service inquiry form sends a short Chinese brief to the project mailbox", () => {
+test("service inquiry form posts to the same-origin handler with polished inline feedback", () => {
   const html = fs.readFileSync(path.join(root, "services.html"), "utf8");
   const form =
     html.match(/<form[^>]*data-service-inquiry[\s\S]*?<\/form>/)?.[0] || "";
 
   assert.match(form, /method="post"/);
-  assert.match(form, /action="https:\/\/formsubmit\.co\/demessinm@gmail\.com"/);
-  assert.match(form, /name="公司名称"[^>]*required/);
-  assert.match(form, /name="姓名"[^>]*required/);
-  assert.match(form, /name="微信或电话"[^>]*required/);
-  assert.match(form, /name="服务类型"/);
-  assert.match(form, /name="项目说明"[^>]*required/);
-  assert.match(form, /name="隐私同意"[^>]*required/);
+  assert.match(form, /action="contact\.php"/);
+  assert.match(form, /name="company"[^>]*required/);
+  assert.match(form, /name="name"[^>]*required/);
+  assert.match(form, /name="contact"[^>]*required/);
+  assert.match(form, /name="service"/);
+  assert.match(form, /name="message"[^>]*required/);
+  assert.match(form, /name="consent"[^>]*required/);
   assert.match(form, /name="_honey"/);
   assert.match(form, /name="_honey"[^>]*aria-hidden="true"/);
-  assert.match(
-    form,
-    /<input[^>]*name="_next"[^>]*value="https:\/\/oguz\.kz\/thanks\.html"[^>]*>/,
-  );
-  assert.match(
-    form,
-    /<input[^>]*name="_subject"[^>]*value="来自 oguz\.kz 的新中文业务咨询"[^>]*>/,
-  );
-  assert.match(form, /由 FormSubmit\s+转发至公司邮箱/);
+  assert.match(form, /data-contact-submit/);
+  assert.match(form, /data-form-status[^>]*role="status"/);
+  assert.match(html, /assets\/js\/contact-form\.js/);
+  assert.match(form, /demessinm@gmail\.com/);
+  assert.match(form, /1227353115@qq\.com/);
   assert.match(form, /请勿在此发送护照、银行卡或其他敏感资料/);
-  assert.match(form, /https:\/\/formsubmit\.co\/privacy\.pdf/);
+  assert.doesNotMatch(form, /FormSubmit|formsubmit\.co/i);
+});
+
+test("contact handler validates submissions and delivers to both requested mailboxes", () => {
+  const handlerPath = path.join(root, "contact.php");
+  assert.ok(fs.existsSync(handlerPath), "contact.php is missing");
+  const handler = fs.readFileSync(handlerPath, "utf8");
+
+  assert.match(handler, /demessinm@gmail\.com/);
+  assert.match(handler, /1227353115@qq\.com/);
+  assert.match(handler, /contact@oguz\.kz/);
+  assert.match(handler, /mail\s*\(/);
+  assert.match(handler, /function_exists\s*\(\s*["']mail["']\s*\)/);
+  assert.match(handler, /FILTER_VALIDATE_EMAIL/);
+  assert.match(handler, /hash\s*\(\s*["']sha256["']/);
+  assert.match(handler, /\b429\b/);
+  assert.match(handler, /\b502\b/);
+  assert.match(handler, /json_encode/);
+  assert.match(handler, /postedText\s*\(\s*["']_honey["']\s*\)/);
+  assert.match(handler, /header\s*\(\s*["']Location:/);
+  assert.doesNotMatch(handler, /FormSubmit|formsubmit\.co/i);
+  assert.doesNotMatch(
+    handler,
+    /:\s*never\b|str_starts_with\s*\(|str_contains\s*\(/,
+  );
 });
 
 test("every visible service phone matches its click-to-call target", () => {
@@ -175,7 +195,7 @@ test("service page presents the supplied company, team, clients, and project exp
   }
 });
 
-test("service page uses local licensed scene imagery without impersonating team members", () => {
+test("service page uses an image-free trust design without stock impersonation", () => {
   const html = fs.readFileSync(path.join(root, "services.html"), "utf8");
   const imagePaths = [
     "assets/images/services/team-meeting-pexels-7652246.jpg",
@@ -183,22 +203,10 @@ test("service page uses local licensed scene imagery without impersonating team 
   ];
 
   for (const imagePath of imagePaths) {
-    assert.ok(
-      fs.existsSync(path.join(root, imagePath)),
-      `${imagePath} is missing`,
-    );
-    assert.ok(html.includes(imagePath), `${imagePath} is not rendered`);
+    assert.equal(fs.existsSync(path.join(root, imagePath)), false);
+    assert.ok(!html.includes(imagePath), `${imagePath} must not be rendered`);
   }
-  assert.equal((html.match(/data-stock-image/g) || []).length, 2);
-  assert.match(html, /示意图片，不代表公司实际办公室或员工/);
-  assert.match(
-    html,
-    /pexels\.com\/photo\/a-group-of-people-having-a-meeting-in-the-office-7652246/,
-  );
-  assert.match(
-    html,
-    /pexels\.com\/photo\/new-office-with-modern-interior-7534178/,
-  );
+  assert.doesNotMatch(html, /data-stock-image|pexels\.com/i);
 
   const memberCards =
     html.match(

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/pages.css" />
     <script src="assets/js/app.js" defer></script>
+    <script src="assets/js/contact-form.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">跳至主要内容</a>
@@ -600,48 +601,6 @@
             </article>
           </div>
 
-          <div class="service-scene-grid">
-            <figure class="service-scene service-scene-wide" data-stock-image>
-              <img
-                src="assets/images/services/team-meeting-pexels-7652246.jpg"
-                alt="亚洲商务团队在办公室交流的场景示意图"
-                width="1600"
-                height="1067"
-                loading="lazy"
-              />
-              <figcaption>
-                <span>跨境沟通与项目协作</span>
-                <a
-                  href="https://www.pexels.com/photo/a-group-of-people-having-a-meeting-in-the-office-7652246/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Pexels 素材来源 ↗</a
-                >
-              </figcaption>
-            </figure>
-            <figure class="service-scene" data-stock-image>
-              <img
-                src="assets/images/services/modern-office-pexels-7534178.jpg"
-                alt="现代办公与会议空间的场景示意图"
-                width="1600"
-                height="1068"
-                loading="lazy"
-              />
-              <figcaption>
-                <span>阿斯塔纳、上海、阿拉木图协作</span>
-                <a
-                  href="https://www.pexels.com/photo/new-office-with-modern-interior-7534178/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Pexels 素材来源 ↗</a
-                >
-              </figcaption>
-            </figure>
-          </div>
-          <p class="service-stock-disclaimer">
-            示意图片，不代表公司实际办公室或员工。团队人员以姓名和联系方式为准。
-          </p>
-
           <div class="service-trust-columns">
             <section
               class="service-experience-panel"
@@ -776,19 +735,13 @@
               class="service-inquiry-form"
               data-service-inquiry
               method="post"
-              action="https://formsubmit.co/demessinm@gmail.com"
+              action="contact.php"
             >
-              <input
-                type="hidden"
-                name="_subject"
-                value="来自 oguz.kz 的新中文业务咨询"
-              />
-              <input type="hidden" name="_template" value="table" />
-              <input
-                type="hidden"
-                name="_next"
-                value="https://oguz.kz/thanks.html"
-              />
+              <div class="service-form-recipients">
+                <span>同步发送至</span>
+                <strong>demessinm@gmail.com</strong>
+                <strong>1227353115@qq.com</strong>
+              </div>
               <input
                 class="form-honey"
                 type="text"
@@ -802,29 +755,40 @@
                   <span>公司名称 *</span>
                   <input
                     type="text"
-                    name="公司名称"
+                    name="company"
                     required
+                    minlength="2"
+                    maxlength="160"
                     autocomplete="organization"
                   />
                 </label>
                 <label>
                   <span>姓名 *</span>
-                  <input type="text" name="姓名" required autocomplete="name" />
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    minlength="2"
+                    maxlength="100"
+                    autocomplete="name"
+                  />
                 </label>
               </div>
               <label>
                 <span>微信、电话或邮箱 *</span>
                 <input
                   type="text"
-                  name="微信或电话"
+                  name="contact"
                   required
+                  minlength="3"
+                  maxlength="200"
                   autocomplete="tel"
                   placeholder="请留下方便联系的方式"
                 />
               </label>
               <label>
                 <span>需要哪项服务？</span>
-                <select name="服务类型">
+                <select name="service">
                   <option value="市场进入咨询">市场进入咨询</option>
                   <option value="公司注册与运营">公司注册与运营</option>
                   <option value="招投标支持">招投标支持</option>
@@ -836,32 +800,31 @@
               <label>
                 <span>项目说明 *</span>
                 <textarea
-                  name="项目说明"
+                  name="message"
                   required
                   rows="5"
-                  maxlength="2000"
+                  minlength="10"
+                  maxlength="3000"
                   placeholder="请说明项目、城市、期限和已有文件"
                 ></textarea>
               </label>
               <label class="service-form-consent">
-                <input
-                  type="checkbox"
-                  name="隐私同意"
-                  required
-                  value="已同意"
-                />
+                <input type="checkbox" name="consent" required value="yes" />
                 <span>我同意所填信息仅用于回复本次业务咨询。</span>
               </label>
-              <button type="submit">发送项目需求 →</button>
+              <button type="submit" data-contact-submit>
+                <span>发送项目需求</span><b aria-hidden="true">→</b>
+              </button>
+              <div
+                class="service-form-status"
+                data-form-status
+                role="status"
+                aria-live="polite"
+                hidden
+              ></div>
               <small>
-                表单由 FormSubmit
-                转发至公司邮箱；请勿在此发送护照、银行卡或其他敏感资料。
-                <a
-                  href="https://formsubmit.co/privacy.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >查看 FormSubmit 隐私政策 ↗</a
-                >
+                表单由 oguz.kz
+                服务器直接处理并发送至上述两个邮箱；请勿在此发送护照、银行卡或其他敏感资料。
               </small>
             </form>
           </aside>

@@ -30,6 +30,8 @@ jobs:
           node-version: "24"
           cache: npm
       - run: npm ci
+      - name: Validate contact endpoint
+        run: php -l contact.php
       - run: npm test
       - run: npm run validate:data
       - run: npm run build

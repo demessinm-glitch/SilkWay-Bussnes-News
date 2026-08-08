@@ -10,6 +10,7 @@ test("static build includes public pages and excludes source-only or secret file
   buildSite(path.join(__dirname, ".."), destination);
   assert.ok(fs.existsSync(path.join(destination, "index.html")));
   assert.ok(fs.existsSync(path.join(destination, "services.html")));
+  assert.ok(fs.existsSync(path.join(destination, "contact.php")));
   for (const legacyPage of [
     "almaty-json.html",
     "astana-json.html",
@@ -34,6 +35,9 @@ test("static build includes public pages and excludes source-only or secret file
   assert.ok(fs.existsSync(path.join(destination, "data/news/latest.json")));
   assert.ok(
     fs.existsSync(path.join(destination, "data/directory/regions.json")),
+  );
+  assert.ok(
+    fs.existsSync(path.join(destination, "data/directory/cities.json")),
   );
   assert.ok(
     fs.existsSync(path.join(destination, "data/directory/organizations.json")),
