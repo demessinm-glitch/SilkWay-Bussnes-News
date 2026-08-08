@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-08-08T04-39-08-684Z",
-  "startedAt": "2026-08-08T04:39:08.684Z",
-  "finishedAt": "2026-08-08T04:41:14.586Z",
+  "runId": "2026-08-08T09-21-55-295Z",
+  "startedAt": "2026-08-08T09:21:55.295Z",
+  "finishedAt": "2026-08-08T09:24:18.998Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -21,10 +21,10 @@
     },
     {
       "sourceId": "egov-news",
-      "status": "success",
-      "fetched": 10,
-      "accepted": 10,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["Attribute without value\nLine: 0\nColumn: 3406\nChar: i"]
     },
     {
       "sourceId": "forbes-kz",
@@ -91,10 +91,10 @@
     },
     {
       "sourceId": "vlast-kz",
-      "status": "success",
-      "fetched": 30,
-      "accepted": 30,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["This operation was aborted"]
     },
     {
       "sourceId": "zakon-kz",
@@ -104,10 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 247,
-  "deduplicated": 93,
+  "collected": 207,
+  "deduplicated": 65,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["68 articles remain untranslated or failed"],
-  "errors": ["fetch failed"]
+  "warnings": ["40 articles remain untranslated or failed"],
+  "errors": [
+    "fetch failed",
+    "Attribute without value\nLine: 0\nColumn: 3406\nChar: i",
+    "This operation was aborted"
+  ]
 }
