@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-08-10T06-02-00-516Z",
+  "startedAt": "2026-08-10T06:02:00.516Z",
+  "finishedAt": "2026-08-10T06:04:25.005Z",
+  "status": "success_with_warnings",
+  "sources": [
+    {
+      "sourceId": "adilet-legal",
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["fetch failed"]
+    },
+    {
+      "sourceId": "akorda-kz",
+      "status": "success",
+      "fetched": 9,
+      "accepted": 9,
+      "errors": []
+    },
+    {
+      "sourceId": "egov-news",
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["Attribute without value\nLine: 0\nColumn: 3406\nChar: i"]
+    },
+    {
+      "sourceId": "forbes-kz",
+      "status": "success",
+      "fetched": 18,
+      "accepted": 18,
+      "errors": []
+    },
+    {
+      "sourceId": "inbusiness-kz",
+      "status": "success",
+      "fetched": 30,
+      "accepted": 30,
+      "errors": []
+    },
+    {
+      "sourceId": "informburo-kz",
+      "status": "success",
+      "fetched": 20,
+      "accepted": 20,
+      "errors": []
+    },
+    {
+      "sourceId": "kapital-kz",
+      "status": "success",
+      "fetched": 17,
+      "accepted": 17,
+      "errors": []
+    },
+    {
+      "sourceId": "kursiv-kz",
+      "status": "success",
+      "fetched": 30,
+      "accepted": 30,
+      "errors": []
+    },
+    {
+      "sourceId": "mfa-kz",
+      "status": "success",
+      "fetched": 30,
+      "accepted": 30,
+      "errors": []
+    },
+    {
+      "sourceId": "nurfin-kz",
+      "status": "success",
+      "fetched": 20,
+      "accepted": 20,
+      "errors": []
+    },
+    {
+      "sourceId": "orda-kz",
+      "status": "success",
+      "fetched": 10,
+      "accepted": 10,
+      "errors": []
+    },
+    {
+      "sourceId": "primeminister-kz",
+      "status": "success",
+      "fetched": 9,
+      "accepted": 9,
+      "errors": []
+    },
+    {
+      "sourceId": "vlast-kz",
+      "status": "success",
+      "fetched": 30,
+      "accepted": 30,
+      "errors": []
+    },
+    {
+      "sourceId": "zakon-kz",
+      "status": "success",
+      "fetched": 1,
+      "accepted": 1,
+      "errors": []
+    }
+  ],
+  "collected": 224,
+  "deduplicated": 40,
+  "aiRequests": 25,
+  "publishedNews": 12,
+  "warnings": ["15 articles remain untranslated or failed"],
+  "errors": [
+    "fetch failed",
+    "Attribute without value\nLine: 0\nColumn: 3406\nChar: i"
+  ]
+}
