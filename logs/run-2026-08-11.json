@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-08-11T04-56-49-994Z",
-  "startedAt": "2026-08-11T04:56:49.994Z",
-  "finishedAt": "2026-08-11T04:58:58.836Z",
+  "runId": "2026-08-11T10-16-21-994Z",
+  "startedAt": "2026-08-11T10:16:21.994Z",
+  "finishedAt": "2026-08-11T10:19:23.294Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -24,7 +24,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["Attribute without value\nLine: 0\nColumn: 3406\nChar: i"]
+      "errors": ["Attribute without value\nLine: 0\nColumn: 3312\nChar: i"]
     },
     {
       "sourceId": "forbes-kz",
@@ -42,10 +42,10 @@
     },
     {
       "sourceId": "informburo-kz",
-      "status": "success",
-      "fetched": 20,
-      "accepted": 20,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["Unclosed root tag\nLine: 457\nColumn: 35\nChar: "]
     },
     {
       "sourceId": "kapital-kz",
@@ -104,13 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 237,
-  "deduplicated": 59,
+  "collected": 217,
+  "deduplicated": 89,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["34 articles remain untranslated or failed"],
+  "warnings": ["64 articles remain untranslated or failed"],
   "errors": [
     "fetch failed",
-    "Attribute without value\nLine: 0\nColumn: 3406\nChar: i"
+    "Attribute without value\nLine: 0\nColumn: 3312\nChar: i",
+    "Unclosed root tag\nLine: 457\nColumn: 35\nChar: "
   ]
 }
