@@ -76,7 +76,7 @@
         >
         <a href="#major-cities"
           ><span>02</span><strong>其他重点城市</strong
-          ><small>市长与市政府联系</small></a
+          ><small>市长、副市长与市政府联系</small></a
         >
         <a href="#regions"
           ><span>03</span><strong>17个州</strong
@@ -126,27 +126,39 @@
           <div class="section-heading directory-heading">
             <div>
               <p class="section-index">02 / 其他重点城市</p>
-              <h2>市长与市政府联系方式</h2>
+              <h2>市政府官员资料</h2>
             </div>
             <p>
-              补充重要工业、物流和区域中心城市；任职信息以官员资料链接为准。
+              按城市查看市长（阿基姆）、副市长和市政府办公室主任；人员顺序以官方结构页面为准。
             </p>
           </div>
-          <div class="directory-toolbar">
-            <label for="city-directory-search">搜索城市或市长</label>
-            <input
-              id="city-directory-search"
-              type="search"
-              placeholder="例如：卡拉干达 / 阿克套"
-            />
+          <div
+            class="region-tabs major-city-tabs"
+            id="major-city-tabs"
+            role="tablist"
+            aria-label="选择其他重点城市"
+          ></div>
+          <div class="directory-meta major-city-meta">
             <p id="city-directory-meta">正在加载重点城市目录…</p>
+            <a
+              class="arrow-link"
+              id="major-city-website"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >打开市政府网站 →</a
+            >
           </div>
           <div
-            class="contact-directory city-directory"
+            class="official-grid city-official-grid"
             id="city-directory"
+            role="tabpanel"
             aria-live="polite"
             aria-busy="true"
           ></div>
+          <p class="directory-disclaimer directory-disclaimer-dark">
+            电话、地址和负责人可能调整。出发前请点击“官方网站”再次确认；紧急情况请使用机构公布的紧急渠道。
+          </p>
         </div>
       </section>
       <section class="page-section directory-band" id="regions">

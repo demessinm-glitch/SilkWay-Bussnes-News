@@ -44,6 +44,7 @@ test("additional major city akimats expose current officials and source-backed c
     new Set(data.items.map((item) => item.id)).size,
     data.items.length,
   );
+  const officialIds = [];
   for (const city of data.items) {
     assert.ok(city.cityOriginal);
     assert.ok(city.cityZh);
@@ -57,7 +58,66 @@ test("additional major city akimats expose current officials and source-backed c
     officialHttps(city.profileSourceUrl, `${city.id} profileSourceUrl`);
     officialHttps(city.contactSourceUrl, `${city.id} contactSourceUrl`);
     assert.match(city.verifiedAt, /^\d{4}-\d{2}-\d{2}T/);
+
+    assert.ok(
+      Array.isArray(city.officials) && city.officials.length >= 4,
+      `${city.id} must expose its akim, deputies, and chief of staff`,
+    );
+    assert.equal(
+      city.officials[0].role,
+      "akim",
+      `${city.id} akim must be first`,
+    );
+    assert.ok(
+      city.officials.some((official) => official.role === "deputy-akim"),
+      `${city.id} must expose at least one deputy akim`,
+    );
+    const roleRank = { akim: 0, "deputy-akim": 1, "chief-of-staff": 2 };
+    assert.deepEqual(
+      city.officials.map((official) => roleRank[official.role]),
+      city.officials
+        .map((official) => roleRank[official.role])
+        .toSorted((left, right) => left - right),
+      `${city.id} must order akim, deputy akims, then chief of staff`,
+    );
+    for (const official of city.officials) {
+      assert.ok(Number.isInteger(official.id) && official.id > 0);
+      officialIds.push(official.id);
+      assert.ok(official.nameOriginal);
+      assert.ok(official.nameZh);
+      assert.ok(official.positionOriginal);
+      assert.ok(official.positionZh);
+      assert.ok(
+        ["akim", "deputy-akim", "chief-of-staff"].includes(official.role),
+      );
+      assert.match(
+        official.photoUrl,
+        new RegExp(
+          `^assets/images/officials/cities/${city.id}-${official.id}\\.webp$`,
+        ),
+      );
+      const photoPath = path.join(root, official.photoUrl);
+      assert.ok(fs.existsSync(photoPath), `${official.photoUrl} must exist`);
+      assert.ok(fs.statSync(photoPath).size > 1_000);
+      officialHttps(
+        official.photoSourceUrl,
+        `${city.id}/${official.id} photoSourceUrl`,
+      );
+      officialHttps(
+        official.profileSourceUrl,
+        `${city.id}/${official.id} profileSourceUrl`,
+      );
+      assert.match(
+        official.profileSourceUrl,
+        new RegExp(`/people/${official.id}(?:\\?|$)`),
+      );
+    }
   }
+  assert.ok(
+    officialIds.length >= 40,
+    "major cities must expose full leadership",
+  );
+  assert.equal(new Set(officialIds).size, officialIds.length);
 
   const ids = new Set(data.items.map((item) => item.id));
   for (const required of [
@@ -132,6 +192,40 @@ test("officials page loads regional and business contact directories", () => {
   assert.match(page, /data-institution-filter="investment"/);
   assert.match(page, /data-institution-filter="business-support"/);
   assert.match(page, /assets\/js\/directory\.js/);
+});
+
+test("other major cities render tabbed photographic leadership profiles", () => {
+  const page = fs.readFileSync(path.join(root, "officials.html"), "utf8");
+  const script = fs.readFileSync(
+    path.join(root, "assets/js/directory.js"),
+    "utf8",
+  );
+
+  assert.match(page, /id="major-city-tabs"[^>]*role="tablist"/);
+  assert.match(page, /id="city-directory"[^>]*role="tabpanel"/);
+  assert.match(page, /<h2>市政府官员资料<\/h2>/);
+  assert.match(page, /class="official-grid city-official-grid"/);
+
+  assert.match(script, /item\.officials/);
+  assert.match(script, /className = "official-card city-official-card"/);
+  assert.match(script, /className = "official-photo"/);
+  assert.match(script, /official\.photoUrl/);
+  assert.match(script, /official\.profileSourceUrl/);
+  assert.match(script, /image\.loading = "lazy"/);
+  assert.match(script, /image\.width = 800/);
+  assert.match(script, /image\.height = 480/);
+  assert.match(script, /image\.referrerPolicy = "no-referrer"/);
+  assert.match(
+    script,
+    /tab\.setAttribute\("aria-controls", "city-directory"\)/,
+  );
+  assert.match(script, /tab\.tabIndex = item\.id === activeCityId \? 0 : -1/);
+  assert.match(script, /cityTabs\.addEventListener\("keydown"/);
+  assert.match(script, /selectedTab\?\.focus\(\)/);
+  assert.match(script, /const asciiEmailPattern/);
+  assert.match(script, /asciiEmailPattern\.test\(official\.email\)/);
+  assert.match(script, /官网原文/);
+  assert.doesNotMatch(script, /innerHTML\s*=/);
 });
 
 test("tender feed contains at least two traceable public notices", () => {

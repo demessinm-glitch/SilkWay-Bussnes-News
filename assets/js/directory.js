@@ -5,14 +5,18 @@
   if (!regionRoot || !cityRoot || !organizationRoot) return;
 
   const regionSearch = document.querySelector("#regional-directory-search");
-  const citySearch = document.querySelector("#city-directory-search");
+  const cityTabs = document.querySelector("#major-city-tabs");
+  const cityWebsite = document.querySelector("#major-city-website");
   const regionMeta = document.querySelector("#regional-directory-meta");
   const cityMeta = document.querySelector("#city-directory-meta");
   const organizationMeta = document.querySelector("#business-directory-meta");
   let regions = [];
   let cities = [];
   let organizations = [];
+  let activeCityId = "";
   let activeOrganizationGroup = "all";
+  const asciiEmailPattern =
+    /^[A-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
 
   const text = (tag, value, className) => {
     const node = document.createElement(tag);
@@ -79,39 +83,64 @@
     return article;
   }
 
-  function cityCard(item) {
+  function cityOfficialCard(official) {
     const article = document.createElement("article");
-    article.className = "contact-card city-contact-card";
-    article.append(
-      text("p", "重点城市 · 市政府", "contact-kicker"),
-      text("h3", item.cityZh),
-      text("p", item.cityOriginal, "contact-original"),
+    article.className = "official-card city-official-card";
+
+    const photo = document.createElement("div");
+    photo.className = "official-photo";
+    const image = document.createElement("img");
+    image.src = official.photoUrl;
+    image.alt = `${official.nameZh}，${official.positionZh}`;
+    image.width = 800;
+    image.height = 480;
+    image.loading = "lazy";
+    image.decoding = "async";
+    image.referrerPolicy = "no-referrer";
+    image.addEventListener("error", () => {
+      image.hidden = true;
+      photo.classList.add("is-unavailable");
+      photo.prepend(text("strong", "照片暂不可用", "official-photo-fallback"));
+    });
+    photo.append(image, text("span", "GOV.KZ", "official-photo-source"));
+
+    const body = document.createElement("div");
+    body.className = "official-body";
+    body.append(
+      text("h2", official.nameZh),
+      text("p", official.nameOriginal, "official-original"),
+      text("p", official.positionZh, "official-role"),
+      text("p", official.positionOriginal, "official-scope"),
     );
-    const leader = document.createElement("div");
-    leader.className = "contact-leader";
-    leader.append(
-      text("span", item.positionZh),
-      text("strong", item.akimNameZh),
-      text("small", item.akimName),
-    );
-    const details = document.createElement("dl");
-    details.append(
-      contactRow("地址", item.addressZh),
-      contactRow(
-        "电话",
-        item.phone,
-        `tel:${item.phone.replace(/[^+\d]/g, "")}`,
+
+    const contacts = document.createElement("div");
+    contacts.className = "official-contacts";
+    if (official.phone) {
+      const phone = text("a", official.phoneOriginal || official.phone);
+      phone.href = `tel:${official.phone}`;
+      phone.setAttribute("aria-label", `致电 ${official.nameZh}`);
+      contacts.append(phone);
+    }
+    if (official.email) {
+      if (asciiEmailPattern.test(official.email)) {
+        const email = text("a", official.email);
+        email.href = `mailto:${official.email}`;
+        contacts.append(email);
+      } else {
+        contacts.append(
+          text("span", `官网原文：${official.email}`, "official-email-source"),
+        );
+      }
+    }
+    if (contacts.childElementCount) body.append(contacts);
+    body.append(
+      externalLink(
+        "查看 GOV.KZ 官方资料 →",
+        official.profileSourceUrl,
+        "official-link",
       ),
     );
-    if (item.email)
-      details.append(contactRow("邮箱", item.email, `mailto:${item.email}`));
-    const actions = document.createElement("div");
-    actions.className = "contact-actions";
-    actions.append(
-      externalLink("市政府网站 ↗", item.websiteUrl),
-      externalLink("市长官方资料 ↗", item.profileSourceUrl),
-    );
-    article.append(leader, details, actions);
+    article.append(photo, body);
     return article;
   }
 
@@ -143,20 +172,48 @@
   }
 
   function renderCities() {
-    const query = citySearch.value.trim().toLocaleLowerCase("zh-CN");
-    const filtered = cities.filter((item) =>
-      [item.cityZh, item.cityOriginal, item.akimNameZh, item.akimName]
-        .filter(Boolean)
-        .join(" ")
-        .toLocaleLowerCase("zh-CN")
-        .includes(query),
-    );
-    cityRoot.replaceChildren(...filtered.map(cityCard));
-    cityMeta.textContent = `已核验 ${filtered.length} / ${cities.length} 个重点城市联系渠道`;
-    if (!filtered.length) {
+    const item = cities.find((city) => city.id === activeCityId);
+    if (!item) {
       cityRoot.append(
-        text("p", "没有符合搜索条件的城市。", "empty-state-inline"),
+        text("p", "重点城市资料暂时不可用。", "empty-state-inline"),
       );
+      return;
+    }
+    cityRoot.replaceChildren(...item.officials.map(cityOfficialCard));
+    const verified = new Intl.DateTimeFormat("zh-CN", {
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }).format(new Date(item.verifiedAt));
+    cityMeta.textContent = `${item.cityZh}（${item.cityOriginal}）· ${item.officials.length} 位官员 · 核验于 ${verified}`;
+    cityWebsite.href = item.websiteUrl;
+    cityWebsite.setAttribute("aria-label", `打开${item.cityZh}市政府官方网站`);
+    cityRoot.setAttribute("aria-labelledby", `major-city-tab-${item.id}`);
+  }
+
+  function renderCityTabs(focusActive = false) {
+    const tabs = cities.map((item) => {
+      const tab = text("button", item.cityZh, "region-tab");
+      const active = item.id === activeCityId;
+      tab.type = "button";
+      tab.id = `major-city-tab-${item.id}`;
+      tab.dataset.city = item.id;
+      tab.setAttribute("role", "tab");
+      tab.setAttribute("aria-controls", "city-directory");
+      tab.setAttribute("aria-selected", String(active));
+      tab.tabIndex = item.id === activeCityId ? 0 : -1;
+      tab.classList.toggle("is-active", active);
+      tab.addEventListener("click", () => {
+        activeCityId = item.id;
+        renderCityTabs(true);
+        renderCities();
+      });
+      return tab;
+    });
+    cityTabs.replaceChildren(...tabs);
+    if (focusActive) {
+      const selectedTab = cityTabs.querySelector('[aria-selected="true"]');
+      selectedTab?.focus();
     }
   }
 
@@ -204,7 +261,22 @@
   }
 
   regionSearch.addEventListener("input", renderRegions);
-  citySearch.addEventListener("input", renderCities);
+  cityTabs.addEventListener("keydown", (event) => {
+    if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+    const currentIndex = cities.findIndex((item) => item.id === activeCityId);
+    if (currentIndex < 0) return;
+    event.preventDefault();
+    let nextIndex = currentIndex;
+    if (event.key === "ArrowLeft")
+      nextIndex = (currentIndex - 1 + cities.length) % cities.length;
+    if (event.key === "ArrowRight")
+      nextIndex = (currentIndex + 1) % cities.length;
+    if (event.key === "Home") nextIndex = 0;
+    if (event.key === "End") nextIndex = cities.length - 1;
+    activeCityId = cities[nextIndex].id;
+    renderCityTabs(true);
+    renderCities();
+  });
   document.querySelectorAll("[data-institution-filter]").forEach((button) => {
     button.setAttribute(
       "aria-pressed",
@@ -228,6 +300,8 @@
     })
     .then((data) => {
       cities = data.items || [];
+      activeCityId = cities[0]?.id || "";
+      renderCityTabs();
       renderCities();
     })
     .catch(() => {

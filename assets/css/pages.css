@@ -519,6 +519,59 @@
   color: var(--ink);
   background: var(--white);
 }
+.directory-city-band .major-city-tabs .region-tab {
+  color: #fff;
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.34);
+}
+.directory-city-band .major-city-tabs .region-tab:hover,
+.directory-city-band .major-city-tabs .region-tab.is-active {
+  color: var(--ink);
+  background: var(--gold);
+  border-color: var(--gold);
+}
+.directory-city-band .major-city-meta {
+  color: rgba(255, 255, 255, 0.68);
+}
+.directory-city-band .major-city-meta .arrow-link {
+  color: var(--gold);
+}
+.city-official-card {
+  color: var(--ink);
+}
+.city-official-card .official-body {
+  min-height: 300px;
+}
+.official-contacts {
+  display: grid;
+  gap: 5px;
+  margin: 0 0 18px;
+}
+.official-contacts a,
+.official-contacts span {
+  color: var(--teal);
+  font-size: 11px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.official-contacts span {
+  color: var(--muted);
+}
+.official-photo.is-unavailable {
+  display: grid;
+  place-items: center;
+}
+.official-photo-fallback {
+  padding: 12px;
+  color: var(--teal);
+  font-size: 12px;
+  text-align: center;
+}
+.directory-disclaimer-dark {
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.08);
+  border-left-color: var(--gold);
+}
 .directory-toolbar {
   display: grid;
   grid-template-columns: minmax(260px, 440px) 1fr;

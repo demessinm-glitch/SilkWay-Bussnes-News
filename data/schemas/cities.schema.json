@@ -34,7 +34,8 @@
         "websiteUrl",
         "profileSourceUrl",
         "contactSourceUrl",
-        "verifiedAt"
+        "verifiedAt",
+        "officials"
       ],
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
@@ -50,7 +51,46 @@
         "websiteUrl": { "$ref": "#/$defs/httpsUrl" },
         "profileSourceUrl": { "$ref": "#/$defs/httpsUrl" },
         "contactSourceUrl": { "$ref": "#/$defs/httpsUrl" },
-        "verifiedAt": { "type": "string", "format": "date-time" }
+        "verifiedAt": { "type": "string", "format": "date-time" },
+        "officials": {
+          "type": "array",
+          "minItems": 4,
+          "items": { "$ref": "#/$defs/official" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "official": {
+      "type": "object",
+      "required": [
+        "id",
+        "role",
+        "nameOriginal",
+        "nameZh",
+        "positionOriginal",
+        "positionZh",
+        "photoUrl",
+        "photoSourceUrl",
+        "profileSourceUrl"
+      ],
+      "properties": {
+        "id": { "type": "integer", "minimum": 1 },
+        "role": {
+          "enum": ["akim", "deputy-akim", "chief-of-staff"]
+        },
+        "nameOriginal": { "type": "string", "minLength": 3 },
+        "nameZh": { "type": "string", "minLength": 2 },
+        "positionOriginal": { "type": "string", "minLength": 3 },
+        "positionZh": { "type": "string", "minLength": 3 },
+        "photoUrl": {
+          "type": "string",
+          "pattern": "^assets/images/officials/cities/[a-z0-9-]+-[0-9]+\\.webp$"
+        },
+        "photoSourceUrl": { "$ref": "#/$defs/httpsUrl" },
+        "profileSourceUrl": { "$ref": "#/$defs/httpsUrl" },
+        "phoneOriginal": { "type": "string", "minLength": 3 },
+        "phone": { "type": "string", "pattern": "^\\+7[0-9]+$" },
+        "email": { "type": "string", "minLength": 3 }
       },
       "additionalProperties": false
     }
