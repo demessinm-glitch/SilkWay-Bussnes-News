@@ -228,6 +228,27 @@ test("other major cities render tabbed photographic leadership profiles", () => 
   assert.doesNotMatch(script, /innerHTML\s*=/);
 });
 
+test("major city website link stays inert until valid city data loads", () => {
+  const page = fs.readFileSync(path.join(root, "officials.html"), "utf8");
+  const script = fs.readFileSync(
+    path.join(root, "assets/js/directory.js"),
+    "utf8",
+  );
+
+  assert.match(page, /id="major-city-website"[^>]*hidden/);
+  assert.doesNotMatch(page, /id="major-city-website"[^>]*href="#"/);
+  assert.match(script, /function hideCityWebsite\(\)/);
+  assert.match(script, /cityWebsite\.removeAttribute\("href"\)/);
+  assert.match(script, /cityWebsite\.hidden = true/);
+  assert.match(script, /cityWebsite\.hidden = false/);
+  assert.match(script, /if \(!item\) \{\s+hideCityWebsite\(\)/);
+  assert.match(script, /\.catch\(\(\) => \{\s+hideCityWebsite\(\)/);
+  assert.match(
+    script,
+    /cityWebsite\.href = item\.websiteUrl;[\s\S]*cityWebsite\.hidden = false/,
+  );
+});
+
 test("tender feed contains at least two traceable public notices", () => {
   const data = read("data/tenders/latest.json");
   assert.ok(data.items.length >= 2);

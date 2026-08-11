@@ -171,9 +171,16 @@
     }
   }
 
+  function hideCityWebsite() {
+    cityWebsite.hidden = true;
+    cityWebsite.removeAttribute("href");
+    cityWebsite.removeAttribute("aria-label");
+  }
+
   function renderCities() {
     const item = cities.find((city) => city.id === activeCityId);
     if (!item) {
+      hideCityWebsite();
       cityRoot.append(
         text("p", "重点城市资料暂时不可用。", "empty-state-inline"),
       );
@@ -188,6 +195,7 @@
     cityMeta.textContent = `${item.cityZh}（${item.cityOriginal}）· ${item.officials.length} 位官员 · 核验于 ${verified}`;
     cityWebsite.href = item.websiteUrl;
     cityWebsite.setAttribute("aria-label", `打开${item.cityZh}市政府官方网站`);
+    cityWebsite.hidden = false;
     cityRoot.setAttribute("aria-labelledby", `major-city-tab-${item.id}`);
   }
 
@@ -305,6 +313,7 @@
       renderCities();
     })
     .catch(() => {
+      hideCityWebsite();
       cityMeta.textContent = "重点城市目录暂时不可用";
       cityRoot.append(text("p", "请稍后重试。", "empty-state-inline"));
     })
