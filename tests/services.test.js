@@ -163,9 +163,9 @@ test("service page presents the supplied company, team, clients, and project exp
 
   assert.equal((html.match(/data-team-member/g) || []).length, 3);
   for (const contact of [
-    "Кочейев Михайл",
-    "ЯнМингЧин",
-    "Демесин Мухаммед",
+    "Mikhail Kocheyev",
+    "Yang Mingqin",
+    "Muhammed Demessin",
     "tel:+77056124666",
     "mailto:rossur@gmail.com",
     "tel:+8617800510472",
@@ -195,25 +195,43 @@ test("service page presents the supplied company, team, clients, and project exp
   }
 });
 
-test("service page uses an image-free trust design without stock impersonation", () => {
+test("service page uses approved local employee portraits without stock impersonation", () => {
   const html = fs.readFileSync(path.join(root, "services.html"), "utf8");
-  const imagePaths = [
+  const removedStockPaths = [
     "assets/images/services/team-meeting-pexels-7652246.jpg",
     "assets/images/services/modern-office-pexels-7534178.jpg",
   ];
 
-  for (const imagePath of imagePaths) {
+  for (const imagePath of removedStockPaths) {
     assert.equal(fs.existsSync(path.join(root, imagePath)), false);
     assert.ok(!html.includes(imagePath), `${imagePath} must not be rendered`);
   }
   assert.doesNotMatch(html, /data-stock-image|pexels\.com/i);
+
+  const portraits = [
+    ["assets/images/team/mikhail-kocheyev.webp", "Mikhail Kocheyev"],
+    ["assets/images/team/yang-mingqin.webp", "Yang Mingqin"],
+    ["assets/images/team/muhammed-demessin.webp", "Muhammed Demessin"],
+  ];
+  for (const [imagePath, name] of portraits) {
+    assert.ok(
+      fs.existsSync(path.join(root, imagePath)),
+      `${imagePath} is missing`,
+    );
+    assert.match(
+      html,
+      new RegExp(
+        `<img[^>]+src="${imagePath.replaceAll("/", "\\/")}"[^>]+alt="${name}"[^>]+width="640"[^>]+height="800"[^>]+loading="lazy"`,
+      ),
+    );
+  }
 
   const memberCards =
     html.match(
       /<article class="service-team-card" data-team-member>[\s\S]*?<\/article>/g,
     ) || [];
   assert.equal(memberCards.length, 3);
-  assert.ok(memberCards.every((card) => !card.includes("<img")));
+  assert.ok(memberCards.every((card) => card.includes("<img")));
 });
 
 test("successful inquiries return to a private Chinese confirmation page", () => {
