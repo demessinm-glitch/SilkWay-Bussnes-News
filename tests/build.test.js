@@ -11,6 +11,8 @@ test("static build includes public pages and excludes source-only or secret file
   assert.ok(fs.existsSync(path.join(destination, "index.html")));
   assert.ok(fs.existsSync(path.join(destination, "services.html")));
   assert.ok(fs.existsSync(path.join(destination, "contact.php")));
+  const favicon = fs.readFileSync(path.join(destination, "favicon.ico"));
+  assert.deepEqual([...favicon.subarray(0, 4)], [0, 0, 1, 0]);
   for (const legacyPage of [
     "almaty-json.html",
     "astana-json.html",
