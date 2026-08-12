@@ -9,6 +9,8 @@ const FILES = [
   ["data/meta/build.json", "data/schemas/build.schema.json"],
   ["data/directory/cities.json", "data/schemas/cities.schema.json"],
   ["data/directory/regions.json", "data/schemas/regions.schema.json"],
+  ["data/prospects/regions.json", "data/schemas/prospects.schema.json"],
+  ["data/prospects/ideas.json", "data/schemas/prospect-ideas.schema.json"],
   [
     "data/directory/organizations.json",
     "data/schemas/organizations.schema.json",
