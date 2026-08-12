@@ -1759,6 +1759,16 @@
   color: var(--muted);
 }
 
+.prospects-page {
+  --muted: #5b7075;
+}
+.prospects-page .section-index,
+.prospects-page .idea-flow li > span {
+  color: #765606;
+}
+.prospects-page .brand-footer .brand-copy small {
+  color: rgba(255, 255, 255, 0.55);
+}
 .prospects-map-section {
   background: #f4f1ea;
   border-block: 1px solid var(--line);
@@ -1965,7 +1975,6 @@
 }
 .region-detail-kicker {
   margin: 0 0 8px;
-  color: var(--gold);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.09em;
@@ -2199,8 +2208,13 @@
 .prospects-advantage-featured .prospects-card-conclusion {
   border-color: rgba(255, 255, 255, 0.2);
 }
+.region-detail-kicker,
 .prospects-card-conclusion strong {
-  color: var(--gold);
+  color: #765606;
+}
+.prospects-advantage-featured .prospects-card-conclusion strong,
+.business-idea-number {
+  color: #f2c94c;
 }
 .prospects-card-conclusion span {
   color: var(--ink-2);
@@ -2304,6 +2318,9 @@
   color: #fff;
   background: #102f35;
 }
+.prospects-page .prospects-corridor-section .section-index {
+  color: #f2c94c;
+}
 .prospects-corridor-section .prospects-section-head > p {
   color: rgba(255, 255, 255, 0.65);
 }
@@ -2384,7 +2401,6 @@
 }
 .business-idea-number {
   margin: 0 0 22px;
-  color: var(--gold);
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -2430,8 +2446,8 @@
   font-size: 11px;
   line-height: 1.7;
 }
-.idea-list-block li::marker {
-  color: var(--gold);
+.prospects-page .idea-list-block li::marker {
+  color: #765606;
   font-weight: 700;
 }
 .idea-scenario-chart {
@@ -2537,15 +2553,14 @@
   min-width: 0;
   padding-right: 18px;
 }
-.idea-flow li:not(:last-child)::after {
+.prospects-page .idea-flow li:not(:last-child)::after {
   position: absolute;
   top: 10px;
   right: 5px;
-  color: var(--gold);
+  color: #765606;
   content: "→";
 }
 .idea-flow li > span {
-  color: var(--gold);
   font-size: 9px;
   font-weight: 700;
 }
@@ -2605,7 +2620,7 @@
 }
 .future-idea-slot a {
   padding: 11px 14px;
-  color: var(--teal);
+  color: var(--ink);
   background: var(--gold);
   font-size: 10px;
   font-weight: 700;

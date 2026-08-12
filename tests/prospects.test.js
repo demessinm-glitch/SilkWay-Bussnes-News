@@ -17,8 +17,27 @@ const navigationPages = [
   "sources.html",
   "about.html",
   "services.html",
+  "thanks.html",
   "prospects.html",
 ];
+
+function relativeLuminance(hex) {
+  const channels = hex
+    .match(/[a-f\d]{2}/gi)
+    .map((channel) => Number.parseInt(channel, 16) / 255)
+    .map((channel) =>
+      channel <= 0.04045 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4,
+    );
+  return 0.2126 * channels[0] + 0.7152 * channels[1] + 0.0722 * channels[2];
+}
+
+function contrastRatio(foreground, background) {
+  const values = [
+    relativeLuminance(foreground),
+    relativeLuminance(background),
+  ].sort((left, right) => right - left);
+  return (values[0] + 0.05) / (values[1] + 0.05);
+}
 
 test("business prospects route is available from every primary navigation", () => {
   const prospectsPath = path.join(root, "prospects.html");
@@ -34,7 +53,7 @@ test("business prospects route is available from every primary navigation", () =
       html.match(/<nav class="primary-nav"[\s\S]*?<\/nav>/)?.[0] || "";
     assert.match(
       nav,
-      /href="prospects\.html"[^>]*>商业前景<\/a>[\s\S]*href="services\.html"[^>]*>企业服务<\/a>/,
+      /href="prospects\.html"[^>]*>商业前景<\/a\s*>[\s\S]*href="services\.html"[^>]*>企业服务<\/a\s*>/,
       `${filename} is missing the ordered prospects navigation item`,
     );
   }
@@ -127,6 +146,52 @@ test("prospects page exposes an accessible interactive regional map", () => {
   assert.match(script, /地图数据暂时无法加载/);
   assert.match(script, /教育基础设施代理指标/);
   assert.doesNotMatch(script, /非居民学历比例/);
+});
+
+test("prospects normal-size accents meet WCAG AA contrast", () => {
+  const css = fs.readFileSync(
+    path.join(root, "assets", "css", "pages.css"),
+    "utf8",
+  );
+  const darkGold = "#765606";
+  const lightGold = "#f2c94c";
+  const ink = "#10272d";
+  const prospectsMuted = "#5b7075";
+
+  assert.ok(contrastRatio(darkGold, "#fffdf8") >= 4.5);
+  assert.ok(contrastRatio(darkGold, "#f4f1e9") >= 4.5);
+  assert.ok(contrastRatio(lightGold, "#0b4f61") >= 4.5);
+  assert.ok(contrastRatio(ink, "#d4a017") >= 4.5);
+  assert.ok(contrastRatio(prospectsMuted, "#f4f1e9") >= 4.5);
+  assert.ok(contrastRatio(prospectsMuted, "#f8f7f3") >= 4.5);
+
+  assert.match(css, /\.prospects-page\s*\{[^}]*--muted: #5b7075;/);
+
+  assert.match(
+    css,
+    /\.region-detail-kicker,[\s\S]*?\.prospects-card-conclusion strong\s*\{[^}]*color: #765606;/,
+  );
+  assert.match(
+    css,
+    /\.prospects-advantage-featured \.prospects-card-conclusion strong,[\s\S]*?\.business-idea-number\s*\{[^}]*color: #f2c94c;/,
+  );
+  assert.match(
+    css,
+    /\.prospects-page \.section-index,[\s\S]*?\.prospects-page \.idea-flow li > span\s*\{[^}]*color: #765606;/,
+  );
+  assert.match(
+    css,
+    /\.prospects-page \.idea-flow li:not\(:last-child\)::after\s*\{[^}]*color: #765606;/,
+  );
+  assert.match(
+    css,
+    /\.prospects-page \.idea-list-block li::marker\s*\{[^}]*color: #765606;/,
+  );
+  assert.match(
+    css,
+    /\.prospects-page \.prospects-corridor-section \.section-index\s*\{[^}]*color: #f2c94c;/,
+  );
+  assert.match(css, /\.future-idea-slot a\s*\{[^}]*color: var\(--ink\);/);
 });
 
 test("market advantages separate sourced facts from business interpretation", () => {
