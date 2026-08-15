@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-08-15T03-24-09-475Z",
-  "startedAt": "2026-08-15T03:24:09.475Z",
-  "finishedAt": "2026-08-15T03:26:06.216Z",
+  "runId": "2026-08-15T07-58-07-837Z",
+  "startedAt": "2026-08-15T07:58:07.837Z",
+  "finishedAt": "2026-08-15T08:00:20.729Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -24,7 +24,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["Attribute without value\nLine: 0\nColumn: 3313\nChar: i"]
+      "errors": ["fetch failed"]
     },
     {
       "sourceId": "forbes-kz",
@@ -98,19 +98,16 @@
     },
     {
       "sourceId": "zakon-kz",
-      "status": "success",
-      "fetched": 1,
-      "accepted": 1,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["This operation was aborted"]
     }
   ],
-  "collected": 237,
-  "deduplicated": 70,
+  "collected": 236,
+  "deduplicated": 66,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["45 articles remain untranslated or failed"],
-  "errors": [
-    "fetch failed",
-    "Attribute without value\nLine: 0\nColumn: 3313\nChar: i"
-  ]
+  "warnings": ["41 articles remain untranslated or failed"],
+  "errors": ["fetch failed", "fetch failed", "This operation was aborted"]
 }
