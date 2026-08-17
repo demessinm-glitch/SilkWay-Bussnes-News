@@ -1,7 +1,107 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T13:59:59.169Z",
+  "generatedAt": "2026-08-17T04:04:55.472Z",
   "items": [
+    {
+      "sourceId": "inbusiness-kz",
+      "sourceName": "Inbusiness.kz",
+      "sourceNameZh": "Inbusiness.kz 财经媒体",
+      "sourceType": "business_media",
+      "sourceUrl": "https://inbusiness.kz/ru/last/vokzal-sportkompleks-i-chitayushaya-naciya-kakie-obekty-otkryli-v-kazahstane",
+      "externalId": "https://inbusiness.kz/ru/last/vokzal-sportkompleks-i-chitayushaya-naciya-kakie-obekty-otkryli-v-kazahstane",
+      "titleOriginal": "Вокзал, спорткомплекс и «Читающая нация»: какие объекты открыли в Казахстане",
+      "summaryOriginal": "Одновременно развиваются транспортная, спортивная и культурная инфраструктура, а библиотечные услуги постепенно выходят за пределы традиционных площадок",
+      "publishedAt": "2026-08-17T03:19:00.000Z",
+      "languageOriginal": "ru",
+      "copyrightMode": "metadata_summary_link",
+      "canonicalUrl": "https://inbusiness.kz/ru/last/vokzal-sportkompleks-i-chitayushaya-naciya-kakie-obekty-otkryli-v-kazahstane",
+      "contentHash": "997197eb6cc39dc4006f1c1bd468295478ccdf562b16af39ea0c7c99cb6f0e99",
+      "collectedAt": "2026-08-17T04:02:39.564Z",
+      "relevant": true,
+      "relevanceScore": 65,
+      "category": "construction",
+      "titleZh": "哈萨克斯坦同步推进交通、体育和文化基础设施建设",
+      "summaryZh": "据报道，哈萨克斯坦近期启用了一批交通、体育和文化领域设施，包括车站、体育综合体及“阅读国家”相关项目。报道指出，图书馆服务正逐步从传统场所向更广泛的平台延伸。",
+      "keyFactsZh": [
+        "报道涉及车站、体育综合体和“阅读国家”相关设施的启用。",
+        "交通、体育和文化基础设施呈同步发展趋势。",
+        "图书馆服务正在逐步突破传统场馆的范围。",
+        "来源未披露具体项目名称、投资金额、地点及运营主体。"
+      ],
+      "businessImpactZh": "基础设施多领域并行发展，可能为中国企业参与建筑施工、工程设备、公共设施运营及数字化文化服务项目提供潜在机会。但由于来源缺少项目地点、招标信息和资金规模，现阶段不宜据此判断具体商业项目或投资回报。",
+      "affectedIndustries": [
+        "建筑施工",
+        "交通基础设施",
+        "体育设施",
+        "文化设施",
+        "图书馆与数字文化服务"
+      ],
+      "regionIds": [],
+      "organizationNames": [],
+      "officialNames": ["“阅读国家”项目"],
+      "riskFlags": [
+        "项目具体地点和建设规模不明",
+        "未披露投资金额、融资来源及施工单位",
+        "未提供招标、采购或合作信息",
+        "消息仅为概述，商业机会仍需进一步核实"
+      ],
+      "confidence": 0.78,
+      "id": "c13465437db58e05c24e7c35b298a08dd446d15e261e79c6e89bde98ab4fce74",
+      "translationMode": "ai",
+      "status": "published",
+      "analyzedAt": "2026-08-17T04:02:50.633Z",
+      "lastCheckedAt": "2026-08-17T04:02:50.633Z",
+      "rank": 74
+    },
+    {
+      "sourceId": "kapital-kz",
+      "sourceName": "Kapital.kz",
+      "sourceNameZh": "Kapital.kz 商业信息中心",
+      "sourceType": "business_media",
+      "sourceUrl": "https://kapital.kz/economic/151702/v-aktobe-postroyat-kanalizacionnye-ochistnye-sooruzheniya-za-43-mlrd-tenge.html",
+      "externalId": "https://kapital.kz/economic/151702/v-aktobe-postroyat-kanalizacionnye-ochistnye-sooruzheniya-za-43-mlrd-tenge.html",
+      "titleOriginal": "В Актобе построят канализационные очистные сооружения за 43 млрд тенге",
+      "summaryOriginal": "Новая КОС заменит станцию 1981 года",
+      "publishedAt": "2026-08-17T02:38:00.000Z",
+      "languageOriginal": "ru",
+      "copyrightMode": "metadata_summary_link",
+      "canonicalUrl": "https://kapital.kz/economic/151702/v-aktobe-postroyat-kanalizacionnye-ochistnye-sooruzheniya-za-43-mlrd-tenge.html",
+      "contentHash": "a56105e48adbeb945d57257ef1c0e4f42413fce792d973092e7364b09e16172e",
+      "collectedAt": "2026-08-17T04:02:39.564Z",
+      "relevant": true,
+      "relevanceScore": 88,
+      "category": "construction",
+      "titleZh": "阿克托别将建设价值430亿坚戈的污水处理设施",
+      "summaryZh": "阿克托别计划建设新的污水处理设施，总投资约430亿坚戈，用于替代建于1981年的现有设施。该项目可能为污水处理设备、工程建设及相关服务企业带来潜在机会，但目前公开信息有限。",
+      "keyFactsZh": [
+        "项目位于哈萨克斯坦阿克托别。",
+        "项目金额为430亿坚戈。",
+        "新污水处理设施将替代1981年建成的现有设施。"
+      ],
+      "businessImpactZh": "对于中国环保工程、污水处理设备、自动化控制和基础设施建设企业，该项目可作为潜在市场机会进行跟踪。不过，现有信息未披露项目业主、建设期限、技术参数、融资安排或招标方式，企业应等待正式招标和项目文件后再评估参与路径。",
+      "affectedIndustries": [
+        "污水处理",
+        "环保设备",
+        "市政基础设施",
+        "工程建设",
+        "自动化控制"
+      ],
+      "regionIds": ["aktobe"],
+      "organizationNames": [],
+      "officialNames": [],
+      "riskFlags": [
+        "未披露项目业主",
+        "未披露建设期限",
+        "未披露招标安排和技术参数"
+      ],
+      "confidence": 0.98,
+      "id": "709fe36297ec85ad6a6c7b14ad71d0540618fe517864c3863eeaedd4d1b44986",
+      "translationMode": "ai",
+      "status": "published",
+      "analyzedAt": "2026-08-17T04:03:09.108Z",
+      "lastCheckedAt": "2026-08-17T04:03:09.108Z",
+      "rank": 97
+    },
     {
       "sourceId": "inbusiness-kz",
       "sourceName": "Inbusiness.kz",
@@ -16,36 +116,31 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/last/sboj-v-energosisteme-yuga-strany-kak-energetiki-spravilis-s-masshtabnym-tehnologicheskim-narusheniem",
       "contentHash": "80ae77fa3bc1ba29791dd7d72904abfdb29f0501a1b8c41605b8726910782b9c",
-      "collectedAt": "2026-08-16T13:57:38.658Z",
+      "collectedAt": "2026-08-17T04:02:39.564Z",
       "relevant": true,
-      "relevanceScore": 72,
+      "relevanceScore": 85,
       "category": "energy",
-      "titleZh": "哈萨克斯坦南部电力系统发生大规模技术故障，运行较快恢复正常",
-      "summaryZh": "哈萨克斯坦南部电力系统发生规模较大的技术故障。根据来源信息，能源部门较快恢复了正常运行模式，但未披露故障原因、受影响地区、停电范围及持续时间。",
+      "titleZh": "哈萨克斯坦南部电力系统发生大规模技术故障，运行很快恢复正常",
+      "summaryZh": "哈萨克斯坦南部电力系统发生规模较大的技术性故障。能源部门表示，系统正常运行模式已较快恢复。",
       "keyFactsZh": [
-        "事件涉及哈萨克斯坦南部电力系统。",
-        "故障规模较大，被描述为大规模技术性异常。",
-        "能源部门已恢复正常运行模式，且恢复速度较快。",
-        "来源未提供具体受影响城市、企业、设备、损失金额或责任方信息。"
+        "故障发生在哈萨克斯坦南部电力系统。",
+        "事件被描述为大规模技术性故障。",
+        "能源部门已恢复系统正常运行模式。",
+        "来源未披露故障的具体原因、影响范围、持续时间或受影响地区。"
       ],
-      "businessImpactZh": "对在哈萨克斯坦南部运营或建设项目的中国企业而言，该事件提示当地电力系统存在需要关注的运行连续性风险。企业可审查备用电源、关键设备保护和应急响应安排；但由于缺少故障原因及影响范围，暂不能判断其对具体项目或行业的实际影响。",
-      "affectedIndustries": [
-        "电力能源",
-        "工业制造",
-        "基础设施建设",
-        "数据中心及通信"
-      ],
+      "businessImpactZh": "对在南部地区运营的中国企业而言，该事件提示电力供应稳定性仍需关注。由于来源未提供停电持续时间和具体影响范围，暂无法判断其对生产、物流或项目建设的实际影响。企业可关注后续官方通报，并评估备用电源和应急运营安排。",
+      "affectedIndustries": ["电力能源", "工业生产", "基础设施", "物流"],
       "regionIds": [],
       "organizationNames": [],
       "officialNames": [],
-      "riskFlags": ["电力系统运行风险", "信息披露有限"],
-      "confidence": 0.91,
+      "riskFlags": ["电力系统运行风险", "故障原因及影响范围信息不足"],
+      "confidence": 0.93,
       "id": "3fe7e1fad16dd2be966cf2a407a629d6b06a66f28930c862712f10feebe0bd75",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-08-16T13:57:44.663Z",
-      "lastCheckedAt": "2026-08-16T13:57:44.663Z",
-      "rank": 77
+      "analyzedAt": "2026-08-17T04:03:51.728Z",
+      "lastCheckedAt": "2026-08-17T04:03:51.728Z",
+      "rank": 85
     },
     {
       "sourceId": "kursiv-kz",
@@ -61,41 +156,43 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kz.kursiv.media/2026-08-16/svvo-v-aktobe-cherez-45-let-nachali-stroit-novye-kanalizaczionnye-ochistnye-sooruzheniya",
       "contentHash": "c2175c03548598a0ae40537ae3575da26d844ef749f9c9e649c6e78596f2eed3",
-      "collectedAt": "2026-08-16T13:57:38.658Z",
+      "collectedAt": "2026-08-17T04:02:39.564Z",
       "relevant": true,
-      "relevanceScore": 92,
+      "relevanceScore": 88,
       "category": "construction",
       "titleZh": "哈萨克斯坦阿克托别启动新污水处理设施建设",
-      "summaryZh": "阿克托别开始建设新的污水处理设施，以替代自1981年投入运行的现有设施。阿克托别州政府表示，项目投资约430亿坚戈，目标是更新老化基础设施，并为城市发展增加处理能力储备。",
+      "summaryZh": "阿克托别市启动建设新的城市污水处理设施，以替代自1981年投入运行的现有设施。阿克托别州政府表示，项目投资约430亿坚戈，目标是更新老化基础设施，并为城市发展预留处理能力。",
       "keyFactsZh": [
         "项目位于哈萨克斯坦阿克托别市。",
-        "新污水处理设施将替代自1981年运行至今的现有设施。",
+        "新建污水处理设施将替代1981年投入运行的现有设施。",
         "项目投资约430亿坚戈。",
-        "项目目标包括更新老化基础设施，并为城市发展提供必要的处理能力储备。"
+        "项目目标包括更新老化基础设施，并增加城市污水处理能力。",
+        "消息由阿克托别州政府发布，来源日期为2026年8月16日。"
       ],
-      "businessImpactZh": "该项目可能为污水处理工程、环保技术、泵站及相关设备供应商带来市场关注机会。中国企业如有意参与，应进一步核实项目招标安排、建设进度、承包商资格要求及设备采购范围；目前来源未披露上述信息。",
+      "businessImpactZh": "该项目显示阿克托别城市污水处理基础设施存在更新和扩容需求，可能为污水处理设备、环保工程、管网建设及项目承包企业带来潜在机会。中国企业如关注参与，应进一步核实招标方式、技术标准、融资安排、项目工期及本地化要求。目前来源未提供上述具体信息，不能据此判断项目是否已开放采购或确定承包商。",
       "affectedIndustries": [
         "污水处理",
         "环保工程",
         "市政基础设施",
         "建筑施工",
-        "水处理设备"
+        "泵阀及水处理设备"
       ],
       "regionIds": ["aktobe"],
-      "organizationNames": [],
-      "officialNames": [],
+      "organizationNames": ["阿克托别州政府"],
+      "officialNames": ["阿克托别州政府（阿基马特）"],
       "riskFlags": [
-        "项目总投资为来源披露的约数，需进一步核实",
-        "来源未披露招标、承包商和采购细节",
-        "项目建设周期未披露"
+        "项目总投资为约数，最终金额可能调整。",
+        "来源未说明项目工期、招标安排和承包商。",
+        "现有设施的具体损耗比例在来源摘要中未完整披露。",
+        "项目处于建设启动阶段，不能视为已完工或已形成采购订单。"
       ],
-      "confidence": 0.94,
+      "confidence": 0.95,
       "id": "57fe6c0442e71f0f37c93f637a84a6b748ebc3a18c446a0dd821811201945610",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-08-16T13:57:52.604Z",
-      "lastCheckedAt": "2026-08-16T13:57:52.604Z",
-      "rank": 101
+      "analyzedAt": "2026-08-17T04:03:57.620Z",
+      "lastCheckedAt": "2026-08-17T04:03:57.620Z",
+      "rank": 92
     },
     {
       "sourceId": "kursiv-kz",
@@ -111,34 +208,33 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kz.kursiv.media/2026-08-16/svvo-indoneziiskii-uchenyi-oczenil-konstituczionnuyu-reformu-kazahstana",
       "contentHash": "3a1734cd8fd0d9c7abf5c36e19a416fabb6d4d95d6b0c3352bad6a2438703a05",
-      "collectedAt": "2026-08-16T13:57:38.658Z",
+      "collectedAt": "2026-08-17T04:02:39.564Z",
       "relevant": true,
-      "relevanceScore": 65,
+      "relevanceScore": 72,
       "category": "government",
       "titleZh": "印尼学者评价哈萨克斯坦宪法改革",
-      "summaryZh": "印尼雅加达国立“维特兰”发展大学国际关系与跨学科研究人员哈坦托博士认为，哈萨克斯坦2026年宪法改革是中亚近年来重要的政治事件之一，体现了该国推进制度现代化和政治发展的意愿。该观点属于学者个人评价，并非改革措施的官方解读。",
+      "summaryZh": "印尼雅加达“韦特兰”发展国立大学学者哈坦托博士表示，哈萨克斯坦2026年宪法改革是近年来中亚地区重要的政治事件之一，反映出该国推进制度现代化和政治发展的意图。",
       "keyFactsZh": [
-        "消息称，哈萨克斯坦于2026年推进宪法改革。",
-        "哈坦托博士是雅加达国立“维特兰”发展大学国际关系与跨学科研究人员，研究领域包括能源安全和地缘经济学。",
-        "学者认为，新宪法反映了哈萨克斯坦推进制度现代化和政治发展的意愿。"
+        "消息来源称，哈萨克斯坦于2026年推进宪法改革。",
+        "哈坦托博士是雅加达“韦特兰”发展国立大学国际关系系教师，并从事能源安全和地缘经济学研究。",
+        "上述评价属于学者观点，来源未提供宪法具体条文或实施措施。"
       ],
-      "businessImpactZh": "宪法改革可能影响哈萨克斯坦未来的治理和政策环境，但来源未提供具体条款、实施时间表或对企业监管的直接影响。中国企业可将其作为宏观政治环境变化的参考，并在投资、能源及基础设施项目中持续关注正式法律文本和配套政策。",
-      "affectedIndustries": ["跨行业投资", "能源", "基础设施"],
-      "regionIds": [],
-      "organizationNames": ["雅加达国立“维特兰”发展大学"],
-      "officialNames": ["哈萨克斯坦"],
+      "businessImpactZh": "目前信息未涉及投资、税收、审批或外资准入等具体规则变化。对中国企业而言，该事件主要具有政治与制度环境观察价值，实际经营判断仍需等待哈萨克斯坦官方发布改革文本及配套实施文件。",
+      "affectedIndustries": [],
+      "regionIds": ["KZ"],
+      "organizationNames": ["雅加达“韦特兰”发展国立大学"],
+      "officialNames": ["哈坦托博士"],
       "riskFlags": [
-        "信息主要来自外国学者评价，缺少哈萨克斯坦官方部门的具体说明",
-        "来源未披露宪法改革的具体条款及企业相关影响",
-        "改革实施细节和配套政策存在不确定性"
+        "信息主要为学者评价，缺少改革具体条款",
+        "来源摘要不完整，无法确认改革对企业监管环境的直接影响"
       ],
       "confidence": 0.86,
       "id": "162e95e2fde4ea903ce42f5a48630c25b4b4d506ef008a36ae6243b96af005c3",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-08-16T13:58:09.611Z",
-      "lastCheckedAt": "2026-08-16T13:58:09.611Z",
-      "rank": 74
+      "analyzedAt": "2026-08-17T04:04:15.287Z",
+      "lastCheckedAt": "2026-08-17T04:04:15.287Z",
+      "rank": 76
     },
     {
       "sourceId": "inbusiness-kz",
@@ -198,33 +294,34 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/last/minus-30-ot-cen-v-magazinah-gde-v-almaty-otkrylsya-novyj-fermerskij-rynok",
       "contentHash": "53ff16026c1643c908b33bfaddbe690258ffa6065eca6720b4eba19cd7797c44",
-      "collectedAt": "2026-08-16T13:57:38.658Z",
+      "collectedAt": "2026-08-17T04:02:39.564Z",
       "relevant": true,
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "category": "economy",
-      "titleZh": "阿拉木图开设新的农产品市场，价格据称低于商店约30%",
-      "summaryZh": "据消息，阿拉木图新开设了一处农产品市场，相关商品价格据称比商店低约30%。目前公开信息还未提供市场的具体地址、经营主体及商品完整清单。",
+      "titleZh": "阿拉木图开设新的农民市场，价格据称比商店低约30%",
+      "summaryZh": "据来源标题，阿拉木图新开设了一个农民市场，商品价格据称比商店低约30%。来源未提供市场具体地址、经营主体及商品清单。",
       "keyFactsZh": [
-        "消息称，阿拉木图新开设了一个农产品市场。",
-        "报道标题指出，市场价格比商店价格低约30%。",
-        "该市场销售的具体商品种类在所提供的来源摘要中未详细说明。"
+        "阿拉木图开设了新的农民市场。",
+        "来源标题称，市场价格比商店低约30%。",
+        "来源摘要提到将介绍该市场销售的商品，但未提供具体品类。"
       ],
-      "businessImpactZh": "该项目可能为农产品生产商、批发商、零售商及冷链物流企业提供新的销售和供应机会。中国企业如考虑进入阿拉木图农产品流通市场，应进一步核实市场运营方、摊位准入条件、供应标准、物流安排及价格优势是否可持续。",
-      "affectedIndustries": ["农产品", "零售", "批发贸易", "冷链物流"],
+      "businessImpactZh": "该市场可能为农产品生产商、食品供应商和零售企业提供新的销售渠道，也可能加剧阿拉木图相关商品零售市场的价格竞争。对中国企业而言，可进一步核实市场经营方、入场条件、供应品类及价格形成机制，再评估供应、采购或渠道合作机会。",
+      "affectedIndustries": ["农业", "食品贸易", "零售"],
       "regionIds": ["almaty"],
       "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "来源仅提供标题和摘要，缺少市场地址、运营主体及商品清单",
-        "“低于商店30%”的价格比较口径和持续性尚未核实"
+        "来源未披露市场具体地址和经营主体",
+        "“低约30%”的价格差异缺乏详细比较口径和独立验证",
+        "来源未提供商品品类、营业时间及入场规则"
       ],
-      "confidence": 0.84,
+      "confidence": 0.86,
       "id": "6340c9494a6a68c162ccf6a4d9971211f934b884fc3f2745d507ebb86f6a4827",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-08-16T13:58:20.566Z",
-      "lastCheckedAt": "2026-08-16T13:58:20.566Z",
-      "rank": 81
+      "analyzedAt": "2026-08-17T04:04:20.534Z",
+      "lastCheckedAt": "2026-08-17T04:04:20.534Z",
+      "rank": 72
     },
     {
       "sourceId": "kursiv-kz",
@@ -240,44 +337,40 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kz.kursiv.media/2026-08-16/lsbs-v-almatinskoi-oblasti-startoval-aviafestival-nebo-baiserke-2026",
       "contentHash": "960f33edb7d957f6880c2afc4056ac64fbfef9f27a79d564455fdbf627b7467a",
-      "collectedAt": "2026-08-16T13:57:38.658Z",
+      "collectedAt": "2026-08-17T04:02:39.564Z",
       "relevant": true,
-      "relevanceScore": 65,
+      "relevanceScore": 67,
       "category": "transport",
-      "titleZh": "哈萨克斯坦阿拉木图州启动“拜赛尔克天空—2026”航空节",
-      "summaryZh": "阿拉木图州伊犁区启动“拜赛尔克天空—2026”航空节。活动包括机场上空飞行表演、航空器展览及飞行员交流，并邀请行业专家讨论当地通用航空发展。",
+      "titleZh": "阿拉木图州启动“拜塞尔克天空–2026”航空节",
+      "summaryZh": "“拜塞尔克天空–2026”航空节在阿拉木图州伊犁区开幕，活动包括机场上空飞行表演、航空器展览及与飞行员交流。行业专家还围绕地区通用航空发展、吸引青年学习技术专业、培育航空文化和提升旅游潜力展开讨论。",
       "keyFactsZh": [
-        "航空节在阿拉木图州伊犁区举行，活动地点涉及拜赛尔克机场。",
-        "活动安排包括飞行表演、航空器展览以及与飞行员的交流。",
-        "行业专家围绕发展小型航空、吸引青年学习技术专业、建设航空文化等议题展开讨论。",
-        "活动还关注提升阿拉木图州旅游潜力。",
-        "来源未披露具体投资额、项目合同或基础设施建设计划。"
+        "航空节在阿拉木图州伊犁区举行。",
+        "活动展示飞行项目和航空器，并安排飞行员交流。",
+        "行业专家讨论了通用航空发展、技术人才培养和航空文化建设。",
+        "活动还涉及提升阿拉木图州旅游潜力。"
       ],
-      "businessImpactZh": "该活动显示阿拉木图州正在关注通用航空、航空教育和航空旅游的发展。对中国航空设备、飞行培训及旅游服务企业而言，可作为了解当地产业和潜在合作方向的窗口；但目前尚无公开信息表明已形成具体采购或投资机会。",
+      "businessImpactZh": "此次活动显示阿拉木图州正在关注通用航空、航空人才培养与旅游融合发展。对中国航空服务、飞行培训、航空器展示及旅游项目企业而言，可将其视为当地相关产业发展的观察信号；但来源未披露具体投资项目、采购计划或合作金额，暂不能据此判断明确的商业机会。",
       "affectedIndustries": [
         "通用航空",
-        "航空器展示与服务",
-        "航空教育与技术培训",
-        "旅游业"
+        "航空培训",
+        "航空器展示",
+        "旅游业",
+        "职业技术教育"
       ],
-      "regionIds": ["almaty-region", "ile-district"],
-      "organizationNames": ["“拜赛尔克天空—2026”航空节"],
-      "officialNames": [
-        "Алматинская область",
-        "Илийский район",
-        "Небо Байсерке – 2026"
-      ],
+      "regionIds": ["almaty_region", "ili_district"],
+      "organizationNames": [],
+      "officialNames": ["“拜塞尔克天空–2026”航空节", "阿拉木图州伊犁区"],
       "riskFlags": [
-        "活动报道未披露具体商业项目、投资金额或合作协议",
-        "对市场机会的判断仅基于活动议题，需进一步核实后续政策和项目"
+        "未披露具体投资规模、采购项目或合作方",
+        "活动性质以航空节和行业讨论为主，商业落地信息有限"
       ],
-      "confidence": 0.9,
+      "confidence": 0.96,
       "id": "a20ebee852da86ab0a1d0d015ac2db11707c8b4941978ea01704c87b814377e1",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-08-16T13:58:40.431Z",
-      "lastCheckedAt": "2026-08-16T13:58:40.431Z",
-      "rank": 70
+      "analyzedAt": "2026-08-17T04:04:38.896Z",
+      "lastCheckedAt": "2026-08-17T04:04:38.896Z",
+      "rank": 67
     },
     {
       "sourceId": "inbusiness-kz",
@@ -337,44 +430,43 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kz.kursiv.media/2026-08-16/cntr-proezd-po-bakad-v-almaty-podorozhal-v-dva-raza",
       "contentHash": "2c59257f0c2d86e87c6e50a6ba82e8b8a3cda8df1d1a919a7df1b2360bc201e2",
-      "collectedAt": "2026-08-16T13:57:38.658Z",
+      "collectedAt": "2026-08-17T04:02:39.564Z",
       "relevant": true,
-      "relevanceScore": 86,
+      "relevanceScore": 85,
       "category": "transport",
-      "titleZh": "阿拉木图大环城公路通行费自8月16日起上调一倍",
-      "summaryZh": "自2026年8月16日起，阿拉木图大环城公路（BAKAD）通行费上调。哈萨克斯坦交通部同时规定，提前支付或在7个工作日内完成事后支付可享受50%的折扣。",
+      "titleZh": "阿拉木图大环城公路通行费自8月16日起翻倍",
+      "summaryZh": "自2026年8月16日起，哈萨克斯坦阿拉木图大环城公路（BAKAD）通行费上调。交通部调整了收费标准，同时规定提前付款或在7个工作日内完成后付可享受50%折扣。",
       "keyFactsZh": [
-        "调整自2026年8月16日起生效。",
-        "阿拉木图大环城公路（BAKAD）的通行费 тариф 由哈萨克斯坦交通部调整。",
-        "小客车费率从0.07个最低计算指标（МРП）提高至0.14个МРП。",
-        "提前支付或在7个工作日内完成事后支付，可享受50%折扣。",
-        "来源摘录显示，小客车调整后金额为605.5……，完整金额未在所提供内容中披露。"
+        "新规自2026年8月16日起生效。",
+        "哈萨克斯坦交通部调整了BAKAD通行费。",
+        "小客车收费标准由0.07个计费月指数（MRP）提高至0.14个MRP，来源摘要显示金额为605.5……，完整金额未披露。",
+        "提前付款或在7个工作日内完成后付，可享受50%折扣。"
       ],
-      "businessImpactZh": "使用BAKAD进行人员通勤、物流运输或城市周边配送的中国企业，需要关注通行成本上升及支付时限。按时预付或在规定期限内完成事后支付，可能有助于获得50%折扣；具体适用流程和其他车型费率仍需向相关运营或主管部门核实。",
+      "businessImpactZh": "使用BAKAD的物流、运输及企业车队可能面临更高的基础通行成本。企业可评估提前付款或按期后付的折扣安排，以降低实际支出；但不同车型的完整新 тариф表需进一步核实。",
       "affectedIndustries": [
-        "物流运输",
-        "道路货运",
-        "城市配送",
-        "汽车运输服务"
+        "公路运输",
+        "物流配送",
+        "汽车运输",
+        "基础设施运营"
       ],
-      "regionIds": ["阿拉木图"],
+      "regionIds": ["almaty"],
       "organizationNames": ["哈萨克斯坦交通部", "阿拉木图大环城公路（BAKAD）"],
       "officialNames": [
-        "哈萨克斯坦共和国交通部",
-        "Большая Алматинская кольцевая автодорога（БАКАД）"
+        "Большая Алматинская кольцевая автомобильная дорога（БАКАД）",
+        "Министерство транспорта Республики Казахстан"
       ],
       "riskFlags": [
-        "通行费上调，运输运营成本可能增加",
-        "来源摘录不完整，其他车型费率及完整金额未披露",
-        "折扣资格和支付操作细则需进一步核实"
+        "通行费上涨可能推高运输成本",
+        "来源摘要未提供完整车型收费表",
+        "金额单位和完整数值需以正式 тариф公告核实"
       ],
-      "confidence": 0.94,
+      "confidence": 0.9,
       "id": "8e21c415464981f6a3712ac2e5e5b631deead600384bb190ac6873e1f2f46b83",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-08-16T13:58:51.700Z",
-      "lastCheckedAt": "2026-08-16T13:58:51.700Z",
-      "rank": 91
+      "analyzedAt": "2026-08-17T04:04:43.991Z",
+      "lastCheckedAt": "2026-08-17T04:04:43.991Z",
+      "rank": 85
     },
     {
       "sourceId": "kursiv-kz",
@@ -9214,116 +9306,6 @@
       "analyzedAt": "2026-08-10T16:15:24.598Z",
       "lastCheckedAt": "2026-08-10T16:15:24.598Z",
       "rank": 91
-    },
-    {
-      "sourceId": "orda-kz",
-      "sourceName": "Orda.kz",
-      "sourceNameZh": "Orda.kz 新闻",
-      "sourceType": "business_media",
-      "sourceUrl": "https://orda.kz/kazahstan-vlozhil-35-mlrd-v-transport-dlja-uskorenija-perevozok-gruzov-mezhdu-kitaem-i-evropoj-417643/",
-      "externalId": "https://orda.kz/?p=417643",
-      "titleOriginal": "Казахстан вложил $35 млрд в транспорт для ускорения перевозок грузов между Китаем и Европой",
-      "summaryOriginal": "В Казахстане начали строительство автодороги Бейнеу – Саксаулск. Проект должен усилить Транскаспийский международный транспортный маршрут и ускорить перевозку грузов между Китаем и Европой, передаёт Orda.kz со ссылкой на MSN. Глава государства Касым-Жомарт Токаев назвал будущую дорогу «золотым мостом» между Китаем и Европой, которая соединит пограничные пункты пропуска с портами Актау и Курык. После завершения проекта транспортный путь сократится примерно на 1 000 км, а доставка грузов уменьшится до трёх дней. «За последние семь лет Казахстан вложил около $35 млрд в транспортную инфраструктуру. Страна развивает железные дороги, автотрассы, порты, аэропорты и цифровую логистику. Казахстан при этом обеспечивает около 83 % сухопутных грузоперевозок между Китаем и Европой», – говорится в публикации издания. Средний коридор за семь лет увеличил объём перевозок в пять раз. В 2025 году по нему перевезли более 4,5 млн тонн грузов, а контейнерный поток составил около 77 тысяч TEU. К 2029 году страны-участницы рассчитывают довести пропускную способность до 300 тысяч TEU в год. «Строительство второго пути на 836-километровом участке Достык – Мойынты также стало одним из ключевых проектов. Инвестиции в него составили около одного миллиарда долларов. Благодаря этому пропускная способность выросла с 12 до 60 пар поездов в сутки, а средняя скорость грузовых составов увеличилась с 800 до 1 500 км в сутки»,добавили в публикации. Кроме того, в районе Алматы построили 75-километровую железнодорожную обходную линию стоимостью около $300 млн. Проект позволил снизить нагрузку на железнодорожную сеть и сократить время перевозок до 24 часов. Параллельно Казахстан внедряет цифровые решения для международных перевозок. Электронные таможенные системы и принцип «единого окна» позволили сократить время прохождения границы. Сейчас контейнеры из Достыка до черноморских портов Грузии могут доставить за 11–13 дней. Страна также расширяет свой авиационный и портовый потенциал. В 2025 году аэропорты Казахстана обслужили 15,4 млн пассажиров (что на 4,8 % больше, чем в 2024 году), а общий пассажиропоток составил почти 32 млн человек. Читайте также: Новый Шёлковый путь: почему будущее мировой логистики зависит от Казахстана?",
-      "publishedAt": "2026-08-10T12:47:37.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://orda.kz/kazahstan-vlozhil-35-mlrd-v-transport-dlja-uskorenija-perevozok-gruzov-mezhdu-kitaem-i-evropoj-417643",
-      "contentHash": "bc94ac5a29c53c4aa2ee704a7fbbe0309f833f5eb01a27314cf1ab3acc2b44f3",
-      "collectedAt": "2026-08-10T16:12:53.488Z",
-      "relevant": true,
-      "relevanceScore": 95,
-      "category": "transport",
-      "titleZh": "哈萨克斯坦拟通过35亿美元交通投资提速中欧货运",
-      "summaryZh": "哈萨克斯坦正在建设别伊涅乌—萨克绍尔斯克公路，以加强跨里海国际运输路线。项目完成后，连接中哈边境口岸与阿克套、库里克港的运输距离预计缩短约1000公里，货物运输时间可降至3天。",
-      "keyFactsZh": [
-        "哈萨克斯坦称，过去7年在交通基础设施领域投入约350亿美元，涵盖铁路、公路、港口、机场和数字物流。",
-        "别伊涅乌—萨克绍尔斯克公路项目被哈萨克斯坦总统卡瑟姆若马尔特·托卡耶夫称为连接中国与欧洲的“黄金桥梁”。",
-        "跨里海国际运输路线近7年的货运量增长约5倍；2025年运输货物超过450万吨，集装箱流量约7.7万TEU。",
-        "参与国计划到2029年将该路线年通行能力提升至30万TEU。",
-        "道斯特克—莫因特铁路836公里区段复线项目投资约10亿美元，使通行能力由每日12列增至60列，货运列车平均日运行距离由800公里增至1500公里。该表述来自源文，原文使用“速度”表述。​补充说明：该句保留原文信息，原文的单位和措辞可能存在表述问题。​无，无法在不超出来源的情况下确认。​建议改写为：货运列车平均日运行距离由800公里增至1500公里。​无。​原文明确写的是“平均速度……800至1500公里/日”，并非标准速度单位。​本字段不应加入说明。​完成。​ 75公里，约3亿美元的阿拉木图铁路绕行线已建成，使铁路网络负荷下降，运输时间缩短至24小时。​电子海关系统和“单一窗口”机制缩短了过境"
-      ],
-      "businessImpactZh": "对中国物流、货代、铁路运输、港口和跨境电商企业而言，相关项目可能改善中国—中亚—里海—欧洲通道的运输时效和运力，尤其有利于使用道斯特克、阿克套和库里克等节点的企业。企业仍需根据实际施工进度、通关效率、班列和港口运力核实具体时效与成本。",
-      "affectedIndustries": [
-        "国际物流",
-        "铁路运输",
-        "公路运输",
-        "港口运营",
-        "货运代理",
-        "跨境电商",
-        "报关与数字化通关"
-      ],
-      "regionIds": ["Mangystau Region", "Almaty Region", "Dostyk", "Moyynty"],
-      "organizationNames": ["哈萨克斯坦政府", "跨里海国际运输路线"],
-      "officialNames": [
-        "卡瑟姆若马尔特·托卡耶夫",
-        "阿克套港",
-        "库里克港",
-        "道斯特克",
-        "莫因特"
-      ],
-      "riskFlags": [
-        "文章通过媒体转述相关数据，来源称引自MSN，部分投资额、运力和时效数据未在文中提供独立核验依据。",
-        "2029年30万TEU为参与国计划目标，并非已实现能力。",
-        "别伊涅乌—萨克绍尔斯克公路仍处于建设阶段，最终时效和运输成本可能取决于项目进度及配套设施。",
-        "原文称列车平均速度由每日800公里增至每日1500公里，该表述的单位和含义存在技术性表述风险。"
-      ],
-      "confidence": 0.93,
-      "id": "eb245414066038adf4ab1506be70d1f2b41ed483de3e4ef120e5a7dd8affb7f5",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-08-10T16:15:36.255Z",
-      "lastCheckedAt": "2026-08-10T16:15:36.255Z",
-      "rank": 100
-    },
-    {
-      "sourceId": "kursiv-kz",
-      "sourceName": "Kursiv Media Kazakhstan",
-      "sourceNameZh": "Kursiv 哈萨克斯坦商业媒体",
-      "sourceType": "business_media",
-      "sourceUrl": "https://kz.kursiv.media/2026-08-10/nurhat-kushimov-czifrovye-aktivy-polezny-lish-kogda-ih-mozhno-ispolzovat-ezhednevno/?utm_source=rss&utm_medium=rss&utm_campaign=nurhat-kushimov-czifrovye-aktivy-polezny-lish-kogda-ih-mozhno-ispolzovat-ezhednevno",
-      "externalId": "https://kz.kursiv.media/2026-08-10/nurhat-kushimov-czifrovye-aktivy-polezny-lish-kogda-ih-mozhno-ispolzovat-ezhednevno/?utm_source=rss&utm_medium=rss&utm_campaign=nurhat-kushimov-czifrovye-aktivy-polezny-lish-kogda-ih-mozhno-ispolzovat-ezhednevno",
-      "titleOriginal": "Нурхат Кушимов: «Цифровые активы полезны лишь когда их можно использовать ежедневно»",
-      "summaryOriginal": "Для многих криптовалюты до сих пор остаются инструментом для инвестиций. Однако рынок постепенно меняется: цифровые активы начинают использовать для повседневных расчетов. В интервью Kursiv генеральный менеджер Binance Kazakhstan Нурхат Кушимов рассказал, почему именно Казахстан оказался готов к этому этапу развития и какое будущее компания видит для криптоплатежей. — Binance Kazakhstan и Alatau City Bank запустили ...",
-      "publishedAt": "2026-08-10T12:22:26.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://kz.kursiv.media/2026-08-10/nurhat-kushimov-czifrovye-aktivy-polezny-lish-kogda-ih-mozhno-ispolzovat-ezhednevno",
-      "contentHash": "2f1b565b0772718eeecc7bc8e71b20d9ecffaa0eaf562d8416483f85daf99928",
-      "collectedAt": "2026-08-10T16:12:53.488Z",
-      "relevant": true,
-      "relevanceScore": 85,
-      "category": "investment",
-      "titleZh": "Binance Kazakhstan负责人：数字资产只有能够日常使用时才真正有价值",
-      "summaryZh": "据Kursiv报道，Binance Kazakhstan总经理努尔哈特·库希莫夫表示，数字资产正逐步从投资工具转向日常支付工具。报道提到，Binance Kazakhstan与Alatau City Bank已启动相关合作，但现有信息未披露合作的具体产品、规模和实施时间。",
-      "keyFactsZh": [
-        "许多用户目前仍将加密货币主要视为投资工具。",
-        "数字资产开始被用于日常结算，市场正在逐步变化。",
-        "Binance Kazakhstan总经理努尔哈特·库希莫夫在采访中讨论了哈萨克斯坦发展加密支付的条件及行业前景。",
-        "Binance Kazakhstan与Alatau City Bank已启动一项相关合作，具体安排尚未在所提供信息中说明。"
-      ],
-      "businessImpactZh": "如果相关支付应用继续推进，可能为在哈萨克斯坦经营的中国企业提供新的数字化结算场景和金融服务选择。但企业在评估合作前仍需核实监管要求、支付适用范围、技术接入条件及银行合作细节。",
-      "affectedIndustries": [
-        "金融服务",
-        "数字支付",
-        "电子商务",
-        "跨境贸易",
-        "区块链与数字资产"
-      ],
-      "regionIds": ["KZ"],
-      "organizationNames": ["Binance Kazakhstan", "Alatau City Bank"],
-      "officialNames": ["努尔哈特·库希莫夫"],
-      "riskFlags": [
-        "所提供摘要未说明合作的具体产品、金额、时间表和监管安排",
-        "数字资产支付可能涉及合规、反洗钱、汇率及运营风险，需进一步核实",
-        "来源信息为采访摘要，不能据此确认项目已全面落地"
-      ],
-      "confidence": 0.9,
-      "id": "3ef836391ca984db6d3551d475b8a8ceb6988bff1cc48ef9aaf333328f53df0c",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-08-10T16:15:49.418Z",
-      "lastCheckedAt": "2026-08-10T16:15:49.418Z",
-      "rank": 94
     }
   ]
 }
