@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-08-19T09-08-35-204Z",
-  "startedAt": "2026-08-19T09:08:35.204Z",
-  "finishedAt": "2026-08-19T09:11:21.896Z",
+  "runId": "2026-08-19T15-01-23-429Z",
+  "startedAt": "2026-08-19T15:01:23.429Z",
+  "finishedAt": "2026-08-19T15:04:03.510Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -56,10 +56,10 @@
     },
     {
       "sourceId": "kursiv-kz",
-      "status": "success",
-      "fetched": 30,
-      "accepted": 30,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["Invalid character in tag name\nLine: 5\nColumn: 169\nChar: ;"]
     },
     {
       "sourceId": "mfa-kz",
@@ -104,13 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 237,
-  "deduplicated": 76,
+  "collected": 207,
+  "deduplicated": 60,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["51 articles remain untranslated or failed"],
+  "warnings": ["35 articles remain untranslated or failed"],
   "errors": [
     "fetch failed",
-    "Attribute without value\nLine: 0\nColumn: 3313\nChar: i"
+    "Attribute without value\nLine: 0\nColumn: 3313\nChar: i",
+    "Invalid character in tag name\nLine: 5\nColumn: 169\nChar: ;"
   ]
 }
