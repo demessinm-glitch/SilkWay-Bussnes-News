@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-08-19T03-34-32-347Z",
-  "startedAt": "2026-08-19T03:34:32.347Z",
-  "finishedAt": "2026-08-19T03:36:53.354Z",
+  "runId": "2026-08-19T09-08-35-204Z",
+  "startedAt": "2026-08-19T09:08:35.204Z",
+  "finishedAt": "2026-08-19T09:11:21.896Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -105,10 +105,10 @@
     }
   ],
   "collected": 237,
-  "deduplicated": 63,
+  "deduplicated": 76,
   "aiRequests": 25,
-  "publishedNews": 9,
-  "warnings": ["38 articles remain untranslated or failed"],
+  "publishedNews": 12,
+  "warnings": ["51 articles remain untranslated or failed"],
   "errors": [
     "fetch failed",
     "Attribute without value\nLine: 0\nColumn: 3313\nChar: i"
