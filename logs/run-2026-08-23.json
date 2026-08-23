@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-08-23T08-00-39-034Z",
-  "startedAt": "2026-08-23T08:00:39.034Z",
-  "finishedAt": "2026-08-23T08:02:55.248Z",
+  "runId": "2026-08-23T13-58-09-582Z",
+  "startedAt": "2026-08-23T13:58:09.582Z",
+  "finishedAt": "2026-08-23T14:00:58.218Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -42,10 +42,10 @@
     },
     {
       "sourceId": "informburo-kz",
-      "status": "failed",
-      "fetched": 0,
-      "accepted": 0,
-      "errors": ["fetch failed"]
+      "status": "success",
+      "fetched": 20,
+      "accepted": 20,
+      "errors": []
     },
     {
       "sourceId": "kapital-kz",
@@ -104,14 +104,13 @@
       "errors": []
     }
   ],
-  "collected": 217,
-  "deduplicated": 40,
+  "collected": 237,
+  "deduplicated": 37,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["15 articles remain untranslated or failed"],
+  "warnings": ["12 articles remain untranslated or failed"],
   "errors": [
     "fetch failed",
-    "Attribute without value\nLine: 0\nColumn: 3313\nChar: i",
-    "fetch failed"
+    "Attribute without value\nLine: 0\nColumn: 3313\nChar: i"
   ]
 }
