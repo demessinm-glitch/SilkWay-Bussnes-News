@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-08-24T04-10-33-305Z",
-  "startedAt": "2026-08-24T04:10:33.305Z",
-  "finishedAt": "2026-08-24T04:13:02.894Z",
-  "status": "success",
+  "runId": "2026-08-24T09-31-51-477Z",
+  "startedAt": "2026-08-24T09:31:51.477Z",
+  "finishedAt": "2026-08-24T09:34:56.396Z",
+  "status": "success_with_warnings",
   "sources": [
     {
       "sourceId": "adilet-legal",
@@ -24,7 +24,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["Attribute without value\nLine: 0\nColumn: 3313\nChar: i"]
+      "errors": ["Attribute without value\nLine: 0\nColumn: 3488\nChar: i"]
     },
     {
       "sourceId": "forbes-kz",
@@ -105,12 +105,12 @@
     }
   ],
   "collected": 237,
-  "deduplicated": 25,
+  "deduplicated": 50,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": [],
+  "warnings": ["25 articles remain untranslated or failed"],
   "errors": [
     "fetch failed",
-    "Attribute without value\nLine: 0\nColumn: 3313\nChar: i"
+    "Attribute without value\nLine: 0\nColumn: 3488\nChar: i"
   ]
 }
