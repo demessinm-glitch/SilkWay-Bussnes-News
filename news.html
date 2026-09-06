@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="哈萨克斯坦商业、政府与法规中文资讯归档。"
+    />
+    <title>新闻资讯｜丝路译讯</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/pages.css" />
+    <script src="assets/js/app.js" defer></script>
+    <script src="assets/js/news.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳至主要内容</a>
+    <div class="utility-bar">
+      <div class="shell utility-inner">
+        <p><span class="status-dot"></span>中文商业信息工作台</p>
+        <p class="utility-note">Asia/Almaty · 来源优先</p>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-emblem"><i></i><i></i><i></i></span
+          ><span class="brand-copy"
+            ><strong>丝路译讯</strong><small>SILK ROAD BRIEF</small></span
+          ></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span></span><span></span><span></span><b class="sr-only">打开导航</b>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="主导航">
+          <a href="index.html">首页</a
+          ><a class="is-active" href="news.html">新闻资讯</a
+          ><a href="tenders.html">标讯公告</a
+          ><a href="officials.html">政府机构</a
+          ><a href="guides.html">办事指南</a><a href="sources.html">信息来源</a
+          ><a href="prospects.html">商业前景</a>
+          <a href="services.html">企业服务</a>
+        </nav>
+        <a class="header-cta" href="about.html">关于我们 ↗</a>
+      </div>
+    </header>
+    <main id="main-content" class="page-main">
+      <section class="page-hero">
+        <div class="shell page-hero-inner">
+          <div>
+            <p class="breadcrumbs">
+              <a href="index.html">首页</a><span>/</span><span>新闻资讯</span>
+            </p>
+            <h1>新闻资讯</h1>
+            <p class="page-hero-copy">
+              按行业、来源与日期筛选已通过校验的中文摘要。搜索同时覆盖中文和原始标题。
+            </p>
+          </div>
+          <aside class="page-hero-aside">
+            <strong>仅展示已发布内容</strong
+            >未翻译、低相关度或字段不完整的材料不会进入公开列表。
+          </aside>
+        </div>
+      </section>
+      <section class="page-section shell">
+        <form class="filter-panel" id="news-filters">
+          <div class="field">
+            <label for="news-search">搜索</label
+            ><input
+              id="news-search"
+              name="q"
+              type="search"
+              placeholder="搜索中文或原始标题"
+            />
+          </div>
+          <div class="field">
+            <label for="news-category">类别</label
+            ><select id="news-category" name="category">
+              <option value="">全部类别</option>
+              <option value="economy">经济与金融</option>
+              <option value="investment">投资与合作</option>
+              <option value="construction">建设与基础设施</option>
+              <option value="industry">工业与制造业</option>
+              <option value="energy">能源与矿业</option>
+              <option value="transport">交通与物流</option>
+              <option value="law">法律与监管</option>
+              <option value="government">政府决策</option>
+              <option value="china_kz">中哈合作</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="news-source">信息来源</label
+            ><select id="news-source" name="source">
+              <option value="">全部来源</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="news-period">时间</label
+            ><select id="news-period" name="period">
+              <option value="">全部时间</option>
+              <option value="7">最近 7 天</option>
+              <option value="30">最近 30 天</option>
+              <option value="90">最近 90 天</option>
+            </select>
+          </div>
+          <button class="filter-reset" type="button" id="reset-filters">
+            重置筛选
+          </button>
+        </form>
+        <div class="results-topline">
+          <p>找到 <strong id="result-count">0</strong> 条信息</p>
+          <p id="archive-status">正在加载最新信息…</p>
+        </div>
+        <div
+          class="archive-list"
+          id="news-results"
+          aria-live="polite"
+          aria-busy="true"
+        ></div>
+        <nav class="pagination" id="news-pagination" aria-label="分页"></nav>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <a class="brand brand-footer" href="index.html"
+          ><span class="brand-emblem"><i></i><i></i><i></i></span
+          ><span class="brand-copy"
+            ><strong>丝路译讯</strong><small>SILK ROAD BRIEF</small></span
+          ></a
+        >
+        <p>连接哈萨克斯坦公开信息与中文商业读者。</p>
+        <nav>
+          <a href="sources.html">来源与方法</a><a href="about.html">关于我们</a>
+        </nav>
+      </div>
+      <div class="shell footer-legal">
+        <p>© 2026 丝路译讯</p>
+        <p>信息仅供一般参考，不构成专业建议。</p>
+      </div>
+    </footer>
+  </body>
+</html>

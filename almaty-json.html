@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>阿拉木图市机构人员 | 丝路译讯</title>
+    <meta
+      name="description"
+      content="阿拉木图市政府机构人员信息中文转译页面，聚合人员照片、姓名、职务、工作范围与人员履历。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="主导航">
+      <a class="brand" href="index.html" aria-label="丝路译讯首页">
+        <span class="brand-mark" aria-hidden="true">KZ</span>
+        <span>丝路译讯</span>
+      </a>
+      <nav class="nav-links" aria-label="页面导航">
+        <a href="index.html#news">新闻资讯</a>
+        <a href="index.html#tenders">标讯公告</a>
+        <a href="index.html#institutions">政府机构</a>
+      </nav>
+      <a class="header-action" href="index.html#contact">联系我们</a>
+    </header>
+
+    <main>
+      <section
+        class="section directory-hero astana-data-hero"
+        aria-labelledby="almaty-title"
+      >
+        <p class="eyebrow">Almaty City</p>
+        <h1 id="almaty-title">阿拉木图市机构人员</h1>
+        <div class="data-toolbar">
+          <span id="sync-time">数据更新时间读取中</span>
+        </div>
+      </section>
+
+      <section class="section directory-section" aria-labelledby="people-title">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">People</p>
+          <h2 id="people-title">人员数据</h2>
+        </div>
+        <div class="people-grid" id="people-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="source-note" aria-label="来源链接">
+        <p>
+          来源：
+          <a
+            href="https://www.gov.kz/memleket/entities/almaty/about/structure?lang=en"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://www.gov.kz/memleket/entities/almaty/about/structure?lang=en
+          </a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>丝路译讯</p>
+    </footer>
+
+    <script>
+      const ALMATY_FALLBACK = {
+        sourceUrl:
+          "https://www.gov.kz/memleket/entities/almaty/about/structure?lang=en",
+        syncedAt: "",
+        title: "Almaty city administration structure",
+        people: [],
+      };
+
+      function escapeHtml(value) {
+        return String(value || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      function formatDate(value) {
+        if (!value) return "暂无更新时间";
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) return value;
+        return `更新于 ${date.toLocaleString("zh-CN", { hour12: false })}`;
+      }
+
+      function initials(name) {
+        return String(name || "KZ")
+          .split(/\s+/)
+          .map((part) => part[0])
+          .join("")
+          .slice(0, 2)
+          .toUpperCase();
+      }
+
+      function slugify(value) {
+        return String(value || "")
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-|-$/g, "");
+      }
+
+      function renderPerson(person) {
+        const photo = person.photo
+          ? `<img src="${escapeHtml(person.photo)}" alt="${escapeHtml(person.name)}" loading="lazy" />`
+          : `<span>${escapeHtml(initials(person.name))}</span>`;
+        const detailUrl = `almaty-biography.html?id=${encodeURIComponent(slugify(person.name))}`;
+        const workScope = person.workScopeZh
+          ? `
+                <div>
+                  <dt>工作范围</dt>
+                  <dd>${escapeHtml(person.workScopeZh)}</dd>
+                </div>`
+          : "";
+
+        return `
+          <article class="person-card">
+            <div class="person-photo">${photo}</div>
+            <div class="person-body">
+              <h3>${escapeHtml(person.name || "姓名待同步")}</h3>
+              <dl class="field-list">
+                <div>
+                  <dt>职务</dt>
+                  <dd>${escapeHtml(person.positionZh || person.position || "等待官方页面同步")}</dd>
+                </div>
+                ${workScope}
+                <div>
+                  <dt><a href="${detailUrl}">人员履历</a></dt>
+                  <dd><a href="${detailUrl}">查看人员履历</a></dd>
+                </div>
+                <div>
+                  <dt>联系方式</dt>
+                  <dd>${escapeHtml([person.receptionPhone || person.phone, person.email].filter(Boolean).join(" / ") || "暂无")}</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+        `;
+      }
+
+      async function loadData() {
+        try {
+          const response = await fetch("data/almaty-people.json", {
+            cache: "no-store",
+          });
+          if (!response.ok) throw new Error(response.statusText);
+          return await response.json();
+        } catch {
+          return ALMATY_FALLBACK;
+        }
+      }
+
+      loadData().then((data) => {
+        const people = Array.isArray(data.people) ? data.people : [];
+        document.getElementById("sync-time").textContent = formatDate(
+          data.syncedAt,
+        );
+        document.getElementById("people-grid").innerHTML =
+          people.length > 0
+            ? people.map(renderPerson).join("")
+            : '<p class="empty-state">暂无人员数据，等待自动同步。</p>';
+      });
+    </script>
+  </body>
+</html>
