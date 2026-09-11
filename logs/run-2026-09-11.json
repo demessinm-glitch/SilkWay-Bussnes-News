@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-09-11T12-11-14-085Z",
-  "startedAt": "2026-09-11T12:11:14.085Z",
-  "finishedAt": "2026-09-11T12:13:54.296Z",
+  "runId": "2026-09-11T17-00-45-553Z",
+  "startedAt": "2026-09-11T17:00:45.553Z",
+  "finishedAt": "2026-09-11T17:03:23.909Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -10,7 +10,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["fetch failed"]
+      "errors": ["Attribute without value\nLine: 8\nColumn: 72\nChar: >"]
     },
     {
       "sourceId": "akorda-kz",
@@ -49,10 +49,10 @@
     },
     {
       "sourceId": "kapital-kz",
-      "status": "success",
-      "fetched": 30,
-      "accepted": 30,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["This operation was aborted"]
     },
     {
       "sourceId": "kursiv-kz",
@@ -104,13 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 237,
-  "deduplicated": 75,
+  "collected": 207,
+  "deduplicated": 55,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["50 articles remain untranslated or failed"],
+  "warnings": ["30 articles remain untranslated or failed"],
   "errors": [
-    "fetch failed",
-    "Attribute without value\nLine: 0\nColumn: 3544\nChar: i"
+    "Attribute without value\nLine: 8\nColumn: 72\nChar: >",
+    "Attribute without value\nLine: 0\nColumn: 3544\nChar: i",
+    "This operation was aborted"
   ]
 }
