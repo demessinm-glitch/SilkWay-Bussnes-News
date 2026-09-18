@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-09-18T05-53-28-121Z",
-  "startedAt": "2026-09-18T05:53:28.121Z",
-  "finishedAt": "2026-09-18T05:56:33.471Z",
+  "runId": "2026-09-18T12-12-18-798Z",
+  "startedAt": "2026-09-18T12:12:18.798Z",
+  "finishedAt": "2026-09-18T12:14:53.230Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -10,7 +10,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["fetch failed"]
+      "errors": ["Attribute without value\nLine: 10\nColumn: 72\nChar: >"]
     },
     {
       "sourceId": "akorda-kz",
@@ -105,12 +105,12 @@
     }
   ],
   "collected": 237,
-  "deduplicated": 73,
+  "deduplicated": 71,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["48 articles remain untranslated or failed"],
+  "warnings": ["46 articles remain untranslated or failed"],
   "errors": [
-    "fetch failed",
+    "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
     "Attribute without value\nLine: 0\nColumn: 3544\nChar: i"
   ]
 }
