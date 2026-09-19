@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="哈萨克斯坦重点城市、州政府、移民、外交与投资机构公开联系目录。"
+    />
+    <title>政府机构与官员｜丝路译讯</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/pages.css" />
+    <script src="assets/js/app.js" defer></script>
+    <script src="assets/js/officials.js" defer></script>
+    <script src="assets/js/directory.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳至主要内容</a>
+    <div class="utility-bar">
+      <div class="shell utility-inner">
+        <p><span class="status-dot"></span>数据来自 gov.kz 公开页面</p>
+        <p class="utility-note">仅显示官方公开联系信息</p>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-emblem"><i></i><i></i><i></i></span
+          ><span class="brand-copy"
+            ><strong>丝路译讯</strong><small>SILK ROAD BRIEF</small></span
+          ></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span></span><span></span><span></span><b class="sr-only">打开导航</b>
+        </button>
+        <nav class="primary-nav" id="primary-nav">
+          <a href="index.html">首页</a><a href="news.html">新闻资讯</a
+          ><a href="tenders.html">标讯公告</a
+          ><a class="is-active" href="officials.html">政府机构</a
+          ><a href="guides.html">办事指南</a><a href="sources.html">信息来源</a
+          ><a href="prospects.html">商业前景</a>
+          <a href="services.html">企业服务</a>
+        </nav>
+        <a class="header-cta" href="about.html">关于我们 ↗</a>
+      </div>
+    </header>
+    <main id="main-content" class="page-main">
+      <section class="page-hero">
+        <div class="shell page-hero-inner">
+          <div>
+            <p class="breadcrumbs">
+              <a href="index.html">首页</a><span>/</span><span>政府机构</span>
+            </p>
+            <h1>政府机构与官员</h1>
+            <p class="page-hero-copy">
+              为在哈中国企业整理城市负责人、移民服务、外交领事、投资促进和公共服务联系入口。每张卡片均保留官方来源。
+            </p>
+          </div>
+          <aside class="page-hero-aside">
+            <strong>状态规则</strong
+            >人员从官方结构中消失时先标记待核验，不直接删除历史记录。
+          </aside>
+        </div>
+      </section>
+      <nav class="directory-quick-nav shell" aria-label="政府机构目录快速入口">
+        <a href="#direct-cities"
+          ><span>01</span><strong>三座直辖市</strong
+          ><small>负责人详细资料</small></a
+        >
+        <a href="#major-cities"
+          ><span>02</span><strong>其他重点城市</strong
+          ><small>市长、副市长与市政府联系</small></a
+        >
+        <a href="#regions"
+          ><span>03</span><strong>17个州</strong
+          ><small>州长与州政府联系</small></a
+        >
+        <a href="#institutions"
+          ><span>04</span><strong>办事机构</strong
+          ><small>移民、外交与投资</small></a
+        >
+      </nav>
+      <section class="page-section shell" id="direct-cities">
+        <div class="section-heading directory-heading">
+          <div>
+            <p class="section-index">01 / 重点城市</p>
+            <h2>直辖市官员资料</h2>
+          </div>
+          <p>查看三座重点城市的公开履历、职责与联系方式。</p>
+        </div>
+        <div class="region-tabs" role="tablist" aria-label="选择城市">
+          <button
+            class="region-tab is-active"
+            type="button"
+            data-region="almaty"
+          >
+            阿拉木图</button
+          ><button class="region-tab" type="button" data-region="astana">
+            阿斯塔纳</button
+          ><button class="region-tab" type="button" data-region="shymkent">
+            奇姆肯特
+          </button>
+        </div>
+        <div class="directory-meta">
+          <p id="officials-meta">正在加载官方结构…</p>
+          <a class="arrow-link" id="legacy-link" href="almaty-json.html"
+            >查看原有城市页面 →</a
+          >
+        </div>
+        <div
+          class="official-grid"
+          id="official-grid"
+          aria-live="polite"
+          aria-busy="true"
+        ></div>
+      </section>
+      <section class="page-section directory-city-band" id="major-cities">
+        <div class="shell">
+          <div class="section-heading directory-heading">
+            <div>
+              <p class="section-index">02 / 其他重点城市</p>
+              <h2>市政府官员资料</h2>
+            </div>
+            <p>
+              按城市查看市长（阿基姆）、副市长和市政府办公室主任；人员顺序以官方结构页面为准。
+            </p>
+          </div>
+          <div
+            class="region-tabs major-city-tabs"
+            id="major-city-tabs"
+            role="tablist"
+            aria-label="选择其他重点城市"
+          ></div>
+          <div class="directory-meta major-city-meta">
+            <p id="city-directory-meta">正在加载重点城市目录…</p>
+            <a
+              class="arrow-link"
+              id="major-city-website"
+              target="_blank"
+              rel="noopener noreferrer"
+              hidden
+              >打开市政府网站 →</a
+            >
+          </div>
+          <div
+            class="official-grid city-official-grid"
+            id="city-directory"
+            role="tabpanel"
+            aria-live="polite"
+            aria-busy="true"
+          ></div>
+          <p class="directory-disclaimer directory-disclaimer-dark">
+            电话、地址和负责人可能调整。出发前请点击“官方网站”再次确认；紧急情况请使用机构公布的紧急渠道。
+          </p>
+        </div>
+      </section>
+      <section class="page-section directory-band" id="regions">
+        <div class="shell">
+          <div class="section-heading directory-heading">
+            <div>
+              <p class="section-index">03 / 各州政府</p>
+              <h2>州长与州政府联系方式</h2>
+            </div>
+            <p>
+              覆盖三座直辖市以外的17个州。任职和电话以链接中的官方页面为准。
+            </p>
+          </div>
+          <div class="directory-toolbar">
+            <label for="regional-directory-search">搜索州名、首府或州长</label>
+            <input
+              id="regional-directory-search"
+              type="search"
+              placeholder="例如：卡拉干达 / 州长姓名"
+            />
+            <p id="regional-directory-meta">正在加载州政府目录…</p>
+          </div>
+          <div
+            class="contact-directory region-directory"
+            id="regional-directory"
+            aria-live="polite"
+            aria-busy="true"
+          ></div>
+        </div>
+      </section>
+      <section class="page-section shell" id="institutions">
+        <div class="section-heading directory-heading">
+          <div>
+            <p class="section-index">04 / 办事机构</p>
+            <h2>外交、移民与投资服务机构</h2>
+          </div>
+          <p>按实际任务筛选中国驻哈机构、哈萨克斯坦主管部门和企业支持平台。</p>
+        </div>
+        <div
+          class="institution-filter"
+          role="group"
+          aria-label="按机构类型筛选"
+        >
+          <button class="is-active" type="button" data-institution-filter="all">
+            全部
+          </button>
+          <button type="button" data-institution-filter="migration">
+            移民与证件
+          </button>
+          <button type="button" data-institution-filter="diplomacy">
+            外交与领事
+          </button>
+          <button type="button" data-institution-filter="investment">
+            投资落地
+          </button>
+          <button type="button" data-institution-filter="public-service">
+            公共服务
+          </button>
+          <button type="button" data-institution-filter="business-support">
+            企业支持
+          </button>
+        </div>
+        <p class="directory-status" id="business-directory-meta">
+          正在加载办事机构…
+        </p>
+        <div
+          class="contact-directory business-directory"
+          id="business-directory"
+          aria-live="polite"
+          aria-busy="true"
+        ></div>
+        <p class="directory-disclaimer">
+          电话、地址和负责人可能调整。出发前请点击“官方网站”再次确认；紧急情况请使用机构公布的紧急渠道。
+        </p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <a class="brand brand-footer" href="index.html"
+          ><span class="brand-emblem"><i></i><i></i><i></i></span
+          ><span class="brand-copy"
+            ><strong>丝路译讯</strong><small>SILK ROAD BRIEF</small></span
+          ></a
+        >
+        <p>姓名、职务与联系方式以官方页面为准。</p>
+        <nav>
+          <a href="sources.html">来源与方法</a><a href="about.html">关于我们</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
