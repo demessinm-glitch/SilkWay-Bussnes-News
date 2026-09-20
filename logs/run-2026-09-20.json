@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-09-20T12-17-42-170Z",
-  "startedAt": "2026-09-20T12:17:42.170Z",
-  "finishedAt": "2026-09-20T12:19:26.757Z",
+  "runId": "2026-09-20T16-46-35-501Z",
+  "startedAt": "2026-09-20T16:46:35.501Z",
+  "finishedAt": "2026-09-20T16:49:13.924Z",
   "status": "success",
   "sources": [
     {
@@ -50,8 +50,8 @@
     {
       "sourceId": "kapital-kz",
       "status": "success",
-      "fetched": 17,
-      "accepted": 17,
+      "fetched": 15,
+      "accepted": 15,
       "errors": []
     },
     {
@@ -104,10 +104,10 @@
       "errors": []
     }
   ],
-  "collected": 224,
-  "deduplicated": 21,
-  "aiRequests": 21,
-  "publishedNews": 10,
+  "collected": 222,
+  "deduplicated": 24,
+  "aiRequests": 24,
+  "publishedNews": 11,
   "warnings": [],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
