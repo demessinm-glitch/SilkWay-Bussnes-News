@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T16:29:51.592Z",
+  "generatedAt": "2026-09-20T06:12:42.661Z",
   "items": [
     {
       "sourceId": "kursiv-kz",
@@ -16,40 +16,40 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kz.kursiv.media/2026-09-19/tsse-postuplenie-v-shkoly-i-kolledzhi-kazahstana-polnostyu-perevedut-onlain",
       "contentHash": "2ef69bdbbf798e6c380ac8f636b73e2d589516c99542c8fda4ea992d987e4eb0",
-      "collectedAt": "2026-09-19T16:26:24.523Z",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
-      "relevanceScore": 72,
+      "relevanceScore": 78,
       "category": "government",
-      "titleZh": "哈萨克斯坦将把学校和职业院校招生全面转移至线上",
-      "summaryZh": "哈萨克斯坦政府正在升级国家教育数据库，并以此为基础建设统一数字平台，计划简化公共服务办理并降低预算支出。相关项目进展已在由第一副总理努尔雷别克·纳利巴耶夫主持的会议上讨论，教育部和哈萨克电信股份公司汇报了现有系统升级及新平台建设情况。",
+      "titleZh": "哈萨克斯坦拟将中小学和学院招生全面转为线上办理",
+      "summaryZh": "哈萨克斯坦政府正在升级国家教育数据库，并计划在此基础上建设统一数字平台，以简化教育公共服务办理流程并降低预算支出。项目进展已在由第一副总理努尔雷别克·纳利巴耶夫主持的会议上讨论。",
       "keyFactsZh": [
-        "哈萨克斯坦计划升级国家教育数据库。",
-        "政府拟在现有数据库基础上建设统一数字平台。",
-        "该平台旨在简化教育公共服务办理并减少预算支出。",
-        "项目进展由第一副总理努尔雷别克·纳利巴耶夫主持会议讨论。",
-        "教育部和哈萨克电信股份公司就系统现代化和平台建设作了汇报。"
+        "哈萨克斯坦计划将学校和学院招生流程转移到线上办理。",
+        "政府正在现代化改造国家教育数据库，并以此建设统一数字平台。",
+        "政府表示，该平台将有助于简化公共服务获取流程并减少预算支出。",
+        "教育部长和哈萨克电信股份公司董事会主席汇报了现有系统升级及新平台建设进展。",
+        "相关项目进展在第一副总理努尔雷别克·纳利巴耶夫主持的会议上进行了讨论。"
       ],
-      "businessImpactZh": "对中国教育科技、云服务、数字身份、信息系统集成及网络基础设施企业而言，该项目可能形成数字教育平台建设和系统升级需求。但目前来源未披露采购方式、投资规模、实施时间表或具体供应商，企业仍需等待正式招标和政府公告。",
+      "businessImpactZh": "该项目显示哈萨克斯坦正在推进教育公共服务数字化。对中国教育信息化、云服务和系统集成企业而言，未来可能存在技术合作或平台建设机会，但消息未披露具体采购计划、投资金额或招标安排，企业应等待官方项目文件和采购信息。",
       "affectedIndustries": [
-        "教育科技",
-        "云计算与软件",
-        "电信与网络基础设施",
-        "信息系统集成"
+        "教育信息化",
+        "软件与系统集成",
+        "云计算与数字公共服务"
       ],
-      "regionIds": [],
-      "organizationNames": ["哈萨克斯坦教育部", "哈萨克电信股份公司"],
+      "regionIds": ["KZ"],
+      "organizationNames": ["哈萨克电信股份公司", "哈萨克斯坦教育部"],
       "officialNames": ["努尔雷别克·纳利巴耶夫"],
       "riskFlags": [
-        "项目仍处于现代化和建设阶段，具体实施安排未披露",
-        "未披露预算、采购方式、招标信息及参与企业"
+        "项目仍处于升级和建设阶段",
+        "未披露预算金额、实施时间表或采购方式",
+        "具体参与机会需以官方招标或项目文件为准"
       ],
-      "confidence": 0.91,
+      "confidence": 0.92,
       "id": "4d0b5d67a09370a4a7071eefba4ace9dadbf985a9fd4024ba3a6c7d7463a44f8",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-19T16:26:34.628Z",
-      "lastCheckedAt": "2026-09-19T16:26:34.628Z",
-      "rank": 81
+      "analyzedAt": "2026-09-20T06:11:12.122Z",
+      "lastCheckedAt": "2026-09-20T06:11:12.122Z",
+      "rank": 82
     },
     {
       "sourceId": "kursiv-kz",
@@ -65,40 +65,45 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kz.kursiv.media/2026-09-19/tsse-tokaevu-pokazali-kak-izmenyatsya-alleya-myngzhyldyq-i-park-greenline",
       "contentHash": "9f69817f2ff00f123189e2cdef09ffad86b1970c0186ecf1e6b34da9e6650b59",
-      "collectedAt": "2026-09-19T16:26:24.523Z",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
-      "relevanceScore": 86,
+      "relevanceScore": 88,
       "category": "construction",
-      "titleZh": "托卡耶夫了解阿斯塔纳“千年”林荫道和GreenLine公园二期改造进展",
-      "summaryZh": "哈萨克斯坦总统卡瑟姆若马尔特·托卡耶夫了解了阿斯塔纳“千年”林荫道及GreenLine线性公园二期的建设进展。该项目位于奥马罗夫街至托列比街之间，规划建设步行路线、休闲区和体育基础设施。",
+      "titleZh": "托卡耶夫视察阿斯塔纳“千年”林荫道和GreenLine线性公园改造项目",
+      "summaryZh": "哈萨克斯坦总统卡西姆若马尔特·托卡耶夫了解阿斯塔纳“千年”林荫道改造及GreenLine线性公园二期建设进展。项目位于奥马罗夫街至托列比街路段，计划建设步行路线、休闲区和体育设施。",
       "keyFactsZh": [
-        "哈萨克斯坦总统卡瑟姆若马尔特·托卡耶夫考察了相关城市环境改善项目。",
-        "阿斯塔纳市长热尼斯·卡瑟姆别克向总统汇报了施工情况。",
-        "GreenLine线性公园二期位于奥马罗夫街至托列比街路段。",
-        "项目内容包括步行路线、休闲空间和体育基础设施。"
+        "托卡耶夫视察了“千年”林荫道和GreenLine线性公园二期项目。",
+        "阿斯塔纳市市长热尼斯·卡瑟姆别克向总统汇报了相关工程。",
+        "GreenLine二期位于奥马罗夫街至托列比街之间。",
+        "项目规划包括步行路线、休闲区域和体育基础设施。",
+        "来源未披露项目投资额、施工企业、具体工期及采购安排。"
       ],
-      "businessImpactZh": "该项目显示阿斯塔纳将继续推进公共空间和城市基础设施改善，可能为园林景观、城市建设、休闲设施及体育基础设施企业带来潜在关注机会。但来源未披露项目预算、承包商、采购安排或招标时间，中国企业暂不能据此判断具体参与机会。",
+      "businessImpactZh": "该项目显示阿斯塔纳仍在推进城市公共空间和线性公园建设。对中国园林景观、城市基础设施、休闲设施及体育设施企业而言，未来可能存在设计、施工、材料和设备供应机会；但目前尚无公开信息确认具体招标、融资或合作安排，企业应以官方采购公告和项目方信息为准。",
       "affectedIndustries": [
         "城市建设",
         "园林景观",
+        "建筑施工",
         "体育设施",
-        "城市公共空间运营"
+        "建材与城市基础设施"
       ],
-      "regionIds": ["astana"],
-      "organizationNames": ["哈萨克斯坦总统府（阿科尔达）", "阿斯塔纳市政府"],
-      "officialNames": ["卡瑟姆若马尔特·托卡耶夫", "热尼斯·卡瑟姆别克"],
+      "regionIds": ["阿斯塔纳"],
+      "organizationNames": [
+        "哈萨克斯坦总统府（阿科尔达）",
+        "阿斯塔纳市政府",
+        "GreenLine线性公园项目"
+      ],
+      "officialNames": ["卡西姆若马尔特·托卡耶夫", "热尼斯·卡瑟姆别克"],
       "riskFlags": [
-        "来源信息为简要摘录，项目预算和建设期限未披露",
-        "未披露承包商、投资方或采购方式",
-        "项目参与机会仍需等待官方招标或采购公告"
+        "项目投资规模、工期和承包商信息未披露",
+        "目前未确认对外招标或中国企业参与安排"
       ],
-      "confidence": 0.93,
+      "confidence": 0.94,
       "id": "e31eb3970e4688a5d3a3878faf0c62b7b9121d1cfb7b231db2e58878cce8f650",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-19T16:26:44.579Z",
-      "lastCheckedAt": "2026-09-19T16:26:44.579Z",
-      "rank": 95
+      "analyzedAt": "2026-09-20T06:11:17.019Z",
+      "lastCheckedAt": "2026-09-20T06:11:17.019Z",
+      "rank": 92
     },
     {
       "sourceId": "inbusiness-kz",
@@ -114,34 +119,39 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/last/prezident-rk-kazahstan-dolzhen-stat-ogromnoj-stroitelnoj-ploshadkoj",
       "contentHash": "9300f93effd0468e31ee497f328fb757ec8194c083d1eb4a799d6cecb6b30c6e",
-      "collectedAt": "2026-09-19T16:26:24.523Z",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
-      "relevanceScore": 82,
+      "relevanceScore": 85,
       "category": "construction",
-      "titleZh": "托卡耶夫：哈萨克斯坦应成为“大型建设工地”",
-      "summaryZh": "哈萨克斯坦总统卡西姆若马尔特·托卡耶夫提出，哈萨克斯坦应成为大型建设工地，并阐述了国家发展的重点任务。来源未披露具体项目、投资规模或实施时间表。",
+      "titleZh": "托卡耶夫：哈萨克斯坦应成为巨大的建设工地",
+      "summaryZh": "哈萨克斯坦总统卡瑟姆若马尔特·托卡耶夫提出，哈萨克斯坦应成为“巨大的建设工地”，并强调了国家发展的重点任务。",
       "keyFactsZh": [
-        "哈萨克斯坦总统卡西姆若马尔特·托卡耶夫提出，哈萨克斯坦应成为大型建设工地。",
-        "托卡耶夫阐述了哈萨克斯坦发展的重点任务。",
-        "来源未提供具体建设项目、资金规模、招标安排或地区信息。"
+        "消息发布于2026年9月19日。",
+        "卡瑟姆若马尔特·托卡耶夫以哈萨克斯坦总统身份提出上述发展方向。",
+        "来源摘要未披露具体项目、投资规模、时间表或招标安排。"
       ],
-      "businessImpactZh": "该表态显示建设领域可能继续受到政策关注。对中国建筑、工程承包和建材企业而言，可关注后续公布的具体项目及招标信息；目前尚不足以判断具体商业机会或投资规模。",
-      "affectedIndustries": ["建筑业", "基础设施", "工程承包", "建材"],
+      "businessImpactZh": "该表态显示建筑业可能继续被视为哈萨克斯坦发展重点。对中国建筑、工程承包、建材和相关设备企业而言，未来或可关注哈萨克斯坦建设项目及政府采购机会；但目前缺乏具体项目和实施安排，暂不宜据此判断实际订单规模。",
+      "affectedIndustries": [
+        "建筑工程",
+        "基础设施建设",
+        "建材",
+        "工程设备",
+        "政府采购"
+      ],
       "regionIds": ["KZ"],
-      "organizationNames": [],
-      "officialNames": ["卡西姆若马尔特·托卡耶夫"],
+      "organizationNames": ["哈萨克斯坦共和国"],
+      "officialNames": ["卡瑟姆若马尔特·托卡耶夫"],
       "riskFlags": [
-        "缺少具体项目和投资金额",
-        "未提供招标或实施时间表",
-        "商业影响判断仅基于政策表态"
+        "来源摘要未提供具体项目或招标信息",
+        "无法据此确认投资规模和实施时间表"
       ],
-      "confidence": 0.91,
+      "confidence": 0.95,
       "id": "bf35dfaf080d5877521ab78f50acd5ef2e43d4035a31deef227040afd1180da6",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-19T16:26:52.883Z",
-      "lastCheckedAt": "2026-09-19T16:26:52.883Z",
-      "rank": 91
+      "analyzedAt": "2026-09-20T06:11:21.295Z",
+      "lastCheckedAt": "2026-09-20T06:11:21.295Z",
+      "rank": 89
     },
     {
       "sourceId": "informburo-kz",
@@ -157,31 +167,41 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://informburo.kz/novosti/mezdunarodnyi-turisticeskii-poezd-iz-kitaia-pribyl-v-almaty",
       "contentHash": "29977ac2c93299a05e432461ac7896be8c57884e8bf7387fd456bc41ff2c5d73",
-      "collectedAt": "2026-09-19T16:26:24.523Z",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
-      "relevanceScore": 90,
+      "relevanceScore": 88,
       "category": "transport",
       "titleZh": "来自中国的国际旅游列车抵达阿拉木图",
-      "summaryZh": "一列来自中国的国际旅游列车抵达阿拉木图。线路沿历史上的丝绸之路，途经中国西北地区和新疆，并通过霍尔果斯口岸跨越中哈边境。",
+      "summaryZh": "一列来自中国的国际旅游列车抵达阿拉木图。该线路沿历史上的丝绸之路运行，途经中国西北地区和新疆，并通过霍尔果斯口岸跨越中哈边境。",
       "keyFactsZh": [
-        "国际旅游列车已抵达阿拉木图。",
-        "线路经过中国西北地区和新疆。",
+        "消息发布日期为2026年9月19日。",
+        "列车从中国出发并抵达阿拉木图。",
+        "线路途经中国西北地区和新疆。",
         "列车通过霍尔果斯跨越中哈边境。",
-        "该线路沿历史上的丝绸之路运行。"
+        "线路具有历史丝绸之路主题。"
       ],
-      "businessImpactZh": "该线路显示中哈跨境旅游铁路联系正在运行，可能为阿拉木图及霍尔果斯相关旅游、铁路运输和边境服务企业带来客流与服务需求。来源未提供列车班次、客流量、运营方或商业合同信息，实际市场规模仍需进一步确认。",
-      "affectedIndustries": ["旅游业", "铁路运输", "边境服务", "交通基础设施"],
+      "businessImpactZh": "该线路显示中哈跨境旅游和铁路客运联系进一步开展，可能为阿拉木图及霍尔果斯相关旅游、住宿、餐饮和交通服务带来客流机会。企业参与具体项目仍需关注线路运营安排、口岸通行和相关旅游服务信息。",
+      "affectedIndustries": [
+        "跨境旅游",
+        "铁路客运",
+        "酒店住宿",
+        "餐饮服务",
+        "口岸服务"
+      ],
       "regionIds": ["阿拉木图", "霍尔果斯", "新疆"],
       "organizationNames": [],
-      "officialNames": ["哈萨克斯坦", "中国"],
-      "riskFlags": ["来源信息有限，未披露运营方、班次、客流量及投资金额"],
+      "officialNames": [],
+      "riskFlags": [
+        "来源信息未披露列车运营方、班次、票价和客流规模",
+        "跨境线路运营可能受口岸通行及相关协调安排影响"
+      ],
       "confidence": 0.96,
       "id": "89d2212b6f96af727e2598b5dd6a8e78189aa17bef7c691d77337b450718e7bd",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-19T16:27:00.902Z",
-      "lastCheckedAt": "2026-09-19T16:27:00.902Z",
-      "rank": 95
+      "analyzedAt": "2026-09-20T06:11:25.359Z",
+      "lastCheckedAt": "2026-09-20T06:11:25.359Z",
+      "rank": 88
     },
     {
       "sourceId": "kapital-kz",
@@ -197,38 +217,30 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/gosudarstvo/153158/kazahstan-dolzhen-stat-ogromnoj-stroitelnoj-ploshadkoj-glava-rk.html",
       "contentHash": "6c98b907d7a5e94105e06be0b418bb8f40f599e592c58d63599b7e0831c81695",
-      "collectedAt": "2026-09-19T16:26:24.523Z",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
-      "relevanceScore": 82,
+      "relevanceScore": 88,
       "category": "construction",
-      "titleZh": "托卡耶夫：哈萨克斯坦应成为大型建设工地",
-      "summaryZh": "哈萨克斯坦总统卡西姆-若马尔特·托卡耶夫表示，哈萨克斯坦应成为大型建设工地，并称将严格监督道路建设质量。该表态显示基础设施建设和工程质量管理受到政府重视，但目前未公布具体项目、投资金额或实施时间表。",
+      "titleZh": "托卡耶夫：哈萨克斯坦应成为“大型建设工地”",
+      "summaryZh": "哈萨克斯坦总统卡瑟姆若马尔特·托卡耶夫表示，哈萨克斯坦应加快建设发展，并称将严格监督道路建设质量。",
       "keyFactsZh": [
-        "托卡耶夫提出将哈萨克斯坦建设成为大型建设工地。",
-        "托卡耶夫表示，将严格监督道路建设质量。",
-        "消息未披露具体道路项目、合同金额、招标安排或时间表。"
+        "托卡耶夫提出将哈萨克斯坦建设成为“大型建设工地”。",
+        "托卡耶夫表示，将对道路建设质量进行严格监督。",
+        "消息未披露具体项目、投资金额、承包商或实施时间表。"
       ],
-      "businessImpactZh": "对中国建筑、道路工程、建材和工程设备企业而言，这一表态可视为哈萨克斯坦基础设施建设需求可能持续受到政策关注的信号。不过，在缺乏具体项目和采购信息的情况下，企业仍需等待官方招标、项目规划及质量标准等进一步信息。",
-      "affectedIndustries": [
-        "道路建设",
-        "基础设施工程",
-        "建筑材料",
-        "工程机械"
-      ],
+      "businessImpactZh": "这一表态显示哈萨克斯坦可能继续重视基础设施和建设项目。对中国道路、工程建设及建材企业而言，潜在机会可能增加，但参与项目时需重点关注工程质量、验收标准和合规要求。具体商业机会仍需等待项目公告和采购信息。",
+      "affectedIndustries": ["道路建设", "基础设施", "工程承包", "建筑材料"],
       "regionIds": [],
       "organizationNames": [],
-      "officialNames": ["卡西姆-若马尔特·托卡耶夫"],
-      "riskFlags": [
-        "目前仅有政策表态，未披露具体项目、金额或时间表",
-        "道路建设质量监管要求可能提高项目合规和施工标准"
-      ],
+      "officialNames": ["卡瑟姆若马尔特·托卡耶夫"],
+      "riskFlags": ["道路建设质量监管趋严", "目前缺乏具体项目和采购细节"],
       "confidence": 0.96,
       "id": "d2935b56482c69987af43fac703605ce2ca85e15684faf0ad4dab955f2f257bd",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-19T16:27:08.942Z",
-      "lastCheckedAt": "2026-09-19T16:27:08.942Z",
-      "rank": 91
+      "analyzedAt": "2026-09-20T06:11:29.437Z",
+      "lastCheckedAt": "2026-09-20T06:11:29.437Z",
+      "rank": 92
     },
     {
       "sourceId": "informburo-kz",
@@ -244,34 +256,40 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://informburo.kz/novosti/prezident-porucil-naladit-proizvodstvo-sluxovyx-apparatov-v-kazaxstane",
       "contentHash": "3df8fbf1a095176b4606f9b7a93083abe15d0b332496e0ef632e814728e2ac41",
-      "collectedAt": "2026-09-19T16:26:24.523Z",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
-      "relevanceScore": 82,
+      "relevanceScore": 78,
       "category": "industry",
-      "titleZh": "哈萨克斯坦总统要求建立助听器生产",
-      "summaryZh": "哈萨克斯坦总统要求推动在国内建立助听器生产，强调国家援助应面向真正有需要的公民。消息未披露项目规模、实施时间或具体执行部门。",
+      "titleZh": "哈萨克斯坦总统要求建立助听器生产体系",
+      "summaryZh": "哈萨克斯坦总统要求在国内推动助听器生产，并强调国家援助应真正面向有实际需要的公民。该消息可能为医疗器械企业进入哈萨克斯坦市场提供关注方向，但目前尚未公布具体政策、投资规模或实施时间表。",
       "keyFactsZh": [
-        "哈萨克斯坦总统提出在国内建立助听器生产。",
-        "国家应向确有需要的公民提供援助。",
-        "目前来源未提供生产项目的投资金额、产能、技术合作方或采购安排。"
+        "哈萨克斯坦总统要求推动在本国生产助听器。",
+        "总统强调，国家应向确实需要帮助的公民提供援助。",
+        "消息未披露生产项目的投资额、实施主体、产能、地点或时间表。"
       ],
-      "businessImpactZh": "该方向可能为医疗器械生产、助听器技术和相关供应链企业带来潜在市场关注，尤其是具备本地化生产或技术合作能力的中国企业。但在项目责任主体、准入要求、政府采购机制和实施时间明确前，不宜据此判断具体商业机会。",
-      "affectedIndustries": ["医疗器械", "助听器及听力健康产品", "医疗保健"],
+      "businessImpactZh": "对中国助听器、医疗器械及相关零部件企业而言，哈萨克斯坦可能出现本地化生产、供应或技术合作机会。不过，在具体政策、采购机制、补贴标准和市场准入要求明确前，不宜据此判断项目规模或立即投入。",
+      "affectedIndustries": [
+        "医疗器械",
+        "助听器及听力健康产品",
+        "医疗健康服务",
+        "电子零部件"
+      ],
       "regionIds": [],
       "organizationNames": [],
-      "officialNames": [],
+      "officialNames": ["哈萨克斯坦总统"],
       "riskFlags": [
-        "项目投资规模和时间表未披露",
-        "具体执行部门及合作方式未明确",
-        "政府采购和市场准入安排未知"
+        "缺少项目实施主体和合作方信息",
+        "未公布投资规模、产能和建设地点",
+        "未说明政府援助、采购或补贴机制",
+        "消息来源未提供具体政策文件"
       ],
       "confidence": 0.93,
       "id": "11fcc6d1aeb01d919754ac2118cbe1b8f44917702a66fafbbfb0ff56bbca3831",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-19T16:27:32.494Z",
-      "lastCheckedAt": "2026-09-19T16:27:32.494Z",
-      "rank": 87
+      "analyzedAt": "2026-09-20T06:11:42.489Z",
+      "lastCheckedAt": "2026-09-20T06:11:42.489Z",
+      "rank": 78
     },
     {
       "sourceId": "kursiv-kz",
@@ -485,34 +503,33 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/last/iz-sianya-v-almaty-kakuyu-programmu-prigotovili-dlya-passazhirov-novogo-turpoezda",
       "contentHash": "2c901855e9dade66c5826ac87fab4fef417776698395728d3595bb18fb61e3e9",
-      "collectedAt": "2026-09-19T16:26:24.523Z",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
-      "relevanceScore": 82,
+      "relevanceScore": 86,
       "category": "transport",
-      "titleZh": "西安至阿拉木图开通新的旅游列车方向，连接中哈铁路网络",
-      "summaryZh": "一列城际列车已完成西安至阿拉木图新方向的运行，该线路连接中国和哈萨克斯坦的铁路网络。现有信息未披露具体旅游安排、运营方及商业条件。",
+      "titleZh": "西安至阿拉木图新旅游列车开通，连接中哈铁路网络",
+      "summaryZh": "据消息，一列城际列车已沿西安至阿拉木图的新方向运行，该线路连接中国和哈萨克斯坦的铁路网络。报道标题提到将介绍乘客行程安排，但现有信息未披露具体旅游项目。",
       "keyFactsZh": [
-        "列车运行方向为中国西安至哈萨克斯坦阿拉木图。",
-        "该方向被描述为新的旅游列车线路。",
-        "该列车连接了中国和哈萨克斯坦的铁路网络。",
-        "来源未提供班次、票价、运营主体或乘客行程安排等细节。"
+        "列车运行于西安至阿拉木图的新方向。",
+        "该方向连接中国与哈萨克斯坦的铁路网络。",
+        "现有信息未包含班次、票价、运营方及具体行程安排。"
       ],
-      "businessImpactZh": "对跨境铁路运输、旅游组织、酒店及目的地服务企业具有潜在参考价值。中国企业可关注该线路后续的班次安排、客流规模、合作运营方及旅游产品信息；在官方细节公布前，不宜据此判断具体投资或采购机会。",
-      "affectedIndustries": ["跨境铁路运输", "旅游", "酒店与目的地服务"],
-      "regionIds": [],
+      "businessImpactZh": "该线路可能为中哈跨境旅游和铁路客运合作提供新的通道，并有助于相关城市之间的客流往来。中国旅游、铁路客运、酒店及目的地服务企业可关注后续公布的班次、票价、通关安排和运营主体；目前尚不足以评估商业规模。",
+      "affectedIndustries": ["跨境旅游", "铁路客运", "酒店及目的地服务"],
+      "regionIds": ["almaty"],
       "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "运营方、班次、票价和线路常态化运营情况尚未明确",
-        "来源未披露所谓“乘客旅游项目”的具体内容"
+        "缺少班次、票价、运营方和具体旅游安排等关键信息",
+        "线路实际运营规模及持续性尚待进一步确认"
       ],
-      "confidence": 0.91,
+      "confidence": 0.88,
       "id": "033f7acc4caf2d5bd6dcee70b97b2727e48d11a2e9c707c1169f5dc447a290c3",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-19T16:28:38.567Z",
-      "lastCheckedAt": "2026-09-19T16:28:38.567Z",
-      "rank": 87
+      "analyzedAt": "2026-09-20T06:11:51.963Z",
+      "lastCheckedAt": "2026-09-20T06:11:51.963Z",
+      "rank": 86
     },
     {
       "sourceId": "inbusiness-kz",
@@ -521,48 +538,44 @@
       "sourceType": "business_media",
       "sourceUrl": "https://inbusiness.kz/ru/last/mahinaci-na-17-4-mln-tenge-kak-rajonnaya-bolnica-prodvigala-nuzhnyh-postavshikov",
       "externalId": "https://inbusiness.kz/ru/last/mahinaci-na-17-4-mln-tenge-kak-rajonnaya-bolnica-prodvigala-nuzhnyh-postavshikov",
-      "titleOriginal": "Махинаци на 17,4 млн тенге: как районная больница продвигала нужных поставщиков",
+      "titleOriginal": "Махинации на 17,4 млн тенге: как районная больница продвигала нужных поставщиков",
       "summaryOriginal": "Прокуратура Костанайской области раскрыла детали тендерных нарушений в медицинской сфере",
       "publishedAt": "2026-09-19T08:58:00.000Z",
       "languageOriginal": "ru",
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/last/mahinaci-na-17-4-mln-tenge-kak-rajonnaya-bolnica-prodvigala-nuzhnyh-postavshikov",
-      "contentHash": "df3b8609707765c81ffc5d5e0e27603566afd7dc09462f49e4120da6d1e7c7f0",
-      "collectedAt": "2026-09-19T11:55:11.314Z",
+      "contentHash": "e49e0332e71e943dbea1ca81226330ab3bfcb2ee265bed193dd780927d3233fd",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
-      "relevanceScore": 92,
+      "relevanceScore": 91,
       "category": "procurement",
-      "titleZh": "科斯塔奈州检方披露地区医院涉嫌推动“指定供应商”的招标违规",
-      "summaryZh": "科斯塔奈州检察机关披露，某地区医院在医疗领域招标中存在违规行为，涉及金额为1740万坚戈。现有信息显示，相关做法涉嫌为特定供应商获得采购机会提供便利。",
+      "titleZh": "科斯塔奈州检方披露医疗采购违规：地区医院被指为特定供应商提供便利",
+      "summaryZh": "科斯塔奈州检察机关披露了一起涉及医疗领域招标违规的案件。一家地区医院被指在采购过程中推动特定供应商，涉及金额为1740万坚戈。",
       "keyFactsZh": [
-        "案件发生在哈萨克斯坦科斯塔奈州。",
-        "涉及一家地区医院的医疗采购招标。",
-        "涉案金额为1740万坚戈。",
-        "信息来源称，科斯塔奈州检察机关披露了相关招标违规细节，并指向医院推动特定供应商。",
-        "来源未提供涉事医院、供应商名称以及案件的最终法律处理结果。"
+        "案件发生在哈萨克斯坦科斯塔奈州医疗采购领域。",
+        "涉事机构为一家地区医院。",
+        "医院被指在招标过程中为特定供应商提供便利。",
+        "涉及金额为1740万坚戈。",
+        "相关情况由科斯塔奈州检察机关披露。"
       ],
-      "businessImpactZh": "对中国医疗设备、药品及相关服务企业而言，该事件提示参与哈萨克斯坦公共医疗采购时，应严格核查招标文件、供应商准入条件和评标流程，保存报价、资质及沟通记录，并关注科斯塔奈州后续调查或采购规则变化。上述合规建议属于基于事件的谨慎商业判断，并不代表对具体企业或人员责任的认定。",
-      "affectedIndustries": [
-        "医疗设备",
-        "药品与医疗用品",
-        "医院服务",
-        "政府采购合规"
-      ],
-      "regionIds": ["Kostanay"],
-      "organizationNames": ["科斯塔奈州检察机关", "某地区医院"],
+      "businessImpactZh": "对计划参与哈萨克斯坦医疗采购的中国企业而言，该事件提示应严格遵守招标规则，核查供应商资格、投标流程和利益冲突风险，并保留完整的合规文件。仅凭现有信息，无法判断具体供应商或责任主体。",
+      "affectedIndustries": ["医疗", "政府采购", "医疗设备与耗材"],
+      "regionIds": ["Kostanay Region"],
+      "organizationNames": ["地区医院"],
       "officialNames": ["科斯塔奈州检察机关"],
       "riskFlags": [
-        "公共采购合规风险",
-        "供应商准入和评标透明度风险",
-        "案件事实及法律处理结果尚未完全披露"
+        "招标违规风险",
+        "供应商偏袒风险",
+        "政府采购合规风险",
+        "法律与声誉风险"
       ],
-      "confidence": 0.94,
+      "confidence": 0.96,
       "id": "d8af10c122c382418a12cc103e63b769d30732da5e4f4fd2ce82ca701eac65af",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-19T11:56:00.670Z",
-      "lastCheckedAt": "2026-09-19T11:56:00.670Z",
-      "rank": 97
+      "analyzedAt": "2026-09-20T06:11:56.336Z",
+      "lastCheckedAt": "2026-09-20T06:11:56.336Z",
+      "rank": 91
     },
     {
       "sourceId": "inbusiness-kz",
@@ -874,33 +887,34 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/business/153152/tarazskij-saharnyj-zavod-planiruet-pererabatyvat-700-tys-tonn-svekly-v-god.html",
       "contentHash": "bbf77eb4f1dd96a095798b2d13f3cb5056dad119a6acbd90e1fdab4aaa7db968",
-      "collectedAt": "2026-09-19T16:26:24.523Z",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
-      "relevanceScore": 90,
+      "relevanceScore": 85,
       "category": "industry",
-      "titleZh": "塔拉兹糖厂计划年加工甜菜70万吨",
-      "summaryZh": "塔拉兹糖厂将通过现代化改造提升产能，项目计划于今年10月完成，届时计划达到年加工甜菜70万吨。",
+      "titleZh": "塔拉兹糖厂计划将甜菜年加工能力提升至70万吨",
+      "summaryZh": "塔拉兹糖厂正在进行现代化改造，项目计划于今年10月完成，完成后企业计划将甜菜年加工能力提高至70万吨。",
       "keyFactsZh": [
         "企业名称：塔拉兹糖厂。",
         "现代化改造计划于今年10月完成。",
-        "改造后计划年加工甜菜70万吨。"
+        "改造完成后，企业计划每年加工70万吨甜菜。"
       ],
-      "businessImpactZh": "若改造按计划完成，企业对甜菜原料、加工设备及相关物流服务的需求可能增加，为中国农业、食品加工设备和物流企业关注哈萨克斯坦糖业供应链提供参考。但目前消息仅说明计划产能和预计完工时间，未披露投资额、设备供应商及具体合作方式。",
-      "affectedIndustries": ["制糖业", "甜菜种植", "食品加工设备", "物流"],
-      "regionIds": [],
-      "organizationNames": ["Таразский сахарный завод", "塔拉兹糖厂"],
-      "officialNames": [],
+      "businessImpactZh": "该项目可能扩大哈萨克斯坦南部的甜菜加工能力，并为农业原料供应、糖类加工设备及相关物流企业带来潜在合作机会。上述影响属于基于产能计划的谨慎判断，实际需求仍取决于改造进度和甜菜供应情况。",
+      "affectedIndustries": ["糖业", "农业", "食品加工", "工业设备", "物流"],
+      "regionIds": ["taraz"],
+      "organizationNames": ["塔拉兹糖厂"],
+      "officialNames": ["Таразский сахарный завод"],
       "riskFlags": [
         "项目仍处于计划或改造阶段",
-        "未披露投资金额、设备供应商和融资安排"
+        "改造完成时间为计划安排，可能存在延期风险",
+        "甜菜供应量及实际投产能力尚未在来源中说明"
       ],
-      "confidence": 0.98,
+      "confidence": 0.96,
       "id": "acb2295dd70d56c0742942255cb289fb943334513f0e742fb1c36d49e26e6439",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-19T16:29:45.037Z",
-      "lastCheckedAt": "2026-09-19T16:29:45.037Z",
-      "rank": 95
+      "analyzedAt": "2026-09-20T06:12:17.950Z",
+      "lastCheckedAt": "2026-09-20T06:12:17.950Z",
+      "rank": 85
     },
     {
       "sourceId": "kapital-kz",
@@ -916,29 +930,33 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/finance/153151/kursy-valyut-na-19-sentyabrya-ceny-na-neft-i-metally.html",
       "contentHash": "ce9241d355dacfadd54fed35ca50004cebbf887b8491df418656a2eea9d68b18",
-      "collectedAt": "2026-09-19T05:49:29.948Z",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
-      "relevanceScore": 72,
+      "relevanceScore": 78,
       "category": "economy",
-      "titleZh": "9月19日哈萨克斯坦官方汇率：1美元兑446.56坚戈",
-      "summaryZh": "据来源信息，哈萨克斯坦9月19日官方汇率为1美元兑446.56坚戈。该数据可为在哈经营的中国企业进行贸易结算、成本核算和资金预算提供参考。",
+      "titleZh": "哈萨克斯坦9月19日官方美元汇率为446.56坚戈",
+      "summaryZh": "据报道，哈萨克斯坦9月19日官方汇率为1美元兑446.56坚戈。该数据可作为在哈开展贸易、投资和结算业务时的参考。",
       "keyFactsZh": [
-        "9月19日哈萨克斯坦官方汇率为1美元兑446.56坚戈。",
-        "来源标题同时涉及石油和金属价格，但所提供摘要未列出具体价格。"
+        "报道日期为2026年9月19日。",
+        "哈萨克斯坦官方美元汇率为1美元兑446.56坚戈。",
+        "来源标题提及石油和金属价格，但未提供具体价格数据。"
       ],
-      "businessImpactZh": "对使用美元进行进出口结算、采购或投资的中国企业而言，该汇率可作为当日财务测算和结算安排的参考。实际交易汇率可能因银行、时间和交易条件而不同，企业应结合自身交易渠道进一步确认。",
-      "affectedIndustries": ["跨境贸易", "金融服务", "能源", "金属"],
+      "businessImpactZh": "对于在哈萨克斯坦开展业务的中国企业，该汇率可用于初步测算美元与坚戈之间的合同报价、采购成本和结算金额。实际交易成本还可能受到银行报价、手续费及汇率变动影响。",
+      "affectedIndustries": ["跨境贸易", "投资", "金融服务", "能源与金属"],
       "regionIds": ["KZ"],
       "organizationNames": [],
       "officialNames": [],
-      "riskFlags": ["汇率波动风险", "来源摘要未提供石油和金属具体价格"],
+      "riskFlags": [
+        "汇率可能影响跨境结算和成本测算",
+        "来源未提供石油及金属的具体价格"
+      ],
       "confidence": 0.98,
       "id": "6c4dfa448d9acfe9afe10bbb06cb53761adb09826ccbb4a9d875825d37f04efb",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-19T05:50:00.550Z",
-      "lastCheckedAt": "2026-09-19T05:50:00.550Z",
-      "rank": 81
+      "analyzedAt": "2026-09-20T06:12:21.676Z",
+      "lastCheckedAt": "2026-09-20T06:12:21.676Z",
+      "rank": 82
     },
     {
       "sourceId": "inbusiness-kz",
@@ -1211,30 +1229,33 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/economic/153144/s-nachala-goda-kazahstan-eksportiroval-v-strany-ca-48-mln-tonn-zerna.html",
       "contentHash": "e616cdcd869d985a0f8b8d61ab5dc4c53fe74e4f18d1fc1847e6601d4637e14e",
-      "collectedAt": "2026-09-18T17:03:46.522Z",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
       "relevanceScore": 88,
       "category": "economy",
       "titleZh": "今年以来哈萨克斯坦向中亚国家出口480万吨粮食",
-      "summaryZh": "据报道，今年以来哈萨克斯坦已向中亚国家出口480万吨粮食，其中最大出口量流向乌兹别克斯坦。该信息显示哈萨克斯坦粮食对中亚区域市场的供应规模较大。",
+      "summaryZh": "据报道，今年以来哈萨克斯坦已向中亚国家出口约480万吨粮食，其中最大规模运往乌兹别克斯坦。该信息显示，哈萨克斯坦粮食对中亚区域市场的供应规模较大。",
       "keyFactsZh": [
-        "今年以来，哈萨克斯坦向中亚国家出口粮食480万吨。",
-        "乌兹别克斯坦是哈萨克斯坦粮食出口量最大的目的地。",
-        "来源未提供具体出口金额、粮食品种、企业名称及运输路线。"
+        "今年以来，哈萨克斯坦向中亚国家出口约480万吨粮食。",
+        "乌兹别克斯坦是哈萨克斯坦粮食出口的最大目的地。",
+        "来源未披露出口金额、具体粮食品种、运输方式及各国分项数量。"
       ],
-      "businessImpactZh": "对中国粮食贸易、仓储和跨境物流企业而言，中亚粮食供应规模及区域流向值得关注。由于来源未披露价格、合同和具体企业信息，暂不足以判断对中国进口采购或投资项目的直接影响。",
-      "affectedIndustries": ["粮食贸易", "农业供应链", "仓储物流", "跨境运输"],
-      "regionIds": ["KZ", "UZ", "Central Asia"],
+      "businessImpactZh": "对中国粮食贸易、物流和农产品加工企业而言，中亚区域粮食流动规模值得关注，乌兹别克斯坦可能是重要的区域需求市场。但由于来源未提供价格、品种、合同及运输细节，暂不足以判断对中国企业的直接商机或价格影响。",
+      "affectedIndustries": ["粮食贸易", "农业", "农产品加工", "物流运输"],
+      "regionIds": ["KZ", "CENTRAL_ASIA", "UZ"],
       "organizationNames": [],
-      "officialNames": [],
-      "riskFlags": [],
-      "confidence": 0.98,
+      "officialNames": ["哈萨克斯坦", "乌兹别克斯坦"],
+      "riskFlags": [
+        "来源信息有限，缺少金额、品种、分国别数量和运输细节",
+        "“今年以来”的统计区间未在摘要中进一步说明"
+      ],
+      "confidence": 0.93,
       "id": "a35f10881717b739a7f8dea78e71a070c834a0c71d2c635ac91d69486d535f31",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-18T17:04:27.008Z",
-      "lastCheckedAt": "2026-09-18T17:04:27.008Z",
-      "rank": 97
+      "analyzedAt": "2026-09-20T06:12:38.895Z",
+      "lastCheckedAt": "2026-09-20T06:12:38.895Z",
+      "rank": 92
     },
     {
       "sourceId": "kapital-kz",
@@ -1250,35 +1271,33 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/economic/153145/kak-menyaetsya-investicionnaya-model-kazahstana.html",
       "contentHash": "4b4f34d120aec08c1172312a3c4852d4a660fa0e4ca825f60fe45ce5009afd41",
-      "collectedAt": "2026-09-18T17:03:46.522Z",
+      "collectedAt": "2026-09-20T06:10:57.595Z",
       "relevant": true,
-      "relevanceScore": 92,
+      "relevanceScore": 86,
       "category": "investment",
-      "titleZh": "哈萨克斯坦投资模式转向主动寻找和定向吸引投资者",
-      "summaryZh": "据报道，哈萨克斯坦国家投资模式正在发生变化，政府将从被动接收投资转向主动寻找并定向吸引投资者。该变化可能为包括中国企业在内的外国投资者带来更明确的项目对接机会，但目前来源未披露具体行业、项目、优惠政策或实施时间表。",
+      "titleZh": "哈萨克斯坦投资模式转向主动寻找和精准对接投资者",
+      "summaryZh": "据报道，哈萨克斯坦正推动投资模式调整，国家将从被动承接项目转向主动寻找并精准对接投资者。该变化可能影响外国企业获取投资项目信息和政府对接的方式。",
       "keyFactsZh": [
-        "哈萨克斯坦正在调整投资模式。",
-        "政府将采取更主动的投资者寻找机制。",
-        "政策方向包括对投资者进行定向吸引。",
-        "现有信息未说明重点行业、具体项目、投资金额或参与机构。"
+        "来源标题为《哈萨克斯坦投资模式如何变化》。",
+        "报道摘要称，哈萨克斯坦政府正转向主动寻找投资者并开展定向对接。",
+        "来源发布时间为2026年9月18日。"
       ],
-      "businessImpactZh": "对中国企业而言，未来可关注哈萨克斯坦政府主动推介的投资项目及定向招商安排，并提前准备符合目标行业要求的投资方案。不过，当前信息不足以判断具体市场机会、激励措施或准入条件，企业在决策前应以官方项目文件和政策文本为准。",
-      "affectedIndustries": ["跨行业投资项目", "投资服务"],
+      "businessImpactZh": "对中国企业而言，未来在哈萨克斯坦开展投资时，除主动提交项目外，也可关注政府定向招商和投资者筛选机制。来源未提供具体行业、地区、优惠政策或项目清单，实际影响仍需结合后续官方信息判断。",
+      "affectedIndustries": [],
       "regionIds": [],
       "organizationNames": [],
-      "officialNames": [],
+      "officialNames": ["哈萨克斯坦政府"],
       "riskFlags": [
-        "缺少具体重点行业和项目清单",
-        "未披露优惠政策、投资金额及实施时间表",
-        "需进一步核实官方执行细则"
+        "来源摘要信息有限，未说明具体执行机构、行业重点、投资优惠或实施时间表。",
+        "发布时间晚于当前日期，需核实信息是否已正式发布及其时效性。"
       ],
-      "confidence": 0.9,
+      "confidence": 0.84,
       "id": "484934d8af276ae5d330810e310450b76ed845317d894c3147de66b63b466c82",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-18T17:04:31.946Z",
-      "lastCheckedAt": "2026-09-18T17:04:31.946Z",
-      "rank": 101
+      "analyzedAt": "2026-09-20T06:12:42.660Z",
+      "lastCheckedAt": "2026-09-20T06:12:42.660Z",
+      "rank": 90
     },
     {
       "sourceId": "inbusiness-kz",
