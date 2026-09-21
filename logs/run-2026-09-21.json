@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-09-21T06-16-54-451Z",
-  "startedAt": "2026-09-21T06:16:54.451Z",
-  "finishedAt": "2026-09-21T06:19:23.810Z",
+  "runId": "2026-09-21T14-02-54-384Z",
+  "startedAt": "2026-09-21T14:02:54.384Z",
+  "finishedAt": "2026-09-21T14:05:19.030Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -50,8 +50,8 @@
     {
       "sourceId": "kapital-kz",
       "status": "success",
-      "fetched": 20,
-      "accepted": 20,
+      "fetched": 30,
+      "accepted": 30,
       "errors": []
     },
     {
@@ -91,10 +91,10 @@
     },
     {
       "sourceId": "vlast-kz",
-      "status": "success",
-      "fetched": 30,
-      "accepted": 30,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["This operation was aborted"]
     },
     {
       "sourceId": "zakon-kz",
@@ -104,13 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 227,
-  "deduplicated": 26,
+  "collected": 207,
+  "deduplicated": 42,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["1 articles remain untranslated or failed"],
+  "warnings": ["17 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
-    "Attribute without value\nLine: 0\nColumn: 3544\nChar: i"
+    "Attribute without value\nLine: 0\nColumn: 3544\nChar: i",
+    "This operation was aborted"
   ]
 }
