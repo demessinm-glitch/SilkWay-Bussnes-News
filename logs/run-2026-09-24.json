@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-09-24T12-41-54-029Z",
-  "startedAt": "2026-09-24T12:41:54.029Z",
-  "finishedAt": "2026-09-24T12:44:43.452Z",
+  "runId": "2026-09-24T17-50-49-127Z",
+  "startedAt": "2026-09-24T17:50:49.127Z",
+  "finishedAt": "2026-09-24T17:53:15.052Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -42,10 +42,10 @@
     },
     {
       "sourceId": "informburo-kz",
-      "status": "success",
-      "fetched": 20,
-      "accepted": 20,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["Unclosed root tag\nLine: 456\nColumn: 53\nChar: "]
     },
     {
       "sourceId": "kapital-kz",
@@ -104,13 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 237,
-  "deduplicated": 56,
+  "collected": 217,
+  "deduplicated": 52,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["31 articles remain untranslated or failed"],
+  "warnings": ["27 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
-    "Attribute without value\nLine: 0\nColumn: 104816\nChar: i"
+    "Attribute without value\nLine: 0\nColumn: 104816\nChar: i",
+    "Unclosed root tag\nLine: 456\nColumn: 53\nChar: "
   ]
 }
