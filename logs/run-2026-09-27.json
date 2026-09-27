@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-09-27T12-58-17-402Z",
-  "startedAt": "2026-09-27T12:58:17.402Z",
-  "finishedAt": "2026-09-27T13:01:00.162Z",
-  "status": "success_with_warnings",
+  "runId": "2026-09-27T17-42-41-469Z",
+  "startedAt": "2026-09-27T17:42:41.469Z",
+  "finishedAt": "2026-09-27T17:44:56.695Z",
+  "status": "success",
   "sources": [
     {
       "sourceId": "adilet-legal",
@@ -50,8 +50,8 @@
     {
       "sourceId": "kapital-kz",
       "status": "success",
-      "fetched": 13,
-      "accepted": 13,
+      "fetched": 16,
+      "accepted": 16,
       "errors": []
     },
     {
@@ -104,11 +104,11 @@
       "errors": []
     }
   ],
-  "collected": 220,
-  "deduplicated": 29,
-  "aiRequests": 25,
+  "collected": 223,
+  "deduplicated": 23,
+  "aiRequests": 23,
   "publishedNews": 12,
-  "warnings": ["4 articles remain untranslated or failed"],
+  "warnings": [],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
     "Attribute without value\nLine: 0\nColumn: 104826\nChar: i"

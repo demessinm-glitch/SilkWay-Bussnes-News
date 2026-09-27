@@ -1,7 +1,56 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T13:01:00.155Z",
+  "generatedAt": "2026-09-27T17:44:56.686Z",
   "items": [
+    {
+      "sourceId": "inbusiness-kz",
+      "sourceName": "Inbusiness.kz",
+      "sourceNameZh": "Inbusiness.kz 财经媒体",
+      "sourceType": "business_media",
+      "sourceUrl": "https://inbusiness.kz/ru/last/v-zhezkazgane-posle-globalnoj-perestrojki-otkrylsya-istoricheskij-vokzal",
+      "externalId": "https://inbusiness.kz/ru/last/v-zhezkazgane-posle-globalnoj-perestrojki-otkrylsya-istoricheskij-vokzal",
+      "titleOriginal": "В Жезказгане после глобальной перестройки открылся исторический вокзал",
+      "summaryOriginal": "Двухэтажное здание изменилось до неузнаваемости",
+      "publishedAt": "2026-09-27T12:38:00.000Z",
+      "languageOriginal": "ru",
+      "copyrightMode": "metadata_summary_link",
+      "canonicalUrl": "https://inbusiness.kz/ru/last/v-zhezkazgane-posle-globalnoj-perestrojki-otkrylsya-istoricheskij-vokzal",
+      "contentHash": "6925825d11180f4f74d69e150db08da77469cdd88638f216728b30d7f76d4ad2",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
+      "relevant": true,
+      "relevanceScore": 68,
+      "category": "transport",
+      "titleZh": "杰兹卡兹甘历史车站完成全面改造后重新开放",
+      "summaryZh": "杰兹卡兹甘一座历史车站在完成大规模改造后重新开放。消息称，该两层建筑的外观和整体面貌已发生显著变化。",
+      "keyFactsZh": [
+        "车站位于杰兹卡兹甘。",
+        "该建筑为两层历史建筑。",
+        "车站在完成全面改造后重新开放。",
+        "现有信息未披露改造投资额、施工方、开放时间及客运能力变化。"
+      ],
+      "businessImpactZh": "车站设施改善可能提升杰兹卡兹甘的交通基础设施形象，并为建筑改造、交通设施维护及相关服务企业提供关注机会。但目前缺乏项目金额、采购安排和运营变化等信息，暂不能判断对中国企业的直接商业机会。",
+      "affectedIndustries": [
+        "交通基础设施",
+        "建筑改造",
+        "设施维护",
+        "旅游及服务业"
+      ],
+      "regionIds": ["zhezkazgan"],
+      "organizationNames": [],
+      "officialNames": [],
+      "riskFlags": [
+        "项目投资额和资金来源未披露",
+        "施工方及采购信息未披露",
+        "车站运营能力和客流影响未披露"
+      ],
+      "confidence": 0.96,
+      "id": "0652ed20314d82ccc35bbea9f2d29c4b690910ec9f394dd7d469142add808e6f",
+      "translationMode": "ai",
+      "status": "published",
+      "analyzedAt": "2026-09-27T17:43:05.205Z",
+      "lastCheckedAt": "2026-09-27T17:43:05.205Z",
+      "rank": 73
+    },
     {
       "sourceId": "kursiv-kz",
       "sourceName": "Kursiv Media Kazakhstan",
@@ -16,42 +65,41 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kz.kursiv.media/2026-09-27/shlc-reke-irtysh-v-kazahstane-oformyat-personalnyj-czifrovoj-pasport",
       "contentHash": "7c3ac6479090afbeb0c56ecb3f834f1973fade69f06d9ef298f712f747141fdb",
-      "collectedAt": "2026-09-27T12:58:21.513Z",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
       "relevant": true,
-      "relevanceScore": 76,
+      "relevanceScore": 78,
       "category": "government",
       "titleZh": "哈萨克斯坦拟为额尔齐斯河建立统一数字护照",
-      "summaryZh": "东哈萨克斯坦州州长努雷姆别特·萨克塔加诺夫在巴甫洛达尔举行的一场国际论坛上提出，为额尔齐斯河建立统一数字护照。该系统拟整合水深、水质、河岸状况、渔业资源、通航河段及水利工程等信息。",
+      "summaryZh": "东哈萨克斯坦州州长努尔梅别特·萨克塔加诺夫在巴甫洛达尔举行的国际论坛上提出，为额尔齐斯河建立统一数字护照。该系统拟整合水深、水质、河岸状况、渔业资源、通航河段及水工设施等数据，供相关地区使用。",
       "keyFactsZh": [
-        "该倡议由东哈萨克斯坦州州长努雷姆别特·萨克塔加诺夫提出。",
-        "信息系统计划持续更新额尔齐斯河相关数据。",
-        "拟纳入的数据包括水深、水质、河岸状况、渔业资源、通航河段和水利工程。",
-        "来源未说明项目的批准状态、投资规模、建设时间表或具体实施主体。"
+        "该倡议由东哈萨克斯坦州州长努尔梅别特·萨克塔加诺夫提出。",
+        "相关设想是在巴甫洛达尔举行的国际论坛上公布的。",
+        "数字护照计划建设一个持续更新的信息系统。",
+        "拟纳入的数据包括水深、水质、河岸状态、渔业资源、通航河段和水工设施状况。"
       ],
-      "businessImpactZh": "如果项目后续落地，可能为水质监测、地理信息系统、河道测绘、生态保护、航运管理及水利设施数字化企业带来潜在合作机会。中国企业应重点关注后续招标、数据标准、系统互联要求和地方政府采购安排；目前不宜将该倡议视为已确定的商业项目。",
+      "businessImpactZh": "该倡议可能为水资源监测、地理信息系统、河道数字化管理和水工设施数据服务带来潜在需求，对具备相关技术能力的中国企业具有观察价值。但目前信息仅涉及倡议，来源未披露项目预算、实施时间表、技术标准或采购安排，暂不能视为已启动的商业项目。",
       "affectedIndustries": [
         "水资源管理",
+        "数字化与地理信息系统",
         "环境监测",
-        "地理信息系统",
-        "水利工程",
         "内河航运",
-        "数字政府"
+        "水利基础设施"
       ],
       "regionIds": ["东哈萨克斯坦州", "巴甫洛达尔州"],
       "organizationNames": [],
-      "officialNames": ["努雷姆别特·萨克塔加诺夫"],
+      "officialNames": ["努尔梅别特·萨克塔加诺夫"],
       "riskFlags": [
-        "目前属于倡议，尚未披露正式批准和实施计划",
-        "未披露预算、采购方式和项目承包商",
-        "需进一步核实跨地区数据管理和系统建设安排"
+        "仍处于倡议或规划阶段",
+        "未披露预算和实施期限",
+        "未公布招标、采购或合作条件"
       ],
-      "confidence": 0.94,
+      "confidence": 0.93,
       "id": "1f7e99e94e33c8b19d510ca7786bf7143144195223eb0c2659c8a8dccaab5608",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-27T12:58:43.890Z",
-      "lastCheckedAt": "2026-09-27T12:58:43.890Z",
-      "rank": 85
+      "analyzedAt": "2026-09-27T17:43:13.028Z",
+      "lastCheckedAt": "2026-09-27T17:43:13.028Z",
+      "rank": 87
     },
     {
       "sourceId": "kursiv-kz",
@@ -67,41 +115,35 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kz.kursiv.media/2026-09-27/shlc-v-karagandinskoj-oblasti-vystavili-19-blokpostov-iz-za-kradenogo-myasa",
       "contentHash": "9fc949656b194dbf6d826dc0bd5b04dd43af0d78cbe872f722ecccac5a1a06d2",
-      "collectedAt": "2026-09-27T12:58:21.513Z",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
       "relevant": true,
-      "relevanceScore": 78,
+      "relevanceScore": 72,
       "category": "law",
-      "titleZh": "哈萨克斯坦卡拉干达州因防范盗窃牲畜设置19个流动检查站",
-      "summaryZh": "卡拉干达州在共和国级和州级公路上设置19个流动检查站，重点检查运输牲畜和肉类产品的车辆，以及证明货物来源和运输合法性的文件。缺少必要文件的车辆将被送往辖区警察部门接受核查。",
+      "titleZh": "哈萨克斯坦卡拉干达州因牲畜盗窃设置19个流动检查站",
+      "summaryZh": "卡拉干达州在共和国级和州级公路上设置19个流动检查站，背景是秋季传统牲畜屠宰活动以及打击牲畜盗窃。警方将检查运输牲畜和肉类产品的车辆，并核验货物来源及运输合法性证明；缺少必要文件的车辆将被送往辖区警察部门接受检查。",
       "keyFactsZh": [
-        "消息发布于2026年9月27日。",
-        "检查措施与秋季传统牲畜屠宰活动及打击牲畜盗窃有关。",
+        "检查站设置在卡拉干达州的共和国级和州级公路上。",
+        "共设置19个流动检查站。",
         "检查对象包括运输牲畜和肉类产品的车辆。",
-        "运输方需出示证明牲畜或肉类来源及运输合法性的文件。",
-        "缺少必要文件的车辆将被送往辖区警察部门进行核查。"
+        "警方将核验相关货物的来源文件及运输合法性证明。",
+        "缺少必要文件的车辆将被送往辖区警察部门进一步检查。"
       ],
-      "businessImpactZh": "在卡拉干达州从事牲畜、肉类加工或相关运输的企业，可能面临更严格的道路检查和通行延误。企业应确保随车携带能够证明货物来源及运输合法性的文件；具体文件清单应以当地执法部门要求为准。",
-      "affectedIndustries": [
-        "畜牧业",
-        "肉类加工",
-        "食品贸易",
-        "公路运输与物流"
-      ],
-      "regionIds": ["karaganda-region"],
-      "organizationNames": ["卡拉干达州警察部门"],
+      "businessImpactZh": "从事牲畜、肉类采购、加工或跨区域运输的中国企业，在卡拉干达州相关公路运输时需准备能够证明货物来源和运输合法性的文件。文件不完整可能导致车辆被送检并造成运输延误。",
+      "affectedIndustries": ["畜牧业", "肉类加工", "食品贸易", "公路物流"],
+      "regionIds": ["KZ-KAR"],
+      "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "运输文件不完整可能导致车辆被扣留核查",
-        "道路检查可能造成运输延误",
-        "牲畜及肉类产品来源证明要求受到重点关注"
+        "牲畜和肉类运输可能面临路检",
+        "来源及运输合法性文件不完整可能导致延误或接受警方检查"
       ],
-      "confidence": 0.96,
+      "confidence": 0.97,
       "id": "ac76e68cb958138de641f6263ff1b4403ea7d97bccb666e30dbb7118819836e4",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-27T12:58:57.721Z",
-      "lastCheckedAt": "2026-09-27T12:58:57.721Z",
-      "rank": 87
+      "analyzedAt": "2026-09-27T17:43:25.350Z",
+      "lastCheckedAt": "2026-09-27T17:43:25.350Z",
+      "rank": 81
     },
     {
       "sourceId": "inbusiness-kz",
@@ -117,39 +159,38 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/last/gostinicy-restorany-taksi-kak-almaty-marathon-vliyaet-na-ekonomiku-almaty",
       "contentHash": "58056e1e191068a7dfa3a4b7d31ede2ee9e2c95e70899d86032bd20b715e0e55",
-      "collectedAt": "2026-09-27T12:58:21.513Z",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
       "relevant": true,
-      "relevanceScore": 78,
+      "relevanceScore": 72,
       "category": "economy",
-      "titleZh": "Almaty Marathon带动阿拉木图酒店、餐饮和出租车需求",
-      "summaryZh": "据消息，周年赛事吸引了创纪录数量的游客，并对阿拉木图的酒店、餐饮和出租车等服务业产生经济影响。",
+      "titleZh": "Almaty Marathon创纪录游客数量带动阿拉木图酒店、餐饮和出租车需求",
+      "summaryZh": "据报道，Almaty Marathon周年赛事吸引了创纪录数量的游客，并对阿拉木图的酒店、餐厅和出租车等相关行业产生经济影响。",
       "keyFactsZh": [
-        "消息标题称，Almaty Marathon影响了阿拉木图的酒店、餐厅和出租车行业。",
-        "摘要称，本届周年赛事吸引了创纪录数量的游客。",
-        "来源未提供游客具体数量、消费金额或各行业收入变化。"
+        "报道标题指出，酒店、餐厅和出租车是受Almaty Marathon影响的主要领域。",
+        "周年赛事吸引了创纪录数量的游客。",
+        "报道涉及阿拉木图的旅游及城市服务经济。"
       ],
-      "businessImpactZh": "对中国企业而言，赛事期间阿拉木图的住宿、餐饮、城市交通及相关旅游服务可能出现需求增长，服务业企业可关注大型活动带来的短期客流机会。但由于缺乏量化数据，暂不能评估具体市场规模或投资回报。",
+      "businessImpactZh": "赛事带来的游客流量可能为阿拉木图的住宿、餐饮和城市交通服务创造额外需求。对中国企业而言，可关注当地大型活动相关的酒店服务、餐饮供应和出行服务机会；但来源未提供游客规模、消费金额或具体项目数据，暂不宜量化商业影响。",
       "affectedIndustries": [
+        "旅游业",
         "酒店业",
         "餐饮业",
-        "出租车及城市交通",
-        "旅游服务"
+        "出租车及城市交通服务"
       ],
       "regionIds": ["almaty"],
       "organizationNames": ["Almaty Marathon"],
       "officialNames": [],
       "riskFlags": [
-        "来源仅包含标题和摘要",
-        "缺少游客数量、消费额及行业增幅等关键数据",
-        "赛事带来的需求增长可能具有短期性"
+        "来源信息有限，未披露游客数量、经济收益及企业名单",
+        "仅凭摘要无法确认具体商业项目或投资机会"
       ],
       "confidence": 0.86,
       "id": "faef703d1f7d3681af31018c0213ad365fdb2dc7760c7f42242094ebeafd6296",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-27T12:59:10.872Z",
-      "lastCheckedAt": "2026-09-27T12:59:10.872Z",
-      "rank": 87
+      "analyzedAt": "2026-09-27T17:43:35.230Z",
+      "lastCheckedAt": "2026-09-27T17:43:35.230Z",
+      "rank": 81
     },
     {
       "sourceId": "kursiv-kz",
@@ -356,39 +397,34 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/news/v-kazahstane-hotyat-otkazatsya-ot-denezhnyh-vyplat-pri-dtp",
       "contentHash": "40fcbe5621e5f84a05f2c0de173ec66a128eebf7870f0ac4670a74bf1a09e8a9",
-      "collectedAt": "2026-09-27T12:58:21.513Z",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
       "relevant": true,
-      "relevanceScore": 75,
+      "relevanceScore": 78,
       "category": "law",
       "titleZh": "哈萨克斯坦拟取消交通事故现金赔付",
-      "summaryZh": "哈萨克斯坦可能通过新法律调整交通事故损失处理方式，拟取消现金赔付。现有信息未披露具体适用范围、实施时间及替代赔付机制。",
+      "summaryZh": "哈萨克斯坦拟通过新法律调整交通事故损失处理流程，可能取消现金赔付方式。具体制度安排及生效时间尚未明确。",
       "keyFactsZh": [
-        "消息称，哈萨克斯坦拟取消交通事故中的现金赔付。",
-        "相关新法律可能改变交通事故损失的整体处理流程。",
-        "目前来源未说明法律是否已经通过，也未公布具体金额、期限或执行细则。"
+        "消息称，哈萨克斯坦正在考虑放弃交通事故中的现金赔付。",
+        "拟议中的新法律可能改变交通事故损失的整体处理和理赔流程。",
+        "来源未披露法律草案的具体条款、适用范围及生效日期。"
       ],
-      "businessImpactZh": "如果相关法律落地，保险公司、汽车维修、汽车零部件及车队运营企业可能需要调整事故理赔和维修结算流程。中国企业在哈萨克斯坦开展车辆销售、运输或保险相关业务时，应关注后续法律文本及实施细则；目前不宜据此确定具体合规要求。",
-      "affectedIndustries": [
-        "保险",
-        "汽车维修",
-        "汽车零部件",
-        "运输与车队运营"
-      ],
-      "regionIds": [],
+      "businessImpactZh": "在哈萨克斯坦经营运输、物流、网约车或车队业务的中国企业，应关注后续法律文本及实施细则，并评估事故报案、保险理赔和损失结算流程可能发生的变化。目前不宜据此作出具体合规或财务判断。",
+      "affectedIndustries": ["运输", "物流", "保险", "汽车服务"],
+      "regionIds": ["KZ"],
       "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "法律尚处于拟议或待确认状态",
-        "缺少实施时间和适用范围",
-        "缺少替代赔付机制及执行细则"
+        "拟议法律，尚未确认正式通过",
+        "现金赔付取消的具体机制不明",
+        "来源信息有限，缺少生效时间和适用范围"
       ],
-      "confidence": 0.92,
+      "confidence": 0.9,
       "id": "9bbb4e69b85572e0738484ccb155d1b57c3b91603f642b62b74008c20fb26503",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-27T12:59:43.780Z",
-      "lastCheckedAt": "2026-09-27T12:59:43.780Z",
-      "rank": 84
+      "analyzedAt": "2026-09-27T17:43:45.196Z",
+      "lastCheckedAt": "2026-09-27T17:43:45.196Z",
+      "rank": 82
     },
     {
       "sourceId": "inbusiness-kz",
@@ -640,35 +676,31 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://vlast.kz/novosti/71011-kompleksnuu-proverku-provedut-v-minoborony-kazahstana.html",
       "contentHash": "ff5d985aebf4d56fb62056dd5c529500b75339a9ba7e9829e913c9dfe9ca3935",
-      "collectedAt": "2026-09-27T12:58:21.513Z",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
       "relevant": true,
-      "relevanceScore": 82,
+      "relevanceScore": 72,
       "category": "government",
-      "titleZh": "哈萨克斯坦将对国防部开展全面检查",
-      "summaryZh": "哈萨克斯坦成立委员会，对国防部工作状况进行全面检查，范围包括财务状况以及军队单位的物资和技术保障。总统卡西姆-若马尔特·托卡耶夫已签署相关命令，检查的首批结果须在七日内提交。",
+      "titleZh": "哈萨克斯坦国防部将接受综合检查",
+      "summaryZh": "哈萨克斯坦成立委员会，对国防部工作状况开展综合检查，范围包括财务状况以及军队各部队的物资和技术保障。相关 распоряжение 由总统卡西姆若马尔特·托卡耶夫于周六签署，检查初步结果须在七天内提交。",
       "keyFactsZh": [
-        "哈萨克斯坦已成立委员会，对国防部开展全面检查。",
-        "检查内容包括国防部财务状况，以及军队单位的物资和技术保障。",
-        "相关命令由哈萨克斯坦总统卡西姆-若马尔特·托卡耶夫签署。",
-        "检查首批结果应在七日内提交。"
+        "哈萨克斯坦已成立委员会，对国防部开展综合检查。",
+        "检查内容包括国防部财务状况，以及军队各部队的物资和技术保障情况。",
+        "相关 распоряжение 由哈萨克斯坦总统卡西姆若马尔特·托卡耶夫签署。",
+        "检查初步结果应在七天内提交。"
       ],
-      "businessImpactZh": "对于向哈萨克斯坦国防体系提供设备、物资或技术服务的中国企业，后续应关注检查结果及其可能对采购流程、供应商审查和项目执行节奏产生的影响。目前消息未说明具体违规事项或采购政策调整。",
-      "affectedIndustries": ["国防工业", "军用物资与装备", "技术服务"],
-      "regionIds": ["KZ", "ASTANA"],
+      "businessImpactZh": "此次检查直接涉及国防部门的财务和物资技术保障。对向哈萨克斯坦国防及相关保障领域提供产品或服务的中国企业而言，短期内应关注检查结果及其可能带来的管理、合规和供应安排变化；目前来源未披露具体采购项目或调整措施。",
+      "affectedIndustries": ["国防装备", "军用物资保障", "技术与后勤服务"],
+      "regionIds": [],
       "organizationNames": ["哈萨克斯坦国防部"],
-      "officialNames": ["卡西姆-若马尔特·托卡耶夫", "塔玛拉·瓦尔"],
-      "riskFlags": [
-        "正在进行政府部门财务和物资保障审查",
-        "可能影响相关国防采购和供应链项目进度",
-        "消息未披露具体问题或整改措施"
-      ],
-      "confidence": 0.97,
+      "officialNames": ["卡西姆若马尔特·托卡耶夫"],
+      "riskFlags": ["国防部门综合检查", "潜在合规与供应安排不确定性"],
+      "confidence": 0.96,
       "id": "bad05751688a99571de74bbd281ad8531d540e3fa381bd18f7944c2636f4ca92",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-27T13:00:08.028Z",
-      "lastCheckedAt": "2026-09-27T13:00:08.028Z",
-      "rank": 86
+      "analyzedAt": "2026-09-27T17:43:52.234Z",
+      "lastCheckedAt": "2026-09-27T17:43:52.234Z",
+      "rank": 76
     },
     {
       "sourceId": "kursiv-kz",
@@ -1014,40 +1046,31 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/economic/153454/na-reke-bolshoj-uzen-postroyat-vodohranilishe.html",
       "contentHash": "163dc37e65cc30a4a566afcdcc26130c99ea24c0065cc4baffc5ec660fec277b",
-      "collectedAt": "2026-09-27T12:58:21.513Z",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
       "relevant": true,
-      "relevanceScore": 85,
+      "relevanceScore": 82,
       "category": "construction",
-      "titleZh": "哈萨克斯坦将在大乌曾河建设水库",
-      "summaryZh": "大乌曾河水库项目计划在伊斯兰开发银行参与下获得融资。",
+      "titleZh": "哈萨克斯坦将在大乌津河建设水库",
+      "summaryZh": "哈萨克斯坦计划在大乌津河上建设一座水库，项目将获得伊斯兰开发银行参与融资。",
       "keyFactsZh": [
-        "项目名称为大乌曾河水库建设项目。",
+        "项目地点为大乌津河。",
+        "项目内容为建设水库。",
         "项目融资将有伊斯兰开发银行参与。",
-        "来源未披露项目投资额、建设期限、技术参数及承包商信息。"
+        "来源发布时间为2026年9月26日。"
       ],
-      "businessImpactZh": "该项目可能为水利工程承包、工程设计、建设设备及相关供应商带来潜在机会。但目前缺少项目规模、招标安排和参与条件，企业仍需等待官方项目文件或采购公告。",
-      "affectedIndustries": [
-        "水利基础设施",
-        "建筑工程",
-        "工程设计",
-        "建设设备"
-      ],
+      "businessImpactZh": "该项目显示哈萨克斯坦水利基础设施建设存在投资和工程需求。中国企业可关注后续项目融资安排、招标条件及承包商遴选信息；目前来源未披露项目规模、投资额、建设期限或采购方式。",
+      "affectedIndustries": ["水利基础设施建设", "工程承包", "项目融资"],
       "regionIds": [],
       "organizationNames": ["伊斯兰开发银行"],
-      "officialNames": ["Исламский банк развития"],
-      "riskFlags": [
-        "投资额未披露",
-        "建设期限未披露",
-        "技术参数未披露",
-        "承包商及采购安排未披露"
-      ],
-      "confidence": 0.94,
+      "officialNames": [],
+      "riskFlags": ["项目规模、投资额、工期及招标信息尚未披露"],
+      "confidence": 0.96,
       "id": "cc1baf0f9126cc75346761018101d3b1eed82d58e3a190c3650bebe295b6a429",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-27T13:00:20.169Z",
-      "lastCheckedAt": "2026-09-27T13:00:20.169Z",
-      "rank": 89
+      "analyzedAt": "2026-09-27T17:44:03.390Z",
+      "lastCheckedAt": "2026-09-27T17:44:03.390Z",
+      "rank": 86
     },
     {
       "sourceId": "kursiv-kz",
@@ -1113,21 +1136,26 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://vlast.kz/novosti/71008-musornyj-poligon-v-alatau-vozvrasen-v-kommunalnuu-sobstvennost.html",
       "contentHash": "7be61190182b1c69c13252999bc5a4acb9eab72c172f93f281b7c97307700d25",
-      "collectedAt": "2026-09-27T12:58:21.513Z",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
       "relevant": true,
-      "relevanceScore": 72,
+      "relevanceScore": 82,
       "category": "law",
-      "titleZh": "阿拉套市一处垃圾填埋场被判归还市政所有",
-      "summaryZh": "阿拉木图州专门跨区经济法院支持阿拉套市检察机关的诉讼，裁定将该市垃圾填埋场归还市政所有。该消息由阿拉木图州检察机关发布。",
+      "titleZh": "阿拉套市一处垃圾填埋场被收归市政所有",
+      "summaryZh": "阿拉木图州专门跨区经济法院支持阿拉套市检察机关的诉讼，将该市一处垃圾填埋场收归市政所有。此举意味着相关设施的产权和管理主体发生变化，可能影响未来的运营、服务采购及投资安排。",
       "keyFactsZh": [
-        "阿拉木图州专门跨区经济法院审理了相关案件。",
-        "法院支持阿拉套市检察机关提出的诉讼请求。",
-        "涉事垃圾填埋场将归还市政所有。",
-        "消息由阿拉木图州检察机关公布。"
+        "阿拉木图州专门跨区经济法院支持阿拉套市检察机关提起的诉讼。",
+        "涉事垃圾填埋场位于阿拉套市。",
+        "法院裁定将该垃圾填埋场收归市政所有。",
+        "消息由阿拉木图州检察机关发布。"
       ],
-      "businessImpactZh": "所有权变化可能影响该填埋场未来的运营、管理和服务采购安排，但目前来源未说明原所有者、运营方或后续招标计划。废物处理和环境服务企业应关注阿拉套市政府后续发布的运营许可、采购及合作信息。",
-      "affectedIndustries": ["废物处理", "环境服务", "市政基础设施"],
-      "regionIds": ["alatau", "almaty-region"],
+      "businessImpactZh": "对计划参与阿拉套市固废处理、垃圾填埋场运营或相关设备供应的中国企业而言，应在开展合作前核实设施的产权状态、运营主体、许可条件及政府采购安排。仅凭现有信息，无法判断是否会启动新的运营招标、改造项目或合作机会。",
+      "affectedIndustries": [
+        "固体废物处理",
+        "环保设备",
+        "城市基础设施",
+        "政府采购"
+      ],
+      "regionIds": ["阿拉套市", "阿拉木图州"],
       "organizationNames": [
         "阿拉木图州专门跨区经济法院",
         "阿拉套市检察机关",
@@ -1135,17 +1163,17 @@
       ],
       "officialNames": [],
       "riskFlags": [
-        "垃圾填埋场后续运营方和管理模式尚未明确",
-        "可能涉及市政资产运营及服务采购安排变化",
-        "来源未披露案件具体理由和原所有权主体"
+        "垃圾填埋场产权和管理主体发生变化",
+        "后续运营及采购安排尚未披露",
+        "来源信息未说明裁决执行时间和相关合同影响"
       ],
-      "confidence": 0.98,
+      "confidence": 0.97,
       "id": "4318c4e89d2e8c19eefa9a07c882dc5f53af6c2f5ab380e806526c5f123dcb6c",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-27T13:00:29.460Z",
-      "lastCheckedAt": "2026-09-27T13:00:29.460Z",
-      "rank": 76
+      "analyzedAt": "2026-09-27T17:44:09.110Z",
+      "lastCheckedAt": "2026-09-27T17:44:09.110Z",
+      "rank": 86
     },
     {
       "sourceId": "informburo-kz",
@@ -1333,52 +1361,47 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://www.gov.kz/memleket/entities/mfa/press/news/details/1299178?lang=ru",
       "contentHash": "a3ee1ad0786dc4bf2f61857cbb10e7f120dc714086de4337d5c310fd554824e3",
-      "collectedAt": "2026-09-27T12:58:21.513Z",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
       "relevant": true,
-      "relevanceScore": 68,
+      "relevanceScore": 78,
       "category": "transport",
-      "titleZh": "哈萨克斯坦外长在联合国大会期间与塞浦路斯、格鲁吉亚和罗马尼亚官员会谈",
-      "summaryZh": "2026年9月25日，哈萨克斯坦外交部长穆赫塔尔·特列乌别尔季在纽约出席第81届联合国大会期间，与塞浦路斯、格鲁吉亚和罗马尼亚外交部门负责人举行双边会谈。各方讨论了贸易、投资、能源、交通和物流合作，其中哈萨克斯坦与格鲁吉亚重点讨论了跨里海国际运输路线及中间走廊运输能力的进一步拓展。",
+      "titleZh": "哈萨克斯坦在联合国大会期间与塞浦路斯、格鲁吉亚和罗马尼亚讨论经贸及交通合作",
+      "summaryZh": "2026年9月25日，哈萨克斯坦外交部长穆赫塔尔·特列乌别尔季在第81届联合国大会期间，与塞浦路斯、格鲁吉亚和罗马尼亚外交部门负责人举行双边会谈。各方讨论了贸易、投资、能源、运输和物流等领域的合作，其中哈萨克斯坦与格鲁吉亚重点交流了跨里海国际运输路线及中间走廊扩展前景。",
       "keyFactsZh": [
-        "哈萨克斯坦与塞浦路斯讨论了贸易经济和投资合作，包括能源领域，并同意保持定期政治对话。",
-        "哈萨克斯坦与格鲁吉亚确认继续加强战略伙伴关系，合作范围涉及贸易、投资及其他领域。",
-        "哈萨克斯坦与格鲁吉亚重点讨论跨里海国际运输路线和中间走廊发展前景。",
-        "哈萨克斯坦与罗马尼亚讨论了能源安全、投资、交通和物流合作的新方向。",
-        "各方表示愿在联合国及其他多边平台加强协调。"
+        "哈萨克斯坦外交部长穆赫塔尔·特列乌别尔季在纽约与塞浦路斯、格鲁吉亚和罗马尼亚外交部门负责人举行会谈。",
+        "哈萨克斯坦与塞浦路斯讨论了贸易、经济和投资合作，包括能源领域，并同意保持定期政治对话。",
+        "哈萨克斯坦与格鲁吉亚确认将加强战略伙伴关系，合作范围涉及政治、贸易、投资以及文化和人道领域。",
+        "哈萨克斯坦与格鲁吉亚重点讨论了跨里海国际运输路线和中间走廊运输能力的进一步扩大。",
+        "哈萨克斯坦与罗马尼亚讨论了能源安全、投资、运输、物流及其他互利合作方向。"
       ],
-      "businessImpactZh": "对中国企业而言，哈萨克斯坦与格鲁吉亚围绕中间走廊和跨里海运输路线的持续协调，显示欧亚跨里海物流网络仍是区域合作重点，相关运输、仓储、转运和物流服务企业可关注后续项目和政策进展。能源、交通基础设施及对外投资领域也可能出现合作机会。但本次会谈未公布具体项目、投资金额、时间表或具有约束力的商业协议，暂不宜据此确认实际订单或投资安排。",
+      "businessImpactZh": "对中国企业而言，信息显示哈萨克斯坦正继续推动与格鲁吉亚、罗马尼亚及塞浦路斯在中间走廊、运输物流、能源和投资领域的政策协调。相关合作若进一步落实，可能为经里海—高加索—欧洲方向的货运组织、物流服务和基础设施项目带来机会。但目前消息仅涉及部长级会谈和合作意向，未公布具体项目、投资金额、时间表或招标安排，企业不宜据此判断项目已经落地。",
       "affectedIndustries": [
-        "跨境物流",
-        "交通基础设施",
-        "港口和转运",
+        "跨境运输与物流",
+        "港口及多式联运",
+        "基础设施建设",
         "能源",
         "投资服务"
       ],
-      "regionIds": ["KZ", "CY", "GE", "RO"],
-      "organizationNames": [
-        "哈萨克斯坦共和国外交部",
-        "联合国大会",
-        "跨里海国际运输路线",
-        "中间走廊"
-      ],
+      "regionIds": [],
+      "organizationNames": ["联合国大会", "跨里海国际运输路线", "中间走廊"],
       "officialNames": [
-        "哈萨克斯坦共和国外交部长穆赫塔尔·特列乌别尔季",
-        "塞浦路斯外交部长康斯坦丁诺斯·孔博斯",
-        "格鲁吉亚副总理兼外交部长马卡·博奇奥里什维利",
-        "罗马尼亚代理外交部长奥阿娜·西尔维娅·措尤"
+        "穆赫塔尔·特列乌别尔季",
+        "康斯坦蒂诺斯·孔博斯",
+        "玛卡·博乔里什维利",
+        "奥阿娜-西尔维娅·措尤"
       ],
       "riskFlags": [
-        "会谈信息未包含具体投资项目、金额或执行时间表",
-        "未公布具有约束力的商业协议",
-        "中间走廊相关合作仍需关注后续政府安排和项目落地情况"
+        "合作仍处于会谈和意向层面",
+        "未公布具体项目、金额或实施时间表",
+        "运输路线扩容的实际进展及商业条件尚待确认"
       ],
-      "confidence": 0.9,
+      "confidence": 0.96,
       "id": "e556ee261f7859e1246f15fe47b60a87980f5d54f4a77cc13de333161a403167",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-27T13:00:55.270Z",
-      "lastCheckedAt": "2026-09-27T13:00:55.270Z",
-      "rank": 78
+      "analyzedAt": "2026-09-27T17:44:29.549Z",
+      "lastCheckedAt": "2026-09-27T17:44:29.549Z",
+      "rank": 88
     },
     {
       "sourceId": "kapital-kz",
@@ -1394,30 +1417,33 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/finance/153450/kursy-valyut-na-26-28-sentyabrya-ceny-na-neft-i-metally.html",
       "contentHash": "51e382c4ad182deeb9b87fa614efbdb9d0b74b9ecf73522e0fb76c83e6b798b8",
-      "collectedAt": "2026-09-27T12:58:21.513Z",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
       "relevant": true,
-      "relevanceScore": 78,
+      "relevanceScore": 65,
       "category": "economy",
-      "titleZh": "9月26日至28日汇率、石油和金属价格：美元兑坚戈官方汇率为441.88",
-      "summaryZh": "截至9月26日至28日，哈萨克斯坦美元兑坚戈官方汇率为1美元兑441.88坚戈。来源标题还涉及石油和金属价格，但未提供具体数据。",
+      "titleZh": "哈萨克斯坦官方汇率：1美元兑441.88坚戈",
+      "summaryZh": "据来源信息，哈萨克斯坦公布的官方汇率为1美元兑441.88坚戈，相关汇率信息适用于9月26日至28日。该信息可为在哈开展贸易、采购和投资的中国企业提供基础汇率参考。",
       "keyFactsZh": [
-        "美元兑坚戈官方汇率为1美元兑441.88坚戈。",
-        "信息覆盖9月26日至28日。",
-        "来源标题提及石油和金属价格，但摘录未列出具体价格。"
+        "官方汇率为1美元兑441.88坚戈。",
+        "信息涉及9月26日至28日期间的汇率。",
+        "来源标题还提及石油和金属价格，但未提供具体价格数据。"
       ],
-      "businessImpactZh": "汇率信息可为在哈萨克斯坦开展贸易、投资或采购的中国企业提供结算和预算参考。由于未提供石油及金属具体价格，暂无法评估相关大宗商品对成本、收入或项目收益的具体影响。",
-      "affectedIndustries": ["贸易", "金融", "能源", "采矿与金属"],
+      "businessImpactZh": "中国企业在哈萨克斯坦进行结算、采购或成本核算时，可将该官方汇率作为参考。实际交易汇率、汇兑成本以及坚戈波动仍需根据银行报价和合同安排进一步确认。",
+      "affectedIndustries": ["贸易", "投资", "能源", "金属"],
       "regionIds": ["KZ"],
       "organizationNames": [],
       "officialNames": [],
-      "riskFlags": ["汇率波动风险", "大宗商品价格信息不完整"],
-      "confidence": 0.98,
+      "riskFlags": [
+        "仅提供单一官方汇率，缺少汇率变动趋势和交易汇率信息",
+        "石油及金属价格未提供具体数据"
+      ],
+      "confidence": 0.96,
       "id": "9ea80ba9a6c91d9b87620a6c73663298ed3990f80a79ca920326de1a3cac07cb",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-27T13:01:00.154Z",
-      "lastCheckedAt": "2026-09-27T13:01:00.154Z",
-      "rank": 82
+      "analyzedAt": "2026-09-27T17:44:34.230Z",
+      "lastCheckedAt": "2026-09-27T17:44:34.230Z",
+      "rank": 69
     },
     {
       "sourceId": "kapital-kz",
@@ -1433,40 +1459,40 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/world/153448/deficit-investicij-v-srednij-koridor-ocenivaetsya-v-dollar30-35-mlrd.html",
       "contentHash": "cc150622d7ab34acd48a002d786e86f59e6490ac7e174273e2484a2a0fdbce74",
-      "collectedAt": "2026-09-26T06:07:37.890Z",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
       "relevant": true,
-      "relevanceScore": 91,
-      "category": "investment",
-      "titleZh": "中间走廊投资缺口预计为300亿至350亿美元",
-      "summaryZh": "消息称，为全面融资发展跨里海国际运输路线（TMTM），需要国际金融机构参与。该投资缺口可能影响相关基础设施项目的融资进度，也为中国企业参与项目投资、建设和融资合作提供潜在机会。",
+      "relevanceScore": 92,
+      "category": "transport",
+      "titleZh": "中间走廊投资缺口估计为300亿至350亿美元",
+      "summaryZh": "据报道，中间走廊（TMTM）全面发展所需的投资资金存在约300亿至350亿美元缺口，其完整融资需要国际金融机构参与。",
       "keyFactsZh": [
-        "中间走廊发展所需的投资缺口预计为300亿至350亿美元。",
-        "要实现TMTM的全面融资发展，需要国际金融机构参与。",
-        "来源未披露具体项目、投资方、资金结构或实施时间表。"
+        "中间走廊投资缺口估计为300亿至350亿美元。",
+        "TMTM的全面发展需要国际金融机构参与融资。",
+        "来源未提供具体项目、资金分配、时间表或参与机构名单。"
       ],
-      "businessImpactZh": "对中国物流、交通基础设施建设及金融机构而言，相关项目可能存在较大的融资需求和合作空间。但由于资金来源、项目清单及实施安排尚未明确，企业应重点关注后续融资机制、招标信息和国际金融机构的参与方案。",
+      "businessImpactZh": "对中国物流、基础设施和贸易企业而言，这表明中间走廊相关项目可能存在较大融资需求。企业在评估沿线项目或运输方案时，应关注后续融资机制、国际金融机构参与情况以及具体项目的落地安排。",
       "affectedIndustries": [
-        "交通基础设施",
-        "物流运输",
-        "金融服务",
-        "工程建设"
+        "交通运输",
+        "物流",
+        "基础设施建设",
+        "国际贸易",
+        "金融"
       ],
       "regionIds": [],
       "organizationNames": [],
-      "officialNames": ["ТМТМ"],
+      "officialNames": ["TMTM（中间走廊）"],
       "riskFlags": [
-        "投资缺口较大",
-        "依赖国际金融机构融资",
-        "具体项目和资金安排尚未披露",
-        "项目实施时间表不明确"
+        "投资资金缺口较大",
+        "融资依赖国际金融机构",
+        "具体项目和资金安排尚未披露"
       ],
-      "confidence": 0.96,
+      "confidence": 0.94,
       "id": "888b08ceeeadc55fa7f19e29aad4ca50f0360b658e6b8daa7d2d1cb6128ada79",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-26T06:08:47.518Z",
-      "lastCheckedAt": "2026-09-26T06:08:47.518Z",
-      "rank": 100
+      "analyzedAt": "2026-09-27T17:44:38.979Z",
+      "lastCheckedAt": "2026-09-27T17:44:38.979Z",
+      "rank": 92
     },
     {
       "sourceId": "mfa-kz",
@@ -1482,43 +1508,47 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://www.gov.kz/memleket/entities/mfa/press/news/details/1299166?lang=ru",
       "contentHash": "6b3827ceaada560d6fc7085e8b13807cbbf82c442ab7091c9183d4d2c82bd3b8",
-      "collectedAt": "2026-09-26T06:07:37.890Z",
+      "collectedAt": "2026-09-27T17:42:45.433Z",
       "relevant": true,
       "relevanceScore": 82,
       "category": "government",
-      "titleZh": "哈萨克斯坦与马拉维正式建立外交关系，探讨矿业、农业等领域合作",
-      "summaryZh": "2026年9月25日，在联合国大会第81届会议期间，哈萨克斯坦与马拉维签署联合公报，正式建立外交关系。双方表示将加强政治对话，并推动矿业、数字化、教育和农业等领域的务实合作，同时讨论了哈萨克斯坦小麦出口至马拉维，以及马拉维茶叶、咖啡和夏威夷果进入哈萨克斯坦市场的可能性。",
+      "titleZh": "哈萨克斯坦与马拉维正式建立外交关系，拟扩大经贸及行业合作",
+      "summaryZh": "2026年9月25日，在第81届联合国大会期间，哈萨克斯坦与马拉维外长签署联合公报，正式建立外交关系。双方表示将加强政治对话，并探讨矿业、数字化、教育和农业等领域的合作，包括哈萨克斯坦小麦对马拉维的供应，以及马拉维茶叶、咖啡和澳洲坚果进入哈萨克斯坦市场。",
       "keyFactsZh": [
-        "哈萨克斯坦外交部长穆赫塔尔·特列乌别尔季与马拉维外交和国际合作部长乔治·塔帕图拉·查蓬达签署了关于建立外交关系的联合公报。",
-        "双方计划加强两国外交部门、企业和教育机构之间的直接联系。",
-        "双方讨论了矿业、数字化、教育和农业领域的合作前景。",
-        "农业和粮食安全议题包括向马拉维供应哈萨克斯坦小麦，以及推动马拉维茶叶、咖啡和夏威夷果进入哈萨克斯坦市场。",
-        "双方同意继续开展定期对话，推动双边合作发展。"
+        "哈萨克斯坦外交部长穆赫塔尔·特列乌别尔季与马拉维外交和国际合作部长乔治·塔帕图拉·查蓬达举行会谈。",
+        "双方签署关于建立外交关系的联合公报，正式建立外交关系。",
+        "双方讨论了矿业、数字化、教育和农业等领域的合作前景。",
+        "双方表示有意推动两国外交部门、企业和教育机构之间的直接联系。",
+        "双方讨论了向马拉维供应哈萨克斯坦小麦，以及推动马拉维茶叶、咖啡和澳洲坚果进入哈萨克斯坦市场的可能性。"
       ],
-      "businessImpactZh": "对中国企业而言，哈萨克斯坦与马拉维建立外交关系可能为两国之间的贸易、矿业投资、农产品供应链和数字化合作创造新的对接渠道。企业可关注后续政府间机制、企业联系和具体项目，但目前消息尚未公布项目金额、实施时间表或具体投资安排，商业机会仍处于早期探索阶段。",
+      "businessImpactZh": "两国建交为哈萨克斯坦与马拉维企业开展贸易、投资和机构合作提供了外交基础。对中国企业而言，哈萨克斯坦可能成为连接马拉维市场的潜在合作节点，矿业、农产品贸易和数字化合作值得关注。但目前消息未公布具体项目、投资金额、供应合同、关税安排或实施时间表，商业机会仍需进一步核实。",
       "affectedIndustries": [
         "矿业",
         "数字化",
-        "教育",
         "农业",
         "粮食贸易",
-        "农产品进口与出口"
+        "食品和农产品进口",
+        "教育"
       ],
       "regionIds": ["KZ", "MW"],
-      "organizationNames": ["哈萨克斯坦外交部", "马拉维外交和国际合作部"],
+      "organizationNames": [
+        "哈萨克斯坦外交部",
+        "马拉维外交和国际合作部",
+        "联合国大会"
+      ],
       "officialNames": ["穆赫塔尔·特列乌别尔季", "乔治·塔帕图拉·查蓬达"],
       "riskFlags": [
-        "尚未公布具体项目、投资金额或实施时间表",
-        "跨境贸易和投资安排仍需后续政府及企业层面的落实",
-        "消息仅说明合作意向，尚不能据此确认具体商业机会"
+        "尚未公布具体投资项目或合同金额",
+        "农产品供应和市场准入安排仍处于讨论阶段",
+        "尚无关于双边贸易机制、物流方案或监管细节的信息"
       ],
       "confidence": 0.97,
       "id": "d8b752e12d6bb6fca43cc823ba20b57f2f819d497b98ec0d3437e9aa602506a6",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-09-26T06:09:00.256Z",
-      "lastCheckedAt": "2026-09-26T06:09:00.256Z",
-      "rank": 101
+      "analyzedAt": "2026-09-27T17:44:50.911Z",
+      "lastCheckedAt": "2026-09-27T17:44:50.911Z",
+      "rank": 96
     },
     {
       "sourceId": "inbusiness-kz",
@@ -9121,49 +9151,6 @@
       "analyzedAt": "2026-09-21T06:18:15.404Z",
       "lastCheckedAt": "2026-09-21T06:18:15.404Z",
       "rank": 90
-    },
-    {
-      "sourceId": "kapital-kz",
-      "sourceName": "Kapital.kz",
-      "sourceNameZh": "Kapital.kz 商业信息中心",
-      "sourceType": "business_media",
-      "sourceUrl": "https://kapital.kz/kk/economic/153168/akhsh-pen-khazakhstan-arasyndaghy-tikelej-aeue-khatynasy-faa-sarapshylary-air-astana-ny-tekseredi.html",
-      "externalId": "https://kapital.kz/kk/economic/153168/akhsh-pen-khazakhstan-arasyndaghy-tikelej-aeue-khatynasy-faa-sarapshylary-air-astana-ny-tekseredi.html",
-      "titleOriginal": "АҚШ пен Қазақстан арасындағы тікелей әуе қатынасы: FAA сарапшылары Air Astana-ны тексереді",
-      "summaryOriginal": "FAA Қазақстанның авиация қауіпсіздігін тексеруге кірісті",
-      "publishedAt": "2026-09-21T04:46:41.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://kapital.kz/kk/economic/153168/akhsh-pen-khazakhstan-arasyndaghy-tikelej-aeue-khatynasy-faa-sarapshylary-air-astana-ny-tekseredi.html",
-      "contentHash": "fabe5a35cef6189ec768ba48b5c9b14dcf565bc26b38ddae8ff66fe9bbb5cc98",
-      "collectedAt": "2026-09-21T06:16:58.342Z",
-      "relevant": true,
-      "relevanceScore": 90,
-      "category": "transport",
-      "titleZh": "美国与哈萨克斯坦直航议题：FAA专家将检查阿斯塔纳航空",
-      "summaryZh": "据来源信息，美国联邦航空管理局（FAA）已开始对哈萨克斯坦航空安全进行检查，检查对象包括阿斯塔纳航空（Air Astana）。该事项与美国和哈萨克斯坦之间的直航安排有关。",
-      "keyFactsZh": [
-        "FAA已启动对哈萨克斯坦航空安全的检查。",
-        "FAA专家将检查阿斯塔纳航空（Air Astana）。",
-        "来源标题将该检查与美国和哈萨克斯坦之间的直航联系起来。"
-      ],
-      "businessImpactZh": "如果检查影响哈萨克斯坦航空安全监管评估或航空公司合规安排，相关结果可能影响两国直航的推进节奏及航空企业的运营准备。不过，现有来源未说明检查结论、时间表或是否已经批准直航，企业不宜据此作出确定性判断。",
-      "affectedIndustries": [
-        "航空运输",
-        "机场与航空基础设施",
-        "旅游与商务出行"
-      ],
-      "regionIds": [],
-      "organizationNames": ["Air Astana", "FAA"],
-      "officialNames": ["美国联邦航空管理局（FAA）"],
-      "riskFlags": ["检查结论尚未公布", "直航推进时间表不明确", "来源信息有限"],
-      "confidence": 0.93,
-      "id": "f63a273b7d113ad9374487d825bb29b2c9a448496081732e0eed650dc9e2018f",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-09-21T06:18:26.272Z",
-      "lastCheckedAt": "2026-09-21T06:18:26.272Z",
-      "rank": 95
     }
   ]
 }
