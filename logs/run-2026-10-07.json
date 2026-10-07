@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-07T07-11-29-389Z",
-  "startedAt": "2026-10-07T07:11:29.389Z",
-  "finishedAt": "2026-10-07T07:14:21.122Z",
+  "runId": "2026-10-07T14-28-08-499Z",
+  "startedAt": "2026-10-07T14:28:08.499Z",
+  "finishedAt": "2026-10-07T14:31:23.002Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -63,10 +63,10 @@
     },
     {
       "sourceId": "mfa-kz",
-      "status": "success",
-      "fetched": 30,
-      "accepted": 30,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["fetch failed"]
     },
     {
       "sourceId": "nurfin-kz",
@@ -104,13 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 237,
-  "deduplicated": 70,
+  "collected": 207,
+  "deduplicated": 87,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["45 articles remain untranslated or failed"],
+  "warnings": ["62 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
-    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i"
+    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i",
+    "fetch failed"
   ]
 }
