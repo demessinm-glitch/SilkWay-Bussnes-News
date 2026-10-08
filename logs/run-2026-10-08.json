@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-08T07-19-07-455Z",
-  "startedAt": "2026-10-08T07:19:07.455Z",
-  "finishedAt": "2026-10-08T07:21:37.120Z",
+  "runId": "2026-10-08T19-15-37-615Z",
+  "startedAt": "2026-10-08T19:15:37.615Z",
+  "finishedAt": "2026-10-08T19:19:06.656Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -42,10 +42,10 @@
     },
     {
       "sourceId": "informburo-kz",
-      "status": "failed",
-      "fetched": 0,
-      "accepted": 0,
-      "errors": ["Unclosed root tag\nLine: 455\nColumn: 34\nChar: "]
+      "status": "success",
+      "fetched": 20,
+      "accepted": 20,
+      "errors": []
     },
     {
       "sourceId": "kapital-kz",
@@ -63,10 +63,10 @@
     },
     {
       "sourceId": "mfa-kz",
-      "status": "success",
-      "fetched": 30,
-      "accepted": 30,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["fetch failed"]
     },
     {
       "sourceId": "nurfin-kz",
@@ -104,14 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 217,
-  "deduplicated": 75,
+  "collected": 207,
+  "deduplicated": 79,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["50 articles remain untranslated or failed"],
+  "warnings": ["54 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
     "Attribute without value\nLine: 0\nColumn: 104826\nChar: i",
-    "Unclosed root tag\nLine: 455\nColumn: 34\nChar: "
+    "fetch failed"
   ]
 }
