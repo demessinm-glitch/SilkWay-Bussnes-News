@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-03T01:13:08+05:00",
+  "disclaimerZh": "办理前请在官方服务中核对最新要求；本指南不构成法律、税务、移民或投标建议。",
+  "items": [
+    {
+      "id": "register-llp",
+      "category": "business",
+      "icon": "企",
+      "titleZh": "注册哈萨克斯坦有限责任合伙企业（LLP）",
+      "summaryZh": "从企业名称、创始文件和负责人信息开始，进入 eGov 的法人注册流程。外国投资者应先核对身份、翻译与税务登记要求。",
+      "verificationStatus": "needs_review",
+      "lastReviewedAt": "2026-08-02",
+      "steps": [
+        {
+          "titleZh": "确认设立结构",
+          "descriptionZh": "确定创始人、经营范围、注册地址、管理人和拟用名称。"
+        },
+        {
+          "titleZh": "准备身份与创始文件",
+          "descriptionZh": "外国文件的认证、翻译和格式要求应向官方服务或专业顾问确认。"
+        },
+        {
+          "titleZh": "通过官方服务提交",
+          "descriptionZh": "使用 eGov 或主管登记机关提供的渠道提交并保存电子回执。"
+        }
+      ],
+      "documents": [
+        "创始人身份证明与适用的认证翻译",
+        "创始决定或协议",
+        "企业名称、地址与负责人信息"
+      ],
+      "authorityZh": "哈萨克斯坦电子政府 / 司法登记体系",
+      "sourceUrl": "https://egov.kz/cms/en/services/business_registration/pass042com_mu",
+      "sourceName": "Electronic government of the Republic of Kazakhstan"
+    },
+    {
+      "id": "register-branch",
+      "category": "business",
+      "icon": "分",
+      "titleZh": "登记外国公司的分支机构或代表处",
+      "summaryZh": "为外国法人在哈萨克斯坦的非独立分支结构准备母公司文件、授权和负责人资料。",
+      "verificationStatus": "needs_review",
+      "lastReviewedAt": "2026-08-02",
+      "steps": [
+        {
+          "titleZh": "选择组织形式",
+          "descriptionZh": "确认业务目标适合分支机构、代表处还是当地法人。"
+        },
+        {
+          "titleZh": "准备母公司文件",
+          "descriptionZh": "核对公司登记证明、章程、设立决定及授权文件的认证和翻译规则。"
+        },
+        {
+          "titleZh": "提交登记并核对税务事项",
+          "descriptionZh": "通过官方法人登记服务提交，并在启用业务前确认税务和银行要求。"
+        }
+      ],
+      "documents": [
+        "母公司登记和章程文件",
+        "设立分支机构或代表处的决定",
+        "负责人授权与地址资料"
+      ],
+      "authorityZh": "哈萨克斯坦电子政府 / 司法登记体系",
+      "sourceUrl": "https://egov.kz/cms/en/services/business_registration/pass042com_mu",
+      "sourceName": "Electronic government of the Republic of Kazakhstan"
+    },
+    {
+      "id": "corporate-bank-account",
+      "category": "business",
+      "icon": "银",
+      "titleZh": "准备开立企业银行账户",
+      "summaryZh": "在选择银行前整理企业登记、受益所有人、签字人与税务资料，并向具体银行核对合规清单。",
+      "verificationStatus": "needs_review",
+      "lastReviewedAt": "2026-08-02",
+      "steps": [
+        {
+          "titleZh": "比较持牌银行",
+          "descriptionZh": "确认结算币种、网银、跨境付款和企业客户接入条件。"
+        },
+        {
+          "titleZh": "整理 KYC 资料",
+          "descriptionZh": "准备企业登记、所有权结构、受益所有人、负责人和业务说明。"
+        },
+        {
+          "titleZh": "由银行最终核验",
+          "descriptionZh": "银行会根据客户、国家、业务和交易风险要求补充资料。"
+        }
+      ],
+      "documents": [
+        "企业登记与税务资料",
+        "章程和签字授权",
+        "受益所有人及负责人身份证明"
+      ],
+      "authorityZh": "哈萨克斯坦国家银行 / 具体持牌银行",
+      "sourceUrl": "https://nationalbank.kz/en",
+      "sourceName": "National Bank of Kazakhstan"
+    },
+    {
+      "id": "obtain-digital-signature",
+      "category": "digital",
+      "icon": "签",
+      "titleZh": "获取电子数字签名（EDS）",
+      "summaryZh": "许多企业登记、许可、税务和采购服务需要国家认证机构签发的电子数字签名。",
+      "verificationStatus": "needs_review",
+      "lastReviewedAt": "2026-08-02",
+      "steps": [
+        {
+          "titleZh": "确认申请主体",
+          "descriptionZh": "区分个人、企业负责人或企业员工所需的证书角色。"
+        },
+        {
+          "titleZh": "准备设备与身份验证",
+          "descriptionZh": "根据国家认证机构说明安装所需组件并完成身份验证。"
+        },
+        {
+          "titleZh": "安全保存并设置更新提醒",
+          "descriptionZh": "私钥不得共享；记录证书有效期，并在到期前按官方流程更新。"
+        }
+      ],
+      "documents": ["申请人身份证明", "适用时的企业和授权信息"],
+      "authorityZh": "哈萨克斯坦国家认证中心",
+      "sourceUrl": "https://pki.gov.kz/en/",
+      "sourceName": "National Certification Authority of Kazakhstan"
+    },
+    {
+      "id": "state-procurement-registration",
+      "category": "trade",
+      "icon": "采",
+      "titleZh": "进入国家采购电子平台",
+      "summaryZh": "为参与公开采购准备企业资格、电子签名、银行与授权资料，并从平台原始公告核对每个项目。",
+      "verificationStatus": "needs_review",
+      "lastReviewedAt": "2026-08-02",
+      "steps": [
+        {
+          "titleZh": "完成企业数字身份准备",
+          "descriptionZh": "确认企业登记、负责人和电子签名可以用于采购平台。"
+        },
+        {
+          "titleZh": "注册并配置用户权限",
+          "descriptionZh": "仅通过官方平台创建账户，按职责分配签字与操作权限。"
+        },
+        {
+          "titleZh": "逐项阅读原始公告",
+          "descriptionZh": "核对资格、技术规格、担保、语言、截止时间和提交格式。"
+        }
+      ],
+      "documents": [
+        "企业登记与资格资料",
+        "电子数字签名",
+        "每个项目要求的技术和财务文件"
+      ],
+      "authorityZh": "哈萨克斯坦国家采购电子平台",
+      "sourceUrl": "https://goszakup.gov.kz/",
+      "sourceName": "Public Procurement Portal of Kazakhstan"
+    },
+    {
+      "id": "foreign-work-permit",
+      "category": "compliance",
+      "icon": "工",
+      "titleZh": "核对外国人员工作许可与居留要求",
+      "summaryZh": "外国雇员是否需要工作许可取决于国籍、身份、岗位和适用例外；雇主与个人义务应分别确认。",
+      "verificationStatus": "needs_review",
+      "lastReviewedAt": "2026-08-02",
+      "steps": [
+        {
+          "titleZh": "确认适用制度",
+          "descriptionZh": "根据国籍、雇佣关系、岗位和停留期限判断许可与例外。"
+        },
+        {
+          "titleZh": "区分雇主义务和个人义务",
+          "descriptionZh": "工作许可、签证或临时居留可能由不同主体和机关办理。"
+        },
+        {
+          "titleZh": "使用官方清单提交",
+          "descriptionZh": "在出发和上岗前核对有效证件、医疗、税务或其他适用要求。"
+        }
+      ],
+      "documents": [
+        "护照及适用签证或居留资料",
+        "雇佣或派遣文件",
+        "岗位和雇主资料"
+      ],
+      "authorityZh": "哈萨克斯坦电子政府 / 劳动与内务主管机关",
+      "sourceUrl": "https://egov.kz/cms/en/articles/workpermit",
+      "sourceName": "Electronic government of the Republic of Kazakhstan"
+    },
+    {
+      "id": "business-license",
+      "category": "compliance",
+      "icon": "证",
+      "titleZh": "确认经营许可与通知义务",
+      "summaryZh": "开始受监管活动前，先在电子许可平台确认需要许可证、许可文件还是开业通知。",
+      "verificationStatus": "needs_review",
+      "lastReviewedAt": "2026-08-02",
+      "steps": [
+        {
+          "titleZh": "识别受监管活动",
+          "descriptionZh": "将实际经营内容与许可和通知分类对应，不只依赖公司章程的宽泛表述。"
+        },
+        {
+          "titleZh": "查询电子许可平台",
+          "descriptionZh": "核对主管机关、申请条件、提交渠道和适用技术标准。"
+        },
+        {
+          "titleZh": "保留许可与持续合规记录",
+          "descriptionZh": "记录有效期、报告、变更和更新义务，并在业务变化时重新核对。"
+        }
+      ],
+      "documents": [
+        "企业登记与申请人授权",
+        "活动、场所和人员资格资料",
+        "具体许可页面列明的证明文件"
+      ],
+      "authorityZh": "哈萨克斯坦电子许可平台",
+      "sourceUrl": "https://elicense.kz/",
+      "sourceName": "eLicense Kazakhstan"
+    },
+    {
+      "id": "customs-import-basics",
+      "category": "trade",
+      "icon": "关",
+      "titleZh": "进口与海关申报准备",
+      "summaryZh": "在发货前确认商品编码、原产地、合同、发票、许可限制以及欧亚经济联盟相关规则。",
+      "verificationStatus": "needs_review",
+      "lastReviewedAt": "2026-08-02",
+      "steps": [
+        {
+          "titleZh": "确定商品与交易结构",
+          "descriptionZh": "核对商品编码、原产地、价格、交付条件和进口主体。"
+        },
+        {
+          "titleZh": "检查限制与证明",
+          "descriptionZh": "确认是否涉及合格评定、卫生、许可、标签或其他非关税措施。"
+        },
+        {
+          "titleZh": "与海关代表核对申报",
+          "descriptionZh": "在发运前确认电子申报、税费、单证和保留记录要求。"
+        }
+      ],
+      "documents": [
+        "外贸合同、发票和装箱资料",
+        "运输和原产地文件",
+        "适用的许可证或合格证明"
+      ],
+      "authorityZh": "哈萨克斯坦国家收入委员会",
+      "sourceUrl": "https://kgd.gov.kz/en",
+      "sourceName": "State Revenue Committee of Kazakhstan"
+    },
+    {
+      "id": "start-business-chinese-investor",
+      "category": "business",
+      "icon": "启",
+      "titleZh": "中国投资者在哈萨克斯坦启动业务的七步路线",
+      "summaryZh": "面向中国创始人和企业的起步清单：先区分短期入境与经营身份，再准备 IIN、电子签名、外国创始文件、法人注册及后续银行、税务和许可事项。",
+      "verificationStatus": "needs_review",
+      "lastReviewedAt": "2026-08-03",
+      "steps": [
+        {
+          "titleZh": "区分短期入境与经营身份",
+          "descriptionZh": "哈萨克斯坦外交部现行表格对中国列示最长30天免签入境；但短期免签不等于取得设立、参股、任职或工作的资格。出发前应向哈萨克斯坦驻华使领馆及迁移主管机关核对与实际活动相匹配的身份要求。"
+        },
+        {
+          "titleZh": "确定企业形式、创始人与经营活动",
+          "descriptionZh": "比较当地有限责任合伙企业、分支机构或代表处，明确创始人、负责人、注册地址、经营范围和受监管活动；不要只按名称判断是否需要许可。"
+        },
+        {
+          "titleZh": "核对 IIN 与电子数字签名",
+          "descriptionZh": "eGov 法人登记服务要求核查申请人、负责人和创始人的识别号码；在线申请通常需要相关人员使用电子数字签名。先确认外国个人和外国法人的实际办理路径。"
+        },
+        {
+          "titleZh": "准备外国创始文件及翻译",
+          "descriptionZh": "外国法人通常需要商业登记摘录或其他主体资格证明；外国自然人需要护照或其他身份证明。eGov 指引要求适用的认证文件并附哈萨克语和俄语公证翻译，国际条约另有规定的除外。"
+        },
+        {
+          "titleZh": "通过官方渠道提交法人登记",
+          "descriptionZh": "按主体类别选择 eGov 在线服务或政府为民服务机构，填写名称、地址、负责人和创始人信息；有多名创始人时应核对每位创始人的签署要求，并保存电子回执。"
+        },
+        {
+          "titleZh": "完成银行、税务、雇佣与许可准备",
+          "descriptionZh": "登记完成不代表可以立即开展全部业务。分别向银行、税务机关、电子许可平台及劳动和迁移主管机关确认账户、税制、雇员保险、许可、通知、工作和居留要求。"
+        },
+        {
+          "titleZh": "尽早联系 KAZAKH INVEST",
+          "descriptionZh": "对投资项目，可向 KAZAKH INVEST 申请一站式政府服务协助、投资咨询、签证支持、项目结构与地区协调；具体优惠和投资合同必须按项目单独核实。"
+        }
+      ],
+      "documents": [
+        "中国创始企业的登记摘录、章程或主体资格文件",
+        "外国自然人护照及适用的哈萨克语、俄语公证翻译",
+        "创始决定、负责人、注册地址和经营范围资料",
+        "IIN、电子数字签名及授权文件（按实际办理路径）",
+        "拟投资项目、资金来源、受益所有人和许可问题清单"
+      ],
+      "authorityZh": "哈萨克斯坦外交部 / 电子政府 / 司法与迁移主管机关 / KAZAKH INVEST",
+      "sourceUrl": "https://egov.kz/cms/ru/articles/for_foreigners/open_LLP_foreigner",
+      "sourceName": "哈萨克斯坦电子政府：外国人如何开设个体经营或有限责任合伙企业",
+      "officialSources": [
+        {
+          "nameZh": "eGov：外国人如何开设个体经营或有限责任合伙企业",
+          "url": "https://egov.kz/cms/ru/articles/for_foreigners/open_LLP_foreigner",
+          "verifiedAt": "2026-08-03T01:13:08+05:00"
+        },
+        {
+          "nameZh": "eGov：法人/企业登记服务",
+          "url": "https://egov.kz/cms/ru/services/pass042com_mu",
+          "verifiedAt": "2026-08-03T01:13:08+05:00"
+        },
+        {
+          "nameZh": "哈萨克斯坦外交部：外国公民签证制度",
+          "url": "https://www.gov.kz/memleket/entities/mfa/press/article/details/6764?lang=ru",
+          "verifiedAt": "2026-08-03T01:13:08+05:00"
+        },
+        {
+          "nameZh": "KAZAKH INVEST：如何为投资者提供协助",
+          "url": "https://invest.gov.kz/ru/about-us/how-we-help/",
+          "verifiedAt": "2026-08-03T01:13:08+05:00"
+        },
+        {
+          "nameZh": "哈萨克斯坦驻华使馆：中哈经贸合作",
+          "url": "https://www.gov.kz/memleket/entities/mfa-beijing/press/article/details/48726?lang=ru",
+          "verifiedAt": "2026-08-03T01:13:08+05:00"
+        }
+      ]
+    },
+    {
+      "id": "mfa-china-business",
+      "category": "business",
+      "icon": "外",
+      "titleZh": "外交部与驻华使馆：中哈商务信息使用指南",
+      "summaryZh": "为中国企业整理哈萨克斯坦外交部、驻华使馆、eGov 与 KAZAKH INVEST 的官方入口，用于核对入境规则、双边经贸重点、投资服务和企业登记事项。",
+      "verificationStatus": "needs_review",
+      "lastReviewedAt": "2026-08-03",
+      "steps": [
+        {
+          "titleZh": "出行前查外交部签证表",
+          "descriptionZh": "外交部页面目前对中国列示最长30天免签，但应核对页面更新时间、护照类型、停留目的和最新双边安排；商务设立、就业和长期居留须另行确认。"
+        },
+        {
+          "titleZh": "持续关注外交部官方新闻",
+          "descriptionZh": "从外交部官网及其官方 RSS 跟踪投资推介、政府间委员会、签证政策和双边活动。新闻是线索，不代替法规、许可或项目文件。"
+        },
+        {
+          "titleZh": "用驻华使馆页面识别合作方向",
+          "descriptionZh": "驻华使馆经贸页面列出中哈贸易、投资、能源、交通、农业与霍尔果斯合作背景，可用于市场初筛；其中历史统计和项目数量应按页面日期理解并再次核验。"
+        },
+        {
+          "titleZh": "向 KAZAKH INVEST 提交项目简表",
+          "descriptionZh": "准备投资金额、行业、地区、用地、基础设施、合作方和时间表，咨询一站式服务、地区协调、签证支持及投资合同路径。"
+        },
+        {
+          "titleZh": "回到 eGov 核验可执行步骤",
+          "descriptionZh": "外交和投资推介信息用于了解机会；实际设立企业、办理许可、税务、雇佣和迁移事项时，应回到对应的 eGov 服务和主管机关页面。"
+        }
+      ],
+      "documents": [
+        "拟投资项目一页说明和资金计划",
+        "中国母公司、创始人及受益所有人资料",
+        "目标行业、地区、用地和基础设施需求清单",
+        "出行、任职、就业和长期居留安排问题清单"
+      ],
+      "authorityZh": "哈萨克斯坦外交部 / 哈萨克斯坦驻华使馆 / KAZAKH INVEST / eGov",
+      "sourceUrl": "https://www.gov.kz/memleket/entities/mfa-beijing/press/article/details/48726?lang=ru",
+      "sourceName": "哈萨克斯坦驻华使馆：中哈经贸合作",
+      "officialSources": [
+        {
+          "nameZh": "哈萨克斯坦外交部",
+          "url": "https://www.gov.kz/memleket/entities/mfa",
+          "verifiedAt": "2026-08-03T01:13:08+05:00"
+        },
+        {
+          "nameZh": "哈萨克斯坦外交部：外国公民签证制度",
+          "url": "https://www.gov.kz/memleket/entities/mfa/press/article/details/6764?lang=ru",
+          "verifiedAt": "2026-08-03T01:13:08+05:00"
+        },
+        {
+          "nameZh": "哈萨克斯坦驻华使馆：中哈经贸合作",
+          "url": "https://www.gov.kz/memleket/entities/mfa-beijing/press/article/details/48726?lang=ru",
+          "verifiedAt": "2026-08-03T01:13:08+05:00"
+        },
+        {
+          "nameZh": "KAZAKH INVEST：投资者服务",
+          "url": "https://invest.gov.kz/ru/about-us/how-we-help/",
+          "verifiedAt": "2026-08-03T01:13:08+05:00"
+        },
+        {
+          "nameZh": "eGov：外国人在哈萨克斯坦开办企业",
+          "url": "https://egov.kz/cms/ru/articles/for_foreigners/open_LLP_foreigner",
+          "verifiedAt": "2026-08-03T01:13:08+05:00"
+        }
+      ]
+    }
+  ]
+}
