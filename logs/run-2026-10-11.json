@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-11T07-08-21-582Z",
-  "startedAt": "2026-10-11T07:08:21.582Z",
-  "finishedAt": "2026-10-11T07:11:11.274Z",
-  "status": "success_with_warnings",
+  "runId": "2026-10-11T13-58-53-472Z",
+  "startedAt": "2026-10-11T13:58:53.472Z",
+  "finishedAt": "2026-10-11T14:01:37.542Z",
+  "status": "success",
   "sources": [
     {
       "sourceId": "adilet-legal",
@@ -42,16 +42,16 @@
     },
     {
       "sourceId": "informburo-kz",
-      "status": "success",
-      "fetched": 20,
-      "accepted": 20,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["fetch failed"]
     },
     {
       "sourceId": "kapital-kz",
       "status": "success",
-      "fetched": 30,
-      "accepted": 30,
+      "fetched": 17,
+      "accepted": 17,
       "errors": []
     },
     {
@@ -63,10 +63,10 @@
     },
     {
       "sourceId": "mfa-kz",
-      "status": "failed",
-      "fetched": 0,
-      "accepted": 0,
-      "errors": ["This operation was aborted"]
+      "status": "success",
+      "fetched": 30,
+      "accepted": 30,
+      "errors": []
     },
     {
       "sourceId": "nurfin-kz",
@@ -104,14 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 207,
-  "deduplicated": 46,
+  "collected": 204,
+  "deduplicated": 25,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["21 articles remain untranslated or failed"],
+  "warnings": [],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
     "Attribute without value\nLine: 0\nColumn: 104826\nChar: i",
-    "This operation was aborted"
+    "fetch failed"
   ]
 }
