@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-12T07-18-44-259Z",
-  "startedAt": "2026-10-12T07:18:44.259Z",
-  "finishedAt": "2026-10-12T07:20:52.858Z",
+  "runId": "2026-10-12T21-42-54-742Z",
+  "startedAt": "2026-10-12T21:42:54.742Z",
+  "finishedAt": "2026-10-12T21:45:49.243Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -14,10 +14,10 @@
     },
     {
       "sourceId": "akorda-kz",
-      "status": "success",
-      "fetched": 9,
-      "accepted": 9,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["fetch failed"]
     },
     {
       "sourceId": "egov-news",
@@ -50,8 +50,8 @@
     {
       "sourceId": "kapital-kz",
       "status": "success",
-      "fetched": 27,
-      "accepted": 27,
+      "fetched": 30,
+      "accepted": 30,
       "errors": []
     },
     {
@@ -104,13 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 234,
-  "deduplicated": 46,
+  "collected": 228,
+  "deduplicated": 57,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["21 articles remain untranslated or failed"],
+  "warnings": ["32 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
+    "fetch failed",
     "Attribute without value\nLine: 0\nColumn: 104826\nChar: i"
   ]
 }
