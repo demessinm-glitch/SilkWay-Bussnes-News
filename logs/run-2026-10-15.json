@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-15T12-37-32-846Z",
-  "startedAt": "2026-10-15T12:37:32.846Z",
-  "finishedAt": "2026-10-15T12:40:28.820Z",
+  "runId": "2026-10-15T17-44-54-508Z",
+  "startedAt": "2026-10-15T17:44:54.508Z",
+  "finishedAt": "2026-10-15T17:47:27.755Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -24,7 +24,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["fetch failed"]
+      "errors": ["Attribute without value\nLine: 0\nColumn: 104826\nChar: i"]
     },
     {
       "sourceId": "forbes-kz",
@@ -105,12 +105,12 @@
     }
   ],
   "collected": 237,
-  "deduplicated": 81,
+  "deduplicated": 79,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["56 articles remain untranslated or failed"],
+  "warnings": ["54 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
-    "fetch failed"
+    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i"
   ]
 }
