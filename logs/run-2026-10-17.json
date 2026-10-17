@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-17T11-33-50-668Z",
-  "startedAt": "2026-10-17T11:33:50.668Z",
-  "finishedAt": "2026-10-17T11:36:21.739Z",
+  "runId": "2026-10-17T16-22-10-003Z",
+  "startedAt": "2026-10-17T16:22:10.003Z",
+  "finishedAt": "2026-10-17T16:24:24.372Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -70,10 +70,10 @@
     },
     {
       "sourceId": "nurfin-kz",
-      "status": "success",
-      "fetched": 20,
-      "accepted": 20,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["nurfin-kz: HTTP 502"]
     },
     {
       "sourceId": "orda-kz",
@@ -104,13 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 237,
-  "deduplicated": 53,
+  "collected": 217,
+  "deduplicated": 48,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["28 articles remain untranslated or failed"],
+  "warnings": ["23 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
-    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i"
+    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i",
+    "nurfin-kz: HTTP 502"
   ]
 }
