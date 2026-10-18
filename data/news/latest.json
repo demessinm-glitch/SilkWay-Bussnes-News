@@ -1,7 +1,93 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T12:04:13.934Z",
+  "generatedAt": "2026-10-18T16:31:58.500Z",
   "items": [
+    {
+      "sourceId": "forbes-kz",
+      "sourceName": "Forbes Kazakhstan",
+      "sourceNameZh": "福布斯哈萨克斯坦",
+      "sourceUrl": "https://forbes.kz/articles/efsr-sprognoziroval-rost-ekonomiki-kazahstana-na-blizhayshie-chetyre-goda-663d83",
+      "titleOriginal": "ЕФСР спрогнозировал рост экономики Казахстана на ближайшие четыре года",
+      "summaryOriginal": "",
+      "publishedAt": "2026-10-18T17:46:00+05:00",
+      "languageOriginal": "ru",
+      "sourceType": "business_media",
+      "copyrightMode": "metadata_summary_link",
+      "canonicalUrl": "https://forbes.kz/articles/efsr-sprognoziroval-rost-ekonomiki-kazahstana-na-blizhayshie-chetyre-goda-663d83",
+      "contentHash": "0fb355356081a715feef38d6c8ed157f0d0c3f653fcc2dba0ae45eef13304dac",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
+      "relevant": true,
+      "relevanceScore": 85,
+      "category": "economy",
+      "titleZh": "欧亚稳定与发展基金预测哈萨克斯坦经济未来四年将增长",
+      "summaryZh": "欧亚稳定与发展基金（EFSR）预测，哈萨克斯坦经济将在未来四年保持增长。现有来源未提供具体增速、行业分项或政策措施。对中国企业而言，这一预测可作为评估哈萨克斯坦市场中长期需求的参考，但不应替代对具体行业和项目的独立分析。",
+      "keyFactsZh": [
+        "EFSR对哈萨克斯坦未来四年的经济增长作出预测。",
+        "来源标题未披露具体增长率、预测依据或受益行业。",
+        "来源发布时间为2026年10月18日。"
+      ],
+      "businessImpactZh": "该预测释放出哈萨克斯坦中期经济环境可能改善的信号，中国企业可将其作为市场进入、投资和业务扩张评估的背景信息。不过，由于缺乏具体数据，仍需结合行业需求、汇率、监管和项目层面的信息进行判断。",
+      "affectedIndustries": ["综合经济"],
+      "regionIds": ["Kazakhstan"],
+      "organizationNames": ["EFSR"],
+      "officialNames": [],
+      "riskFlags": [
+        "仅有预测性信息，缺乏具体增速和行业数据",
+        "经济预测存在不确定性",
+        "来源未提供政策或项目层面的细节"
+      ],
+      "confidence": 0.83,
+      "id": "5a28d28d3115fd0c82c0ae9bdbd2c72b799a43f29469cefec3a15399a7483ace",
+      "translationMode": "ai",
+      "status": "published",
+      "analyzedAt": "2026-10-18T16:29:48.128Z",
+      "lastCheckedAt": "2026-10-18T16:29:48.128Z",
+      "rank": 94
+    },
+    {
+      "sourceId": "inbusiness-kz",
+      "sourceName": "Inbusiness.kz",
+      "sourceNameZh": "Inbusiness.kz 财经媒体",
+      "sourceType": "business_media",
+      "sourceUrl": "https://inbusiness.kz/ru/last/ot-mostov-do-spalnyh-rajonov-akim-astany-rasskazal-o-dorozhnyh-strojkah-stolicy",
+      "externalId": "https://inbusiness.kz/ru/last/ot-mostov-do-spalnyh-rajonov-akim-astany-rasskazal-o-dorozhnyh-strojkah-stolicy",
+      "titleOriginal": "От мостов до спальных районов: аким Астаны рассказал о дорожных стройках столицы",
+      "summaryOriginal": "Стало известно, какие из них позволят разгрузить ключевые проспекты и улучшить транспортную доступность",
+      "publishedAt": "2026-10-18T12:19:00.000Z",
+      "languageOriginal": "ru",
+      "copyrightMode": "metadata_summary_link",
+      "canonicalUrl": "https://inbusiness.kz/ru/last/ot-mostov-do-spalnyh-rajonov-akim-astany-rasskazal-o-dorozhnyh-strojkah-stolicy",
+      "contentHash": "8423e0620e783612eca513aa4c300b2b88f7918e9e393549a21be4625030ba49",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
+      "relevant": true,
+      "relevanceScore": 82,
+      "category": "transport",
+      "titleZh": "阿斯塔纳市长介绍首都道路建设项目",
+      "summaryZh": "阿斯塔纳市长介绍了首都从桥梁到住宅区的道路建设情况。相关项目旨在缓解主要干道交通压力，并改善城市交通可达性。",
+      "keyFactsZh": [
+        "消息涉及阿斯塔纳市道路建设。",
+        "项目范围涵盖桥梁及住宅区周边道路。",
+        "项目目标包括缓解主要大道拥堵和改善交通可达性。",
+        "来源未披露具体项目名称、投资金额、建设期限或承包商。"
+      ],
+      "businessImpactZh": "道路建设可能为中国建筑企业、道路工程设备供应商及物流服务商带来潜在关注点，但目前缺少项目清单、招标安排和投资规模，暂无法判断具体商业机会。",
+      "affectedIndustries": ["道路建设", "工程设备", "城市交通", "物流"],
+      "regionIds": ["astana"],
+      "organizationNames": [],
+      "officialNames": [],
+      "riskFlags": [
+        "项目范围和技术参数未披露",
+        "投资金额与建设期限未知",
+        "尚无招标或承包商信息"
+      ],
+      "confidence": 0.91,
+      "id": "f40c609739c92044298c84c159db2846c5a553f3c2d1a959137c60cdfc8fa1ee",
+      "translationMode": "ai",
+      "status": "published",
+      "analyzedAt": "2026-10-18T16:29:53.756Z",
+      "lastCheckedAt": "2026-10-18T16:29:53.756Z",
+      "rank": 87
+    },
     {
       "sourceId": "inbusiness-kz",
       "sourceName": "Inbusiness.kz",
@@ -16,36 +102,39 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/news/kak-razvitie-turizma-vliyaet-rost-ekonomiki",
       "contentHash": "c8b8dad0d1846939902fd7291469669b50812463426d1982c001022e9884c8b4",
-      "collectedAt": "2026-10-18T12:01:48.668Z",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
       "relevant": true,
-      "relevanceScore": 72,
+      "relevanceScore": 78,
       "category": "economy",
-      "titleZh": "旅游业发展如何影响哈萨克斯坦经济增长？",
-      "summaryZh": "文章聚焦旅游业对经济增长和地区发展的作用，提到酒店业扩张及旅游相关税收增长，但未提供具体金额、地区或企业信息。",
+      "titleZh": "旅游业发展对哈萨克斯坦经济增长的影响",
+      "summaryZh": "来源摘要认为，旅游业发展正通过酒店业扩张和税收增长，成为推动地区发展的重要因素。该信息可为关注哈萨克斯坦旅游、酒店及相关基础设施的中国企业提供宏观参考，但目前缺少具体地区、投资金额和税收数据。",
       "keyFactsZh": [
-        "来源标题讨论旅游业发展与经济增长之间的关系。",
-        "摘要提到酒店业快速发展以及旅游业带来的大额税收。",
-        "文章将旅游业视为推动地区发展的重要因素之一。",
-        "来源未披露具体税收金额、项目名称、企业名称或涉及地区。"
+        "来源标题聚焦旅游业发展与经济增长之间的关系。",
+        "来源摘要提到酒店业扩张以及旅游业带来的大额税收。",
+        "来源摘要将旅游业描述为推动地区发展的重要动力。"
       ],
-      "businessImpactZh": "对中国酒店、文旅、交通和旅游服务企业而言，哈萨克斯坦旅游业及酒店业可能存在增长机会。但由于现有信息缺少市场规模、政策措施和具体项目，暂不足以据此作出投资判断，需进一步核实原文及官方数据。",
-      "affectedIndustries": ["旅游", "酒店", "餐饮", "交通", "文旅基础设施"],
+      "businessImpactZh": "中国酒店运营商、文旅投资者、旅游服务商及相关基础设施企业可将该信息作为关注哈萨克斯坦地区旅游市场的初步信号。实际投资判断仍需进一步核实客流、酒店入住率、税收规模、项目所在地及监管政策等数据。",
+      "affectedIndustries": [
+        "旅游业",
+        "酒店业",
+        "餐饮与休闲服务",
+        "旅游基础设施"
+      ],
       "regionIds": [],
       "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "信息仅来自标题和摘要",
-        "缺少具体税收金额及统计口径",
-        "未披露具体地区、项目和企业",
-        "不能据此确认投资回报或政策优惠"
+        "仅提供标题和摘要，缺少可核实的具体统计数据",
+        "未说明涉及的地区、项目和企业",
+        "“大额税收”等表述缺乏金额和统计口径"
       ],
-      "confidence": 0.86,
+      "confidence": 0.82,
       "id": "72b365a88a7e2c36bbbcc5648af5cf6277ab45e217621bb84b372f27845ed695",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-18T12:02:07.227Z",
-      "lastCheckedAt": "2026-10-18T12:02:07.227Z",
-      "rank": 81
+      "analyzedAt": "2026-10-18T16:30:13.093Z",
+      "lastCheckedAt": "2026-10-18T16:30:13.093Z",
+      "rank": 87
     },
     {
       "sourceId": "informburo-kz",
@@ -61,34 +150,34 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://informburo.kz/novosti/skolko-stoiat-dollar-evro-i-rubl-v-obmennikax-kazaxstana-18-oktiabria",
       "contentHash": "0bbab14604d454078fc3c108d94061892b3d810f31a950b2c3acf6788eb33d31",
-      "collectedAt": "2026-10-18T12:01:48.668Z",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
       "relevant": true,
-      "relevanceScore": 65,
+      "relevanceScore": 68,
       "category": "economy",
       "titleZh": "10月18日哈萨克斯坦大城市兑换点美元售价为453—456坚戈",
-      "summaryZh": "据来源信息，2026年10月18日，哈萨克斯坦大城市兑换点的美元售价为453—456坚戈。来源未提供欧元和卢布的具体汇率。",
+      "summaryZh": "据报道，2026年10月18日，哈萨克斯坦大城市兑换点美元售价为1美元453—456坚戈。来源标题还提及欧元和卢布，但未提供相应汇率。",
       "keyFactsZh": [
         "信息发布日期为2026年10月18日。",
         "哈萨克斯坦大城市兑换点美元售价为453—456坚戈。",
-        "来源标题涉及美元、欧元和卢布，但摘录仅提供美元售价区间。"
+        "来源未提供欧元和俄罗斯卢布的具体汇率。"
       ],
-      "businessImpactZh": "汇率区间可为在哈萨克斯坦开展业务的中国企业进行短期结算和预算测算提供参考。但由于缺少具体兑换点、买入价以及欧元和卢布数据，不宜据此作出完整的汇率判断。",
-      "affectedIndustries": ["跨境贸易", "金融服务", "外汇兑换"],
+      "businessImpactZh": "美元兑坚戈的兑换价格可作为在哈中资企业进行付款、采购和成本换算时的参考。由于来源仅提供兑换点美元售价，未说明买入价、平均汇率或汇率趋势，企业仍需结合实际交易报价进行结算。",
+      "affectedIndustries": ["跨境贸易", "制造业", "采购与供应链", "金融服务"],
       "regionIds": ["KZ"],
       "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "汇率可能波动",
-        "数据仅覆盖美元售价区间",
-        "缺少欧元和卢布具体数据"
+        "信息仅提供美元兑换点售价，缺少买入价和其他币种汇率",
+        "兑换点报价不等同于银行或官方汇率",
+        "未提供汇率趋势及波动信息"
       ],
-      "confidence": 0.94,
+      "confidence": 0.98,
       "id": "98a9549a8586c1664a0e7b2f33b8f39257b068c81923d702dfe4e49ddf8b8e3f",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-18T12:02:20.238Z",
-      "lastCheckedAt": "2026-10-18T12:02:20.238Z",
-      "rank": 74
+      "analyzedAt": "2026-10-18T16:30:26.942Z",
+      "lastCheckedAt": "2026-10-18T16:30:26.942Z",
+      "rank": 77
     },
     {
       "sourceId": "inbusiness-kz",
@@ -104,29 +193,33 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/news/chto-tvoritsya-s-cenami-na-edu-v-stolice-kazahstana",
       "contentHash": "570f6629e1e7f5bb9328bc3206848bff596b0079e347f4cb1d49514530f6b62f",
-      "collectedAt": "2026-10-18T12:01:48.668Z",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
       "relevant": true,
       "relevanceScore": 78,
       "category": "economy",
       "titleZh": "阿斯塔纳部分蔬菜价格上涨，鸡肉价格下降",
-      "summaryZh": "据消息，哈萨克斯坦首都阿斯塔纳的商店中，部分蔬菜价格出现上涨，而鸡肉价格有所下降，显示当地食品价格走势存在分化。",
+      "summaryZh": "据报道，哈萨克斯坦首都阿斯塔纳的商店中，部分蔬菜价格出现上涨，而鸡肉价格有所下降。该信息反映出当地食品零售价格存在结构性变化。",
       "keyFactsZh": [
         "消息来源称，阿斯塔纳商店中的部分蔬菜价格上涨。",
-        "鸡肉价格出现下降。",
-        "来源未提供具体商品、价格变动幅度及统计周期。"
+        "鸡肉价格有所下降。",
+        "报道未提供具体商品、价格变动幅度或原因。"
       ],
-      "businessImpactZh": "对在哈萨克斯坦从事食品零售、批发、进口和供应链业务的中国企业而言，相关变化提示应关注阿斯塔纳市场不同食品品类的价格波动，并据此审慎安排采购和库存。由于缺少具体价格数据，暂不宜据此作出大规模投资或采购决策。",
-      "affectedIndustries": ["食品零售", "食品批发", "农产品贸易", "冷链物流"],
-      "regionIds": ["ASTANA"],
+      "businessImpactZh": "食品进口商、零售商和餐饮企业可能需要关注阿斯塔纳不同食品品类的价格变化，并据此评估采购和库存安排。但由于缺少具体价格和变动幅度，暂不能据此判断整体食品市场趋势。",
+      "affectedIndustries": ["食品零售", "农产品贸易", "餐饮业", "食品进口"],
+      "regionIds": ["Astana"],
       "organizationNames": [],
-      "officialNames": [],
-      "riskFlags": ["食品价格波动", "信息缺少具体价格和涨跌幅度"],
-      "confidence": 0.94,
+      "officialNames": ["阿斯塔纳"],
+      "riskFlags": [
+        "部分食品价格波动",
+        "缺少具体价格和涨跌幅度",
+        "无法据此判断整体通胀趋势"
+      ],
+      "confidence": 0.93,
       "id": "bfa27c2ec3f7efaacad6716de7916db4e58d029c26166b736a7e2864c934fafc",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-18T12:02:43.419Z",
-      "lastCheckedAt": "2026-10-18T12:02:43.419Z",
+      "analyzedAt": "2026-10-18T16:30:51.306Z",
+      "lastCheckedAt": "2026-10-18T16:30:51.306Z",
       "rank": 87
     },
     {
@@ -143,35 +236,35 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/news/hromtau-vyros-vokrug-kombinata-chto-budet-s-gorodom-dalshe",
       "contentHash": "e85d096bc121f52bfe27f6eff426b32b190ac3a582e00c82dfacde726ae7cc81",
-      "collectedAt": "2026-10-18T12:01:48.668Z",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
       "relevant": true,
-      "relevanceScore": 75,
+      "relevanceScore": 85,
       "category": "industry",
-      "titleZh": "哈罗姆陶围绕工业联合体发展，未来仍面临经济依赖问题",
-      "summaryZh": "哈罗姆陶人口持续增加、工资水平上升并出现新的项目，但该市经济仍依赖一家大型工业企业。对中国企业而言，当地可能存在市场和项目机会，但需关注产业结构单一带来的经营风险。",
+      "titleZh": "哈萨克斯坦克罗姆陶依托大型工业企业发展，未来仍面临经济单一依赖",
+      "summaryZh": "克罗姆陶的人口和工资水平正在增长，并出现新的项目，但该城市经济仍依赖一家大型工业企业。对中国企业而言，当地可能存在工业配套和城市发展相关机会，但需重点评估对单一企业的依赖风险。",
       "keyFactsZh": [
-        "哈罗姆陶的人口正在增加。",
-        "当地工资水平有所上升。",
+        "克罗姆陶是在一家大型工业企业周边发展起来的城市。",
+        "当地人口正在增加。",
+        "工资水平正在上升。",
         "城市出现了新的项目。",
         "当地经济仍依赖一家大型工业企业。"
       ],
-      "businessImpactZh": "人口和工资增长可能扩大当地消费及服务需求，新项目也可能带来合作机会。不过，经济对大型工业企业的依赖意味着市场需求和经营环境可能受单一产业及企业状况影响。来源未提供具体项目、投资金额或企业名称，暂不宜作出更具体的投资判断。",
-      "affectedIndustries": ["工业", "基础设施与城市发展", "消费与服务业"],
+      "businessImpactZh": "城市人口和工资增长、新项目增加，可能提升工业配套、城市服务及相关基础设施的需求。由于经济依赖大型工业企业，中国企业在评估投资、供应或承包项目时，应关注该核心企业经营变化对地方市场需求的影响。以上为基于来源信息的谨慎商业判断。",
+      "affectedIndustries": ["工业", "城市发展", "基础设施", "工业配套服务"],
       "regionIds": [],
       "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "产业结构单一",
-        "对大型工业企业依赖较高",
-        "来源信息有限，缺少具体项目和投资数据"
+        "经济依赖单一大型工业企业",
+        "来源未提供具体项目、投资金额和实施时间"
       ],
-      "confidence": 0.88,
+      "confidence": 0.9,
       "id": "be1e72b8fc0e1b4cbd77661cc4a31f027c6df3bd7aae954a09ba1bbf2fd2cdd5",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-18T12:02:48.845Z",
-      "lastCheckedAt": "2026-10-18T12:02:48.845Z",
-      "rank": 80
+      "analyzedAt": "2026-10-18T16:30:56.638Z",
+      "lastCheckedAt": "2026-10-18T16:30:56.638Z",
+      "rank": 90
     },
     {
       "sourceId": "kapital-kz",
@@ -187,34 +280,39 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/economic/154434/ot-cifrovizacii-do-torgovli-kazahstan-i-kambodzha-rasshiryayut-partnerstvo.html",
       "contentHash": "8c967f86cc4f585095576401e46f522c61ae8af38843075a4492b4799397d18e",
-      "collectedAt": "2026-10-18T12:01:48.668Z",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
       "relevant": true,
-      "relevanceScore": 72,
+      "relevanceScore": 82,
       "category": "government",
-      "titleZh": "哈萨克斯坦与柬埔寨扩大数字政府、贸易和旅游合作",
-      "summaryZh": "哈萨克斯坦与柬埔寨在高层会谈后，就GovTech、贸易、旅游和文化等领域的合作达成一致。相关安排可能为数字政府服务、双边贸易及旅游文化项目带来新的合作机会，但目前公开信息未披露具体项目、金额或执行时间表。",
+      "titleZh": "哈萨克斯坦与柬埔寨扩大数字政府、贸易等领域合作",
+      "summaryZh": "据报道，哈萨克斯坦与柬埔寨在高层会谈后，就政府科技（GovTech）、贸易、旅游和文化等领域的合作达成共识。相关进展可能为两国企业探索数字政府和跨境贸易合作提供政策信号，但目前公开信息未披露具体项目、金额或执行时间表。",
       "keyFactsZh": [
         "哈萨克斯坦与柬埔寨举行了高层会谈。",
         "双方同意在GovTech、贸易、旅游和文化领域加强合作。",
-        "来源未披露具体合作项目、投资金额、参与机构或实施时间表。"
+        "现有信息未说明具体合作项目、投资金额、参与机构或实施期限。"
       ],
-      "businessImpactZh": "对在哈萨克斯坦寻求数字政府、信息技术、贸易和旅游项目的中国企业而言，相关合作方向值得关注。由于缺少项目清单、招标安排和监管细节，企业目前应将其视为政策层面的合作信号，不宜据此判断具体商机或投资规模。",
-      "affectedIndustries": ["数字政府与信息技术", "贸易", "旅游", "文化"],
+      "businessImpactZh": "对中国企业而言，这表明哈萨克斯坦正在拓展与东南亚国家在数字政府及经贸领域的合作网络。具备电子政务、数字平台、跨境贸易服务和旅游基础设施能力的企业可关注后续政府间协议、招标及项目落地信息。目前不宜据此判断具体市场机会或投资规模。",
+      "affectedIndustries": [
+        "数字政府与信息技术",
+        "跨境贸易",
+        "旅游业",
+        "文化产业"
+      ],
       "regionIds": [],
       "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "缺少具体项目、金额和执行时间表",
-        "尚未披露采购或投资机会",
-        "合作意向的实际落地情况仍不明确"
+        "信息仅为合作方向，缺少具体项目和商业条款",
+        "未披露投资金额、招标安排及实施时间表",
+        "后续落地仍取决于政府间协议和执行机制"
       ],
-      "confidence": 0.96,
+      "confidence": 0.9,
       "id": "c6b9221e077f22788f87d3ea48a86b1542132072b489fcb15c6c82208b424cb3",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-18T12:02:59.488Z",
-      "lastCheckedAt": "2026-10-18T12:02:59.488Z",
-      "rank": 76
+      "analyzedAt": "2026-10-18T16:31:08.332Z",
+      "lastCheckedAt": "2026-10-18T16:31:08.332Z",
+      "rank": 86
     },
     {
       "sourceId": "informburo-kz",
@@ -273,41 +371,45 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://www.gov.kz/memleket/entities/mfa/press/news/details/1312832?lang=ru",
       "contentHash": "12295c527e0074bebabb1206b34b11c1586f0777806a01f34aa44047cb4e032f",
-      "collectedAt": "2026-10-18T12:01:48.668Z",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
       "relevant": true,
-      "relevanceScore": 92,
+      "relevanceScore": 88,
       "category": "transport",
-      "titleZh": "哈萨克斯坦与欧盟讨论区域互联互通及跨里海运输路线发展",
-      "summaryZh": "哈萨克斯坦副外长阿尔曼·伊谢托夫与欧盟中亚特别代表爱德华斯·斯蒂普赖斯举行会谈。双方肯定哈萨克斯坦与欧盟合作的积极势头，强调《加强伙伴关系与合作协定》的战略意义，并讨论落实高层共识、推进“中亚—欧盟”合作、发展跨里海国际运输路线、吸引欧洲投资及实施Global Gateway框架下基础设施项目。",
+      "titleZh": "哈萨克斯坦与欧盟将加强跨里海运输通道及基础设施合作",
+      "summaryZh": "哈萨克斯坦副外长阿尔曼·伊谢托夫与欧盟中亚特别代表爱德华斯·斯蒂普赖斯举行会谈。双方表示哈萨克斯坦与欧盟合作保持积极发展势头，并讨论了加强交通物流互联互通、进一步发展跨里海国际运输路线、吸引欧洲投资以及在“全球门户”倡议下实施基础设施项目的前景。",
       "keyFactsZh": [
-        "哈萨克斯坦副外长阿尔曼·伊谢托夫与欧盟中亚特别代表爱德华斯·斯蒂普赖斯举行会谈。",
-        "双方表示哈萨克斯坦与欧盟合作呈现积极发展态势，并强调《加强伙伴关系与合作协定》是深化双边关系的重要制度基础。",
-        "双方讨论了落实哈萨克斯坦国家元首于6月23日访问布鲁塞尔期间达成的高层共识。",
-        "会议关注“中亚—欧盟”合作机制、运输物流互联互通以及跨里海国际运输路线的进一步发展。",
-        "双方还讨论了吸引欧洲投资，并在Global Gateway倡议框架下实施基础设施项目。"
+        "双方强调《哈萨克斯坦共和国与欧盟及其成员国加强伙伴关系与合作协定》的战略意义。",
+        "双方讨论了落实高层会晤达成的协议，包括哈萨克斯坦国家元首于6月23日访问布鲁塞尔后的相关安排。",
+        "双方将继续推动“中亚—欧盟”合作机制。",
+        "会谈涉及跨里海国际运输路线的发展、欧洲投资引入，以及“全球门户”倡议下基础设施项目的实施。"
       ],
-      "businessImpactZh": "从已披露信息看，哈萨克斯坦与欧盟可能继续加强跨里海运输路线及相关基础设施合作。对中国物流、运输和基础设施企业而言，这或将扩大欧亚跨里海通道的项目关注度和潜在合作空间，但目前消息未公布具体项目、投资金额、招标安排或实施时间，企业仍需等待后续官方细节。",
+      "businessImpactZh": "这表明哈萨克斯坦与欧盟可能继续推进跨里海运输和相关基础设施合作。对中国企业而言，跨境物流、运输设备、港口及配套基础设施领域或将出现更多合作关注，但具体项目、融资安排和招标机会仍需等待官方进一步公布。",
       "affectedIndustries": [
         "跨境物流",
-        "铁路与公路运输",
-        "港口及多式联运",
-        "基础设施建设",
+        "铁路运输",
+        "港口与航运",
+        "交通基础设施",
+        "工程建设",
         "投资服务"
       ],
-      "regionIds": ["哈萨克斯坦", "中亚", "跨里海运输路线"],
-      "organizationNames": ["哈萨克斯坦外交部", "欧盟", "Global Gateway"],
+      "regionIds": ["KZ", "Central Asia", "EU"],
+      "organizationNames": [
+        "哈萨克斯坦共和国外交部",
+        "欧盟",
+        "中亚—欧盟合作机制"
+      ],
       "officialNames": ["阿尔曼·伊谢托夫", "爱德华斯·斯蒂普赖斯"],
       "riskFlags": [
-        "目前未公布具体项目清单、投资金额、招标信息或时间表",
-        "跨里海运输路线相关合作仍需关注后续政府协议和项目落地进展"
+        "目前信息未披露具体项目清单、投资金额、时间表或招标条件",
+        "合作前景仍需通过后续政府协议和项目实施予以确认"
       ],
-      "confidence": 0.97,
+      "confidence": 0.94,
       "id": "b26ff6b736d4fe7e410965b882a12fcf4a373b21cd5038fcae3f849a2a6280ed",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-18T12:03:12.425Z",
-      "lastCheckedAt": "2026-10-18T12:03:12.426Z",
-      "rank": 102
+      "analyzedAt": "2026-10-18T16:31:15.430Z",
+      "lastCheckedAt": "2026-10-18T16:31:15.430Z",
+      "rank": 98
     },
     {
       "sourceId": "inbusiness-kz",
@@ -774,46 +876,45 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://vlast.kz/obsshestvo/71275-nedela-v-kazahstane-socialnyj-vopros.html",
       "contentHash": "f230293e76b3e853cce0d5ae77832515740b6bfee938769515b7e64bf647168c",
-      "collectedAt": "2026-10-18T12:01:48.668Z",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
       "relevant": true,
       "relevanceScore": 78,
       "category": "government",
-      "titleZh": "哈萨克斯坦拟调整社会福利，议会关注预算赤字与财政储备",
-      "summaryZh": "哈萨克斯坦政府计划在未来三年通过削减富裕群体相关社会福利支出，节省2.5万亿坚戈。议会批评三年预算缺乏充足财政安全储备，预算赤字预计为4.6万亿坚戈。与此同时，哈萨克斯坦启动地方代表机构重组及提前选举安排，可能增加企业对政策连续性和地方治理变化的关注。",
+      "titleZh": "哈萨克斯坦拟削减部分社会福利，议会质疑三年预算安全储备",
+      "summaryZh": "哈萨克斯坦政府正准备大幅削减向富裕人群发放的部分社会福利，计划在未来三年节省2.5万亿坚戈。议会批评三年预算草案缺乏足够的财政安全储备，预算赤字为4.6万亿坚戈。此外，托卡耶夫解散各级马斯利哈特，中央选举委员会将提前选举安排在11月底。",
       "keyFactsZh": [
-        "政府计划在未来三年削减部分面向富裕群体的社会福利支出，目标节省2.5万亿坚戈。",
-        "议会批评三年预算方案缺乏较大规模的财政安全储备，预算赤字为4.6万亿坚戈。",
-        "阿拉木图已开始审理活动人士桑扎尔·博卡耶夫案件。",
-        "托卡耶夫解散各级地方代表机构马斯利哈特。",
-        "中央选举委员会将地方提前选举安排在11月底举行。"
+        "政府计划削减面向富裕公民的部分社会福利，预计未来三年节省2.5万亿坚戈。",
+        "议会批评三年预算草案缺乏较大规模的财政安全储备，预算赤字为4.6万亿坚戈。",
+        "阿拉木图已开始对社会活动人士桑扎尔·博卡耶夫的审判。",
+        "托卡耶夫解散各级马斯利哈特，中央选举委员会确定在11月底举行提前选举。"
       ],
-      "businessImpactZh": "预算赤字和社会支出调整可能影响企业对政府财政政策、公共支出及社会稳定性的判断，但消息未说明具体行业、税费或投资政策变化。地方代表机构解散及提前选举可能使企业在地方项目审批、公共采购和政府沟通方面面临阶段性不确定性，建议在相关政策正式公布后进一步评估。",
+      "businessImpactZh": "社会福利政策和预算安排的变化可能影响企业对居民消费、财政政策及公共支出环境的判断。各级马斯利哈特解散及提前选举可能增加地方政策和公共事务安排的不确定性。上述福利削减和预算方案仍属于政府准备或议会审议层面的信息，不应视为已经生效的政策。",
       "affectedIndustries": [
+        "消费品与零售",
         "公共服务",
-        "基础设施与公共采购",
-        "金融与投资",
-        "消费市场"
+        "金融服务",
+        "基础设施与政府采购"
       ],
-      "regionIds": ["KZ", "Almaty"],
+      "regionIds": ["almaty", "kazakhstan"],
       "organizationNames": [
         "哈萨克斯坦政府",
         "哈萨克斯坦议会",
         "哈萨克斯坦中央选举委员会",
-        "地方代表机构马斯利哈特"
+        "各级马斯利哈特"
       ],
-      "officialNames": ["卡西姆若马尔特·托卡耶夫", "桑扎尔·博卡耶夫"],
+      "officialNames": ["托卡耶夫", "桑扎尔·博卡耶夫"],
       "riskFlags": [
-        "社会福利政策可能调整",
-        "财政赤字与预算储备不足",
-        "地方治理和提前选举带来的政策连续性不确定性",
-        "信息仅为政府计划和媒体周报摘要，最终安排可能变化"
+        "社会福利政策调整尚未明确最终实施方案",
+        "预算赤字规模较大",
+        "财政安全储备受到议会质疑",
+        "地方代表机构解散及提前选举带来政策不确定性"
       ],
-      "confidence": 0.87,
+      "confidence": 0.93,
       "id": "afb65a89aeac9b8e1cd6c61c0b243c28628a36768e5f6cc48c8d7ba9992c2cb1",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-18T12:04:02.430Z",
-      "lastCheckedAt": "2026-10-18T12:04:02.430Z",
+      "analyzedAt": "2026-10-18T16:31:32.915Z",
+      "lastCheckedAt": "2026-10-18T16:31:32.915Z",
       "rank": 82
     },
     {
@@ -874,38 +975,34 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/economic/154431/chastnye-upravlyayushie-kompanii-diversificiruyut-pensionnye-investicii-glava-arrfr.html",
       "contentHash": "62bc04423eb75b8cc419523d0ccda464d5a77bd83f8c266090edae415375d796",
-      "collectedAt": "2026-10-18T12:01:48.668Z",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
       "relevant": true,
-      "relevanceScore": 78,
+      "relevanceScore": 76,
       "category": "investment",
-      "titleZh": "哈萨克斯坦私人资产管理公司将分散养老金投资",
-      "summaryZh": "哈萨克斯坦金融市场监管与发展局局长马迪娜·阿比尔卡瑟莫娃参加了有关发展国内资本市场的圆桌会议。根据报道标题，私人资产管理公司正在推动养老金投资多元化。",
+      "titleZh": "哈萨克斯坦私人资管公司将分散养老金投资——金融监管机构负责人",
+      "summaryZh": "哈萨克斯坦金融市场与监管发展局负责人玛迪娜·阿卜勒卡西莫娃参加了有关国内资本市场发展的圆桌会议。消息称，私人管理公司正在分散养老金投资。该信息可能为关注哈萨克斯坦资本市场及机构投资机会的中国企业提供参考，但来源未披露具体投资方向、规模或监管措施。",
       "keyFactsZh": [
-        "马迪娜·阿比尔卡瑟莫娃参加了讨论国内资本市场发展的圆桌会议。",
-        "报道指出，私人资产管理公司将分散养老金投资。",
-        "现有来源未披露具体投资工具、金额、监管措施或实施时间表。"
+        "玛迪娜·阿卜勒卡西莫娃参加了讨论国内资本市场发展的圆桌会议。",
+        "消息称，私人管理公司正在分散养老金投资。",
+        "来源未提供具体投资资产、投资规模、参与机构或后续政策细节。"
       ],
-      "businessImpactZh": "如果养老金投资渠道进一步多元化，可能为中国金融机构、资产管理公司及资本市场服务商参与哈萨克斯坦本地投资市场创造机会。但目前缺乏具体政策和准入安排，企业应等待监管细则并开展合规评估。",
-      "affectedIndustries": [
-        "资产管理",
-        "养老金管理",
-        "证券与资本市场",
-        "金融服务"
-      ],
+      "businessImpactZh": "对中国金融机构、资产管理公司及寻求进入哈萨克斯坦资本市场的企业而言，该消息显示养老金投资和国内资本市场发展值得关注。由于缺乏具体政策、准入条件和投资项目，现阶段不宜据此判断实际合作机会或资金流向。",
+      "affectedIndustries": ["金融服务", "资产管理", "资本市场", "养老金投资"],
       "regionIds": ["KZ"],
-      "organizationNames": ["哈萨克斯坦金融市场监管与发展局"],
-      "officialNames": ["马迪娜·阿比尔卡瑟莫娃"],
+      "organizationNames": ["哈萨克斯坦金融市场与监管发展局", "私人管理公司"],
+      "officialNames": ["玛迪娜·阿卜勒卡西莫娃"],
       "riskFlags": [
-        "来源仅提供标题和简短摘要，缺少政策细节",
-        "未披露投资规模、资产类别或市场准入条件"
+        "来源未披露养老金投资分散的具体方式和资产类别",
+        "来源未说明相关政策是否已经出台或发生变化",
+        "缺少投资规模、项目及市场准入信息"
       ],
-      "confidence": 0.84,
+      "confidence": 0.88,
       "id": "b1d5c98a57c6ab12d61440c7dd3e8855b6ef877d3011f7e1db9ffc5d167dd642",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-18T12:04:08.417Z",
-      "lastCheckedAt": "2026-10-18T12:04:08.417Z",
-      "rank": 82
+      "analyzedAt": "2026-10-18T16:31:38.757Z",
+      "lastCheckedAt": "2026-10-18T16:31:38.757Z",
+      "rank": 80
     },
     {
       "sourceId": "kapital-kz",
@@ -1144,40 +1241,31 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/economic/154426/strany-eaes-sozdadut-cifrovuyu-platformu-dlya-koordinacii-agroinnovacij.html",
       "contentHash": "7aa43a0d21eeccadaf869f3ee169290faf91b050385fccab19acbc4cf56e35a8",
-      "collectedAt": "2026-10-17T16:22:17.437Z",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
       "relevant": true,
-      "relevanceScore": 75,
+      "relevanceScore": 78,
       "category": "economy",
       "titleZh": "欧亚经济联盟国家将建立农业创新协调数字平台",
-      "summaryZh": "欧亚经济联盟国家计划建立一个用于协调农业创新的数字平台，目标之一是构建食品生态系统。该信息对关注欧亚农业数字化和食品产业合作的中国企业具有参考价值，但目前尚未公布平台的具体参与方、建设时间表和运行机制。",
+      "summaryZh": "欧亚经济联盟国家计划建立一个用于协调农业创新的数字平台，目标之一是构建食品生态系统。该举措可能为农业技术合作和相关企业对接提供新的区域性渠道，但平台的具体机制、参与方及实施时间尚未公布。",
       "keyFactsZh": [
         "欧亚经济联盟国家将创建农业创新协调数字平台。",
-        "该平台的任务之一是构建食品生态系统。",
-        "来源发布时间为2026年10月17日。"
+        "该平台的任务之一是构建食品生态系统。"
       ],
-      "businessImpactZh": "对中国农业科技、数字平台、食品供应链和农产品企业而言，该平台未来可能形成新的区域合作和技术对接渠道。但在缺少实施细节的情况下，企业暂不宜据此作出具体投资或市场进入判断，应关注后续关于平台规则、参与资格、数据流通和项目清单的公告。",
-      "affectedIndustries": [
-        "农业",
-        "农业科技",
-        "食品产业",
-        "数字平台",
-        "农产品供应链"
-      ],
+      "businessImpactZh": "对中国农业科技、食品产业和数字平台企业而言，该计划显示欧亚经济联盟内部可能加强农业创新协作。中国企业可关注后续平台规则、项目准入和合作机制，但目前尚不足以判断具体商业机会。",
+      "affectedIndustries": ["农业", "食品产业", "数字技术"],
       "regionIds": [],
-      "organizationNames": ["欧亚经济联盟"],
+      "organizationNames": ["欧亚经济联盟国家"],
       "officialNames": [],
       "riskFlags": [
-        "尚未披露具体参与国家和机构",
-        "尚未披露建设时间表与运营机制",
-        "尚未披露企业参与规则及数据管理要求"
+        "来源未说明平台的建设时间表、运营主体、资金安排和参与企业。"
       ],
-      "confidence": 0.94,
+      "confidence": 0.93,
       "id": "116a4a269e5e00c38c6db43953fd88c350da5609b3d6bd1c03d3475375834cec",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-17T16:24:14.984Z",
-      "lastCheckedAt": "2026-10-17T16:24:14.984Z",
-      "rank": 84
+      "analyzedAt": "2026-10-18T16:31:49.206Z",
+      "lastCheckedAt": "2026-10-18T16:31:49.206Z",
+      "rank": 82
     },
     {
       "sourceId": "inbusiness-kz",
@@ -1330,32 +1418,30 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/finance/154424/kursy-valyut-na-17-oktyabrya-ceny-na-neft-i-metally.html",
       "contentHash": "d928f68bea8bc9a54b65cb3511068bfbb7d63363a958a068eca39951ec898b9b",
-      "collectedAt": "2026-10-17T11:33:54.016Z",
+      "collectedAt": "2026-10-18T16:29:28.065Z",
       "relevant": true,
-      "relevanceScore": 72,
+      "relevanceScore": 85,
       "category": "economy",
-      "titleZh": "10月17日哈萨克斯坦官方美元汇率为452.12坚戈",
-      "summaryZh": "据来源信息，10月17日哈萨克斯坦官方汇率为1美元兑452.12坚戈。来源标题还提及石油和金属价格，但未提供具体数据。",
+      "titleZh": "哈萨克斯坦10月17日官方汇率：1美元兑452.12坚戈",
+      "summaryZh": "据来源信息，哈萨克斯坦10月17日官方汇率为1美元兑452.12坚戈。该信息可为在哈中资企业进行贸易结算、预算编制和汇率风险评估提供参考。",
       "keyFactsZh": [
-        "10月17日官方汇率为1美元兑452.12坚戈。",
-        "来源未披露石油和金属的具体价格。"
+        "发布日期为2026年10月17日。",
+        "哈萨克斯坦官方汇率为1美元兑452.12坚戈。",
+        "来源标题提及石油和金属价格，但未提供具体价格数据。"
       ],
-      "businessImpactZh": "对在哈萨克斯坦开展贸易、投资或项目结算的中国企业而言，该汇率可作为美元与坚戈换算、预算编制和结算评估的参考。实际交易还应核对银行报价及合同约定。",
-      "affectedIndustries": ["跨境贸易", "投资", "项目建设"],
-      "regionIds": [],
+      "businessImpactZh": "对于在哈开展采购、投资或跨境结算的中国企业，美元兑坚戈官方汇率可作为当日财务测算和合同结算的参考。实际交易汇率及汇兑成本可能因银行、市场和交易条件而不同，企业应结合自身结算安排进行评估。",
+      "affectedIndustries": ["跨境贸易", "金融服务", "采矿业", "能源"],
+      "regionIds": ["KZ"],
       "organizationNames": [],
       "officialNames": [],
-      "riskFlags": [
-        "仅提供单日官方汇率，不能据此判断汇率趋势",
-        "来源未提供石油和金属的具体价格"
-      ],
-      "confidence": 0.99,
+      "riskFlags": ["汇率波动风险", "来源未提供石油和金属具体价格"],
+      "confidence": 0.98,
       "id": "43b9f46cb6c6a7f32f8cc84b785daf10dbd24f7c6a6d57c04c4aa178abb9ec90",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-17T11:36:06.620Z",
-      "lastCheckedAt": "2026-10-17T11:36:06.620Z",
-      "rank": 81
+      "analyzedAt": "2026-10-18T16:31:54.118Z",
+      "lastCheckedAt": "2026-10-18T16:31:54.118Z",
+      "rank": 89
     },
     {
       "sourceId": "kursiv-kz",
@@ -9106,107 +9192,6 @@
       "analyzedAt": "2026-10-10T13:36:35.414Z",
       "lastCheckedAt": "2026-10-10T13:36:35.414Z",
       "rank": 81
-    },
-    {
-      "sourceId": "informburo-kz",
-      "sourceName": "Informburo.kz",
-      "sourceNameZh": "Informburo.kz 新闻",
-      "sourceType": "business_media",
-      "sourceUrl": "https://informburo.kz/novosti/kogda-pridet-gaz-v-koksetau-v-akimate-nazvali-datu",
-      "externalId": "https://informburo.kz/novosti/kogda-pridet-gaz-v-koksetau-v-akimate-nazvali-datu",
-      "titleOriginal": "Когда придет газ в Кокшетау. В акимате назвали дату",
-      "summaryOriginal": "В ближайшие три года в Акмолинской области планируют обеспечить природным газом 337 населенных пунктов, сейчас подключены всего 26.",
-      "publishedAt": "2026-10-10T12:46:01.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://informburo.kz/novosti/kogda-pridet-gaz-v-koksetau-v-akimate-nazvali-datu",
-      "contentHash": "209ba3b1740f224c779ef947af627eba4036250e2c84675587a2c75f65e6064c",
-      "collectedAt": "2026-10-11T07:08:36.629Z",
-      "relevant": true,
-      "relevanceScore": 85,
-      "category": "energy",
-      "titleZh": "阿克莫拉州未来三年计划向337个居民点供应天然气",
-      "summaryZh": "阿克莫拉州计划在未来三年内为337个居民点提供天然气。目前，该州仅有26个居民点已接入天然气。",
-      "keyFactsZh": [
-        "计划实施范围为阿克莫拉州337个居民点。",
-        "计划周期为未来三年。",
-        "目前已有26个居民点接入天然气。",
-        "消息标题显示，科克舍套天然气供应时间曾由地方政府部门说明，但来源摘要未提供具体日期。"
-      ],
-      "businessImpactZh": "该计划可能为天然气管网、城市燃气、工程建设及相关设备企业带来潜在机会。由于来源未披露投资规模、项目清单、资金来源或采购安排，中国企业仍需等待官方项目文件和招标信息，并核实具体建设进度。",
-      "affectedIndustries": [
-        "天然气",
-        "能源基础设施",
-        "管道建设",
-        "工程承包",
-        "燃气设备"
-      ],
-      "regionIds": ["Akmola Region"],
-      "organizationNames": ["阿克莫拉州地方政府（阿基马特）"],
-      "officialNames": [],
-      "riskFlags": [
-        "属于规划性信息，尚未说明资金来源和实施主体",
-        "未披露具体项目、投资额或招标时间",
-        "科克舍套具体供气日期在来源摘要中缺失"
-      ],
-      "confidence": 0.94,
-      "id": "89bc6ab06306b38a0570d84b706671d7c9c5db113847149ac847a3036b626a5d",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-10-11T07:10:07.748Z",
-      "lastCheckedAt": "2026-10-11T07:10:07.748Z",
-      "rank": 85
-    },
-    {
-      "sourceId": "kursiv-kz",
-      "sourceName": "Kursiv Media Kazakhstan",
-      "sourceNameZh": "Kursiv 哈萨克斯坦商业媒体",
-      "sourceType": "business_media",
-      "sourceUrl": "https://kz.kursiv.media/2026-10-10/lngr-health-insurance-control/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-health-insurance-control",
-      "externalId": "https://kz.kursiv.media/2026-10-10/lngr-health-insurance-control/?utm_source=rss&utm_medium=rss&utm_campaign=lngr-health-insurance-control",
-      "titleOriginal": "В системе ОСМС предотвратили потери на 234 млрд теңге — Минфин",
-      "summaryOriginal": "В Казахстане за девять месяцев работы по усилению контроля в системе обязательного социального медицинского страхования предотвратили финансовые потери на 234 млрд теңге, сообщили в Минфине. В рамках уголовных дел также ведется возврат более 79 млрд теңге, незаконно выплаченных поставщикам медицинских услуг. После передачи Фонда социального медицинского страхования в ведение министерства приоритетом стало пресечение утечек финансирования ...",
-      "publishedAt": "2026-10-10T12:36:07.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://kz.kursiv.media/2026-10-10/lngr-health-insurance-control",
-      "contentHash": "841ace5ac2f41774fc77baca448d56517aba0c29895c986b545002789c1d8045",
-      "collectedAt": "2026-10-11T07:08:36.629Z",
-      "relevant": true,
-      "relevanceScore": 78,
-      "category": "government",
-      "titleZh": "哈萨克斯坦加强强制社会医疗保险资金监管，已避免2340亿坚戈损失",
-      "summaryZh": "哈萨克斯坦财政部表示，在过去九个月加强强制社会医疗保险（OSMS）监管的工作中，已避免2340亿坚戈的财务损失。刑事案件框架下，相关部门还在追回此前向医疗服务供应商非法支付的超过790亿坚戈。社会医疗保险基金转由财政部管理后，重点转向遏制资金流失。",
-      "keyFactsZh": [
-        "哈萨克斯坦财政部称，九个月监管工作已避免2340亿坚戈的财务损失。",
-        "有关刑事案件涉及追回超过790亿坚戈的非法医疗服务供应商付款。",
-        "社会医疗保险基金转由财政部管理后，遏制资金流失成为优先事项。"
-      ],
-      "businessImpactZh": "对在哈萨克斯坦参与医疗服务、医保结算或相关采购的中国企业而言，这表明医保资金审核和供应商付款合规将受到更严格关注。企业应重视交易文件、服务交付记录和资金结算的可追溯性；但来源未说明具体的新规、处罚标准或执行时间。",
-      "affectedIndustries": [
-        "医疗服务",
-        "医疗器械与医药供应",
-        "政府采购",
-        "保险与医保结算"
-      ],
-      "regionIds": [],
-      "organizationNames": ["哈萨克斯坦财政部", "社会医疗保险基金"],
-      "officialNames": [
-        "Министерство финансов Республики Казахстан",
-        "Фонд социального медицинского страхования"
-      ],
-      "riskFlags": [
-        "医保资金支付审核趋严",
-        "医疗服务供应商可能面临资金追回或刑事调查风险",
-        "来源未披露具体合规要求和案件细节"
-      ],
-      "confidence": 0.96,
-      "id": "0879b54f595597ac6e16c61eb08e7c680b437243020d4a6e9c83e48bbc72b5cb",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-10-11T07:10:15.321Z",
-      "lastCheckedAt": "2026-10-11T07:10:15.321Z",
-      "rank": 82
     }
   ]
 }
