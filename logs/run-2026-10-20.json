@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-20T05-59-18-962Z",
-  "startedAt": "2026-10-20T05:59:18.962Z",
-  "finishedAt": "2026-10-20T06:02:14.028Z",
+  "runId": "2026-10-20T12-41-19-424Z",
+  "startedAt": "2026-10-20T12:41:19.424Z",
+  "finishedAt": "2026-10-20T12:43:55.925Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -42,10 +42,10 @@
     },
     {
       "sourceId": "informburo-kz",
-      "status": "failed",
-      "fetched": 0,
-      "accepted": 0,
-      "errors": ["Unclosed root tag\nLine: 453\nColumn: 184\nChar: "]
+      "status": "success",
+      "fetched": 20,
+      "accepted": 20,
+      "errors": []
     },
     {
       "sourceId": "kapital-kz",
@@ -91,10 +91,10 @@
     },
     {
       "sourceId": "vlast-kz",
-      "status": "failed",
-      "fetched": 0,
-      "accepted": 0,
-      "errors": ["This operation was aborted"]
+      "status": "success",
+      "fetched": 30,
+      "accepted": 30,
+      "errors": []
     },
     {
       "sourceId": "zakon-kz",
@@ -104,15 +104,13 @@
       "errors": []
     }
   ],
-  "collected": 187,
-  "deduplicated": 54,
+  "collected": 237,
+  "deduplicated": 80,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["29 articles remain untranslated or failed"],
+  "warnings": ["55 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
-    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i",
-    "Unclosed root tag\nLine: 453\nColumn: 184\nChar: ",
-    "This operation was aborted"
+    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i"
   ]
 }
