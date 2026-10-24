@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-24T11-57-48-138Z",
-  "startedAt": "2026-10-24T11:57:48.138Z",
-  "finishedAt": "2026-10-24T12:00:16.778Z",
+  "runId": "2026-10-24T16-33-40-821Z",
+  "startedAt": "2026-10-24T16:33:40.821Z",
+  "finishedAt": "2026-10-24T16:36:20.883Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -10,7 +10,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["Attribute without value\nLine: 10\nColumn: 72\nChar: >"]
+      "errors": ["fetch failed"]
     },
     {
       "sourceId": "akorda-kz",
@@ -28,10 +28,10 @@
     },
     {
       "sourceId": "forbes-kz",
-      "status": "success",
-      "fetched": 18,
-      "accepted": 18,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["fetch failed"]
     },
     {
       "sourceId": "inbusiness-kz",
@@ -91,10 +91,10 @@
     },
     {
       "sourceId": "vlast-kz",
-      "status": "success",
-      "fetched": 30,
-      "accepted": 30,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["This operation was aborted"]
     },
     {
       "sourceId": "zakon-kz",
@@ -104,13 +104,15 @@
       "errors": []
     }
   ],
-  "collected": 237,
-  "deduplicated": 63,
+  "collected": 189,
+  "deduplicated": 50,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["38 articles remain untranslated or failed"],
+  "warnings": ["25 articles remain untranslated or failed"],
   "errors": [
-    "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
-    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i"
+    "fetch failed",
+    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i",
+    "fetch failed",
+    "This operation was aborted"
   ]
 }
