@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-25T06-02-39-123Z",
-  "startedAt": "2026-10-25T06:02:39.123Z",
-  "finishedAt": "2026-10-25T06:05:34.904Z",
+  "runId": "2026-10-25T12-32-32-533Z",
+  "startedAt": "2026-10-25T12:32:32.533Z",
+  "finishedAt": "2026-10-25T12:35:00.956Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -10,7 +10,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["fetch failed"]
+      "errors": ["Attribute without value\nLine: 10\nColumn: 72\nChar: >"]
     },
     {
       "sourceId": "akorda-kz",
@@ -50,8 +50,8 @@
     {
       "sourceId": "kapital-kz",
       "status": "success",
-      "fetched": 30,
-      "accepted": 30,
+      "fetched": 13,
+      "accepted": 13,
       "errors": []
     },
     {
@@ -91,10 +91,10 @@
     },
     {
       "sourceId": "vlast-kz",
-      "status": "success",
-      "fetched": 30,
-      "accepted": 30,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["This operation was aborted"]
     },
     {
       "sourceId": "zakon-kz",
@@ -104,13 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 237,
-  "deduplicated": 48,
+  "collected": 190,
+  "deduplicated": 31,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["23 articles remain untranslated or failed"],
+  "warnings": ["6 articles remain untranslated or failed"],
   "errors": [
-    "fetch failed",
-    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i"
+    "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
+    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i",
+    "This operation was aborted"
   ]
 }
