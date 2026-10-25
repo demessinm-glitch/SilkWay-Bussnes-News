@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T12:35:00.944Z",
+  "generatedAt": "2026-10-25T17:04:44.051Z",
   "items": [
     {
       "sourceId": "kursiv-kz",
@@ -16,39 +16,40 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kz.kursiv.media/2026-10-25/svvo-kazahstan-nameren-ekonomit-do-22-mlrd-kubometrov-vody-v-god",
       "contentHash": "3b6debd466be0677bc36c9c11980a5f3e73c7251a4223f124557d871c47d5bf1",
-      "collectedAt": "2026-10-25T12:32:47.570Z",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
       "relevant": true,
-      "relevanceScore": 88,
-      "category": "economy",
-      "titleZh": "哈萨克斯坦计划到2030年每年节水22亿立方米",
-      "summaryZh": "哈萨克斯坦计划到2030年将节水技术应用面积扩大至130万公顷，预计每年可节约最多22亿立方米灌溉水。哈萨克斯坦农业部副部长娜祖古尔·哈捷波娃在中国举行的一场农业展会上介绍了这一计划。",
+      "relevanceScore": 90,
+      "category": "government",
+      "titleZh": "哈萨克斯坦计划到2030年每年节约最多22亿立方米灌溉水",
+      "summaryZh": "哈萨克斯坦计划到2030年将节水技术应用面积扩大至130万公顷，目标是每年节约最多22亿立方米灌溉用水。该计划由哈萨克斯坦农业部副部长纳兹古尔·哈捷波娃在中国举行的一场农业展会上介绍。",
       "keyFactsZh": [
         "哈萨克斯坦计划到2030年将节水技术应用面积扩大至130万公顷。",
-        "预计每年最多可节约22亿立方米灌溉水。",
-        "目前哈萨克斯坦灌溉农业用地面积为160万公顷。",
-        "相关计划由哈萨克斯坦农业部副部长娜祖古尔·哈捷波娃在中国农业展会上介绍。"
+        "预计每年可节约最多22亿立方米灌溉用水。",
+        "目前哈萨克斯坦农业灌溉面积为160万公顷。",
+        "相关计划由哈萨克斯坦农业部副部长纳兹古尔·哈捷波娃在中国农业展会上介绍。"
       ],
-      "businessImpactZh": "该计划显示哈萨克斯坦可能扩大对节水灌溉、农业水资源管理及相关设备和技术的需求。中国企业可关注后续技术推广、项目合作或设备供应机会，但目前来源未提及具体招标、投资金额或采购安排。",
+      "businessImpactZh": "该目标显示哈萨克斯坦可能扩大对节水灌溉、农业水管理和相关技术设备的需求，为中国节水技术及设备企业关注当地市场提供线索。但消息未提及具体采购项目、预算、招标或合作协议，企业仍需进一步核实项目落地安排。",
       "affectedIndustries": [
+        "农业",
         "节水灌溉设备",
-        "农业技术",
-        "水资源管理",
-        "农业基础设施"
+        "农业水资源管理",
+        "农业技术"
       ],
-      "regionIds": [],
+      "regionIds": ["KZ"],
       "organizationNames": ["哈萨克斯坦农业部"],
-      "officialNames": ["娜祖古尔·哈捷波娃"],
+      "officialNames": ["纳兹古尔·哈捷波娃"],
       "riskFlags": [
-        "目前仅为政策规划信息，未披露具体项目、预算或采购时间表",
-        "节水目标为预计上限，实际效果可能取决于技术应用和项目实施情况"
+        "2030年目标属于计划，不能视为已实现成果",
+        "消息未披露具体项目、资金来源或采购安排",
+        "来源摘要信息有限"
       ],
       "confidence": 0.93,
       "id": "d567c26f2ee7eedec0fbb76aec2e99f53996f2de7af74f14ae6e8539fc85b195",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-25T12:32:59.740Z",
-      "lastCheckedAt": "2026-10-25T12:32:59.740Z",
-      "rank": 97
+      "analyzedAt": "2026-10-25T17:03:00.263Z",
+      "lastCheckedAt": "2026-10-25T17:03:00.263Z",
+      "rank": 99
     },
     {
       "sourceId": "inbusiness-kz",
@@ -64,36 +65,42 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/last/subsidii-do-85-i-milliardnaya-ekonomiya-kazahstan-predlozhil-shos-perestroit-sistemu-poliva",
       "contentHash": "1a0c3b5c0dea301634d7be3959508692021440dc60f9e22c39aee284362306fc",
-      "collectedAt": "2026-10-25T12:32:47.570Z",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
       "relevant": true,
-      "relevanceScore": 82,
-      "category": "government",
-      "titleZh": "哈萨克斯坦在上合组织框架下提议重构农业灌溉体系",
-      "summaryZh": "哈萨克斯坦农业部代表团在中国提出农业用水改革计划，重点是降低农业用水消耗，并涉及最高可达85%的补贴安排。该议题可能为节水灌溉和农业技术企业带来关注机会，但目前信息显示仍属于提议阶段，具体政策和项目细节尚未公布。",
+      "relevanceScore": 88,
+      "category": "china_kz",
+      "titleZh": "哈萨克斯坦提议上合组织重构农业灌溉体系，补贴最高可达85%",
+      "summaryZh": "哈萨克斯坦农业部代表团在中国表示，哈方计划通过调整农业灌溉体系降低农业用水量，并提出最高85%的补贴方案及可达数十亿规模的节约目标。该议题可能为中国节水灌溉技术和农业基础设施企业参与哈萨克斯坦及上合组织相关项目提供潜在机会，但具体项目、资金来源和实施时间尚未披露。",
       "keyFactsZh": [
-        "哈萨克斯坦农业部代表团在中国介绍了农业用水改革计划。",
-        "计划目标之一是减少农业部门的用水量。",
-        "相关方案提到补贴比例最高可达85%。",
-        "哈萨克斯坦方面还提出通过重构灌溉体系实现大规模节约。",
-        "消息来源未披露具体补贴对象、实施时间、适用地区或项目金额。"
+        "哈萨克斯坦向上海合作组织提出重构灌溉体系的建议。",
+        "哈萨克斯坦农业部代表团在中国介绍了相关计划。",
+        "计划重点是降低农业领域的用水量。",
+        "相关补贴比例最高可达85%。",
+        "标题提到该方案可能带来数十亿规模的节约。"
       ],
-      "businessImpactZh": "中国节水灌溉设备、农业水资源管理和相关技术企业可关注哈萨克斯坦后续政策、试点项目及采购安排。由于目前仅为提议，企业不宜据此确认补贴资格或项目收益，应等待正式文件和实施细则。",
-      "affectedIndustries": ["节水灌溉", "农业技术", "水资源管理", "农业设备"],
-      "regionIds": ["KZ"],
+      "businessImpactZh": "对中国节水灌溉设备、农业水利工程、智能灌溉和水资源管理企业而言，这一提议显示哈萨克斯坦农业节水领域可能出现政策支持和项目需求。企业可关注后续补贴规则、项目招标、技术标准及中哈或上合组织合作机制；目前尚不能据此确认具体采购机会或投资回报。",
+      "affectedIndustries": [
+        "节水灌溉设备",
+        "农业基础设施",
+        "水利工程",
+        "农业技术",
+        "水资源管理"
+      ],
+      "regionIds": [],
       "organizationNames": ["上海合作组织", "哈萨克斯坦农业部"],
-      "officialNames": ["哈萨克斯坦农业部"],
+      "officialNames": ["哈萨克斯坦共和国农业部"],
       "riskFlags": [
-        "政策仍处于提议阶段",
-        "补贴比例和适用条件尚未明确",
-        "缺少实施时间、地区及项目金额信息"
+        "具体补贴申请条件和资金来源未披露",
+        "尚未公布具体项目、招标信息和实施时间",
+        "节约金额和政策落地情况仍需官方进一步说明"
       ],
       "confidence": 0.9,
       "id": "057b7aeed91a9eceef3074340912ca443dda57cbaf8fae019621ce2cea858a8c",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-25T12:33:05.851Z",
-      "lastCheckedAt": "2026-10-25T12:33:05.851Z",
-      "rank": 91
+      "analyzedAt": "2026-10-25T17:03:07.977Z",
+      "lastCheckedAt": "2026-10-25T17:03:07.977Z",
+      "rank": 101
     },
     {
       "sourceId": "kursiv-kz",
@@ -109,40 +116,83 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kz.kursiv.media/2026-10-25/svvo-ot-trampa-do-charlza-iii-kto-pozdravil-tokaeva-s-dnem-respubliki",
       "contentHash": "8c4ee0efe10d2ddf81abba55bc8e5f1960ec023d38fa8fda1e690d580b001a13",
-      "collectedAt": "2026-10-25T12:32:47.570Z",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
       "relevant": true,
-      "relevanceScore": 82,
-      "category": "government",
-      "titleZh": "多国领导人向哈萨克斯坦总统托卡耶夫致共和国日贺电",
-      "summaryZh": "据哈萨克斯坦总统府消息，多国领导人向总统卡西姆若马尔特·托卡耶夫致贺电，祝贺哈萨克斯坦共和国日。贺电提到哈萨克斯坦的发展，并表达加强合作的意愿。",
+      "relevanceScore": 75,
+      "category": "china_kz",
+      "titleZh": "多国领导人向托卡耶夫致哈萨克斯坦共和国日贺电",
+      "summaryZh": "据哈萨克斯坦总统府消息，世界多国领导人向哈萨克斯坦总统卡瑟姆若马尔特·托卡耶夫发送共和国日祝贺。贺电提到哈萨克斯坦的发展，并表达加强合作的意愿。消息提及俄罗斯总统普京、中国国家主席习近平和美国总统特朗普等领导人的贺信。",
       "keyFactsZh": [
-        "俄罗斯总统弗拉基米尔·普京、中国国家主席习近平和美国总统特朗普等领导人向托卡耶夫致贺。",
-        "俄罗斯总统普京在贺电中肯定哈萨克斯坦在经济和社会领域取得的成就，以及该国在国际事务中的作用。",
-        "英国国王查尔斯三世也被列为向哈萨克斯坦方面致贺的领导人之一。",
-        "哈萨克斯坦总统府表示，祝贺电报仍在陆续收到。"
+        "哈萨克斯坦总统府表示，多国领导人向托卡耶夫发送了共和国日祝贺。",
+        "贺电提到哈萨克斯坦在发展方面取得的进展，并表达了加强合作的意愿。",
+        "来源摘要提及普京、习近平和特朗普等领导人的贺信。",
+        "来源未披露具体合作项目、金额、执行时间或新的政策安排。"
       ],
-      "businessImpactZh": "多国领导人公开表达对哈萨克斯坦发展的肯定及加强合作的意愿，显示哈萨克斯坦持续保持较高的国际外交关注度。对中国企业而言，这可作为评估当地政治和国际合作环境的参考，但目前消息未披露具体项目、金额或新的投资政策，不能据此判断已形成明确商业机会。",
-      "affectedIndustries": ["跨境投资", "国际贸易", "政府与外交合作"],
+      "businessImpactZh": "这反映哈萨克斯坦继续受到主要国家的外交关注，并释放了维持和加强国际合作的积极信号。对中国企业而言，该消息可作为观察哈萨克斯坦对外合作环境的背景信息，但目前没有足够事实支持对具体行业、项目或投资机会作出判断。",
+      "affectedIndustries": [],
       "regionIds": ["KZ"],
-      "organizationNames": ["哈萨克斯坦总统府"],
+      "organizationNames": ["哈萨克斯坦总统府（阿科尔达）"],
       "officialNames": [
-        "卡西姆若马尔特·托卡耶夫",
+        "卡瑟姆若马尔特·托卡耶夫",
         "弗拉基米尔·普京",
         "习近平",
-        "特朗普",
-        "查尔斯三世"
+        "唐纳德·特朗普"
       ],
       "riskFlags": [
-        "消息仅披露贺电概要，未提供具体合作项目或承诺",
-        "来源摘要显示贺电仍在陆续收到，信息可能继续更新"
+        "仅为节日贺电相关信息，未公布具体合作承诺",
+        "来源摘要信息有限，部分贺电内容未完整披露"
       ],
-      "confidence": 0.91,
+      "confidence": 0.94,
       "id": "4bb2600ca8289466eaa3b9e1ef0ec5d928ed879238c90fba54e9cd9f9e54463e",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-25T12:33:21.957Z",
-      "lastCheckedAt": "2026-10-25T12:33:21.957Z",
-      "rank": 91
+      "analyzedAt": "2026-10-25T17:03:25.320Z",
+      "lastCheckedAt": "2026-10-25T17:03:25.320Z",
+      "rank": 88
+    },
+    {
+      "sourceId": "kursiv-kz",
+      "sourceName": "Kursiv Media Kazakhstan",
+      "sourceNameZh": "Kursiv 哈萨克斯坦商业媒体",
+      "sourceType": "business_media",
+      "sourceUrl": "https://kz.kursiv.media/2026-10-25/svvo-kupit-deshevle-do-27-oktyabrya-gde-iskat-skidki-ko-dnyu-respubliki/?utm_source=rss&utm_medium=rss&utm_campaign=svvo-kupit-deshevle-do-27-oktyabrya-gde-iskat-skidki-ko-dnyu-respubliki",
+      "externalId": "https://kz.kursiv.media/2026-10-25/svvo-kupit-deshevle-do-27-oktyabrya-gde-iskat-skidki-ko-dnyu-respubliki/?utm_source=rss&utm_medium=rss&utm_campaign=svvo-kupit-deshevle-do-27-oktyabrya-gde-iskat-skidki-ko-dnyu-respubliki",
+      "titleOriginal": "Купить дешевле до 27 октября: где искать скидки ко Дню Республики",
+      "summaryOriginal": "В Казахстане до 27 октября включительно проходят акции Republic Day и Bereke Fest. По данным Минторговли, к ним присоединились 649 торговых объектов во всех 20 регионах страны. На отдельные товары заявлены скидки до 50%. «Курсив» изучил опубликованные акиматами перечни и выбрал, куда можно отправиться за продуктами, одеждой, техникой и другими покупками. В Republic Day участвуют ...",
+      "publishedAt": "2026-10-25T07:53:54.000Z",
+      "languageOriginal": "ru",
+      "copyrightMode": "metadata_summary_link",
+      "canonicalUrl": "https://kz.kursiv.media/2026-10-25/svvo-kupit-deshevle-do-27-oktyabrya-gde-iskat-skidki-ko-dnyu-respubliki",
+      "contentHash": "c59557062dadbf9643feec1a8af52944b78bff37c77bb57d8a0eb40509ea6bd7",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
+      "relevant": true,
+      "relevanceScore": 65,
+      "category": "economy",
+      "titleZh": "哈萨克斯坦20个地区开展国庆促销活动，部分商品折扣最高达50%",
+      "summaryZh": "哈萨克斯坦“共和国日”和“Bereke Fest”促销活动持续至10月27日。据贸易部数据，全国20个地区共有649个商业设施参与，部分商品折扣最高达50%。",
+      "keyFactsZh": [
+        "促销活动包括Republic Day和Bereke Fest。",
+        "活动持续至10月27日（含当日）。",
+        "共有649个商业设施参与，覆盖哈萨克斯坦全部20个地区。",
+        "部分商品折扣最高达50%。",
+        "促销商品涉及食品、服装、家电及其他商品。"
+      ],
+      "businessImpactZh": "对在哈萨克斯坦经营消费品和零售业务的中国企业而言，该活动显示当地节庆期间存在集中促销机会。企业可关注各地区政府公布的参与商户名单及活动规则，但消息未说明中国企业参与的具体条件。",
+      "affectedIndustries": ["零售", "消费品", "食品", "服装", "家电"],
+      "regionIds": ["all_20_regions"],
+      "organizationNames": ["哈萨克斯坦贸易部", "各地区政府"],
+      "officialNames": [],
+      "riskFlags": [
+        "折扣及参与条件可能因商户和地区而异",
+        "消息未提供具体参与商户、商品及价格清单"
+      ],
+      "confidence": 0.96,
+      "id": "f387651221ded4637e44f963cb99ecf1f082c8b53bed9fbbe733e5e3e386a7f7",
+      "translationMode": "ai",
+      "status": "published",
+      "analyzedAt": "2026-10-25T17:03:36.234Z",
+      "lastCheckedAt": "2026-10-25T17:03:36.234Z",
+      "rank": 74
     },
     {
       "sourceId": "kapital-kz",
@@ -158,40 +208,39 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/economic/154736/vvp-kazahstana-vyros-na-30percent-s-2019-goda.html",
       "contentHash": "1648e13b9327360468ed02d02311af680e16aea907e362e0628e61ba56f233e5",
-      "collectedAt": "2026-10-25T12:32:47.570Z",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
       "relevant": true,
       "relevanceScore": 88,
       "category": "economy",
       "titleZh": "哈萨克斯坦GDP较2019年增长30%",
-      "summaryZh": "据报道，哈萨克斯坦GDP较2019年增长30%，人均GDP超过1.5万美元。同期，汽车年产量达到15万辆，住房投产面积达到创纪录的2000万平方米。经济规模、汽车制造和住房建设指标的增长，可能为中国企业评估当地市场需求和投资机会提供参考。",
+      "summaryZh": "据报道，哈萨克斯坦国内生产总值较2019年增长30%，人均GDP超过1.5万美元。同期，汽车年产量达到15万辆，住房投运量创纪录，达到2000万平方米。",
       "keyFactsZh": [
         "哈萨克斯坦GDP较2019年增长30%。",
         "人均GDP超过1.5万美元。",
         "汽车年产量达到15万辆。",
-        "住房投产面积达到2000万平方米，创历史纪录。"
+        "住房投运量达到2000万平方米，创历史纪录。"
       ],
-      "businessImpactZh": "宏观经济增长以及汽车制造和住房建设扩张，可能扩大哈萨克斯坦对汽车零部件、生产设备、建筑材料和相关服务的需求。中国企业仍需进一步核实统计口径、增长持续性及具体项目信息后再作投资或市场进入决策。",
+      "businessImpactZh": "经济规模、汽车制造和住房建设指标增长，可能为中国企业评估哈萨克斯坦汽车产业、房地产开发、建材及相关供应链合作机会提供积极信号。但消息摘要未说明GDP统计口径、汽车产量和住房投运量的具体统计周期及数据来源，投资决策仍需进一步核实。",
       "affectedIndustries": [
+        "宏观经济",
         "汽车制造",
-        "汽车零部件",
-        "建筑",
+        "建筑业",
         "房地产",
-        "建筑材料",
-        "工业设备"
+        "建材"
       ],
       "regionIds": [],
       "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "来源摘要未提供GDP统计口径、汽车产量和住房投产数据的具体时间范围。",
-        "未提供具体项目、企业、投资金额或政策细节。"
+        "摘要未提供具体统计周期和统计口径",
+        "缺少数据来源及区域分布信息"
       ],
-      "confidence": 0.95,
+      "confidence": 0.9,
       "id": "5213ee979c8f11ca84f87e8f072c6001744ca6c40a50ef6a94160195f9440475",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-25T12:33:40.964Z",
-      "lastCheckedAt": "2026-10-25T12:33:40.964Z",
+      "analyzedAt": "2026-10-25T17:03:48.037Z",
+      "lastCheckedAt": "2026-10-25T17:03:48.038Z",
       "rank": 97
     },
     {
@@ -300,39 +349,40 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/last/kazahstan-stroit-bolshe-zhilya-na-cheloveka-chem-es-i-ssha",
       "contentHash": "9da6889e9857f20308308a5d35f7ee08671ba26ab610aa5d40b16de9545054e1",
-      "collectedAt": "2026-10-25T12:32:47.570Z",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
       "relevant": true,
-      "relevanceScore": 78,
+      "relevanceScore": 75,
       "category": "construction",
       "titleZh": "哈萨克斯坦人均住房建设量据称高于欧盟和美国",
-      "summaryZh": "消息称，哈萨克斯坦的人均住房建设量高于欧盟和美国。一名政治学家对哈萨克斯坦经济创纪录表现进行了评价，但来源未提供具体统计数据和比较口径。",
+      "summaryZh": "一名政治学家评价哈萨克斯坦经济创纪录表现，并称该国人均住房建设量高于欧盟和美国。由于来源仅提供标题和摘要，尚无具体建设量、比较口径或项目细节。",
       "keyFactsZh": [
-        "来源标题称，哈萨克斯坦人均住房建设量高于欧盟和美国。",
-        "一名政治学家评价了哈萨克斯坦经济的创纪录表现。",
-        "来源未披露住房建设规模、统计周期及人均计算方法。"
+        "消息称，哈萨克斯坦人均住房建设量高于欧盟和美国。",
+        "相关判断来自一名政治学家对哈萨克斯坦经济表现的评价。",
+        "来源未提供具体数据、统计时期、地区分布或住房项目名单。"
       ],
-      "businessImpactZh": "如果相关比较数据得到官方统计或独立研究确认，哈萨克斯坦住房建设活动可能为建筑材料、工程承包、房地产开发和住房配套服务企业带来市场关注。但在缺少统计口径、项目清单和地区分布的情况下，暂不足以据此判断具体投资机会。",
+      "businessImpactZh": "如果这一判断有数据支持，哈萨克斯坦住房建设需求可能为建筑材料、工程承包、住宅开发和相关设备企业提供市场机会。但在评估投资或参与项目之前，中国企业应核实统计口径、实际开工与竣工规模以及具体项目的招标和监管信息。",
       "affectedIndustries": [
-        "房地产开发",
-        "建筑工程",
+        "住宅建设",
         "建筑材料",
-        "住房配套服务"
+        "工程承包",
+        "房地产开发",
+        "建筑设备"
       ],
-      "regionIds": ["KZ"],
-      "organizationNames": ["欧盟", "美国"],
+      "regionIds": [],
+      "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "缺少具体统计数据",
-        "缺少统计周期和人均计算口径",
-        "来源为政治学家评价，结论需进一步核实"
+        "来源信息有限",
+        "缺少具体统计数据和比较口径",
+        "政治学家评价不等同于官方统计结论"
       ],
       "confidence": 0.86,
       "id": "d1799a15b500b59b39e2ff88622057d09878ad0f6c60db88314b865e546085b4",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-25T12:34:05.971Z",
-      "lastCheckedAt": "2026-10-25T12:34:05.971Z",
-      "rank": 87
+      "analyzedAt": "2026-10-25T17:04:04.076Z",
+      "lastCheckedAt": "2026-10-25T17:04:04.076Z",
+      "rank": 84
     },
     {
       "sourceId": "kursiv-kz",
@@ -391,33 +441,33 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://inbusiness.kz/ru/news/ot-nalichnyh-do-qr-kak-kazahstan-stal-stranoj-cifrovyh-platezhej",
       "contentHash": "a62797ce27427c54da0f8b6418d291c0f4f130fea8485ea8e48c8c6b4e33b489",
-      "collectedAt": "2026-10-25T12:32:47.570Z",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
       "relevant": true,
-      "relevanceScore": 76,
+      "relevanceScore": 72,
       "category": "economy",
-      "titleZh": "哈萨克斯坦加速迈入数字支付时代",
-      "summaryZh": "哈萨克斯坦在过去35年间建立了本国支付体系，并从现金支付转向广泛使用非现金支付。数字支付已成为当地商业环境的重要组成部分。",
+      "titleZh": "从现金到二维码：哈萨克斯坦迈入数字支付时代",
+      "summaryZh": "来源称，经过三十五年多的发展，哈萨克斯坦已建立本国支付体系，并实现非现金结算的广泛使用。",
       "keyFactsZh": [
-        "哈萨克斯坦已建立本国支付体系。",
-        "该国支付方式经历了从现金到二维码等数字化方式的转变。",
-        "非现金支付已在哈萨克斯坦得到大规模应用。"
+        "哈萨克斯坦经过三十五年多的发展，建立了本国支付体系。",
+        "非现金结算已在哈萨克斯坦得到大规模使用。",
+        "来源标题显示，二维码支付是该国数字支付发展的组成部分。"
       ],
-      "businessImpactZh": "对在哈萨克斯坦开展业务的中国企业而言，当地数字支付环境的发展有助于优化收付款和日常经营流程。不过，企业在具体接入支付服务前，仍需进一步核实当地支付渠道、合规要求及技术标准。",
+      "businessImpactZh": "对在哈萨克斯坦经营的中国企业而言，广泛使用非现金支付意味着本地交易和收款环境已具备较强数字化特征。企业在进入市场或设计支付方案时，可将非现金及二维码支付纳入业务评估；但来源未提供具体支付平台、监管要求或覆盖率，相关判断仍需进一步核实。",
       "affectedIndustries": ["金融科技", "零售", "电子商务", "跨境贸易"],
-      "regionIds": [],
+      "regionIds": ["KZ"],
       "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "来源摘要未提供具体支付平台、监管要求或市场规模数据",
-        "具体二维码支付标准和企业接入条件有待进一步核实"
+        "来源仅提供标题和摘要，缺少具体支付平台、数据和监管细节",
+        "未说明二维码支付的具体覆盖范围及适用条件"
       ],
       "confidence": 0.86,
       "id": "29f2f052adf868e9a01a5efa089e294de3ff0b3e182708bc710a900b966dd6d5",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-25T12:34:28.563Z",
-      "lastCheckedAt": "2026-10-25T12:34:28.563Z",
-      "rank": 85
+      "analyzedAt": "2026-10-25T17:04:09.713Z",
+      "lastCheckedAt": "2026-10-25T17:04:09.713Z",
+      "rank": 81
     },
     {
       "sourceId": "informburo-kz",
@@ -686,6 +736,45 @@
       "sourceName": "Kapital.kz",
       "sourceNameZh": "Kapital.kz 商业信息中心",
       "sourceType": "business_media",
+      "sourceUrl": "https://kapital.kz/economic/154735/prodovolstvennaya-inflyaciya-prodolzhaet-zamedlyatsya.html",
+      "externalId": "https://kapital.kz/economic/154735/prodovolstvennaya-inflyaciya-prodolzhaet-zamedlyatsya.html",
+      "titleOriginal": "Продовольственная инфляция продолжает замедляться",
+      "summaryOriginal": "Об этом было сказано на совещании в правительстве",
+      "publishedAt": "2026-10-24T10:43:23.000Z",
+      "languageOriginal": "ru",
+      "copyrightMode": "metadata_summary_link",
+      "canonicalUrl": "https://kapital.kz/economic/154735/prodovolstvennaya-inflyaciya-prodolzhaet-zamedlyatsya.html",
+      "contentHash": "961846a6779ed8a8ff60936347d9e9ecaaeb5c108d00a7ce163e47b227254974",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
+      "relevant": true,
+      "relevanceScore": 78,
+      "category": "economy",
+      "titleZh": "哈萨克斯坦食品通胀继续放缓",
+      "summaryZh": "哈萨克斯坦政府会议上表示，食品通胀继续放缓。来源未披露具体通胀率、时间范围及放缓原因。",
+      "keyFactsZh": [
+        "相关信息在哈萨克斯坦政府会议上发布。",
+        "会议指出，食品通胀正在继续放缓。",
+        "来源未提供具体数值、政策措施或涉及的商品类别。"
+      ],
+      "businessImpactZh": "食品及消费品企业可将食品价格压力继续缓解视为市场环境改善的信号，但在缺乏具体数据和政策细节的情况下，不宜据此调整定价、采购或投资计划。",
+      "affectedIndustries": ["食品生产", "农产品贸易", "零售"],
+      "regionIds": [],
+      "organizationNames": ["哈萨克斯坦政府"],
+      "officialNames": [],
+      "riskFlags": ["缺少通胀率和统计周期", "缺少具体政策措施", "来源信息有限"],
+      "confidence": 0.88,
+      "id": "b9dd1ea5893713533bae59f66d4e70fbe9ecf4e182f06fbeb7ce4991fd46abef",
+      "translationMode": "ai",
+      "status": "published",
+      "analyzedAt": "2026-10-25T17:04:14.404Z",
+      "lastCheckedAt": "2026-10-25T17:04:14.404Z",
+      "rank": 82
+    },
+    {
+      "sourceId": "kapital-kz",
+      "sourceName": "Kapital.kz",
+      "sourceNameZh": "Kapital.kz 商业信息中心",
+      "sourceType": "business_media",
       "sourceUrl": "https://kapital.kz/economic/154734/otkryto-pryamoe-aviasoobshenie-mezhdu-kazahstanom-i-omanom.html",
       "externalId": "https://kapital.kz/economic/154734/otkryto-pryamoe-aviasoobshenie-mezhdu-kazahstanom-i-omanom.html",
       "titleOriginal": "Открыто прямое авиасообщение между Казахстаном и Оманом",
@@ -695,34 +784,29 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/economic/154734/otkryto-pryamoe-aviasoobshenie-mezhdu-kazahstanom-i-omanom.html",
       "contentHash": "6d9c74445ce5fca22e4cd01fbb7e58ff3f571b7092b678bd6c3be9a94783b5f5",
-      "collectedAt": "2026-10-25T12:32:47.570Z",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
       "relevant": true,
-      "relevanceScore": 78,
+      "relevanceScore": 85,
       "category": "transport",
-      "titleZh": "哈萨克斯坦与阿曼开通直飞航线",
-      "summaryZh": "哈萨克斯坦与阿曼之间开通了直达航空服务，首个航班搭载140名乘客。新航线可能为两国人员往来和商务联系提供更便利的交通条件。",
+      "titleZh": "哈萨克斯坦与阿曼开通直达航空服务",
+      "summaryZh": "哈萨克斯坦与阿曼之间已开通直达航空服务，首个航班搭载140名乘客。该航线可能为两国人员往来和商务联系提供更便利的交通条件。",
       "keyFactsZh": [
-        "哈萨克斯坦与阿曼之间开通直达航空服务。",
-        "首个航班搭载140名乘客。",
-        "消息发布日期为2026年10月24日。"
+        "哈萨克斯坦与阿曼之间开通了直达航空服务。",
+        "首个航班搭载140名乘客。"
       ],
-      "businessImpactZh": "对在哈萨克斯坦和阿曼开展业务的中国企业而言，直飞航线可能降低两地商务出行的时间成本，并便利人员往来。但目前来源未提供航线班次、运营方、具体城市及票价等信息，实际商业影响仍需进一步确认。",
-      "affectedIndustries": ["航空运输", "旅游", "物流", "国际贸易"],
-      "regionIds": ["KZ", "OM"],
+      "businessImpactZh": "直达航线有望降低哈萨克斯坦与阿曼之间商务出行的时间成本，并为贸易、投资和旅游等跨境活动提供交通便利。对于中国企业而言，这可能改善其在哈萨克斯坦与阿曼之间开展业务时的人员往来条件，但航班频次、具体城市和运营方等信息尚未披露，实际影响仍需进一步观察。",
+      "affectedIndustries": ["航空运输", "物流", "旅游", "跨境商务服务"],
+      "regionIds": [],
       "organizationNames": [],
       "officialNames": [],
-      "riskFlags": [
-        "未披露具体航线城市",
-        "未披露运营航空公司和航班频次",
-        "未披露票价及后续运营安排"
-      ],
+      "riskFlags": ["航班频次、具体城市和运营方信息未披露"],
       "confidence": 0.96,
       "id": "b7c3e9ac6a2aee6c71405f45e56ed6675efd6b37afac206bf816a7302047d9e6",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-25T12:34:55.111Z",
-      "lastCheckedAt": "2026-10-25T12:34:55.111Z",
-      "rank": 78
+      "analyzedAt": "2026-10-25T17:04:19.286Z",
+      "lastCheckedAt": "2026-10-25T17:04:19.286Z",
+      "rank": 85
     },
     {
       "sourceId": "informburo-kz",
@@ -1288,40 +1372,41 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/gosudarstvo/154731/v-turkestane-stroyat-rodilnyj-dom-za-83-mlrd-tengge.html",
       "contentHash": "579f11a08665cdf5c65668f1f3871b65dad006d16bf2a3999f2ba5a8a26abb19",
-      "collectedAt": "2026-10-25T06:02:49.723Z",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
       "relevant": true,
-      "relevanceScore": 75,
+      "relevanceScore": 85,
       "category": "construction",
-      "titleZh": "哈萨克斯坦突厥斯坦州建设产科医院，工程完成97%",
-      "summaryZh": "突厥斯坦州正在建设一座产科医院，项目金额为83亿坚戈。目前施工进度已完成97%，相关信息由突厥斯坦州政府部门发布。",
+      "titleZh": "哈萨克斯坦土耳其斯坦州建设产科医院，项目投资83亿坚戈",
+      "summaryZh": "土耳其斯坦州政府表示，当地产科医院建设项目已完成97%的施工工作，项目总投资为83亿坚戈。",
       "keyFactsZh": [
-        "项目位于哈萨克斯坦突厥斯坦州。",
-        "项目为产科医院建设工程。",
-        "项目金额为83亿坚戈。",
-        "目前已完成97%的施工工作。"
+        "项目位于哈萨克斯坦土耳其斯坦州。",
+        "项目为产科医院建设项目。",
+        "项目总投资为83亿坚戈。",
+        "截至消息发布时，施工工作已完成97%。",
+        "相关进展由土耳其斯坦州政府通报。"
       ],
-      "businessImpactZh": "该项目显示突厥斯坦州医疗基础设施建设仍存在需求，可能为医院设备、工程收尾、设施配套及维护服务企业带来关注机会。但来源未披露项目业主、承包商、采购方式和后续采购计划，中国企业需进一步核实相关信息。",
+      "businessImpactZh": "项目接近完工，可能为医疗建筑、设备供应及工程服务企业带来后续合作机会。但来源未披露项目具体投运时间、承包商、采购安排及设备需求，中国企业需等待正式招标或采购信息。",
       "affectedIndustries": [
         "建筑工程",
         "医疗基础设施",
         "医院设备",
-        "工程配套服务"
+        "工程服务"
       ],
-      "regionIds": ["突厥斯坦州"],
-      "organizationNames": ["突厥斯坦州政府部门"],
-      "officialNames": ["突厥斯坦州政府部门"],
+      "regionIds": ["turkistan-region"],
+      "organizationNames": ["土耳其斯坦州政府"],
+      "officialNames": [],
       "riskFlags": [
-        "未披露承包商和项目业主具体名称",
-        "未披露招标、采购及设备供应信息",
-        "项目接近完工，新增施工机会可能有限"
+        "来源未披露项目具体投运时间",
+        "来源未披露承包商及采购安排",
+        "来源未披露资金来源和设备需求"
       ],
-      "confidence": 0.95,
+      "confidence": 0.97,
       "id": "abb0d2a253d2fb259bd92290149f1e7a85932c0bb6b0f9c5d02fe3d223fe4984",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-25T06:05:04.153Z",
-      "lastCheckedAt": "2026-10-25T06:05:04.153Z",
-      "rank": 79
+      "analyzedAt": "2026-10-25T17:04:31.212Z",
+      "lastCheckedAt": "2026-10-25T17:04:31.212Z",
+      "rank": 89
     },
     {
       "sourceId": "kapital-kz",
@@ -1337,32 +1422,32 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://kapital.kz/finance/154732/kursy-valyut-na-24-27-oktyabrya-ceny-na-neft-i-metally.html",
       "contentHash": "2b082b5df7cfa809a202a78401fd9e62c0f13a59c21738c2b1d209d031a17965",
-      "collectedAt": "2026-10-25T06:02:49.723Z",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
       "relevant": true,
       "relevanceScore": 78,
       "category": "economy",
-      "titleZh": "哈萨克斯坦10月24日至27日官方汇率：1美元兑451.05坚戈",
-      "summaryZh": "据来源标题及摘要，哈萨克斯坦公布了10月24日至27日的货币汇率、石油和金属价格信息。其中，美元官方汇率为1美元兑451.05坚戈。",
+      "titleZh": "10月24日至27日哈萨克斯坦汇率、石油和金属价格信息发布",
+      "summaryZh": "来源公布了10月24日至27日期间的汇率、石油和金属价格信息。其中，美元官方汇率为1美元兑451.05坚戈。",
       "keyFactsZh": [
-        "报道发布时间为2026年10月24日。",
         "美元官方汇率为1美元兑451.05坚戈。",
-        "报道涉及10月24日至27日的汇率、石油价格和金属价格，但来源摘要未提供后两者的具体数值。"
+        "信息覆盖2026年10月24日至27日。",
+        "来源标题提及石油和金属价格，但未提供具体数值。"
       ],
-      "businessImpactZh": "美元兑坚戈汇率可作为在哈萨克斯坦开展贸易、采购和投资时的基础参考。由于来源未说明汇率适用的具体交易场景，也未提供油价和金属价格数值，企业在定价、结算和预算测算时应进一步核实完整数据。",
-      "affectedIndustries": ["贸易", "金融", "投资", "能源", "金属"],
+      "businessImpactZh": "中国企业在哈萨克斯坦开展采购、投资或贸易结算时，可将451.05坚戈兑1美元作为相关时期的官方汇率参考。由于来源未提供石油和金属的具体价格，相关成本和收入影响仍需结合完整行情进一步评估。",
+      "affectedIndustries": ["跨境贸易", "金融服务", "石油行业", "金属行业"],
       "regionIds": ["KZ"],
       "organizationNames": [],
       "officialNames": [],
       "riskFlags": [
-        "来源仅提供美元官方汇率摘要，未提供石油和金属价格具体数据",
-        "未说明汇率的发布机构及适用交易场景"
+        "来源未提供石油和金属价格具体数值",
+        "汇率仅为相关时期的官方参考值，实际结算条件可能不同"
       ],
       "confidence": 0.98,
       "id": "1eb6c3fe02e9d3ec8ba3e4a1feadc539675eaa54ff5837b1bc254209300a2352",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-25T06:05:09.650Z",
-      "lastCheckedAt": "2026-10-25T06:05:09.650Z",
+      "analyzedAt": "2026-10-25T17:04:36.262Z",
+      "lastCheckedAt": "2026-10-25T17:04:36.262Z",
       "rank": 82
     },
     {
@@ -1430,48 +1515,46 @@
       "copyrightMode": "metadata_summary_link",
       "canonicalUrl": "https://www.gov.kz/memleket/entities/mfa/press/news/details/1317165?lang=ru",
       "contentHash": "6489f46eb47f822209dc3d296d0b38763642a9185c7bdfb443d7e6355a777e96",
-      "collectedAt": "2026-10-25T06:02:49.723Z",
+      "collectedAt": "2026-10-25T17:02:31.874Z",
       "relevant": true,
       "relevanceScore": 88,
       "category": "transport",
       "titleZh": "哈萨克斯坦与格鲁吉亚讨论跨里海国际运输路线合作",
-      "summaryZh": "2026年10月23日，在巴统举行的中亚国家与格鲁吉亚外长会议期间，哈萨克斯坦外长穆赫塔尔·特列乌别尔季与格鲁吉亚副总理兼外长马克娅·博乔里什维利举行会谈。双方重点讨论了跨里海国际运输路线的基础设施协调升级、港口和铁路效率提升、 тариф条件优化及电子单证应用，并表示将继续扩大交通、物流、贸易和投资领域的区域合作。",
+      "summaryZh": "2026年10月23日，在巴统举行的中亚国家与格鲁吉亚外长会议期间，哈萨克斯坦外交部长穆赫塔尔·特列乌别尔季与格鲁吉亚副总理兼外交部长玛卡·博乔里什维利举行会谈。双方重点讨论跨里海国际运输路线的协调发展，包括交通基础设施升级、港口和铁路效率提升、 тариф条件完善及电子文件管理。",
       "keyFactsZh": [
-        "双方讨论了哈萨克斯坦与格鲁吉亚关系及战略伙伴关系的发展。",
-        "会谈涉及贸易经济、交通运输、过境运输和文化人道领域合作。",
-        "双方将关注跨里海国际运输路线相关交通基础设施、港口、铁路、 тариф条件和电子文件流程。",
-        "双方强调加强中亚与南高加索之间的稳定交通联系，以连接欧洲及全球市场。",
-        "消息未公布具体项目清单、投资金额、实施时间表或新的 тариф标准。"
+        "双方讨论了哈萨克斯坦与格鲁吉亚政治、经贸、交通过境及文化人文合作。",
+        "会谈重点涉及跨里海国际运输路线的基础设施现代化、港口和铁路效率、 тариф条件及电子文件管理。",
+        "双方认为中亚与南高加索之间的稳定交通联系有助于连接欧洲及全球市场。",
+        "双方还讨论了未来高层接触安排、国际和地区议题以及多边组织框架内的合作。"
       ],
-      "businessImpactZh": "对中国物流、货运代理、铁路运输、港口服务和跨境贸易企业而言，跨里海路线的基础设施升级、港口铁路效率改善及电子单证推进，可能有助于提升中亚—南高加索方向的运输衔接和运营可预期性。不过目前仍属于政府间合作讨论，企业不宜据此确认具体运价、时效或投资机会，应等待后续项目、 тариф安排和实施细则公布。",
+      "businessImpactZh": "如果相关基础设施、港口铁路协调、 тариф优化和电子单证措施进一步落实，使用中亚—南高加索通道的中国物流、贸易和投资企业可能获得更稳定的运输衔接和更高的通关及运营效率。但目前消息未披露具体项目、投资规模、实施时间表或新的 тариф标准，企业仍需关注后续官方安排。",
       "affectedIndustries": [
-        "跨境物流",
+        "物流",
         "铁路运输",
         "港口运营",
-        "货运代理",
         "国际贸易",
-        "交通基础设施",
-        "数字贸易文件"
+        "基础设施建设",
+        "投资"
       ],
-      "regionIds": ["KZ", "GE", "CASPIAN_REGION", "SOUTH_CAUCASUS"],
+      "regionIds": ["KZ", "GE", "Central Asia", "South Caucasus"],
       "organizationNames": [
-        "跨里海国际运输路线",
         "哈萨克斯坦外交部",
-        "格鲁吉亚外交部"
+        "格鲁吉亚外交部",
+        "跨里海国际运输路线"
       ],
-      "officialNames": ["穆赫塔尔·特列乌别尔季", "马克娅·博乔里什维利"],
+      "officialNames": ["穆赫塔尔·特列乌别尔季", "玛卡·博乔里什维利"],
       "riskFlags": [
-        "尚无具体投资金额或项目清单",
-        "尚无明确实施时间表",
-        " тариф和通关便利化细则未公布",
-        "路线效率改善仍取决于港口、铁路及多方协调"
+        "未公布具体基础设施项目清单",
+        "未披露投资金额和融资安排",
+        "未公布新的 тариф标准或实施期限",
+        "合作讨论不等同于已签署项目或已落地政策"
       ],
       "confidence": 0.96,
       "id": "cc9864e41dbf9b01eac909c88e53e738fda54328bba2f8e7e3a443c0c8b5e094",
       "translationMode": "ai",
       "status": "published",
-      "analyzedAt": "2026-10-25T06:05:18.061Z",
-      "lastCheckedAt": "2026-10-25T06:05:18.061Z",
+      "analyzedAt": "2026-10-25T17:04:44.050Z",
+      "lastCheckedAt": "2026-10-25T17:04:44.050Z",
       "rank": 98
     },
     {
@@ -9322,97 +9405,6 @@
       "analyzedAt": "2026-10-18T16:29:53.756Z",
       "lastCheckedAt": "2026-10-18T16:29:53.756Z",
       "rank": 87
-    },
-    {
-      "sourceId": "inbusiness-kz",
-      "sourceName": "Inbusiness.kz",
-      "sourceNameZh": "Inbusiness.kz 财经媒体",
-      "sourceType": "business_media",
-      "sourceUrl": "https://inbusiness.kz/ru/news/kak-razvitie-turizma-vliyaet-rost-ekonomiki",
-      "externalId": "https://inbusiness.kz/ru/news/kak-razvitie-turizma-vliyaet-rost-ekonomiki",
-      "titleOriginal": "Как развитие туризма влияет на рост экономики?",
-      "summaryOriginal": "От гостиничного бума до миллиардных налогов: почему путешествия стали мощным двигателем регионального развития",
-      "publishedAt": "2026-10-18T07:14:00.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://inbusiness.kz/ru/news/kak-razvitie-turizma-vliyaet-rost-ekonomiki",
-      "contentHash": "c8b8dad0d1846939902fd7291469669b50812463426d1982c001022e9884c8b4",
-      "collectedAt": "2026-10-18T16:29:28.065Z",
-      "relevant": true,
-      "relevanceScore": 78,
-      "category": "economy",
-      "titleZh": "旅游业发展对哈萨克斯坦经济增长的影响",
-      "summaryZh": "来源摘要认为，旅游业发展正通过酒店业扩张和税收增长，成为推动地区发展的重要因素。该信息可为关注哈萨克斯坦旅游、酒店及相关基础设施的中国企业提供宏观参考，但目前缺少具体地区、投资金额和税收数据。",
-      "keyFactsZh": [
-        "来源标题聚焦旅游业发展与经济增长之间的关系。",
-        "来源摘要提到酒店业扩张以及旅游业带来的大额税收。",
-        "来源摘要将旅游业描述为推动地区发展的重要动力。"
-      ],
-      "businessImpactZh": "中国酒店运营商、文旅投资者、旅游服务商及相关基础设施企业可将该信息作为关注哈萨克斯坦地区旅游市场的初步信号。实际投资判断仍需进一步核实客流、酒店入住率、税收规模、项目所在地及监管政策等数据。",
-      "affectedIndustries": [
-        "旅游业",
-        "酒店业",
-        "餐饮与休闲服务",
-        "旅游基础设施"
-      ],
-      "regionIds": [],
-      "organizationNames": [],
-      "officialNames": [],
-      "riskFlags": [
-        "仅提供标题和摘要，缺少可核实的具体统计数据",
-        "未说明涉及的地区、项目和企业",
-        "“大额税收”等表述缺乏金额和统计口径"
-      ],
-      "confidence": 0.82,
-      "id": "72b365a88a7e2c36bbbcc5648af5cf6277ab45e217621bb84b372f27845ed695",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-10-18T16:30:13.093Z",
-      "lastCheckedAt": "2026-10-18T16:30:13.093Z",
-      "rank": 87
-    },
-    {
-      "sourceId": "informburo-kz",
-      "sourceName": "Informburo.kz",
-      "sourceNameZh": "Informburo.kz 新闻",
-      "sourceType": "business_media",
-      "sourceUrl": "https://informburo.kz/novosti/skolko-stoiat-dollar-evro-i-rubl-v-obmennikax-kazaxstana-18-oktiabria",
-      "externalId": "https://informburo.kz/novosti/skolko-stoiat-dollar-evro-i-rubl-v-obmennikax-kazaxstana-18-oktiabria",
-      "titleOriginal": "Сколько стоят доллар, евро и рубль в обменниках Казахстана 18 октября",
-      "summaryOriginal": "Доллар в мегаполисах продают по 453-456 тенге.",
-      "publishedAt": "2026-10-18T06:22:06.000Z",
-      "languageOriginal": "ru",
-      "copyrightMode": "metadata_summary_link",
-      "canonicalUrl": "https://informburo.kz/novosti/skolko-stoiat-dollar-evro-i-rubl-v-obmennikax-kazaxstana-18-oktiabria",
-      "contentHash": "0bbab14604d454078fc3c108d94061892b3d810f31a950b2c3acf6788eb33d31",
-      "collectedAt": "2026-10-18T16:29:28.065Z",
-      "relevant": true,
-      "relevanceScore": 68,
-      "category": "economy",
-      "titleZh": "10月18日哈萨克斯坦大城市兑换点美元售价为453—456坚戈",
-      "summaryZh": "据报道，2026年10月18日，哈萨克斯坦大城市兑换点美元售价为1美元453—456坚戈。来源标题还提及欧元和卢布，但未提供相应汇率。",
-      "keyFactsZh": [
-        "信息发布日期为2026年10月18日。",
-        "哈萨克斯坦大城市兑换点美元售价为453—456坚戈。",
-        "来源未提供欧元和俄罗斯卢布的具体汇率。"
-      ],
-      "businessImpactZh": "美元兑坚戈的兑换价格可作为在哈中资企业进行付款、采购和成本换算时的参考。由于来源仅提供兑换点美元售价，未说明买入价、平均汇率或汇率趋势，企业仍需结合实际交易报价进行结算。",
-      "affectedIndustries": ["跨境贸易", "制造业", "采购与供应链", "金融服务"],
-      "regionIds": ["KZ"],
-      "organizationNames": [],
-      "officialNames": [],
-      "riskFlags": [
-        "信息仅提供美元兑换点售价，缺少买入价和其他币种汇率",
-        "兑换点报价不等同于银行或官方汇率",
-        "未提供汇率趋势及波动信息"
-      ],
-      "confidence": 0.98,
-      "id": "98a9549a8586c1664a0e7b2f33b8f39257b068c81923d702dfe4e49ddf8b8e3f",
-      "translationMode": "ai",
-      "status": "published",
-      "analyzedAt": "2026-10-18T16:30:26.942Z",
-      "lastCheckedAt": "2026-10-18T16:30:26.942Z",
-      "rank": 77
     }
   ]
 }
