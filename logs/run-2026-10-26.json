@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-26T06-06-47-601Z",
-  "startedAt": "2026-10-26T06:06:47.601Z",
-  "finishedAt": "2026-10-26T06:08:39.030Z",
-  "status": "success",
+  "runId": "2026-10-26T14-11-42-976Z",
+  "startedAt": "2026-10-26T14:11:42.976Z",
+  "finishedAt": "2026-10-26T14:14:18.773Z",
+  "status": "success_with_warnings",
   "sources": [
     {
       "sourceId": "adilet-legal",
@@ -28,10 +28,10 @@
     },
     {
       "sourceId": "forbes-kz",
-      "status": "success",
-      "fetched": 18,
-      "accepted": 18,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["fetch failed"]
     },
     {
       "sourceId": "inbusiness-kz",
@@ -50,8 +50,8 @@
     {
       "sourceId": "kapital-kz",
       "status": "success",
-      "fetched": 10,
-      "accepted": 10,
+      "fetched": 12,
+      "accepted": 12,
       "errors": []
     },
     {
@@ -104,13 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 217,
-  "deduplicated": 16,
-  "aiRequests": 16,
-  "publishedNews": 12,
-  "warnings": [],
+  "collected": 201,
+  "deduplicated": 29,
+  "aiRequests": 25,
+  "publishedNews": 10,
+  "warnings": ["4 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
-    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i"
+    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i",
+    "fetch failed"
   ]
 }
