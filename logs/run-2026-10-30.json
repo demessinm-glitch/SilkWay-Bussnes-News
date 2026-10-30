@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-10-30T07-02-59-062Z",
-  "startedAt": "2026-10-30T07:02:59.062Z",
-  "finishedAt": "2026-10-30T07:05:33.077Z",
+  "runId": "2026-10-30T14-04-04-649Z",
+  "startedAt": "2026-10-30T14:04:04.649Z",
+  "finishedAt": "2026-10-30T14:07:18.519Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -84,10 +84,10 @@
     },
     {
       "sourceId": "primeminister-kz",
-      "status": "success",
-      "fetched": 9,
-      "accepted": 9,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["This operation was aborted"]
     },
     {
       "sourceId": "vlast-kz",
@@ -98,19 +98,21 @@
     },
     {
       "sourceId": "zakon-kz",
-      "status": "success",
-      "fetched": 1,
-      "accepted": 1,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["This operation was aborted"]
     }
   ],
-  "collected": 237,
-  "deduplicated": 89,
+  "collected": 227,
+  "deduplicated": 70,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["64 articles remain untranslated or failed"],
+  "warnings": ["45 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
-    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i"
+    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i",
+    "This operation was aborted",
+    "This operation was aborted"
   ]
 }
