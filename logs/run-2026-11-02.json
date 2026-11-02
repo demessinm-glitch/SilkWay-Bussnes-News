@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-11-02T07-37-40-772Z",
-  "startedAt": "2026-11-02T07:37:40.772Z",
-  "finishedAt": "2026-11-02T07:40:51.435Z",
+  "runId": "2026-11-02T22-17-26-049Z",
+  "startedAt": "2026-11-02T22:17:26.049Z",
+  "finishedAt": "2026-11-02T22:20:16.438Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -24,7 +24,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["Attribute without value\nLine: 0\nColumn: 104826\nChar: i"]
+      "errors": ["fetch failed"]
     },
     {
       "sourceId": "forbes-kz",
@@ -105,13 +105,13 @@
     }
   ],
   "collected": 207,
-  "deduplicated": 36,
+  "deduplicated": 47,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["11 articles remain untranslated or failed"],
+  "warnings": ["22 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
-    "Attribute without value\nLine: 0\nColumn: 104826\nChar: i",
+    "fetch failed",
     "kapital-kz: HTTP 403"
   ]
 }
