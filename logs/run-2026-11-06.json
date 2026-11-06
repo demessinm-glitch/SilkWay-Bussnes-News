@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-11-06T07-52-58-422Z",
-  "startedAt": "2026-11-06T07:52:58.422Z",
-  "finishedAt": "2026-11-06T07:55:17.111Z",
+  "runId": "2026-11-06T19-56-25-760Z",
+  "startedAt": "2026-11-06T19:56:25.760Z",
+  "finishedAt": "2026-11-06T19:59:19.664Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -10,7 +10,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["Feed not recognized as RSS 1 or 2."]
+      "errors": ["Attribute without value\nLine: 10\nColumn: 72\nChar: >"]
     },
     {
       "sourceId": "akorda-kz",
@@ -28,10 +28,10 @@
     },
     {
       "sourceId": "forbes-kz",
-      "status": "success",
-      "fetched": 18,
-      "accepted": 18,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["This operation was aborted"]
     },
     {
       "sourceId": "inbusiness-kz",
@@ -104,14 +104,15 @@
       "errors": []
     }
   ],
-  "collected": 207,
-  "deduplicated": 67,
+  "collected": 189,
+  "deduplicated": 49,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["42 articles remain untranslated or failed"],
+  "warnings": ["24 articles remain untranslated or failed"],
   "errors": [
-    "Feed not recognized as RSS 1 or 2.",
+    "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
     "Attribute without value\nLine: 0\nColumn: 3507\nChar: i",
+    "This operation was aborted",
     "kapital-kz: HTTP 403"
   ]
 }
