@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-11-08T07-16-01-494Z",
-  "startedAt": "2026-11-08T07:16:01.494Z",
-  "finishedAt": "2026-11-08T07:18:38.883Z",
-  "status": "success_with_warnings",
+  "runId": "2026-11-08T18-19-35-812Z",
+  "startedAt": "2026-11-08T18:19:35.812Z",
+  "finishedAt": "2026-11-08T18:22:02.102Z",
+  "status": "success",
   "sources": [
     {
       "sourceId": "adilet-legal",
@@ -105,10 +105,10 @@
     }
   ],
   "collected": 207,
-  "deduplicated": 39,
+  "deduplicated": 25,
   "aiRequests": 25,
-  "publishedNews": 12,
-  "warnings": ["14 articles remain untranslated or failed"],
+  "publishedNews": 9,
+  "warnings": [],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
     "Attribute without value\nLine: 0\nColumn: 3507\nChar: i",
