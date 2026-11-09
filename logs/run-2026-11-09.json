@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-11-09T07-53-54-645Z",
-  "startedAt": "2026-11-09T07:53:54.645Z",
-  "finishedAt": "2026-11-09T07:56:35.481Z",
+  "runId": "2026-11-09T22-57-47-852Z",
+  "startedAt": "2026-11-09T22:57:47.852Z",
+  "finishedAt": "2026-11-09T23:00:09.115Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -42,10 +42,10 @@
     },
     {
       "sourceId": "informburo-kz",
-      "status": "failed",
-      "fetched": 0,
-      "accepted": 0,
-      "errors": ["Unclosed root tag\nLine: 456\nColumn: 17\nChar: "]
+      "status": "success",
+      "fetched": 20,
+      "accepted": 20,
+      "errors": []
     },
     {
       "sourceId": "kapital-kz",
@@ -56,10 +56,10 @@
     },
     {
       "sourceId": "kursiv-kz",
-      "status": "success",
-      "fetched": 30,
-      "accepted": 30,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["fetch failed"]
     },
     {
       "sourceId": "mfa-kz",
@@ -104,7 +104,7 @@
       "errors": []
     }
   ],
-  "collected": 187,
+  "collected": 177,
   "deduplicated": 27,
   "aiRequests": 25,
   "publishedNews": 12,
@@ -112,7 +112,7 @@
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
     "Attribute without value\nLine: 0\nColumn: 3507\nChar: i",
-    "Unclosed root tag\nLine: 456\nColumn: 17\nChar: ",
-    "kapital-kz: HTTP 403"
+    "kapital-kz: HTTP 403",
+    "fetch failed"
   ]
 }
