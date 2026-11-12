@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-11-12T08-14-51-926Z",
-  "startedAt": "2026-11-12T08:14:51.926Z",
-  "finishedAt": "2026-11-12T08:17:36.670Z",
+  "runId": "2026-11-12T20-46-16-341Z",
+  "startedAt": "2026-11-12T20:46:16.341Z",
+  "finishedAt": "2026-11-12T20:49:03.674Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -24,7 +24,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["Attribute without value\nLine: 0\nColumn: 3585\nChar: i"]
+      "errors": ["Feed not recognized as RSS 1 or 2."]
     },
     {
       "sourceId": "forbes-kz",
@@ -42,10 +42,10 @@
     },
     {
       "sourceId": "informburo-kz",
-      "status": "success",
-      "fetched": 20,
-      "accepted": 20,
-      "errors": []
+      "status": "failed",
+      "fetched": 0,
+      "accepted": 0,
+      "errors": ["Unclosed root tag\nLine: 456\nColumn: 135\nChar: "]
     },
     {
       "sourceId": "kapital-kz",
@@ -104,14 +104,15 @@
       "errors": []
     }
   ],
-  "collected": 207,
-  "deduplicated": 61,
+  "collected": 187,
+  "deduplicated": 51,
   "aiRequests": 25,
   "publishedNews": 12,
-  "warnings": ["36 articles remain untranslated or failed"],
+  "warnings": ["26 articles remain untranslated or failed"],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
-    "Attribute without value\nLine: 0\nColumn: 3585\nChar: i",
+    "Feed not recognized as RSS 1 or 2.",
+    "Unclosed root tag\nLine: 456\nColumn: 135\nChar: ",
     "kapital-kz: HTTP 403"
   ]
 }
