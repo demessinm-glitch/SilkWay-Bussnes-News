@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-11-14T07-34-29-648Z",
-  "startedAt": "2026-11-14T07:34:29.648Z",
-  "finishedAt": "2026-11-14T07:37:04.653Z",
+  "runId": "2026-11-14T18-43-23-248Z",
+  "startedAt": "2026-11-14T18:43:23.248Z",
+  "finishedAt": "2026-11-14T18:46:03.954Z",
   "status": "success_with_warnings",
   "sources": [
     {
@@ -10,7 +10,7 @@
       "status": "failed",
       "fetched": 0,
       "accepted": 0,
-      "errors": ["fetch failed"]
+      "errors": ["Attribute without value\nLine: 10\nColumn: 72\nChar: >"]
     },
     {
       "sourceId": "akorda-kz",
@@ -105,12 +105,12 @@
     }
   ],
   "collected": 207,
-  "deduplicated": 59,
+  "deduplicated": 46,
   "aiRequests": 25,
-  "publishedNews": 11,
-  "warnings": ["34 articles remain untranslated or failed"],
+  "publishedNews": 12,
+  "warnings": ["21 articles remain untranslated or failed"],
   "errors": [
-    "fetch failed",
+    "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
     "Attribute without value\nLine: 0\nColumn: 3585\nChar: i",
     "kapital-kz: HTTP 403"
   ]
