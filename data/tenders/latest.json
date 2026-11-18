@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T10:03:04.047Z",
+  "generatedAt": "2026-11-18T10:41:39.752Z",
   "items": [
+    {
+      "id": "goszakup-17982721-1",
+      "noticeNumber": "17982721-1",
+      "titleOriginal": "Приобретение оборудования беспроводного",
+      "titleZh": "采购无线设备",
+      "summaryZh": "采购用于连接数据传输网络的无线设备，具体为 Wi-Fi 路由器。请在官方页面核查采购条件。",
+      "buyerOriginal": "НАО \"ЗКУ им. М. Утемисова\"",
+      "buyerZh": "以马·乌捷米索夫命名的西哈萨克斯坦大学非营利性股份公司",
+      "regionZh": "西哈萨克斯坦州",
+      "methodOriginal": "Запрос ценовых предложений",
+      "methodZh": "询价采购",
+      "budgetAmount": 4250000,
+      "currency": "KZT",
+      "budgetTextZh": "预算金额：4,250,000 坚戈；税务口径以官方公告为准。",
+      "publishedAt": "2026-11-18T15:21:43+05:00",
+      "applicationStart": "2026-11-19T08:00:00+05:00",
+      "deadline": "2026-11-23T08:00:00+05:00",
+      "status": "open",
+      "sourceName": "Портал государственных закупок Республики Казахстан",
+      "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17982721?tab=lots",
+      "verifiedAt": "2026-11-18T10:41:39.751Z"
+    },
+    {
+      "id": "goszakup-17982773-1",
+      "noticeNumber": "17982773-1",
+      "titleOriginal": "Техника для офиса",
+      "titleZh": "办公设备",
+      "summaryZh": "采购电话机和电视机，用于会议厅；请在官方页面核实采购条件。",
+      "buyerOriginal": "Товарищество с ограниченной ответственностью \"Grand Hall Unity\"",
+      "buyerZh": "Grand Hall Unity有限责任公司",
+      "regionZh": "哈萨克斯坦",
+      "methodOriginal": "Запрос ценовых предложений",
+      "methodZh": "询价采购",
+      "budgetAmount": 3270000,
+      "currency": "KZT",
+      "budgetTextZh": "预算金额：3,270,000 坚戈；税务口径以官方公告为准。",
+      "publishedAt": "2026-11-18T15:15:20+05:00",
+      "applicationStart": "2026-11-18T17:00:00+05:00",
+      "deadline": "2026-11-20T17:30:00+05:00",
+      "status": "open",
+      "sourceName": "Портал государственных закупок Республики Казахстан",
+      "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17982773?tab=lots",
+      "verifiedAt": "2026-11-18T10:41:34.887Z"
+    },
     {
       "id": "goszakup-17953603-1",
       "noticeNumber": "17953603-1",
@@ -19,7 +63,7 @@
       "publishedAt": "2026-11-12T15:51:36+05:00",
       "applicationStart": "2026-11-12T15:52:00+05:00",
       "deadline": "2026-11-16T15:56:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953603?tab=lots",
       "verifiedAt": "2026-11-13T09:53:22.126Z"
@@ -41,7 +85,7 @@
       "publishedAt": "2026-11-12T15:50:39+05:00",
       "applicationStart": "2026-11-12T16:00:00+05:00",
       "deadline": "2026-11-16T16:00:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953576?tab=lots",
       "verifiedAt": "2026-11-13T09:53:25.515Z"
@@ -63,7 +107,7 @@
       "publishedAt": "2026-11-12T15:49:19+05:00",
       "applicationStart": "2026-11-12T16:00:00+05:00",
       "deadline": "2026-11-16T16:00:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953611?tab=lots",
       "verifiedAt": "2026-11-13T09:53:17.650Z"
@@ -85,7 +129,7 @@
       "publishedAt": "2026-11-12T15:40:44+05:00",
       "applicationStart": "2026-11-12T16:00:00+05:00",
       "deadline": "2026-11-16T16:00:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953390?tab=lots",
       "verifiedAt": "2026-11-13T09:53:37.410Z"
@@ -107,7 +151,7 @@
       "publishedAt": "2026-11-12T15:38:42+05:00",
       "applicationStart": "2026-11-12T15:40:00+05:00",
       "deadline": "2026-11-16T15:40:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953361?tab=lots",
       "verifiedAt": "2026-11-13T09:53:40.180Z"
@@ -129,7 +173,7 @@
       "publishedAt": "2026-11-12T15:35:36+05:00",
       "applicationStart": "2026-11-12T15:37:00+05:00",
       "deadline": "2026-11-16T15:40:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953262?tab=lots",
       "verifiedAt": "2026-11-13T09:53:44.602Z"
@@ -151,7 +195,7 @@
       "publishedAt": "2026-11-12T15:34:55+05:00",
       "applicationStart": "2026-11-12T15:34:55+05:00",
       "deadline": "2026-11-16T15:34:55+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953447?tab=lots",
       "verifiedAt": "2026-11-13T09:53:33.579Z"
@@ -173,7 +217,7 @@
       "publishedAt": "2026-11-12T15:27:17+05:00",
       "applicationStart": "2026-11-12T16:00:00+05:00",
       "deadline": "2026-11-16T16:00:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17952990?tab=lots",
       "verifiedAt": "2026-11-13T09:54:13.711Z"
@@ -195,7 +239,7 @@
       "publishedAt": "2026-11-12T15:25:04+05:00",
       "applicationStart": "2026-11-12T16:30:00+05:00",
       "deadline": "2026-11-16T16:45:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953102?tab=lots",
       "verifiedAt": "2026-11-13T09:53:52.405Z"
@@ -217,7 +261,7 @@
       "publishedAt": "2026-11-12T15:20:45+05:00",
       "applicationStart": "2026-11-12T15:23:00+05:00",
       "deadline": "2026-11-16T15:24:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953070?tab=lots",
       "verifiedAt": "2026-11-13T09:53:59.864Z"
@@ -239,7 +283,7 @@
       "publishedAt": "2026-11-12T15:16:26+05:00",
       "applicationStart": "2026-11-12T15:20:00+05:00",
       "deadline": "2026-11-16T15:20:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953122?tab=lots",
       "verifiedAt": "2026-11-13T09:53:49.304Z"
@@ -261,7 +305,7 @@
       "publishedAt": "2026-11-12T15:15:56+05:00",
       "applicationStart": "2026-11-12T15:20:00+05:00",
       "deadline": "2026-11-16T15:20:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953090?tab=lots",
       "verifiedAt": "2026-11-13T09:53:55.789Z"
@@ -283,7 +327,7 @@
       "publishedAt": "2026-11-12T15:14:58+05:00",
       "applicationStart": "2026-11-12T16:00:00+05:00",
       "deadline": "2026-11-16T16:00:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17952826?tab=lots",
       "verifiedAt": "2026-11-13T09:54:25.606Z"
@@ -305,7 +349,7 @@
       "publishedAt": "2026-11-12T15:09:26+05:00",
       "applicationStart": "2026-11-12T15:09:26+05:00",
       "deadline": "2026-11-16T15:09:26+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953039?tab=lots",
       "verifiedAt": "2026-11-13T09:54:04.034Z"
@@ -327,7 +371,7 @@
       "publishedAt": "2026-11-12T15:07:30+05:00",
       "applicationStart": "2026-11-12T15:07:30+05:00",
       "deadline": "2026-11-16T15:07:30+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17953000?tab=lots",
       "verifiedAt": "2026-11-13T09:54:08.243Z"
@@ -349,7 +393,7 @@
       "publishedAt": "2026-11-12T15:07:26+05:00",
       "applicationStart": "2026-11-12T15:10:00+05:00",
       "deadline": "2026-11-16T15:10:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17952903?tab=lots",
       "verifiedAt": "2026-11-13T09:54:17.619Z"
@@ -371,7 +415,7 @@
       "publishedAt": "2026-11-12T15:04:14+05:00",
       "applicationStart": "2026-11-12T15:10:00+05:00",
       "deadline": "2026-11-16T15:10:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17952796?tab=lots",
       "verifiedAt": "2026-11-13T09:54:28.461Z"
@@ -393,7 +437,7 @@
       "publishedAt": "2026-11-12T15:02:01+05:00",
       "applicationStart": "2026-11-12T15:10:00+05:00",
       "deadline": "2026-11-16T15:15:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17952754?tab=lots",
       "verifiedAt": "2026-11-13T09:54:35.978Z"
@@ -415,7 +459,7 @@
       "publishedAt": "2026-11-12T14:53:40+05:00",
       "applicationStart": "2026-11-12T15:00:00+05:00",
       "deadline": "2026-11-16T15:09:00+05:00",
-      "status": "closing",
+      "status": "closed",
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17952745?tab=lots",
       "verifiedAt": "2026-11-13T09:54:40.765Z"
@@ -4357,50 +4401,6 @@
       "sourceName": "Портал государственных закупок Республики Казахстан",
       "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17824460?tab=lots",
       "verifiedAt": "2026-10-19T08:01:54.993Z"
-    },
-    {
-      "id": "goszakup-17824655-1",
-      "noticeNumber": "17824655-1",
-      "titleOriginal": "Приобретение автошин для служебного автотранспорта. ПОВТОРНО",
-      "titleZh": "为公务车辆采购汽车轮胎（再次采购）",
-      "summaryZh": "采购轮胎：205/70 R16 C 全季轮胎、245/55 R18 冬季带钉轮胎、215/75 R16 C 冬季带钉轮胎。具体条件请在官方页面核查。",
-      "buyerOriginal": "Государственное учреждение \"Департамент полиции Северо-Казахстанской области Министерства внутренних дел Республики Казахстан\"",
-      "buyerZh": "哈萨克斯坦共和国内务部北哈萨克斯坦州警察局国家机构",
-      "regionZh": "北哈萨克斯坦州",
-      "methodOriginal": "Запрос ценовых предложений",
-      "methodZh": "询价采购",
-      "budgetAmount": 2165862.16,
-      "currency": "KZT",
-      "budgetTextZh": "预算金额：2,165,862.16 坚戈；税务口径以官方公告为准。",
-      "publishedAt": "2026-10-19T12:20:12+05:00",
-      "applicationStart": "2026-10-19T12:25:00+05:00",
-      "deadline": "2026-10-21T12:25:00+05:00",
-      "status": "closed",
-      "sourceName": "Портал государственных закупок Республики Казахстан",
-      "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17824655?tab=lots",
-      "verifiedAt": "2026-10-19T08:01:39.241Z"
-    },
-    {
-      "id": "goszakup-17823972-1",
-      "noticeNumber": "17823972-1",
-      "titleOriginal": "Услуги по техническому обслуживанию серверного и технического оборудования КШМ (Уважаемый потенциальный поставщик просим ознакомиться с технической спецификации)",
-      "titleZh": "KShM服务器及技术设备维护服务（敬请潜在供应商查阅技术规格）",
-      "summaryZh": "采购服务器设备以及KShM服务器和技术设备的维护服务。具体条件请在官方页面核实：https://goszakup.gov.kz/ru/announce/index/17823972?tab=lots",
-      "buyerOriginal": "Государственное учреждение «Департамент по чрезвычайным ситуациям области Абай Министерства по чрезвычайным ситуациям Республики Казахстан»",
-      "buyerZh": "哈萨克斯坦共和国紧急情况部阿拜州紧急情况部门国家机构",
-      "regionZh": "阿拜州",
-      "methodOriginal": "Запрос ценовых предложений",
-      "methodZh": "询价采购",
-      "budgetAmount": 9914237.07,
-      "currency": "KZT",
-      "budgetTextZh": "预算金额：9,914,237.07 坚戈；税务口径以官方公告为准。",
-      "publishedAt": "2026-10-19T12:18:23+05:00",
-      "applicationStart": "2026-10-19T12:30:00+05:00",
-      "deadline": "2026-10-21T12:30:00+05:00",
-      "status": "closed",
-      "sourceName": "Портал государственных закупок Республики Казахстан",
-      "sourceUrl": "https://goszakup.gov.kz/ru/announce/index/17823972?tab=lots",
-      "verifiedAt": "2026-10-19T08:02:31.984Z"
     }
   ]
 }
