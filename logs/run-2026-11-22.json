@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-11-22T07-57-30-604Z",
-  "startedAt": "2026-11-22T07:57:30.604Z",
-  "finishedAt": "2026-11-22T08:00:00.738Z",
-  "status": "success_with_warnings",
+  "runId": "2026-11-22T20-18-16-685Z",
+  "startedAt": "2026-11-22T20:18:16.685Z",
+  "finishedAt": "2026-11-22T20:20:08.893Z",
+  "status": "success",
   "sources": [
     {
       "sourceId": "adilet-legal",
@@ -91,10 +91,10 @@
     },
     {
       "sourceId": "vlast-kz",
-      "status": "failed",
-      "fetched": 0,
-      "accepted": 0,
-      "errors": ["This operation was aborted"]
+      "status": "success",
+      "fetched": 30,
+      "accepted": 30,
+      "errors": []
     },
     {
       "sourceId": "zakon-kz",
@@ -104,15 +104,14 @@
       "errors": []
     }
   ],
-  "collected": 177,
-  "deduplicated": 28,
-  "aiRequests": 25,
-  "publishedNews": 10,
-  "warnings": ["3 articles remain untranslated or failed"],
+  "collected": 207,
+  "deduplicated": 24,
+  "aiRequests": 24,
+  "publishedNews": 12,
+  "warnings": [],
   "errors": [
     "Attribute without value\nLine: 10\nColumn: 72\nChar: >",
     "Attribute without value\nLine: 0\nColumn: 3585\nChar: i",
-    "kapital-kz: HTTP 403",
-    "This operation was aborted"
+    "kapital-kz: HTTP 403"
   ]
 }
